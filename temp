@@ -78,9 +78,9 @@
 @ -21635,7 +21638,7 @@
           "autoclaim:1": 0,
           "ismain:1": 1,
-          "name:8": "Nuclear Fission",
-          "desc:8": " The Fission Reactor from NuclearCraft is a mildly shapeless multiblock structure consisting of Casings on the outside and Cells, for storing fuels, coolers, for decreasing heat, and Boron or Graphite Blocks, for increasing efficiency and heat, on the inside. You simply put a Fuel in and over time it will generate EU and RF and deplete the Fuel, which you\u0027ll then be able to thermal centrifuge in order to get some new materials."
-          "desc:8": " The Fission Reactor from NuclearCraft is a cuboid multiblock structure consisting of Casings on the outside, and Cells, for storing fuels, Coolers, for decreasing heat, and Boron or Graphite Blocks, for increasing efficiency and heat, on the inside. You simply put a Fuel in and over time it will generate EU and RF and deplete the Fuel, which you\u0027ll then be able to thermal centrifuge in order to get some new materials. You can use a Comparator in the way that if there\u0027s a heat gain the signal will depend on the amount of heat it has and if not it will depend on the amount of power it has stored."
+          "name:8": "核裂变",
+          "desc:8": "NuclearCraft模组的裂变反应堆是一种不固定的多方块结构，由外部的外壳和单元组成，单元用于存储燃料，冷却器用于减少热量，以及硼或石墨块，用于提高内部的效率和热量。你只需将燃料放入，随着时间的推移，它将产生EU和RF并产生枯竭的燃料，然后你可以将枯竭的燃料进行热离心以获得一些新材料。"
+          "desc:8": "NuclearCraft模组的裂变反应堆是一种长方体的多方块结构，由外部的外壳和单元组成，单元用于存储燃料，冷却器用于减少热量，以及硼或石墨块，用于提高内部的效率和热量。你只需将燃料放入，随着时间的推移，它将产生EU和RF并产生枯竭的燃料，然后你可以将枯竭的燃料进行热离心以获得一些新材料。你可以使用比较器，如果有热量增益，信号将取决于它具有的热量，如果不是，信号将取决于它存储的电量。"
         }
       },
       "tasks:9": {
@@ -126,8 +126,8 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "ismain:1": 1,
-          "name:8": "Light Fuel",
-          "desc:8": " Light Fuel is the best Diesel Generator fuel you can get early on. To make some, you are going to need to distill Oil into Sulfuric Light Fuel, which is also usable as a fuel, and then react it with Hydrogen."
+          "name:8": "轻燃油",
+          "desc:8": "轻燃油是你可以尽早获得的最佳柴油发电机燃料。为了制造一些轻燃油，你需要将油提炼成含硫轻燃油（这种燃油也可用作燃料），然后与氢气反应。"
         }
 @ -42208,288 +42211,318 @@
           "id:3": 152

@@ -20,3 +20,4 @@ Don't look at recipes for things that you can't make yet, it just leads to confu
 Hardened Glass in the only wither-proof block in the pack
 Press Y (by default) while hovering over an item in JEI to see where you have it stored
 Hold ~ (by default) to mine one type of block in an area
+Don't just wait, either make things faster or work on something else
