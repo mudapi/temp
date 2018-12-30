@@ -1,6 +1,6 @@
 {
 	"registryname": "advanced_metallurgic_fabricator",
-    "localizedname": "Advanced Metallurgic Fabricator",
+    "localizedname": "\u9ad8\u7ea7\u51b6\u70bc\u5de5\u5382",
     "parts": [
         {
             "x": -1,
@@ -306,7 +306,7 @@
             "x": 2,
             "y": -1,
             "z": 1,
-            "elements": "modularmachinery:blockcasing@0"            
+            "elements": "modularmachinery:blockcasing@0"
         },
         {
             "x": 1,
