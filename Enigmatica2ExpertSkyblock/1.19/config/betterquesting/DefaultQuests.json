@@ -4679,8 +4679,8 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "扫描器",
-          "desc:8": "每一个区块都可以生成稀有矿物。\n有六种不同类型的稀有矿脉,可以在不同的高度发现。\n注意:Nuclearcraft§0的矿物只会生成在稀有矿脉中。\n\n这个工具可以来帮助你来寻找矿物。"
+          "name:8": "Dirty",
+          "desc:8": "A very basic furnace.\nIt is way less fuel efficient than a regular furnace."
         }
       },
       "tasks:9": {
@@ -4743,8 +4743,8 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "稀有矿物",
-          "desc:8": "一些矿石之所以稀有,是因为它们不会再主世界、下届、末地生成。\n\n需要你探索星球来找到它们。\n\n其中有§b铱矿、§c金红石矿、§a§2TE所有的络合物矿和油砂§0§2、§1星辉矿石、§5龙矿§0和§6§7§D§e§f§7双锂矿。"
+          "name:8": "Reload",
+          "desc:8": "Claim this quest in order to reload quests and loot chests. It is repeatable."
         }
       },
       "tasks:9": {
