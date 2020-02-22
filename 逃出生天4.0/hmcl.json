@@ -1,0 +1,43 @@
+{
+  "last": "Default",
+  "clientToken": "28df6a53-c2f1-46e7-9361-3027aacdf46f",
+  "enableShadow": false,
+  "decorated": false,
+  "enableAnimation": true,
+  "theme": 4,
+  "java": [
+    {
+      "ver": "1.8.0_111",
+      "platform": 2,
+      "location": "C:\\Program Files\\Java\\jre1.8.0_111\\bin"
+    }
+  ],
+  "logintype": 0,
+  "downloadSourcetype": 3,
+  "configurations": {
+    "Default": {
+      "name": "Default",
+      "selectedMinecraftVersion": "1.7.10-Forge10.13.4.1614-1.7.10",
+      "gameDir": ".minecraft"
+    },
+    "Home": {
+      "name": "Home",
+      "selectedMinecraftVersion": "",
+      "gameDir": "C:\\Users\\shiwo\\AppData\\Roaming\\.minecraft"
+    }
+  },
+  "auth": {
+    "yggdrasil": {
+      "IAuthenticator_UserName": ""
+    },
+    "offline": {
+      "uuidMap": {
+        "SS": "d53aeb78abc83a52ab8982f5c82a3d5b"
+      },
+      "IAuthenticator_UserName": "SS"
+    }
+  },
+  "ignoreRecommend": [
+    "http://static.mcyun.com/hmcl/images/zq/common.png"
+  ]
+}
