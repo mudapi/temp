@@ -1,0 +1,103 @@
+//If this file is deleted, a new set of default configs will be generated.
+
+//Sets the Topography WorldType as default
+setAsDefaultWorldType()
+
+//Registers a preset. First argument is name, second is the image name, third is a description, fourth is WorldType, fifth is generator options Json.
+
+BonsaiPotStart = registerPreset("Bonsai Pot Start", "images/ChestStart", "Start on a platform with a chest that has some hopping bonsai pots!")
+BonsaiPotStart.registerDimension(0, "Project Equivalence/BonsaiPotStart")
+
+BonsaiStart = registerPreset("Bonsai Start", "images/ChestStart", "Start on a platform with a chest that has a bonsai pot mk2!")
+BonsaiStart.registerDimension(0, "Project Equivalence/BonsaiStart")
+
+CastleStart = registerPreset("Castle Start", "images/Castle_Start", "Start in the middle of a castle!")
+CastleStart.registerDimension(0, "Project Equivalence/CastleStart")
+
+CaveStart = registerPreset("Cave Start", "images/Cave_Start", "Start in a Cave!")
+CaveStart.registerDimension(0, "Project Equivalence/Cave World")
+
+CobwebDeathStart = registerPreset("Cobweb Death", "images/CobwebDeath", "Start on a plaform with cobwebs looming below you!")
+CobwebDeathStart.registerDimension(0, "Project Equivalence/CobwebDeath")
+
+DeathBlockStart = registerPreset("Death Block Start", "images/DeathBlock", "Start in a room surrounded by cursed earth!")
+DeathBlockStart.registerDimension(0, "Project Equivalence/DeathBlock")
+
+DeathWorldStart = registerPreset("Death World Start", "images/DeathWorld", "Start in a room surrounded by cursed earth!")
+DeathWorldStart.registerDimension(0, "Project Equivalence/DeathWorld")
+
+EndStart = registerPreset("End Cake Start", "images/End_Start", "Start With a platform with 2 end cakes!")
+EndStart.registerDimension(0, "Project Equivalence/End_Cake_Start")
+
+EndShipStart = registerPreset("End Ship Start", "images/End_Ship_Start", "Start On the End Ship!")
+EndShipStart.registerDimension(0, "Project Equivalence/EndShip")
+ 
+EndTowerStart = registerPreset("End Tower Start", "images/End_Tower_Start", "Start On an End Tower!")
+EndTowerStart.registerDimension(0, "Project Equivalence/EndTower")
+ 
+ErebusStart = registerPreset("Erebus Portal Start", "images/Erebus_Start", "Start with a platform with a Erebus Portal!")
+ErebusStart.registerDimension(0, "Project Equivalence/Erebus_Portal")
+
+FountainStart = registerPreset("Fountain Start", "images/fountain", "Start on a platform with a Fountain!")
+FountainStart.registerDimension(0, "Project Equivalence/fountain")
+
+GlassBoxLavaStart = registerPreset("Lava Glass Box Start", "images/LavaGlassBox", "Start in a Glass box in a world Filled With Lava!")
+GlassBoxLavaStart.registerDimension(0, "Project Equivalence/LavaGlassBox")
+
+LavaOcean = registerPreset("Lava Ocean Start", "images/LavaOcean", "Start on a Platform with a lava ocean below!")
+LavaOcean.registerDimension(0, "Project Equivalence/LavaOcean")
+
+MagmaBlockStart = registerPreset("Magma Block Start ", "images/MagmaBlock", "Start on a platform with the land being magma blocks!")
+MagmaBlockStart.registerDimension(0, "Project Equivalence/MagmaBlockStart")
+
+MaterialIslands = registerPreset("Material Sky Islands Start", "images/MaterialIslands", "Start on a material sky island!")
+MaterialIslands.registerDimension(0, "Project Equivalence/material_sky_islands")
+
+MuffledStart = registerPreset("Muffled World", "images/MuffledStart", "Start without Sound!")
+MuffledStart.registerDimension(0, "Project Equivalence/MuffledSkys")
+
+MiningStart = registerPreset("Mining Dim Portal Start", "images/Mining_Start", "Start with a platform with a Mining Dim Portal!")
+MiningStart.registerDimension(0, "Project Equivalence/Mining_Portal")
+
+NetherStart = registerPreset("Nether Portal Start", "images/Nether_Start", "Start With a platform with a Nether Portal!")
+NetherStart.registerDimension(0, "Project Equivalence/Nether_Start")
+
+ObsidianBoxStart = registerPreset("Obsidian Box Start", "images/ObsidianBox", "Start in a obsidian box in a world made of obsidian!")
+ObsidianBoxStart.registerDimension(0, "Project Equivalence/ObsidianWorld")
+
+OverworldStart = registerPreset("Overworld Start", "images/Tower", "Start in the Overworld!")
+OverworldStart.registerDimension(0, "Project Equivalence/Overworld")
+
+PlatformStart = registerPreset("Platform Start", "images/Platform_Start", "the default island of the pack!")
+PlatformStart.registerDimension(0, "Project Equivalence/Platform Start")
+
+ProjectRedSystemStart = registerPreset("Project Red Storage System Start", "images/ChestStart", "Start on a platform with a chest that has some projectred stuff to make a storage system!")
+ProjectRedSystemStart.registerDimension(0, "Project Equivalence/ProjectRedSystemStart")
+
+MemeStart = registerPreset("Secret Start", "images/", "Redacted!")
+MemeStart.registerDimension(0, "Project Equivalence/MemeStart")
+
+GlassBoxResonantEnder = registerPreset("Resonant Ender Glass Box Start", "images/ResonantEnderGlassBox", "Start in a Glass box in a world Filled With Resanant Ender!")
+GlassBoxResonantEnder.registerDimension(0, "Project Equivalence/ResonantEnderGlassBox")
+
+ResonantEnderOcean = registerPreset("Resonant Ender Ocean Start", "images/ResonantEnderOcean", "Start on a Platform with a Resanant Ender ocean below!")
+ResonantEnderOcean.registerDimension(0, "Project Equivalence/ResonantenderOcean")
+
+RiverStart = registerPreset("River Start", "images/River_Start", "Start with a camp next to a river floating in the void!")
+RiverStart.registerDimension(0, "Project Equivalence/RiverStart")
+
+SingleBlockStart = registerPreset("Single Block Start", "images/SingleBlock", "Start on a Single block with the project E table!")
+SingleBlockStart.registerDimension(0, "Project Equivalence/SingleBlockStart")
+
+SkyislandsStart = registerPreset("Sky Islands Start", "images/Skyislands", "Start on a skyIsland!")
+SkyislandsStart.registerDimension(0, "Project Equivalence/Basic_sky_islands")
+
+SpawnerStart = registerPreset("Spawner Start", "images/Spawner_Start", "Start With a fully automatic mob spawner!")
+SpawnerStart.registerDimension(0, "Project Equivalence/Spawner")
+
+GlassBoxWaterStart = registerPreset("Water Glass Box Start", "images/WaterGlassBox", "Start in a Glass box in a world Filled With Water!")
+GlassBoxWaterStart.registerDimension(0, "Project Equivalence/WaterGlassBox")
+
+WaterOcean = registerPreset("Water Ocean Start", "images/WaterOcean", "Start on a Platform with a water ocean below!")
+WaterOcean.registerDimension(0, "Project Equivalence/WaterOcean")
+

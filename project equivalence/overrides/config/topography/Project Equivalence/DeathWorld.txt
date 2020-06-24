@@ -1,0 +1,12 @@
+setSpawnStructure("deathblock")
+setSingleBiome("minecraft:ocean")
+layers = new LayerGenerator()
+layers.addLayer(0~0, <minecraft:bedrock>)
+layers.addLayer(1~63, <minecraft:dirt:1>)
+layers.addLayer(64~64, <extrautils2:cursedearth>)
+setCelestialAngle(0.5)
+disableSky()
+disableSkylight()
+setFogColor(#000000)
+addGenerator(layers)
+

@@ -1,0 +1,2 @@
+setSpawnStructure("end_island")
+setSingleBiome("minecraft:ocean")

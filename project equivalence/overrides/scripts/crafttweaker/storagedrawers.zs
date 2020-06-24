@@ -1,0 +1,62 @@
+//remove
+
+recipes.remove(<storagedrawers:customdrawers>);
+recipes.remove(<storagedrawers:customdrawers:1>);
+recipes.remove(<storagedrawers:customdrawers:3>);
+recipes.remove(<storagedrawers:customdrawers:4>);
+recipes.remove(<storagedrawers:upgrade_redstone:1>);
+recipes.remove(<storagedrawers:upgrade_template>);
+recipes.remove(<storagedrawers:customdrawers:2>);
+recipes.remove(<storagedrawers:upgrade_status:1>);
+recipes.remove(<storagedrawers:upgrade_status>);
+recipes.remove(<storagedrawers:upgrade_storage>);
+recipes.remove(<storagedrawers:upgrade_one_stack>);
+recipes.remove(<storagedrawers:upgrade_conversion>);
+recipes.remove(<storagedrawers:upgrade_void>);
+recipes.remove(<storagedrawers:upgrade_storage:2>);
+recipes.remove(<storagedrawers:upgrade_storage:1>);
+recipes.remove(<storagedrawers:upgrade_redstone:2>);
+recipes.remove(<storagedrawers:upgrade_redstone>);
+recipes.remove(<storagedrawers:upgrade_storage:4>);
+recipes.remove(<storagedrawers:upgrade_storage:3>);
+recipes.remove(<storagedrawers:controller>);
+recipes.remove(<storagedrawers:compdrawers>);
+recipes.remove(<storagedrawers:controllerslave>);
+recipes.remove(<storagedrawers:basicdrawers>);
+recipes.remove(<storagedrawers:basicdrawers:1>);
+recipes.remove(<storagedrawers:basicdrawers:2>);
+recipes.remove(<storagedrawers:basicdrawers:3>);
+recipes.remove(<storagedrawers:basicdrawers:4>);
+recipes.remove(<storagedrawers:trim:1>);
+recipes.remove(<storagedrawers:trim>);
+recipes.remove(<storagedrawers:trim:2>);
+recipes.remove(<storagedrawers:trim:3>);
+recipes.remove(<storagedrawers:trim:5>);
+recipes.remove(<storagedrawers:trim:4>);
+recipes.remove(<storagedrawers:customtrim>);
+recipes.remove(<storagedrawers:framingtable>);
+
+//add
+
+recipes.addShaped(<storagedrawers:upgrade_storage>, [[<tconstruct:tough_tool_rod>.withTag({Material: "treatedwood"}), <tconstruct:tough_tool_rod>.withTag({Material: "treatedwood"}), <tconstruct:tough_tool_rod>.withTag({Material: "treatedwood"})],[<tconstruct:large_plate>.withTag({Material: "flint"}), <storagedrawers:upgrade_one_stack>, <tconstruct:large_plate>.withTag({Material: "flint"})], [<tconstruct:tough_tool_rod>.withTag({Material: "treatedwood"}), <tconstruct:tough_tool_rod>.withTag({Material: "treatedwood"}), <tconstruct:tough_tool_rod>.withTag({Material: "treatedwood"})]]);
+recipes.addShaped(<storagedrawers:upgrade_one_stack>, [[<tconstruct:tough_tool_rod>.withTag({Material: "treatedwood"}), <tconstruct:tough_tool_rod>.withTag({Material: "treatedwood"}), <tconstruct:tough_tool_rod>.withTag({Material: "treatedwood"})],[<tconstruct:large_plate>.withTag({Material: "obsidian"}), <storagedrawers:upgrade_template>, <tconstruct:large_plate>.withTag({Material: "obsidian"})], [<tconstruct:tough_tool_rod>.withTag({Material: "treatedwood"}), <tconstruct:tough_tool_rod>.withTag({Material: "treatedwood"}), <tconstruct:tough_tool_rod>.withTag({Material: "treatedwood"})]]);
+recipes.addShaped(<storagedrawers:upgrade_conversion>, [[<minecraft:lapis_block>, <tconstruct:tough_tool_rod>.withTag({Material: "treatedwood"}), <minecraft:lapis_block>],[<tconstruct:tough_tool_rod>.withTag({Material: "treatedwood"}), <storagedrawers:upgrade_template>, <tconstruct:tough_tool_rod>.withTag({Material: "treatedwood"})], [<minecraft:lapis_block>, <tconstruct:tough_tool_rod>.withTag({Material: "treatedwood"}), <minecraft:lapis_block>]]);
+recipes.addShaped(<storagedrawers:upgrade_void>, [[<tconstruct:large_plate>.withTag({Material: "obsidian"}), <tconstruct:large_plate>.withTag({Material: "obsidian"}), <tconstruct:large_plate>.withTag({Material: "obsidian"})],[<tconstruct:large_plate>.withTag({Material: "obsidian"}), <storagedrawers:upgrade_template>, <tconstruct:large_plate>.withTag({Material: "obsidian"})], [<tconstruct:large_plate>.withTag({Material: "obsidian"}), <tconstruct:large_plate>.withTag({Material: "obsidian"}), <tconstruct:large_plate>.withTag({Material: "obsidian"})]]);
+recipes.addShaped(<storagedrawers:upgrade_storage:2>, [[<tconstruct:tough_tool_rod>.withTag({Material: "treatedwood"}), <tconstruct:tough_tool_rod>.withTag({Material: "treatedwood"}), <tconstruct:tough_tool_rod>.withTag({Material: "treatedwood"})],[<thermalfoundation:material:33>, <storagedrawers:upgrade_storage:1>, <thermalfoundation:material:33>], [<tconstruct:tough_tool_rod>.withTag({Material: "treatedwood"}), <tconstruct:tough_tool_rod>.withTag({Material: "treatedwood"}), <tconstruct:tough_tool_rod>.withTag({Material: "treatedwood"})]]);
+recipes.addShaped(<storagedrawers:upgrade_storage:1>, [[<tconstruct:tough_tool_rod>.withTag({Material: "treatedwood"}), <tconstruct:tough_tool_rod>.withTag({Material: "treatedwood"}), <tconstruct:tough_tool_rod>.withTag({Material: "treatedwood"})],[<thermalfoundation:material:32>, <storagedrawers:upgrade_storage>, <thermalfoundation:material:32>], [<tconstruct:tough_tool_rod>.withTag({Material: "treatedwood"}), <tconstruct:tough_tool_rod>.withTag({Material: "treatedwood"}), <tconstruct:tough_tool_rod>.withTag({Material: "treatedwood"})]]);
+recipes.addShaped(<storagedrawers:upgrade_redstone:2>, [[<tconstruct:tough_tool_rod>.withTag({Material: "treatedwood"}), <tconstruct:tough_tool_rod>.withTag({Material: "treatedwood"}), <tconstruct:tough_tool_rod>.withTag({Material: "treatedwood"})],[<tconstruct:tough_tool_rod>.withTag({Material: "treatedwood"}), <storagedrawers:upgrade_template>, <tconstruct:tough_tool_rod>.withTag({Material: "treatedwood"})], [<projectred-core:resource_item:103>, <projectred-core:resource_item:103>, <projectred-core:resource_item:103>]]);
+recipes.addShaped(<storagedrawers:upgrade_redstone>, [[<projectred-core:resource_item:103>, <tconstruct:tough_tool_rod>.withTag({Material: "treatedwood"}), <projectred-core:resource_item:103>],[<tconstruct:tough_tool_rod>.withTag({Material: "treatedwood"}), <storagedrawers:upgrade_template>, <tconstruct:tough_tool_rod>.withTag({Material: "treatedwood"})], [<projectred-core:resource_item:103>, <tconstruct:tough_tool_rod>.withTag({Material: "treatedwood"}), <projectred-core:resource_item:103>]]);
+recipes.addShaped(<storagedrawers:upgrade_storage:4>, [[<tconstruct:tough_tool_rod>.withTag({Material: "treatedwood"}), <tconstruct:tough_tool_rod>.withTag({Material: "treatedwood"}), <tconstruct:tough_tool_rod>.withTag({Material: "treatedwood"})],[<tconstruct:large_plate>.withTag({Material: "emerald_plustic"}), <storagedrawers:upgrade_storage:3>, <tconstruct:large_plate>.withTag({Material: "emerald_plustic"})], [<tconstruct:tough_tool_rod>.withTag({Material: "treatedwood"}), <tconstruct:tough_tool_rod>.withTag({Material: "treatedwood"}), <tconstruct:tough_tool_rod>.withTag({Material: "treatedwood"})]]);
+recipes.addShaped(<storagedrawers:upgrade_storage:3>, [[<tconstruct:tough_tool_rod>.withTag({Material: "treatedwood"}), <tconstruct:tough_tool_rod>.withTag({Material: "treatedwood"}), <tconstruct:tough_tool_rod>.withTag({Material: "treatedwood"})],[<minecraft:diamond_block>, <storagedrawers:upgrade_storage:2>, <minecraft:diamond_block>], [<tconstruct:tough_tool_rod>.withTag({Material: "treatedwood"}), <tconstruct:tough_tool_rod>.withTag({Material: "treatedwood"}), <tconstruct:tough_tool_rod>.withTag({Material: "treatedwood"})]]);
+recipes.addShaped(<storagedrawers:controller>, [[<tconstruct:seared>, <tconstruct:seared>, <tconstruct:seared>],[<minecraft:comparator>, <storagedrawers:customdrawers>, <minecraft:comparator>], [<tconstruct:seared>, <minecraft:diamond_block>, <tconstruct:seared>]]);
+recipes.addShaped(<storagedrawers:compdrawers>, [[<tconstruct:seared>, <tconstruct:seared>, <tconstruct:seared>],[<minecraft:piston>, <storagedrawers:customdrawers>, <minecraft:piston>], [<tconstruct:seared>, <thermalfoundation:material:32>, <tconstruct:seared>]]);
+recipes.addShaped(<storagedrawers:controllerslave>, [[<tconstruct:seared>, <tconstruct:seared>, <tconstruct:seared>],[<minecraft:comparator>, <storagedrawers:customdrawers>, <minecraft:comparator>], [<tconstruct:seared>, <thermalfoundation:material:33>, <tconstruct:seared>]]);
+recipes.addShaped(<storagedrawers:upgrade_redstone:1>, [[<projectred-core:resource_item:103>, <projectred-core:resource_item:103>, <projectred-core:resource_item:103>],[<tconstruct:tough_tool_rod>.withTag({Material: "treatedwood"}), <storagedrawers:upgrade_template>, <tconstruct:tough_tool_rod>.withTag({Material: "treatedwood"})], [<tconstruct:tough_tool_rod>.withTag({Material: "treatedwood"}), <tconstruct:tough_tool_rod>.withTag({Material: "treatedwood"}), <tconstruct:tough_tool_rod>.withTag({Material: "treatedwood"})]]);
+recipes.addShaped(<storagedrawers:upgrade_template>, [[<tconstruct:tough_tool_rod>.withTag({Material: "treatedwood"}), <tconstruct:tough_tool_rod>.withTag({Material: "treatedwood"}), <tconstruct:tough_tool_rod>.withTag({Material: "treatedwood"})],[<tconstruct:tough_tool_rod>.withTag({Material: "treatedwood"}), <storagedrawers:customdrawers>, <tconstruct:tough_tool_rod>.withTag({Material: "treatedwood"})], [<tconstruct:tough_tool_rod>.withTag({Material: "treatedwood"}), <tconstruct:tough_tool_rod>.withTag({Material: "treatedwood"}), <tconstruct:tough_tool_rod>.withTag({Material: "treatedwood"})]]);
+recipes.addShaped(<storagedrawers:upgrade_status:1>, [[<minecraft:comparator>, <tconstruct:tough_tool_rod>.withTag({Material: "treatedwood"}), <minecraft:comparator>],[<tconstruct:tough_tool_rod>.withTag({Material: "treatedwood"}), <storagedrawers:upgrade_status>, <tconstruct:tough_tool_rod>.withTag({Material: "treatedwood"})], [<projectred-core:resource_item:103>, <tconstruct:tough_tool_rod>.withTag({Material: "treatedwood"}), <projectred-core:resource_item:103>]]);
+recipes.addShaped(<storagedrawers:upgrade_status>, [[<minecraft:redstone_torch>, <tconstruct:tough_tool_rod>.withTag({Material: "treatedwood"}), <minecraft:redstone_torch>],[<tconstruct:tough_tool_rod>.withTag({Material: "treatedwood"}), <storagedrawers:upgrade_template>, <tconstruct:tough_tool_rod>.withTag({Material: "treatedwood"})], [<projectred-core:resource_item:103>, <tconstruct:tough_tool_rod>.withTag({Material: "treatedwood"}), <projectred-core:resource_item:103>]]);
+recipes.addShaped(<storagedrawers:customdrawers>, [[<tconstruct:large_plate>.withTag({Material: "wood"}), <tconstruct:large_plate>.withTag({Material: "wood"}), <tconstruct:large_plate>.withTag({Material: "wood"})],[<tconstruct:tough_tool_rod>.withTag({Material: "wood"}), <minecraft:chest>, <tconstruct:tough_tool_rod>.withTag({Material: "wood"})], [<tconstruct:large_plate>.withTag({Material: "wood"}), <tconstruct:large_plate>.withTag({Material: "wood"}), <tconstruct:large_plate>.withTag({Material: "wood"})]]);
+recipes.addShaped(<storagedrawers:customdrawers:1>*2, [[<tconstruct:tough_tool_rod>.withTag({Material: "wood"}), <minecraft:chest>, <tconstruct:tough_tool_rod>.withTag({Material: "wood"})],[<tconstruct:large_plate>.withTag({Material: "wood"}), <tconstruct:large_plate>.withTag({Material: "wood"}), <tconstruct:large_plate>.withTag({Material: "wood"})], [<tconstruct:tough_tool_rod>.withTag({Material: "wood"}), <minecraft:chest>, <tconstruct:tough_tool_rod>.withTag({Material: "wood"})]]);
+recipes.addShaped(<storagedrawers:customdrawers:2>*4, [[<minecraft:chest>, <tconstruct:tough_tool_rod>.withTag({Material: "wood"}), <minecraft:chest>],[<tconstruct:tough_tool_rod>.withTag({Material: "wood"}), <tconstruct:large_plate>.withTag({Material: "wood"}), <tconstruct:tough_tool_rod>.withTag({Material: "wood"})], [<minecraft:chest>, <tconstruct:tough_tool_rod>.withTag({Material: "wood"}), <minecraft:chest>]]);
+recipes.addShaped(<storagedrawers:customtrim>*4, [[<tconstruct:large_plate>.withTag({Material: "wood"}), <tconstruct:tough_tool_rod>.withTag({Material: "wood"}), <tconstruct:large_plate>.withTag({Material: "wood"})],[<tconstruct:tough_tool_rod>.withTag({Material: "wood"}), <tconstruct:large_plate>.withTag({Material: "wood"}), <tconstruct:tough_tool_rod>.withTag({Material: "wood"})], [<tconstruct:large_plate>.withTag({Material: "wood"}), <tconstruct:tough_tool_rod>.withTag({Material: "wood"}), <tconstruct:large_plate>.withTag({Material: "wood"})]]);
+recipes.addShaped(<storagedrawers:framingtable>, [[<storagedrawers:customtrim>, <storagedrawers:customtrim>, <storagedrawers:customtrim>], [<storagedrawers:customtrim>, null, <storagedrawers:customtrim>]]);

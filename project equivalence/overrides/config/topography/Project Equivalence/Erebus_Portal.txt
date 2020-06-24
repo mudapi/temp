@@ -1,0 +1,2 @@
+setSpawnStructure("erebus_portal")
+setSingleBiome("minecraft:ocean")

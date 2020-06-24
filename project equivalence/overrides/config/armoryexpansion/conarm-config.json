@@ -1,0 +1,3202 @@
+{
+  "aethium": {
+    "name": "aethium",
+    "material": true,
+    "fluid": false,
+    "traits": true,
+    "armorOptions": {
+      "enableArmor": false,
+      "enableCore": false,
+      "enablePlates": false,
+      "enableTrim": false
+    },
+    "toolOptions": {
+      "enableTool": false,
+      "enableHead": false,
+      "enableHandle": false,
+      "enableExtra": false
+    },
+    "rangedOptions": {
+      "enableRanged": false,
+      "enableBow": false,
+      "enableShaft": false,
+      "enableFletching": false,
+      "enableProjectile": false
+    }
+  },
+  "awakened_plustic": {
+    "name": "awakened_plustic",
+    "material": true,
+    "fluid": false,
+    "traits": true,
+    "armorOptions": {
+      "enableArmor": false,
+      "enableCore": false,
+      "enablePlates": false,
+      "enableTrim": false
+    },
+    "toolOptions": {
+      "enableTool": false,
+      "enableHead": false,
+      "enableHandle": false,
+      "enableExtra": false
+    },
+    "rangedOptions": {
+      "enableRanged": false,
+      "enableBow": false,
+      "enableShaft": false,
+      "enableFletching": false,
+      "enableProjectile": false
+    }
+  },
+  "dark_steel": {
+    "name": "dark_steel",
+    "material": true,
+    "fluid": false,
+    "traits": true,
+    "armorOptions": {
+      "enableArmor": false,
+      "enableCore": false,
+      "enablePlates": false,
+      "enableTrim": false
+    },
+    "toolOptions": {
+      "enableTool": false,
+      "enableHead": false,
+      "enableHandle": false,
+      "enableExtra": false
+    },
+    "rangedOptions": {
+      "enableRanged": false,
+      "enableBow": false,
+      "enableShaft": false,
+      "enableFletching": false,
+      "enableProjectile": false
+    }
+  },
+  "construction_alloy": {
+    "name": "construction_alloy",
+    "material": true,
+    "fluid": false,
+    "traits": true,
+    "armorOptions": {
+      "enableArmor": false,
+      "enableCore": false,
+      "enablePlates": false,
+      "enableTrim": false
+    },
+    "toolOptions": {
+      "enableTool": false,
+      "enableHead": false,
+      "enableHandle": false,
+      "enableExtra": false
+    },
+    "rangedOptions": {
+      "enableRanged": false,
+      "enableBow": false,
+      "enableShaft": false,
+      "enableFletching": false,
+      "enableProjectile": false
+    }
+  },
+  "redstone_alloy": {
+    "name": "redstone_alloy",
+    "material": true,
+    "fluid": false,
+    "traits": true,
+    "armorOptions": {
+      "enableArmor": false,
+      "enableCore": false,
+      "enablePlates": false,
+      "enableTrim": false
+    },
+    "toolOptions": {
+      "enableTool": false,
+      "enableHead": false,
+      "enableHandle": false,
+      "enableExtra": false
+    },
+    "rangedOptions": {
+      "enableRanged": false,
+      "enableBow": false,
+      "enableShaft": false,
+      "enableFletching": false,
+      "enableProjectile": false
+    }
+  },
+  "nihilite": {
+    "name": "nihilite",
+    "material": true,
+    "fluid": false,
+    "traits": true,
+    "armorOptions": {
+      "enableArmor": false,
+      "enableCore": false,
+      "enablePlates": false,
+      "enableTrim": false
+    },
+    "toolOptions": {
+      "enableTool": false,
+      "enableHead": false,
+      "enableHandle": false,
+      "enableExtra": false
+    },
+    "rangedOptions": {
+      "enableRanged": false,
+      "enableBow": false,
+      "enableShaft": false,
+      "enableFletching": false,
+      "enableProjectile": false
+    }
+  },
+  "vibranium": {
+    "name": "vibranium",
+    "material": true,
+    "fluid": false,
+    "traits": true,
+    "armorOptions": {
+      "enableArmor": false,
+      "enableCore": false,
+      "enablePlates": false,
+      "enableTrim": false
+    },
+    "toolOptions": {
+      "enableTool": false,
+      "enableHead": false,
+      "enableHandle": false,
+      "enableExtra": false
+    },
+    "rangedOptions": {
+      "enableRanged": false,
+      "enableBow": false,
+      "enableShaft": false,
+      "enableFletching": false,
+      "enableProjectile": false
+    }
+  },
+  "fluix": {
+    "name": "fluix",
+    "material": true,
+    "fluid": false,
+    "traits": true,
+    "armorOptions": {
+      "enableArmor": false,
+      "enableCore": false,
+      "enablePlates": false,
+      "enableTrim": false
+    },
+    "toolOptions": {
+      "enableTool": false,
+      "enableHead": false,
+      "enableHandle": false,
+      "enableExtra": false
+    },
+    "rangedOptions": {
+      "enableRanged": false,
+      "enableBow": false,
+      "enableShaft": false,
+      "enableFletching": false,
+      "enableProjectile": false
+    }
+  },
+  "mirion": {
+    "name": "mirion",
+    "material": true,
+    "fluid": false,
+    "traits": true,
+    "armorOptions": {
+      "enableArmor": false,
+      "enableCore": false,
+      "enablePlates": false,
+      "enableTrim": false
+    },
+    "toolOptions": {
+      "enableTool": false,
+      "enableHead": false,
+      "enableHandle": false,
+      "enableExtra": false
+    },
+    "rangedOptions": {
+      "enableRanged": false,
+      "enableBow": false,
+      "enableShaft": false,
+      "enableFletching": false,
+      "enableProjectile": false
+    }
+  },
+  "elementium": {
+    "name": "elementium",
+    "material": true,
+    "fluid": false,
+    "traits": true,
+    "armorOptions": {
+      "enableArmor": false,
+      "enableCore": false,
+      "enablePlates": false,
+      "enableTrim": false
+    },
+    "toolOptions": {
+      "enableTool": false,
+      "enableHead": false,
+      "enableHandle": false,
+      "enableExtra": false
+    },
+    "rangedOptions": {
+      "enableRanged": false,
+      "enableBow": false,
+      "enableShaft": false,
+      "enableFletching": false,
+      "enableProjectile": false
+    }
+  },
+  "tungsten": {
+    "name": "tungsten",
+    "material": true,
+    "fluid": false,
+    "traits": true,
+    "armorOptions": {
+      "enableArmor": false,
+      "enableCore": false,
+      "enablePlates": false,
+      "enableTrim": false
+    },
+    "toolOptions": {
+      "enableTool": false,
+      "enableHead": false,
+      "enableHandle": false,
+      "enableExtra": false
+    },
+    "rangedOptions": {
+      "enableRanged": false,
+      "enableBow": false,
+      "enableShaft": false,
+      "enableFletching": false,
+      "enableProjectile": false
+    }
+  },
+  "blutonium": {
+    "name": "blutonium",
+    "material": true,
+    "fluid": false,
+    "traits": true,
+    "armorOptions": {
+      "enableArmor": false,
+      "enableCore": false,
+      "enablePlates": false,
+      "enableTrim": false
+    },
+    "toolOptions": {
+      "enableTool": false,
+      "enableHead": false,
+      "enableHandle": false,
+      "enableExtra": false
+    },
+    "rangedOptions": {
+      "enableRanged": false,
+      "enableBow": false,
+      "enableShaft": false,
+      "enableFletching": false,
+      "enableProjectile": false
+    }
+  },
+  "redgarnet": {
+    "name": "redgarnet",
+    "material": true,
+    "fluid": false,
+    "traits": true,
+    "armorOptions": {
+      "enableArmor": false,
+      "enableCore": false,
+      "enablePlates": false,
+      "enableTrim": false
+    },
+    "toolOptions": {
+      "enableTool": false,
+      "enableHead": false,
+      "enableHandle": false,
+      "enableExtra": false
+    },
+    "rangedOptions": {
+      "enableRanged": false,
+      "enableBow": false,
+      "enableShaft": false,
+      "enableFletching": false,
+      "enableProjectile": false
+    }
+  },
+  "invar": {
+    "name": "invar",
+    "material": true,
+    "fluid": false,
+    "traits": true,
+    "armorOptions": {
+      "enableArmor": false,
+      "enableCore": false,
+      "enablePlates": false,
+      "enableTrim": false
+    },
+    "toolOptions": {
+      "enableTool": false,
+      "enableHead": false,
+      "enableHandle": false,
+      "enableExtra": false
+    },
+    "rangedOptions": {
+      "enableRanged": false,
+      "enableBow": false,
+      "enableShaft": false,
+      "enableFletching": false,
+      "enableProjectile": false
+    }
+  },
+  "palladium": {
+    "name": "palladium",
+    "material": true,
+    "fluid": false,
+    "traits": true,
+    "armorOptions": {
+      "enableArmor": false,
+      "enableCore": false,
+      "enablePlates": false,
+      "enableTrim": false
+    },
+    "toolOptions": {
+      "enableTool": false,
+      "enableHead": false,
+      "enableHandle": false,
+      "enableExtra": false
+    },
+    "rangedOptions": {
+      "enableRanged": false,
+      "enableBow": false,
+      "enableShaft": false,
+      "enableFletching": false,
+      "enableProjectile": false
+    }
+  },
+  "awakeneddraconium": {
+    "name": "awakeneddraconium",
+    "material": true,
+    "fluid": false,
+    "traits": true,
+    "armorOptions": {
+      "enableArmor": false,
+      "enableCore": false,
+      "enablePlates": false,
+      "enableTrim": false
+    },
+    "toolOptions": {
+      "enableTool": false,
+      "enableHead": false,
+      "enableHandle": false,
+      "enableExtra": false
+    },
+    "rangedOptions": {
+      "enableRanged": false,
+      "enableBow": false,
+      "enableShaft": false,
+      "enableFletching": false,
+      "enableProjectile": false
+    }
+  },
+  "darkmatter": {
+    "name": "darkmatter",
+    "material": true,
+    "fluid": false,
+    "traits": true,
+    "armorOptions": {
+      "enableArmor": false,
+      "enableCore": false,
+      "enablePlates": false,
+      "enableTrim": false
+    },
+    "toolOptions": {
+      "enableTool": false,
+      "enableHead": false,
+      "enableHandle": false,
+      "enableExtra": false
+    },
+    "rangedOptions": {
+      "enableRanged": false,
+      "enableBow": false,
+      "enableShaft": false,
+      "enableFletching": false,
+      "enableProjectile": false
+    }
+  },
+  "lumix": {
+    "name": "lumix",
+    "material": true,
+    "fluid": false,
+    "traits": true,
+    "armorOptions": {
+      "enableArmor": false,
+      "enableCore": false,
+      "enablePlates": false,
+      "enableTrim": false
+    },
+    "toolOptions": {
+      "enableTool": false,
+      "enableHead": false,
+      "enableHandle": false,
+      "enableExtra": false
+    },
+    "rangedOptions": {
+      "enableRanged": false,
+      "enableBow": false,
+      "enableShaft": false,
+      "enableFletching": false,
+      "enableProjectile": false
+    }
+  },
+  "zinc": {
+    "name": "zinc",
+    "material": true,
+    "fluid": false,
+    "traits": true,
+    "armorOptions": {
+      "enableArmor": false,
+      "enableCore": false,
+      "enablePlates": false,
+      "enableTrim": false
+    },
+    "toolOptions": {
+      "enableTool": false,
+      "enableHead": false,
+      "enableHandle": false,
+      "enableExtra": false
+    },
+    "rangedOptions": {
+      "enableRanged": false,
+      "enableBow": false,
+      "enableShaft": false,
+      "enableFletching": false,
+      "enableProjectile": false
+    }
+  },
+  "ivorypsi": {
+    "name": "ivorypsi",
+    "material": true,
+    "fluid": false,
+    "traits": true,
+    "armorOptions": {
+      "enableArmor": false,
+      "enableCore": false,
+      "enablePlates": false,
+      "enableTrim": false
+    },
+    "toolOptions": {
+      "enableTool": false,
+      "enableHead": false,
+      "enableHandle": false,
+      "enableExtra": false
+    },
+    "rangedOptions": {
+      "enableRanged": false,
+      "enableBow": false,
+      "enableShaft": false,
+      "enableFletching": false,
+      "enableProjectile": false
+    }
+  },
+  "yellorium": {
+    "name": "yellorium",
+    "material": true,
+    "fluid": false,
+    "traits": true,
+    "armorOptions": {
+      "enableArmor": false,
+      "enableCore": false,
+      "enablePlates": false,
+      "enableTrim": false
+    },
+    "toolOptions": {
+      "enableTool": false,
+      "enableHead": false,
+      "enableHandle": false,
+      "enableExtra": false
+    },
+    "rangedOptions": {
+      "enableRanged": false,
+      "enableBow": false,
+      "enableShaft": false,
+      "enableFletching": false,
+      "enableProjectile": false
+    }
+  },
+  "sapphire": {
+    "name": "sapphire",
+    "material": true,
+    "fluid": false,
+    "traits": true,
+    "armorOptions": {
+      "enableArmor": false,
+      "enableCore": false,
+      "enablePlates": false,
+      "enableTrim": false
+    },
+    "toolOptions": {
+      "enableTool": false,
+      "enableHead": false,
+      "enableHandle": false,
+      "enableExtra": false
+    },
+    "rangedOptions": {
+      "enableRanged": false,
+      "enableBow": false,
+      "enableShaft": false,
+      "enableFletching": false,
+      "enableProjectile": false
+    }
+  },
+  "obsidiorite": {
+    "name": "obsidiorite",
+    "material": true,
+    "fluid": false,
+    "traits": true,
+    "armorOptions": {
+      "enableArmor": false,
+      "enableCore": false,
+      "enablePlates": false,
+      "enableTrim": false
+    },
+    "toolOptions": {
+      "enableTool": false,
+      "enableHead": false,
+      "enableHandle": false,
+      "enableExtra": false
+    },
+    "rangedOptions": {
+      "enableRanged": false,
+      "enableBow": false,
+      "enableShaft": false,
+      "enableFletching": false,
+      "enableProjectile": false
+    }
+  },
+  "wolframium": {
+    "name": "wolframium",
+    "material": true,
+    "fluid": false,
+    "traits": true,
+    "armorOptions": {
+      "enableArmor": false,
+      "enableCore": false,
+      "enablePlates": false,
+      "enableTrim": false
+    },
+    "toolOptions": {
+      "enableTool": false,
+      "enableHead": false,
+      "enableHandle": false,
+      "enableExtra": false
+    },
+    "rangedOptions": {
+      "enableRanged": false,
+      "enableBow": false,
+      "enableShaft": false,
+      "enableFletching": false,
+      "enableProjectile": false
+    }
+  },
+  "tritonite": {
+    "name": "tritonite",
+    "material": true,
+    "fluid": false,
+    "traits": true,
+    "armorOptions": {
+      "enableArmor": false,
+      "enableCore": false,
+      "enablePlates": false,
+      "enableTrim": false
+    },
+    "toolOptions": {
+      "enableTool": false,
+      "enableHead": false,
+      "enableHandle": false,
+      "enableExtra": false
+    },
+    "rangedOptions": {
+      "enableRanged": false,
+      "enableBow": false,
+      "enableShaft": false,
+      "enableFletching": false,
+      "enableProjectile": false
+    }
+  },
+  "draconium": {
+    "name": "draconium",
+    "material": true,
+    "fluid": false,
+    "traits": true,
+    "armorOptions": {
+      "enableArmor": false,
+      "enableCore": false,
+      "enablePlates": false,
+      "enableTrim": false
+    },
+    "toolOptions": {
+      "enableTool": false,
+      "enableHead": false,
+      "enableHandle": false,
+      "enableExtra": false
+    },
+    "rangedOptions": {
+      "enableRanged": false,
+      "enableBow": false,
+      "enableShaft": false,
+      "enableFletching": false,
+      "enableProjectile": false
+    }
+  },
+  "void_actadd_plustic": {
+    "name": "void_actadd_plustic",
+    "material": true,
+    "fluid": false,
+    "traits": true,
+    "armorOptions": {
+      "enableArmor": false,
+      "enableCore": false,
+      "enablePlates": false,
+      "enableTrim": false
+    },
+    "toolOptions": {
+      "enableTool": false,
+      "enableHead": false,
+      "enableHandle": false,
+      "enableExtra": false
+    },
+    "rangedOptions": {
+      "enableRanged": false,
+      "enableBow": false,
+      "enableShaft": false,
+      "enableFletching": false,
+      "enableProjectile": false
+    }
+  },
+  "end_steel": {
+    "name": "end_steel",
+    "material": true,
+    "fluid": false,
+    "traits": true,
+    "armorOptions": {
+      "enableArmor": false,
+      "enableCore": false,
+      "enablePlates": false,
+      "enableTrim": false
+    },
+    "toolOptions": {
+      "enableTool": false,
+      "enableHead": false,
+      "enableHandle": false,
+      "enableExtra": false
+    },
+    "rangedOptions": {
+      "enableRanged": false,
+      "enableBow": false,
+      "enableShaft": false,
+      "enableFletching": false,
+      "enableProjectile": false
+    }
+  },
+  "extrabotany:ingotshadowium": {
+    "name": "extrabotany:ingotshadowium",
+    "material": true,
+    "fluid": false,
+    "traits": true,
+    "armorOptions": {
+      "enableArmor": false,
+      "enableCore": false,
+      "enablePlates": false,
+      "enableTrim": false
+    },
+    "toolOptions": {
+      "enableTool": false,
+      "enableHead": false,
+      "enableHandle": false,
+      "enableExtra": false
+    },
+    "rangedOptions": {
+      "enableRanged": false,
+      "enableBow": false,
+      "enableShaft": false,
+      "enableFletching": false,
+      "enableProjectile": false
+    }
+  },
+  "ludicrite": {
+    "name": "ludicrite",
+    "material": true,
+    "fluid": false,
+    "traits": true,
+    "armorOptions": {
+      "enableArmor": false,
+      "enableCore": false,
+      "enablePlates": false,
+      "enableTrim": false
+    },
+    "toolOptions": {
+      "enableTool": false,
+      "enableHead": false,
+      "enableHandle": false,
+      "enableExtra": false
+    },
+    "rangedOptions": {
+      "enableRanged": false,
+      "enableBow": false,
+      "enableShaft": false,
+      "enableFletching": false,
+      "enableProjectile": false
+    }
+  },
+  "xu_magical_wood": {
+    "name": "xu_magical_wood",
+    "material": true,
+    "fluid": false,
+    "traits": true,
+    "armorOptions": {
+      "enableArmor": false,
+      "enableCore": false,
+      "enablePlates": false,
+      "enableTrim": false
+    },
+    "toolOptions": {
+      "enableTool": false,
+      "enableHead": false,
+      "enableHandle": false,
+      "enableExtra": false
+    },
+    "rangedOptions": {
+      "enableRanged": false,
+      "enableBow": false,
+      "enableShaft": false,
+      "enableFletching": false,
+      "enableProjectile": false
+    }
+  },
+  "vibrant_alloy": {
+    "name": "vibrant_alloy",
+    "material": true,
+    "fluid": false,
+    "traits": true,
+    "armorOptions": {
+      "enableArmor": false,
+      "enableCore": false,
+      "enablePlates": false,
+      "enableTrim": false
+    },
+    "toolOptions": {
+      "enableTool": false,
+      "enableHead": false,
+      "enableHandle": false,
+      "enableExtra": false
+    },
+    "rangedOptions": {
+      "enableRanged": false,
+      "enableBow": false,
+      "enableShaft": false,
+      "enableFletching": false,
+      "enableProjectile": false
+    }
+  },
+  "yellowgarnet": {
+    "name": "yellowgarnet",
+    "material": true,
+    "fluid": false,
+    "traits": true,
+    "armorOptions": {
+      "enableArmor": false,
+      "enableCore": false,
+      "enablePlates": false,
+      "enableTrim": false
+    },
+    "toolOptions": {
+      "enableTool": false,
+      "enableHead": false,
+      "enableHandle": false,
+      "enableExtra": false
+    },
+    "rangedOptions": {
+      "enableRanged": false,
+      "enableBow": false,
+      "enableShaft": false,
+      "enableFletching": false,
+      "enableProjectile": false
+    }
+  },
+  "xu_demonic_metal": {
+    "name": "xu_demonic_metal",
+    "material": true,
+    "fluid": false,
+    "traits": true,
+    "armorOptions": {
+      "enableArmor": false,
+      "enableCore": false,
+      "enablePlates": false,
+      "enableTrim": false
+    },
+    "toolOptions": {
+      "enableTool": false,
+      "enableHead": false,
+      "enableHandle": false,
+      "enableExtra": false
+    },
+    "rangedOptions": {
+      "enableRanged": false,
+      "enableBow": false,
+      "enableShaft": false,
+      "enableFletching": false,
+      "enableProjectile": false
+    }
+  },
+  "gaia": {
+    "name": "gaia",
+    "material": true,
+    "fluid": false,
+    "traits": true,
+    "armorOptions": {
+      "enableArmor": false,
+      "enableCore": false,
+      "enablePlates": false,
+      "enableTrim": false
+    },
+    "toolOptions": {
+      "enableTool": false,
+      "enableHead": false,
+      "enableHandle": false,
+      "enableExtra": false
+    },
+    "rangedOptions": {
+      "enableRanged": false,
+      "enableBow": false,
+      "enableShaft": false,
+      "enableFletching": false,
+      "enableProjectile": false
+    }
+  },
+  "ebonypsi": {
+    "name": "ebonypsi",
+    "material": true,
+    "fluid": false,
+    "traits": true,
+    "armorOptions": {
+      "enableArmor": false,
+      "enableCore": false,
+      "enablePlates": false,
+      "enableTrim": false
+    },
+    "toolOptions": {
+      "enableTool": false,
+      "enableHead": false,
+      "enableHandle": false,
+      "enableExtra": false
+    },
+    "rangedOptions": {
+      "enableRanged": false,
+      "enableBow": false,
+      "enableShaft": false,
+      "enableFletching": false,
+      "enableProjectile": false
+    }
+  },
+  "livingwood_plustic": {
+    "name": "livingwood_plustic",
+    "material": true,
+    "fluid": false,
+    "traits": true,
+    "armorOptions": {
+      "enableArmor": false,
+      "enableCore": false,
+      "enablePlates": false,
+      "enableTrim": false
+    },
+    "toolOptions": {
+      "enableTool": false,
+      "enableHead": false,
+      "enableHandle": false,
+      "enableExtra": false
+    },
+    "rangedOptions": {
+      "enableRanged": false,
+      "enableBow": false,
+      "enableShaft": false,
+      "enableFletching": false,
+      "enableProjectile": false
+    }
+  },
+  "aluminum": {
+    "name": "aluminum",
+    "material": true,
+    "fluid": false,
+    "traits": true,
+    "armorOptions": {
+      "enableArmor": false,
+      "enableCore": false,
+      "enablePlates": false,
+      "enableTrim": false
+    },
+    "toolOptions": {
+      "enableTool": false,
+      "enableHead": false,
+      "enableHandle": false,
+      "enableExtra": false
+    },
+    "rangedOptions": {
+      "enableRanged": false,
+      "enableBow": false,
+      "enableShaft": false,
+      "enableFletching": false,
+      "enableProjectile": false
+    }
+  },
+  "imperomite": {
+    "name": "imperomite",
+    "material": true,
+    "fluid": false,
+    "traits": true,
+    "armorOptions": {
+      "enableArmor": false,
+      "enableCore": false,
+      "enablePlates": false,
+      "enableTrim": false
+    },
+    "toolOptions": {
+      "enableTool": false,
+      "enableHead": false,
+      "enableHandle": false,
+      "enableExtra": false
+    },
+    "rangedOptions": {
+      "enableRanged": false,
+      "enableBow": false,
+      "enableShaft": false,
+      "enableFletching": false,
+      "enableProjectile": false
+    }
+  },
+  "proxii": {
+    "name": "proxii",
+    "material": true,
+    "fluid": false,
+    "traits": true,
+    "armorOptions": {
+      "enableArmor": false,
+      "enableCore": false,
+      "enablePlates": false,
+      "enableTrim": false
+    },
+    "toolOptions": {
+      "enableTool": false,
+      "enableHead": false,
+      "enableHandle": false,
+      "enableExtra": false
+    },
+    "rangedOptions": {
+      "enableRanged": false,
+      "enableBow": false,
+      "enableShaft": false,
+      "enableFletching": false,
+      "enableProjectile": false
+    }
+  },
+  "peridot": {
+    "name": "peridot",
+    "material": true,
+    "fluid": false,
+    "traits": true,
+    "armorOptions": {
+      "enableArmor": false,
+      "enableCore": false,
+      "enablePlates": false,
+      "enableTrim": false
+    },
+    "toolOptions": {
+      "enableTool": false,
+      "enableHead": false,
+      "enableHandle": false,
+      "enableExtra": false
+    },
+    "rangedOptions": {
+      "enableRanged": false,
+      "enableBow": false,
+      "enableShaft": false,
+      "enableFletching": false,
+      "enableProjectile": false
+    }
+  },
+  "xu_enchanted_metal": {
+    "name": "xu_enchanted_metal",
+    "material": true,
+    "fluid": false,
+    "traits": true,
+    "armorOptions": {
+      "enableArmor": false,
+      "enableCore": false,
+      "enablePlates": false,
+      "enableTrim": false
+    },
+    "toolOptions": {
+      "enableTool": false,
+      "enableHead": false,
+      "enableHandle": false,
+      "enableExtra": false
+    },
+    "rangedOptions": {
+      "enableRanged": false,
+      "enableBow": false,
+      "enableShaft": false,
+      "enableFletching": false,
+      "enableProjectile": false
+    }
+  },
+  "certusquartz_plustic": {
+    "name": "certusquartz_plustic",
+    "material": true,
+    "fluid": false,
+    "traits": true,
+    "armorOptions": {
+      "enableArmor": true,
+      "enableCore": true,
+      "enablePlates": true,
+      "enableTrim": true
+    },
+    "toolOptions": {
+      "enableTool": false,
+      "enableHead": false,
+      "enableHandle": false,
+      "enableExtra": false
+    },
+    "rangedOptions": {
+      "enableRanged": false,
+      "enableBow": false,
+      "enableShaft": false,
+      "enableFletching": false,
+      "enableProjectile": false
+    }
+  },
+  "redmatter": {
+    "name": "redmatter",
+    "material": true,
+    "fluid": false,
+    "traits": true,
+    "armorOptions": {
+      "enableArmor": false,
+      "enableCore": false,
+      "enablePlates": false,
+      "enableTrim": false
+    },
+    "toolOptions": {
+      "enableTool": false,
+      "enableHead": false,
+      "enableHandle": false,
+      "enableExtra": false
+    },
+    "rangedOptions": {
+      "enableRanged": false,
+      "enableBow": false,
+      "enableShaft": false,
+      "enableFletching": false,
+      "enableProjectile": false
+    }
+  },
+  "dyonite": {
+    "name": "dyonite",
+    "material": true,
+    "fluid": false,
+    "traits": true,
+    "armorOptions": {
+      "enableArmor": false,
+      "enableCore": false,
+      "enablePlates": false,
+      "enableTrim": false
+    },
+    "toolOptions": {
+      "enableTool": false,
+      "enableHead": false,
+      "enableHandle": false,
+      "enableExtra": false
+    },
+    "rangedOptions": {
+      "enableRanged": false,
+      "enableBow": false,
+      "enableShaft": false,
+      "enableFletching": false,
+      "enableProjectile": false
+    }
+  },
+  "lumium_plustic": {
+    "name": "lumium_plustic",
+    "material": true,
+    "fluid": false,
+    "traits": true,
+    "armorOptions": {
+      "enableArmor": false,
+      "enableCore": false,
+      "enablePlates": false,
+      "enableTrim": false
+    },
+    "toolOptions": {
+      "enableTool": false,
+      "enableHead": false,
+      "enableHandle": false,
+      "enableExtra": false
+    },
+    "rangedOptions": {
+      "enableRanged": false,
+      "enableBow": false,
+      "enableShaft": false,
+      "enableFletching": false,
+      "enableProjectile": false
+    }
+  },
+  "pulsating_iron": {
+    "name": "pulsating_iron",
+    "material": true,
+    "fluid": false,
+    "traits": true,
+    "armorOptions": {
+      "enableArmor": false,
+      "enableCore": false,
+      "enablePlates": false,
+      "enableTrim": false
+    },
+    "toolOptions": {
+      "enableTool": false,
+      "enableHead": false,
+      "enableHandle": false,
+      "enableExtra": false
+    },
+    "rangedOptions": {
+      "enableRanged": false,
+      "enableBow": false,
+      "enableShaft": false,
+      "enableFletching": false,
+      "enableProjectile": false
+    }
+  },
+  "electrumflux": {
+    "name": "electrumflux",
+    "material": true,
+    "fluid": false,
+    "traits": true,
+    "armorOptions": {
+      "enableArmor": false,
+      "enableCore": false,
+      "enablePlates": false,
+      "enableTrim": false
+    },
+    "toolOptions": {
+      "enableTool": false,
+      "enableHead": false,
+      "enableHandle": false,
+      "enableExtra": false
+    },
+    "rangedOptions": {
+      "enableRanged": false,
+      "enableBow": false,
+      "enableShaft": false,
+      "enableFletching": false,
+      "enableProjectile": false
+    }
+  },
+  "aurorium": {
+    "name": "aurorium",
+    "material": true,
+    "fluid": false,
+    "traits": true,
+    "armorOptions": {
+      "enableArmor": false,
+      "enableCore": false,
+      "enablePlates": false,
+      "enableTrim": false
+    },
+    "toolOptions": {
+      "enableTool": false,
+      "enableHead": false,
+      "enableHandle": false,
+      "enableExtra": false
+    },
+    "rangedOptions": {
+      "enableRanged": false,
+      "enableBow": false,
+      "enableShaft": false,
+      "enableFletching": false,
+      "enableProjectile": false
+    }
+  },
+  "thaumium": {
+    "name": "thaumium",
+    "material": true,
+    "fluid": false,
+    "traits": true,
+    "armorOptions": {
+      "enableArmor": false,
+      "enableCore": false,
+      "enablePlates": false,
+      "enableTrim": false
+    },
+    "toolOptions": {
+      "enableTool": false,
+      "enableHead": false,
+      "enableHandle": false,
+      "enableExtra": false
+    },
+    "rangedOptions": {
+      "enableRanged": false,
+      "enableBow": false,
+      "enableShaft": false,
+      "enableFletching": false,
+      "enableProjectile": false
+    }
+  },
+  "treatedwood": {
+    "name": "treatedwood",
+    "material": true,
+    "fluid": false,
+    "traits": true,
+    "armorOptions": {
+      "enableArmor": false,
+      "enableCore": false,
+      "enablePlates": false,
+      "enableTrim": false
+    },
+    "toolOptions": {
+      "enableTool": false,
+      "enableHead": false,
+      "enableHandle": false,
+      "enableExtra": false
+    },
+    "rangedOptions": {
+      "enableRanged": false,
+      "enableBow": false,
+      "enableShaft": false,
+      "enableFletching": false,
+      "enableProjectile": false
+    }
+  },
+  "violium": {
+    "name": "violium",
+    "material": true,
+    "fluid": false,
+    "traits": true,
+    "armorOptions": {
+      "enableArmor": false,
+      "enableCore": false,
+      "enablePlates": false,
+      "enableTrim": false
+    },
+    "toolOptions": {
+      "enableTool": false,
+      "enableHead": false,
+      "enableHandle": false,
+      "enableExtra": false
+    },
+    "rangedOptions": {
+      "enableRanged": false,
+      "enableBow": false,
+      "enableShaft": false,
+      "enableFletching": false,
+      "enableProjectile": false
+    }
+  },
+  "constantan": {
+    "name": "constantan",
+    "material": true,
+    "fluid": false,
+    "traits": true,
+    "armorOptions": {
+      "enableArmor": false,
+      "enableCore": false,
+      "enablePlates": false,
+      "enableTrim": false
+    },
+    "toolOptions": {
+      "enableTool": false,
+      "enableHead": false,
+      "enableHandle": false,
+      "enableExtra": false
+    },
+    "rangedOptions": {
+      "enableRanged": false,
+      "enableBow": false,
+      "enableShaft": false,
+      "enableFletching": false,
+      "enableProjectile": false
+    }
+  },
+  "yrdeen": {
+    "name": "yrdeen",
+    "material": true,
+    "fluid": false,
+    "traits": true,
+    "armorOptions": {
+      "enableArmor": false,
+      "enableCore": false,
+      "enablePlates": false,
+      "enableTrim": false
+    },
+    "toolOptions": {
+      "enableTool": false,
+      "enableHead": false,
+      "enableHandle": false,
+      "enableExtra": false
+    },
+    "rangedOptions": {
+      "enableRanged": false,
+      "enableBow": false,
+      "enableShaft": false,
+      "enableFletching": false,
+      "enableProjectile": false
+    }
+  },
+  "psigem": {
+    "name": "psigem",
+    "material": true,
+    "fluid": false,
+    "traits": true,
+    "armorOptions": {
+      "enableArmor": false,
+      "enableCore": false,
+      "enablePlates": false,
+      "enableTrim": false
+    },
+    "toolOptions": {
+      "enableTool": false,
+      "enableHead": false,
+      "enableHandle": false,
+      "enableExtra": false
+    },
+    "rangedOptions": {
+      "enableRanged": false,
+      "enableBow": false,
+      "enableShaft": false,
+      "enableFletching": false,
+      "enableProjectile": false
+    }
+  },
+  "pink_slime": {
+    "name": "pink_slime",
+    "material": true,
+    "fluid": false,
+    "traits": true,
+    "armorOptions": {
+      "enableArmor": false,
+      "enableCore": false,
+      "enablePlates": false,
+      "enableTrim": false
+    },
+    "toolOptions": {
+      "enableTool": false,
+      "enableHead": false,
+      "enableHandle": false,
+      "enableExtra": false
+    },
+    "rangedOptions": {
+      "enableRanged": false,
+      "enableBow": false,
+      "enableShaft": false,
+      "enableFletching": false,
+      "enableProjectile": false
+    }
+  },
+  "enderium_plustic": {
+    "name": "enderium_plustic",
+    "material": true,
+    "fluid": false,
+    "traits": true,
+    "armorOptions": {
+      "enableArmor": false,
+      "enableCore": false,
+      "enablePlates": false,
+      "enableTrim": false
+    },
+    "toolOptions": {
+      "enableTool": false,
+      "enableHead": false,
+      "enableHandle": false,
+      "enableExtra": false
+    },
+    "rangedOptions": {
+      "enableRanged": false,
+      "enableBow": false,
+      "enableShaft": false,
+      "enableFletching": false,
+      "enableProjectile": false
+    }
+  },
+  "diamatine_actadd_plustic": {
+    "name": "diamatine_actadd_plustic",
+    "material": true,
+    "fluid": false,
+    "traits": true,
+    "armorOptions": {
+      "enableArmor": false,
+      "enableCore": false,
+      "enablePlates": false,
+      "enableTrim": false
+    },
+    "toolOptions": {
+      "enableTool": false,
+      "enableHead": false,
+      "enableHandle": false,
+      "enableExtra": false
+    },
+    "rangedOptions": {
+      "enableRanged": false,
+      "enableBow": false,
+      "enableShaft": false,
+      "enableFletching": false,
+      "enableProjectile": false
+    }
+  },
+  "litherite": {
+    "name": "litherite",
+    "material": true,
+    "fluid": false,
+    "traits": true,
+    "armorOptions": {
+      "enableArmor": false,
+      "enableCore": false,
+      "enablePlates": false,
+      "enableTrim": false
+    },
+    "toolOptions": {
+      "enableTool": false,
+      "enableHead": false,
+      "enableHandle": false,
+      "enableExtra": false
+    },
+    "rangedOptions": {
+      "enableRanged": false,
+      "enableBow": false,
+      "enableShaft": false,
+      "enableFletching": false,
+      "enableProjectile": false
+    }
+  },
+  "certus": {
+    "name": "certus",
+    "material": true,
+    "fluid": false,
+    "traits": true,
+    "armorOptions": {
+      "enableArmor": false,
+      "enableCore": false,
+      "enablePlates": false,
+      "enableTrim": false
+    },
+    "toolOptions": {
+      "enableTool": false,
+      "enableHead": false,
+      "enableHandle": false,
+      "enableExtra": false
+    },
+    "rangedOptions": {
+      "enableRanged": false,
+      "enableBow": false,
+      "enableShaft": false,
+      "enableFletching": false,
+      "enableProjectile": false
+    }
+  },
+  "nucleum": {
+    "name": "nucleum",
+    "material": true,
+    "fluid": false,
+    "traits": true,
+    "armorOptions": {
+      "enableArmor": false,
+      "enableCore": false,
+      "enablePlates": false,
+      "enableTrim": false
+    },
+    "toolOptions": {
+      "enableTool": false,
+      "enableHead": false,
+      "enableHandle": false,
+      "enableExtra": false
+    },
+    "rangedOptions": {
+      "enableRanged": false,
+      "enableBow": false,
+      "enableShaft": false,
+      "enableFletching": false,
+      "enableProjectile": false
+    }
+  },
+  "uru": {
+    "name": "uru",
+    "material": true,
+    "fluid": false,
+    "traits": true,
+    "armorOptions": {
+      "enableArmor": false,
+      "enableCore": false,
+      "enablePlates": false,
+      "enableTrim": false
+    },
+    "toolOptions": {
+      "enableTool": false,
+      "enableHead": false,
+      "enableHandle": false,
+      "enableExtra": false
+    },
+    "rangedOptions": {
+      "enableRanged": false,
+      "enableBow": false,
+      "enableShaft": false,
+      "enableFletching": false,
+      "enableProjectile": false
+    }
+  },
+  "extrabotany:ingotorichalcos": {
+    "name": "extrabotany:ingotorichalcos",
+    "material": true,
+    "fluid": false,
+    "traits": true,
+    "armorOptions": {
+      "enableArmor": false,
+      "enableCore": false,
+      "enablePlates": false,
+      "enableTrim": false
+    },
+    "toolOptions": {
+      "enableTool": false,
+      "enableHead": false,
+      "enableHandle": false,
+      "enableExtra": false
+    },
+    "rangedOptions": {
+      "enableRanged": false,
+      "enableBow": false,
+      "enableShaft": false,
+      "enableFletching": false,
+      "enableProjectile": false
+    }
+  },
+  "platinum_plustic": {
+    "name": "platinum_plustic",
+    "material": true,
+    "fluid": false,
+    "traits": true,
+    "armorOptions": {
+      "enableArmor": false,
+      "enableCore": false,
+      "enablePlates": false,
+      "enableTrim": false
+    },
+    "toolOptions": {
+      "enableTool": false,
+      "enableHead": false,
+      "enableHandle": false,
+      "enableExtra": false
+    },
+    "rangedOptions": {
+      "enableRanged": false,
+      "enableBow": false,
+      "enableShaft": false,
+      "enableFletching": false,
+      "enableProjectile": false
+    }
+  },
+  "signalum_plustic": {
+    "name": "signalum_plustic",
+    "material": true,
+    "fluid": false,
+    "traits": true,
+    "armorOptions": {
+      "enableArmor": false,
+      "enableCore": false,
+      "enablePlates": false,
+      "enableTrim": false
+    },
+    "toolOptions": {
+      "enableTool": false,
+      "enableHead": false,
+      "enableHandle": false,
+      "enableExtra": false
+    },
+    "rangedOptions": {
+      "enableRanged": false,
+      "enableBow": false,
+      "enableShaft": false,
+      "enableFletching": false,
+      "enableProjectile": false
+    }
+  },
+  "blackquartz_plustic": {
+    "name": "blackquartz_plustic",
+    "material": true,
+    "fluid": false,
+    "traits": true,
+    "armorOptions": {
+      "enableArmor": false,
+      "enableCore": false,
+      "enablePlates": false,
+      "enableTrim": false
+    },
+    "toolOptions": {
+      "enableTool": false,
+      "enableHead": false,
+      "enableHandle": false,
+      "enableExtra": false
+    },
+    "rangedOptions": {
+      "enableRanged": false,
+      "enableBow": false,
+      "enableShaft": false,
+      "enableFletching": false,
+      "enableProjectile": false
+    }
+  },
+  "astrium": {
+    "name": "astrium",
+    "material": true,
+    "fluid": false,
+    "traits": true,
+    "armorOptions": {
+      "enableArmor": false,
+      "enableCore": false,
+      "enablePlates": false,
+      "enableTrim": false
+    },
+    "toolOptions": {
+      "enableTool": false,
+      "enableHead": false,
+      "enableHandle": false,
+      "enableExtra": false
+    },
+    "rangedOptions": {
+      "enableRanged": false,
+      "enableBow": false,
+      "enableShaft": false,
+      "enableFletching": false,
+      "enableProjectile": false
+    }
+  },
+  "electrical_steel": {
+    "name": "electrical_steel",
+    "material": true,
+    "fluid": false,
+    "traits": true,
+    "armorOptions": {
+      "enableArmor": false,
+      "enableCore": false,
+      "enablePlates": false,
+      "enableTrim": false
+    },
+    "toolOptions": {
+      "enableTool": false,
+      "enableHead": false,
+      "enableHandle": false,
+      "enableExtra": false
+    },
+    "rangedOptions": {
+      "enableRanged": false,
+      "enableBow": false,
+      "enableShaft": false,
+      "enableFletching": false,
+      "enableProjectile": false
+    }
+  },
+  "seismum": {
+    "name": "seismum",
+    "material": true,
+    "fluid": false,
+    "traits": true,
+    "armorOptions": {
+      "enableArmor": false,
+      "enableCore": false,
+      "enablePlates": false,
+      "enableTrim": false
+    },
+    "toolOptions": {
+      "enableTool": false,
+      "enableHead": false,
+      "enableHandle": false,
+      "enableExtra": false
+    },
+    "rangedOptions": {
+      "enableRanged": false,
+      "enableBow": false,
+      "enableShaft": false,
+      "enableFletching": false,
+      "enableProjectile": false
+    }
+  },
+  "triberium": {
+    "name": "triberium",
+    "material": true,
+    "fluid": false,
+    "traits": true,
+    "armorOptions": {
+      "enableArmor": false,
+      "enableCore": false,
+      "enablePlates": false,
+      "enableTrim": false
+    },
+    "toolOptions": {
+      "enableTool": false,
+      "enableHead": false,
+      "enableHandle": false,
+      "enableExtra": false
+    },
+    "rangedOptions": {
+      "enableRanged": false,
+      "enableBow": false,
+      "enableShaft": false,
+      "enableFletching": false,
+      "enableProjectile": false
+    }
+  },
+  "platinum": {
+    "name": "platinum",
+    "material": true,
+    "fluid": false,
+    "traits": true,
+    "armorOptions": {
+      "enableArmor": false,
+      "enableCore": false,
+      "enablePlates": false,
+      "enableTrim": false
+    },
+    "toolOptions": {
+      "enableTool": false,
+      "enableHead": false,
+      "enableHandle": false,
+      "enableExtra": false
+    },
+    "rangedOptions": {
+      "enableRanged": false,
+      "enableBow": false,
+      "enableShaft": false,
+      "enableFletching": false,
+      "enableProjectile": false
+    }
+  },
+  "adamant": {
+    "name": "adamant",
+    "material": true,
+    "fluid": false,
+    "traits": true,
+    "armorOptions": {
+      "enableArmor": false,
+      "enableCore": false,
+      "enablePlates": false,
+      "enableTrim": false
+    },
+    "toolOptions": {
+      "enableTool": false,
+      "enableHead": false,
+      "enableHandle": false,
+      "enableExtra": false
+    },
+    "rangedOptions": {
+      "enableRanged": false,
+      "enableBow": false,
+      "enableShaft": false,
+      "enableFletching": false,
+      "enableProjectile": false
+    }
+  },
+  "ignitz": {
+    "name": "ignitz",
+    "material": true,
+    "fluid": false,
+    "traits": true,
+    "armorOptions": {
+      "enableArmor": false,
+      "enableCore": false,
+      "enablePlates": false,
+      "enableTrim": false
+    },
+    "toolOptions": {
+      "enableTool": false,
+      "enableHead": false,
+      "enableHandle": false,
+      "enableExtra": false
+    },
+    "rangedOptions": {
+      "enableRanged": false,
+      "enableBow": false,
+      "enableShaft": false,
+      "enableFletching": false,
+      "enableProjectile": false
+    }
+  },
+  "erodium": {
+    "name": "erodium",
+    "material": true,
+    "fluid": false,
+    "traits": true,
+    "armorOptions": {
+      "enableArmor": false,
+      "enableCore": false,
+      "enablePlates": false,
+      "enableTrim": false
+    },
+    "toolOptions": {
+      "enableTool": false,
+      "enableHead": false,
+      "enableHandle": false,
+      "enableExtra": false
+    },
+    "rangedOptions": {
+      "enableRanged": false,
+      "enableBow": false,
+      "enableShaft": false,
+      "enableFletching": false,
+      "enableProjectile": false
+    }
+  },
+  "manasteel": {
+    "name": "manasteel",
+    "material": true,
+    "fluid": false,
+    "traits": true,
+    "armorOptions": {
+      "enableArmor": false,
+      "enableCore": false,
+      "enablePlates": false,
+      "enableTrim": false
+    },
+    "toolOptions": {
+      "enableTool": false,
+      "enableHead": false,
+      "enableHandle": false,
+      "enableExtra": false
+    },
+    "rangedOptions": {
+      "enableRanged": false,
+      "enableBow": false,
+      "enableShaft": false,
+      "enableFletching": false,
+      "enableProjectile": false
+    }
+  },
+  "rubber": {
+    "name": "rubber",
+    "material": true,
+    "fluid": false,
+    "traits": true,
+    "armorOptions": {
+      "enableArmor": false,
+      "enableCore": false,
+      "enablePlates": false,
+      "enableTrim": false
+    },
+    "toolOptions": {
+      "enableTool": false,
+      "enableHead": false,
+      "enableHandle": false,
+      "enableExtra": false
+    },
+    "rangedOptions": {
+      "enableRanged": false,
+      "enableBow": false,
+      "enableShaft": false,
+      "enableFletching": false,
+      "enableProjectile": false
+    }
+  },
+  "fractum": {
+    "name": "fractum",
+    "material": true,
+    "fluid": false,
+    "traits": true,
+    "armorOptions": {
+      "enableArmor": false,
+      "enableCore": false,
+      "enablePlates": false,
+      "enableTrim": false
+    },
+    "toolOptions": {
+      "enableTool": false,
+      "enableHead": false,
+      "enableHandle": false,
+      "enableExtra": false
+    },
+    "rangedOptions": {
+      "enableRanged": false,
+      "enableBow": false,
+      "enableShaft": false,
+      "enableFletching": false,
+      "enableProjectile": false
+    }
+  },
+  "tin": {
+    "name": "tin",
+    "material": true,
+    "fluid": false,
+    "traits": true,
+    "armorOptions": {
+      "enableArmor": false,
+      "enableCore": false,
+      "enablePlates": false,
+      "enableTrim": false
+    },
+    "toolOptions": {
+      "enableTool": false,
+      "enableHead": false,
+      "enableHandle": false,
+      "enableExtra": false
+    },
+    "rangedOptions": {
+      "enableRanged": false,
+      "enableBow": false,
+      "enableShaft": false,
+      "enableFletching": false,
+      "enableProjectile": false
+    }
+  },
+  "refinedglowstone": {
+    "name": "refinedglowstone",
+    "material": true,
+    "fluid": false,
+    "traits": true,
+    "armorOptions": {
+      "enableArmor": false,
+      "enableCore": false,
+      "enablePlates": false,
+      "enableTrim": false
+    },
+    "toolOptions": {
+      "enableTool": false,
+      "enableHead": false,
+      "enableHandle": false,
+      "enableExtra": false
+    },
+    "rangedOptions": {
+      "enableRanged": false,
+      "enableBow": false,
+      "enableShaft": false,
+      "enableFletching": false,
+      "enableProjectile": false
+    }
+  },
+  "meteorite": {
+    "name": "meteorite",
+    "material": true,
+    "fluid": false,
+    "traits": true,
+    "armorOptions": {
+      "enableArmor": false,
+      "enableCore": false,
+      "enablePlates": false,
+      "enableTrim": false
+    },
+    "toolOptions": {
+      "enableTool": false,
+      "enableHead": false,
+      "enableHandle": false,
+      "enableExtra": false
+    },
+    "rangedOptions": {
+      "enableRanged": false,
+      "enableBow": false,
+      "enableShaft": false,
+      "enableFletching": false,
+      "enableProjectile": false
+    }
+  },
+  "cyanite": {
+    "name": "cyanite",
+    "material": true,
+    "fluid": false,
+    "traits": true,
+    "armorOptions": {
+      "enableArmor": false,
+      "enableCore": false,
+      "enablePlates": false,
+      "enableTrim": false
+    },
+    "toolOptions": {
+      "enableTool": false,
+      "enableHead": false,
+      "enableHandle": false,
+      "enableExtra": false
+    },
+    "rangedOptions": {
+      "enableRanged": false,
+      "enableBow": false,
+      "enableShaft": false,
+      "enableFletching": false,
+      "enableProjectile": false
+    }
+  },
+  "enori_actadd_plustic": {
+    "name": "enori_actadd_plustic",
+    "material": true,
+    "fluid": false,
+    "traits": true,
+    "armorOptions": {
+      "enableArmor": false,
+      "enableCore": false,
+      "enablePlates": false,
+      "enableTrim": false
+    },
+    "toolOptions": {
+      "enableTool": false,
+      "enableHead": false,
+      "enableHandle": false,
+      "enableExtra": false
+    },
+    "rangedOptions": {
+      "enableRanged": false,
+      "enableBow": false,
+      "enableShaft": false,
+      "enableFletching": false,
+      "enableProjectile": false
+    }
+  },
+  "terrasteel": {
+    "name": "terrasteel",
+    "material": true,
+    "fluid": false,
+    "traits": true,
+    "armorOptions": {
+      "enableArmor": false,
+      "enableCore": false,
+      "enablePlates": false,
+      "enableTrim": false
+    },
+    "toolOptions": {
+      "enableTool": false,
+      "enableHead": false,
+      "enableHandle": false,
+      "enableExtra": false
+    },
+    "rangedOptions": {
+      "enableRanged": false,
+      "enableBow": false,
+      "enableShaft": false,
+      "enableFletching": false,
+      "enableProjectile": false
+    }
+  },
+  "advancedalloy": {
+    "name": "advancedalloy",
+    "material": true,
+    "fluid": false,
+    "traits": true,
+    "armorOptions": {
+      "enableArmor": false,
+      "enableCore": false,
+      "enablePlates": false,
+      "enableTrim": false
+    },
+    "toolOptions": {
+      "enableTool": false,
+      "enableHead": false,
+      "enableHandle": false,
+      "enableExtra": false
+    },
+    "rangedOptions": {
+      "enableRanged": false,
+      "enableBow": false,
+      "enableShaft": false,
+      "enableFletching": false,
+      "enableProjectile": false
+    }
+  },
+  "infinity_avaritia_plustic": {
+    "name": "infinity_avaritia_plustic",
+    "material": true,
+    "fluid": false,
+    "traits": true,
+    "armorOptions": {
+      "enableArmor": false,
+      "enableCore": false,
+      "enablePlates": false,
+      "enableTrim": false
+    },
+    "toolOptions": {
+      "enableTool": false,
+      "enableHead": false,
+      "enableHandle": false,
+      "enableExtra": false
+    },
+    "rangedOptions": {
+      "enableRanged": false,
+      "enableBow": false,
+      "enableShaft": false,
+      "enableFletching": false,
+      "enableProjectile": false
+    }
+  },
+  "chrome": {
+    "name": "chrome",
+    "material": true,
+    "fluid": false,
+    "traits": true,
+    "armorOptions": {
+      "enableArmor": false,
+      "enableCore": false,
+      "enablePlates": false,
+      "enableTrim": false
+    },
+    "toolOptions": {
+      "enableTool": false,
+      "enableHead": false,
+      "enableHandle": false,
+      "enableExtra": false
+    },
+    "rangedOptions": {
+      "enableRanged": false,
+      "enableBow": false,
+      "enableShaft": false,
+      "enableFletching": false,
+      "enableProjectile": false
+    }
+  },
+  "emeradic_actadd_plustic": {
+    "name": "emeradic_actadd_plustic",
+    "material": true,
+    "fluid": false,
+    "traits": true,
+    "armorOptions": {
+      "enableArmor": false,
+      "enableCore": false,
+      "enablePlates": false,
+      "enableTrim": false
+    },
+    "toolOptions": {
+      "enableTool": false,
+      "enableHead": false,
+      "enableHandle": false,
+      "enableExtra": false
+    },
+    "rangedOptions": {
+      "enableRanged": false,
+      "enableBow": false,
+      "enableShaft": false,
+      "enableFletching": false,
+      "enableProjectile": false
+    }
+  },
+  "brass": {
+    "name": "brass",
+    "material": true,
+    "fluid": false,
+    "traits": true,
+    "armorOptions": {
+      "enableArmor": false,
+      "enableCore": false,
+      "enablePlates": false,
+      "enableTrim": false
+    },
+    "toolOptions": {
+      "enableTool": false,
+      "enableHead": false,
+      "enableHandle": false,
+      "enableExtra": false
+    },
+    "rangedOptions": {
+      "enableRanged": false,
+      "enableBow": false,
+      "enableShaft": false,
+      "enableFletching": false,
+      "enableProjectile": false
+    }
+  },
+  "soularium": {
+    "name": "soularium",
+    "material": true,
+    "fluid": false,
+    "traits": true,
+    "armorOptions": {
+      "enableArmor": false,
+      "enableCore": false,
+      "enablePlates": false,
+      "enableTrim": false
+    },
+    "toolOptions": {
+      "enableTool": false,
+      "enableHead": false,
+      "enableHandle": false,
+      "enableExtra": false
+    },
+    "rangedOptions": {
+      "enableRanged": false,
+      "enableBow": false,
+      "enableShaft": false,
+      "enableFletching": false,
+      "enableProjectile": false
+    }
+  },
+  "restonia_actadd_plustic": {
+    "name": "restonia_actadd_plustic",
+    "material": true,
+    "fluid": false,
+    "traits": true,
+    "armorOptions": {
+      "enableArmor": false,
+      "enableCore": false,
+      "enablePlates": false,
+      "enableTrim": false
+    },
+    "toolOptions": {
+      "enableTool": false,
+      "enableHead": false,
+      "enableHandle": false,
+      "enableExtra": false
+    },
+    "rangedOptions": {
+      "enableRanged": false,
+      "enableBow": false,
+      "enableShaft": false,
+      "enableFletching": false,
+      "enableProjectile": false
+    }
+  },
+  "duranite": {
+    "name": "duranite",
+    "material": true,
+    "fluid": false,
+    "traits": true,
+    "armorOptions": {
+      "enableArmor": false,
+      "enableCore": false,
+      "enablePlates": false,
+      "enableTrim": false
+    },
+    "toolOptions": {
+      "enableTool": false,
+      "enableHead": false,
+      "enableHandle": false,
+      "enableExtra": false
+    },
+    "rangedOptions": {
+      "enableRanged": false,
+      "enableBow": false,
+      "enableShaft": false,
+      "enableFletching": false,
+      "enableProjectile": false
+    }
+  },
+  "solarium": {
+    "name": "solarium",
+    "material": true,
+    "fluid": false,
+    "traits": true,
+    "armorOptions": {
+      "enableArmor": false,
+      "enableCore": false,
+      "enablePlates": false,
+      "enableTrim": false
+    },
+    "toolOptions": {
+      "enableTool": false,
+      "enableHead": false,
+      "enableHandle": false,
+      "enableExtra": false
+    },
+    "rangedOptions": {
+      "enableRanged": false,
+      "enableBow": false,
+      "enableShaft": false,
+      "enableFletching": false,
+      "enableProjectile": false
+    }
+  },
+  "palis_actadd_plustic": {
+    "name": "palis_actadd_plustic",
+    "material": true,
+    "fluid": false,
+    "traits": true,
+    "armorOptions": {
+      "enableArmor": false,
+      "enableCore": false,
+      "enablePlates": false,
+      "enableTrim": false
+    },
+    "toolOptions": {
+      "enableTool": false,
+      "enableHead": false,
+      "enableHandle": false,
+      "enableExtra": false
+    },
+    "rangedOptions": {
+      "enableRanged": false,
+      "enableBow": false,
+      "enableShaft": false,
+      "enableFletching": false,
+      "enableProjectile": false
+    }
+  },
+  "refinediron": {
+    "name": "refinediron",
+    "material": true,
+    "fluid": false,
+    "traits": true,
+    "armorOptions": {
+      "enableArmor": false,
+      "enableCore": false,
+      "enablePlates": false,
+      "enableTrim": false
+    },
+    "toolOptions": {
+      "enableTool": false,
+      "enableHead": false,
+      "enableHandle": false,
+      "enableExtra": false
+    },
+    "rangedOptions": {
+      "enableRanged": false,
+      "enableBow": false,
+      "enableShaft": false,
+      "enableFletching": false,
+      "enableProjectile": false
+    }
+  },
+  "valyrium": {
+    "name": "valyrium",
+    "material": true,
+    "fluid": false,
+    "traits": true,
+    "armorOptions": {
+      "enableArmor": false,
+      "enableCore": false,
+      "enablePlates": false,
+      "enableTrim": false
+    },
+    "toolOptions": {
+      "enableTool": false,
+      "enableHead": false,
+      "enableHandle": false,
+      "enableExtra": false
+    },
+    "rangedOptions": {
+      "enableRanged": false,
+      "enableBow": false,
+      "enableShaft": false,
+      "enableFletching": false,
+      "enableProjectile": false
+    }
+  },
+  "endorium": {
+    "name": "endorium",
+    "material": true,
+    "fluid": false,
+    "traits": true,
+    "armorOptions": {
+      "enableArmor": false,
+      "enableCore": false,
+      "enablePlates": false,
+      "enableTrim": false
+    },
+    "toolOptions": {
+      "enableTool": false,
+      "enableHead": false,
+      "enableHandle": false,
+      "enableExtra": false
+    },
+    "rangedOptions": {
+      "enableRanged": false,
+      "enableBow": false,
+      "enableShaft": false,
+      "enableFletching": false,
+      "enableProjectile": false
+    }
+  },
+  "mithril": {
+    "name": "mithril",
+    "material": true,
+    "fluid": false,
+    "traits": true,
+    "armorOptions": {
+      "enableArmor": false,
+      "enableCore": false,
+      "enablePlates": false,
+      "enableTrim": false
+    },
+    "toolOptions": {
+      "enableTool": false,
+      "enableHead": false,
+      "enableHandle": false,
+      "enableExtra": false
+    },
+    "rangedOptions": {
+      "enableRanged": false,
+      "enableBow": false,
+      "enableShaft": false,
+      "enableFletching": false,
+      "enableProjectile": false
+    }
+  },
+  "chaoticdraconium": {
+    "name": "chaoticdraconium",
+    "material": true,
+    "fluid": false,
+    "traits": true,
+    "armorOptions": {
+      "enableArmor": false,
+      "enableCore": false,
+      "enablePlates": false,
+      "enableTrim": false
+    },
+    "toolOptions": {
+      "enableTool": false,
+      "enableHead": false,
+      "enableHandle": false,
+      "enableExtra": false
+    },
+    "rangedOptions": {
+      "enableRanged": false,
+      "enableBow": false,
+      "enableShaft": false,
+      "enableFletching": false,
+      "enableProjectile": false
+    }
+  },
+  "chaotic_plustic": {
+    "name": "chaotic_plustic",
+    "material": true,
+    "fluid": false,
+    "traits": true,
+    "armorOptions": {
+      "enableArmor": false,
+      "enableCore": false,
+      "enablePlates": false,
+      "enableTrim": false
+    },
+    "toolOptions": {
+      "enableTool": false,
+      "enableHead": false,
+      "enableHandle": false,
+      "enableExtra": false
+    },
+    "rangedOptions": {
+      "enableRanged": false,
+      "enableBow": false,
+      "enableShaft": false,
+      "enableFletching": false,
+      "enableProjectile": false
+    }
+  },
+  "titanium": {
+    "name": "titanium",
+    "material": true,
+    "fluid": false,
+    "traits": true,
+    "armorOptions": {
+      "enableArmor": false,
+      "enableCore": false,
+      "enablePlates": false,
+      "enableTrim": false
+    },
+    "toolOptions": {
+      "enableTool": false,
+      "enableHead": false,
+      "enableHandle": false,
+      "enableExtra": false
+    },
+    "rangedOptions": {
+      "enableRanged": false,
+      "enableBow": false,
+      "enableShaft": false,
+      "enableFletching": false,
+      "enableProjectile": false
+    }
+  },
+  "psi": {
+    "name": "psi",
+    "material": true,
+    "fluid": false,
+    "traits": true,
+    "armorOptions": {
+      "enableArmor": false,
+      "enableCore": false,
+      "enablePlates": false,
+      "enableTrim": false
+    },
+    "toolOptions": {
+      "enableTool": false,
+      "enableHead": false,
+      "enableHandle": false,
+      "enableExtra": false
+    },
+    "rangedOptions": {
+      "enableRanged": false,
+      "enableBow": false,
+      "enableShaft": false,
+      "enableFletching": false,
+      "enableProjectile": false
+    }
+  },
+  "refinedobsidian": {
+    "name": "refinedobsidian",
+    "material": true,
+    "fluid": false,
+    "traits": true,
+    "armorOptions": {
+      "enableArmor": false,
+      "enableCore": false,
+      "enablePlates": false,
+      "enableTrim": false
+    },
+    "toolOptions": {
+      "enableTool": false,
+      "enableHead": false,
+      "enableHandle": false,
+      "enableExtra": false
+    },
+    "rangedOptions": {
+      "enableRanged": false,
+      "enableBow": false,
+      "enableShaft": false,
+      "enableFletching": false,
+      "enableProjectile": false
+    }
+  },
+  "pladium": {
+    "name": "pladium",
+    "material": true,
+    "fluid": false,
+    "traits": true,
+    "armorOptions": {
+      "enableArmor": false,
+      "enableCore": false,
+      "enablePlates": false,
+      "enableTrim": false
+    },
+    "toolOptions": {
+      "enableTool": false,
+      "enableHead": false,
+      "enableHandle": false,
+      "enableExtra": false
+    },
+    "rangedOptions": {
+      "enableRanged": false,
+      "enableBow": false,
+      "enableShaft": false,
+      "enableFletching": false,
+      "enableProjectile": false
+    }
+  },
+  "mica": {
+    "name": "mica",
+    "material": true,
+    "fluid": false,
+    "traits": true,
+    "armorOptions": {
+      "enableArmor": false,
+      "enableCore": false,
+      "enablePlates": false,
+      "enableTrim": false
+    },
+    "toolOptions": {
+      "enableTool": false,
+      "enableHead": false,
+      "enableHandle": false,
+      "enableExtra": false
+    },
+    "rangedOptions": {
+      "enableRanged": false,
+      "enableBow": false,
+      "enableShaft": false,
+      "enableFletching": false,
+      "enableProjectile": false
+    }
+  },
+  "jade": {
+    "name": "jade",
+    "material": true,
+    "fluid": false,
+    "traits": true,
+    "armorOptions": {
+      "enableArmor": true,
+      "enableCore": true,
+      "enablePlates": true,
+      "enableTrim": true
+    },
+    "toolOptions": {
+      "enableTool": false,
+      "enableHead": false,
+      "enableHandle": false,
+      "enableExtra": false
+    },
+    "rangedOptions": {
+      "enableRanged": false,
+      "enableBow": false,
+      "enableShaft": false,
+      "enableFletching": false,
+      "enableProjectile": false
+    }
+  },
+  "iridium": {
+    "name": "iridium",
+    "material": true,
+    "fluid": false,
+    "traits": true,
+    "armorOptions": {
+      "enableArmor": false,
+      "enableCore": false,
+      "enablePlates": false,
+      "enableTrim": false
+    },
+    "toolOptions": {
+      "enableTool": false,
+      "enableHead": false,
+      "enableHandle": false,
+      "enableExtra": false
+    },
+    "rangedOptions": {
+      "enableRanged": false,
+      "enableBow": false,
+      "enableShaft": false,
+      "enableFletching": false,
+      "enableProjectile": false
+    }
+  },
+  "energetic_alloy": {
+    "name": "energetic_alloy",
+    "material": true,
+    "fluid": false,
+    "traits": true,
+    "armorOptions": {
+      "enableArmor": false,
+      "enableCore": false,
+      "enablePlates": false,
+      "enableTrim": false
+    },
+    "toolOptions": {
+      "enableTool": false,
+      "enableHead": false,
+      "enableHandle": false,
+      "enableExtra": false
+    },
+    "rangedOptions": {
+      "enableRanged": false,
+      "enableBow": false,
+      "enableShaft": false,
+      "enableFletching": false,
+      "enableProjectile": false
+    }
+  },
+  "lumium": {
+    "name": "lumium",
+    "material": true,
+    "fluid": false,
+    "traits": true,
+    "armorOptions": {
+      "enableArmor": false,
+      "enableCore": false,
+      "enablePlates": false,
+      "enableTrim": false
+    },
+    "toolOptions": {
+      "enableTool": false,
+      "enableHead": false,
+      "enableHandle": false,
+      "enableExtra": false
+    },
+    "rangedOptions": {
+      "enableRanged": false,
+      "enableBow": false,
+      "enableShaft": false,
+      "enableFletching": false,
+      "enableProjectile": false
+    }
+  },
+  "basalt": {
+    "name": "basalt",
+    "material": true,
+    "fluid": false,
+    "traits": true,
+    "armorOptions": {
+      "enableArmor": false,
+      "enableCore": false,
+      "enablePlates": false,
+      "enableTrim": false
+    },
+    "toolOptions": {
+      "enableTool": false,
+      "enableHead": false,
+      "enableHandle": false,
+      "enableExtra": false
+    },
+    "rangedOptions": {
+      "enableRanged": false,
+      "enableBow": false,
+      "enableShaft": false,
+      "enableFletching": false,
+      "enableProjectile": false
+    }
+  },
+  "enderium": {
+    "name": "enderium",
+    "material": true,
+    "fluid": false,
+    "traits": true,
+    "armorOptions": {
+      "enableArmor": false,
+      "enableCore": false,
+      "enablePlates": false,
+      "enableTrim": false
+    },
+    "toolOptions": {
+      "enableTool": false,
+      "enableHead": false,
+      "enableHandle": false,
+      "enableExtra": false
+    },
+    "rangedOptions": {
+      "enableRanged": false,
+      "enableBow": false,
+      "enableShaft": false,
+      "enableFletching": false,
+      "enableProjectile": false
+    }
+  },
+  "signalum": {
+    "name": "signalum",
+    "material": true,
+    "fluid": false,
+    "traits": true,
+    "armorOptions": {
+      "enableArmor": false,
+      "enableCore": false,
+      "enablePlates": false,
+      "enableTrim": false
+    },
+    "toolOptions": {
+      "enableTool": false,
+      "enableHead": false,
+      "enableHandle": false,
+      "enableExtra": false
+    },
+    "rangedOptions": {
+      "enableRanged": false,
+      "enableBow": false,
+      "enableShaft": false,
+      "enableFletching": false,
+      "enableProjectile": false
+    }
+  },
+  "wyverndraconium": {
+    "name": "wyverndraconium",
+    "material": true,
+    "fluid": false,
+    "traits": true,
+    "armorOptions": {
+      "enableArmor": false,
+      "enableCore": false,
+      "enablePlates": false,
+      "enableTrim": false
+    },
+    "toolOptions": {
+      "enableTool": false,
+      "enableHead": false,
+      "enableHandle": false,
+      "enableExtra": false
+    },
+    "rangedOptions": {
+      "enableRanged": false,
+      "enableBow": false,
+      "enableShaft": false,
+      "enableFletching": false,
+      "enableProjectile": false
+    }
+  },
+  "prometheum": {
+    "name": "prometheum",
+    "material": true,
+    "fluid": false,
+    "traits": true,
+    "armorOptions": {
+      "enableArmor": false,
+      "enableCore": false,
+      "enablePlates": false,
+      "enableTrim": false
+    },
+    "toolOptions": {
+      "enableTool": false,
+      "enableHead": false,
+      "enableHandle": false,
+      "enableExtra": false
+    },
+    "rangedOptions": {
+      "enableRanged": false,
+      "enableBow": false,
+      "enableShaft": false,
+      "enableFletching": false,
+      "enableProjectile": false
+    }
+  },
+  "xu_evil_metal": {
+    "name": "xu_evil_metal",
+    "material": true,
+    "fluid": false,
+    "traits": true,
+    "armorOptions": {
+      "enableArmor": false,
+      "enableCore": false,
+      "enablePlates": false,
+      "enableTrim": false
+    },
+    "toolOptions": {
+      "enableTool": false,
+      "enableHead": false,
+      "enableHandle": false,
+      "enableExtra": false
+    },
+    "rangedOptions": {
+      "enableRanged": false,
+      "enableBow": false,
+      "enableShaft": false,
+      "enableFletching": false,
+      "enableProjectile": false
+    }
+  },
+  "terrax": {
+    "name": "terrax",
+    "material": true,
+    "fluid": false,
+    "traits": true,
+    "armorOptions": {
+      "enableArmor": false,
+      "enableCore": false,
+      "enablePlates": false,
+      "enableTrim": false
+    },
+    "toolOptions": {
+      "enableTool": false,
+      "enableHead": false,
+      "enableHandle": false,
+      "enableExtra": false
+    },
+    "rangedOptions": {
+      "enableRanged": false,
+      "enableBow": false,
+      "enableShaft": false,
+      "enableFletching": false,
+      "enableProjectile": false
+    }
+  },
+  "kyronite": {
+    "name": "kyronite",
+    "material": true,
+    "fluid": false,
+    "traits": true,
+    "armorOptions": {
+      "enableArmor": false,
+      "enableCore": false,
+      "enablePlates": false,
+      "enableTrim": false
+    },
+    "toolOptions": {
+      "enableTool": false,
+      "enableHead": false,
+      "enableHandle": false,
+      "enableExtra": false
+    },
+    "rangedOptions": {
+      "enableRanged": false,
+      "enableBow": false,
+      "enableShaft": false,
+      "enableFletching": false,
+      "enableProjectile": false
+    }
+  },
+  "nickel": {
+    "name": "nickel",
+    "material": true,
+    "fluid": false,
+    "traits": true,
+    "armorOptions": {
+      "enableArmor": false,
+      "enableCore": false,
+      "enablePlates": false,
+      "enableTrim": false
+    },
+    "toolOptions": {
+      "enableTool": false,
+      "enableHead": false,
+      "enableHandle": false,
+      "enableExtra": false
+    },
+    "rangedOptions": {
+      "enableRanged": false,
+      "enableBow": false,
+      "enableShaft": false,
+      "enableFletching": false,
+      "enableProjectile": false
+    }
+  },
+  "osmium": {
+    "name": "osmium",
+    "material": true,
+    "fluid": false,
+    "traits": true,
+    "armorOptions": {
+      "enableArmor": false,
+      "enableCore": false,
+      "enablePlates": false,
+      "enableTrim": false
+    },
+    "toolOptions": {
+      "enableTool": false,
+      "enableHead": false,
+      "enableHandle": false,
+      "enableExtra": false
+    },
+    "rangedOptions": {
+      "enableRanged": false,
+      "enableBow": false,
+      "enableShaft": false,
+      "enableFletching": false,
+      "enableProjectile": false
+    }
+  },
+  "elvenelementium": {
+    "name": "elvenelementium",
+    "material": true,
+    "fluid": false,
+    "traits": true,
+    "armorOptions": {
+      "enableArmor": false,
+      "enableCore": false,
+      "enablePlates": false,
+      "enableTrim": false
+    },
+    "toolOptions": {
+      "enableTool": false,
+      "enableHead": false,
+      "enableHandle": false,
+      "enableExtra": false
+    },
+    "rangedOptions": {
+      "enableRanged": false,
+      "enableBow": false,
+      "enableShaft": false,
+      "enableFletching": false,
+      "enableProjectile": false
+    }
+  },
+  "ionite": {
+    "name": "ionite",
+    "material": true,
+    "fluid": false,
+    "traits": true,
+    "armorOptions": {
+      "enableArmor": false,
+      "enableCore": false,
+      "enablePlates": false,
+      "enableTrim": false
+    },
+    "toolOptions": {
+      "enableTool": false,
+      "enableHead": false,
+      "enableHandle": false,
+      "enableExtra": false
+    },
+    "rangedOptions": {
+      "enableRanged": false,
+      "enableBow": false,
+      "enableShaft": false,
+      "enableFletching": false,
+      "enableProjectile": false
+    }
+  },
+  "ruby": {
+    "name": "ruby",
+    "material": true,
+    "fluid": false,
+    "traits": true,
+    "armorOptions": {
+      "enableArmor": false,
+      "enableCore": false,
+      "enablePlates": false,
+      "enableTrim": false
+    },
+    "toolOptions": {
+      "enableTool": false,
+      "enableHead": false,
+      "enableHandle": false,
+      "enableExtra": false
+    },
+    "rangedOptions": {
+      "enableRanged": false,
+      "enableBow": false,
+      "enableShaft": false,
+      "enableFletching": false,
+      "enableProjectile": false
+    }
+  },
+  "fluixcrystal_plustic": {
+    "name": "fluixcrystal_plustic",
+    "material": true,
+    "fluid": false,
+    "traits": true,
+    "armorOptions": {
+      "enableArmor": true,
+      "enableCore": true,
+      "enablePlates": true,
+      "enableTrim": true
+    },
+    "toolOptions": {
+      "enableTool": false,
+      "enableHead": false,
+      "enableHandle": false,
+      "enableExtra": false
+    },
+    "rangedOptions": {
+      "enableRanged": false,
+      "enableBow": false,
+      "enableShaft": false,
+      "enableFletching": false,
+      "enableProjectile": false
+    }
+  },
+  "tiberium": {
+    "name": "tiberium",
+    "material": true,
+    "fluid": false,
+    "traits": true,
+    "armorOptions": {
+      "enableArmor": false,
+      "enableCore": false,
+      "enablePlates": false,
+      "enableTrim": false
+    },
+    "toolOptions": {
+      "enableTool": false,
+      "enableHead": false,
+      "enableHandle": false,
+      "enableExtra": false
+    },
+    "rangedOptions": {
+      "enableRanged": false,
+      "enableBow": false,
+      "enableShaft": false,
+      "enableFletching": false,
+      "enableProjectile": false
+    }
+  },
+  "conductive_iron": {
+    "name": "conductive_iron",
+    "material": true,
+    "fluid": false,
+    "traits": true,
+    "armorOptions": {
+      "enableArmor": false,
+      "enableCore": false,
+      "enablePlates": false,
+      "enableTrim": false
+    },
+    "toolOptions": {
+      "enableTool": false,
+      "enableHead": false,
+      "enableHandle": false,
+      "enableExtra": false
+    },
+    "rangedOptions": {
+      "enableRanged": false,
+      "enableBow": false,
+      "enableShaft": false,
+      "enableFletching": false,
+      "enableProjectile": false
+    }
+  },
+  "wyvern_plustic": {
+    "name": "wyvern_plustic",
+    "material": true,
+    "fluid": false,
+    "traits": true,
+    "armorOptions": {
+      "enableArmor": false,
+      "enableCore": false,
+      "enablePlates": false,
+      "enableTrim": false
+    },
+    "toolOptions": {
+      "enableTool": false,
+      "enableHead": false,
+      "enableHandle": false,
+      "enableExtra": false
+    },
+    "rangedOptions": {
+      "enableRanged": false,
+      "enableBow": false,
+      "enableShaft": false,
+      "enableFletching": false,
+      "enableProjectile": false
+    }
+  },
+  "eezo": {
+    "name": "eezo",
+    "material": true,
+    "fluid": false,
+    "traits": true,
+    "armorOptions": {
+      "enableArmor": false,
+      "enableCore": false,
+      "enablePlates": false,
+      "enableTrim": false
+    },
+    "toolOptions": {
+      "enableTool": false,
+      "enableHead": false,
+      "enableHandle": false,
+      "enableExtra": false
+    },
+    "rangedOptions": {
+      "enableRanged": false,
+      "enableBow": false,
+      "enableShaft": false,
+      "enableFletching": false,
+      "enableProjectile": false
+    }
+  },
+  "quartzenrichediron": {
+    "name": "quartzenrichediron",
+    "material": true,
+    "fluid": false,
+    "traits": true,
+    "armorOptions": {
+      "enableArmor": false,
+      "enableCore": false,
+      "enablePlates": false,
+      "enableTrim": false
+    },
+    "toolOptions": {
+      "enableTool": false,
+      "enableHead": false,
+      "enableHandle": false,
+      "enableExtra": false
+    },
+    "rangedOptions": {
+      "enableRanged": false,
+      "enableBow": false,
+      "enableShaft": false,
+      "enableFletching": false,
+      "enableProjectile": false
+    }
+  },
+  "niob": {
+    "name": "niob",
+    "material": true,
+    "fluid": false,
+    "traits": true,
+    "armorOptions": {
+      "enableArmor": false,
+      "enableCore": false,
+      "enablePlates": false,
+      "enableTrim": false
+    },
+    "toolOptions": {
+      "enableTool": false,
+      "enableHead": false,
+      "enableHandle": false,
+      "enableExtra": false
+    },
+    "rangedOptions": {
+      "enableRanged": false,
+      "enableBow": false,
+      "enableShaft": false,
+      "enableFletching": false,
+      "enableProjectile": false
+    }
+  }
+}

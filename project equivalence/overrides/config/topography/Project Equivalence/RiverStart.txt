@@ -1,0 +1,2 @@
+setSpawnStructure("river")
+setSingleBiome("minecraft:ocean")

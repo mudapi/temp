@@ -1,0 +1,2 @@
+setSpawnStructure("nether_portal")
+setSingleBiome("minecraft:ocean")

@@ -1,0 +1,1084 @@
+[
+	{
+        "mode": "REMOVE",
+        "result": "draconicevolution:crafting_injector,1,1",
+        "catalyst": "draconicevolution:crafting_injector"
+    },  
+
+{
+        "mode": "REMOVE",
+        "result": "draconicevolution:crafting_injector,1,2",
+        "catalyst": "draconicevolution:crafting_injector,1,1"
+    },    
+
+{
+        "mode": "REMOVE",
+        "result": "draconicevolution:awakened_core",
+        "catalyst": "minecraft:nether_star"
+    } ,   
+
+{
+        "mode": "REMOVE",
+        "result": "draconicevolution:energy_crystal,4,2",
+        "catalyst": "draconicevolution:energy_crystal,4,1"
+    },    
+{
+        "mode": "REMOVE",
+        "result": "draconicevolution:crafting_injector,1,3",
+        "catalyst": "draconicevolution:crafting_injector,1,2"
+    },    
+
+{
+        "mode": "REMOVE",
+        "result": "draconicevolution:reactor_component,1,1",
+        "catalyst": "draconicevolution:wyvern_core"
+    },    
+
+{
+        "mode": "ADD",
+        "result": "draconicevolution:dislocator_pedestal",
+        "catalyst": "minecraft:blaze_rod",
+        "energy": 32000,
+        "tier": 0,
+        "ingredients": [
+            "botania:shimmerrock",
+            "minecraft:stone_slab",
+            "minecraft:stone_slab",
+            "minecraft:blaze_powder",
+            "minecraft:stone_pressure_plate"
+        ]
+    },
+
+      {
+        "mode": "ADD",
+        "result": "draconicevolution:dislocator",
+        "catalyst": "minecraft:ender_eye",
+        "energy": 32000,
+        "tier": 0,
+        "ingredients": [
+            "draconicevolution:draconium_dust",
+            "draconicevolution:draconium_dust",
+            "draconicevolution:draconium_dust",
+            "draconicevolution:draconium_dust",
+            "minecraft:blaze_powder",
+            "minecraft:blaze_powder",  
+            "minecraft:blaze_powder",
+            "minecraft:blaze_powder"      ]
+    },
+
+      {
+        "mode": "ADD",
+        "result": "draconicevolution:crafting_injector,1,1",
+        "catalyst": "draconicevolution:crafting_injector",
+        "energy": 32000,
+        "tier": 0,
+        "ingredients": [
+            "draconicevolution:draconic_core",
+            "draconicevolution:draconic_core",
+            "draconicevolution:wyvern_core",
+            "draconicevolution:draconium_block",
+            "rftools:infused_diamond",
+            "rftools:infused_diamond",
+            "rftools:infused_diamond",
+            "rftools:infused_diamond"
+
+        ]
+    },
+
+ 	{
+        "mode": "ADD",
+        "result": "draconicevolution:item_dislocation_inhibitor",
+        "catalyst": "draconicevolution:magnet",
+        "energy": 32000,
+        "tier": 0,
+        "ingredients": [
+            "actuallyadditions:item_crystal_empowered,1,5",
+            "actuallyadditions:item_crystal_empowered,1,5",
+            "actuallyadditions:item_crystal_empowered,1,5",
+            "actuallyadditions:item_crystal_empowered,1,5",
+            "actuallyadditions:item_crystal_empowered,1,5",
+            "actuallyadditions:item_crystal_empowered,1,5",
+            "minecraft:iron_bars",
+            "minecraft:iron_bars"
+
+        ]
+    },
+
+    {
+        "mode": "ADD",
+        "result": "draconicevolution:magnet",
+        "catalyst": "draconicevolution:dislocator",
+        "energy": 32000,
+        "tier": 0,
+        "ingredients": [
+            "draconicevolution:draconium_ingot",
+            "draconicevolution:draconium_ingot",
+            "actuallyadditions:item_crystal_empowered",
+            "actuallyadditions:item_crystal_empowered",
+            "actuallyadditions:item_crystal_empowered,1,5",
+            "actuallyadditions:item_crystal_empowered,1,5"
+           
+        ]
+    },
+
+    {
+        "mode": "ADD",
+        "result": "draconicevolution:entity_detector",
+        "catalyst": "draconicevolution:draconic_core",
+        "energy": 32000,
+        "tier": 0,
+        "ingredients": [
+            "minecraft:ender_eye",
+            "draconicevolution:draconium_ingot",
+            "actuallyadditions:item_crystal_empowered",
+            "actuallyadditions:item_crystal_empowered",
+            "actuallyadditions:item_crystal_empowered,1,1",
+            "actuallyadditions:item_crystal_empowered,1,1",
+            "actuallyadditions:item_crystal_empowered,1,5",
+            "actuallyadditions:item_crystal_empowered,1,5"
+
+        ]
+   },
+
+   {
+        "mode": "ADD",
+        "result": "draconicevolution:generator",
+        "catalyst": "draconicevolution:draconic_core",
+        "energy": 32000,
+        "tier": 0,
+        "ingredients": [
+            "minecraft:furnace",
+            "actuallyadditions:item_crystal_empowered,1,5",
+            "actuallyadditions:item_crystal_empowered,1,5",
+            "actuallyadditions:item_crystal_empowered,1,5",
+            "minecraft:netherbrick",
+            "minecraft:netherbrick",
+            "minecraft:netherbrick",
+            "minecraft:netherbrick"
+
+        ]
+    },
+
+    {
+        "mode": "ADD",
+        "result": "draconicevolution:dislocator_receptacle",
+        "catalyst": "draconicevolution:draconic_core",
+        "energy": 32000,
+        "tier": 0,
+        "ingredients": [
+            "draconicevolution:infused_obsidian",
+            "actuallyadditions:item_crystal_empowered,1,5",
+            "actuallyadditions:item_crystal_empowered,1,5",
+            "actuallyadditions:item_crystal_empowered,1,5",
+            "actuallyadditions:item_crystal_empowered,1,5"
+           
+        ]
+    },
+
+       {
+        "mode": "ADD",
+        "result": "draconicevolution:diss_enchanter",
+        "catalyst": "draconicevolution:draconic_core",
+        "energy": 32000,
+        "tier": 0,
+        "ingredients": [
+            "actuallyadditions:item_crystal_empowered,1,4",
+            "actuallyadditions:item_crystal_empowered,1,4",
+            "minecraft:enchanted_book",
+            "minecraft:enchanted_book",
+            "extrautils2:decorativesolidwood,1,1",
+            "extrautils2:decorativesolidwood,1,1",
+            "extrautils2:decorativesolidwood,1,1",
+            "minecraft:enchanting_table"
+
+        ]
+ 	},
+
+    {
+        "mode": "ADD",
+        "result": "draconicevolution:wyvern_core",
+        "catalyst": "actuallyadditions:item_misc,1,19",
+        "energy": 32000,
+        "tier": 0,
+        "ingredients": [
+            "draconicevolution:draconic_core",
+            "draconicevolution:draconic_core",
+            "draconicevolution:draconic_core",
+            "draconicevolution:draconic_core",
+            "draconicevolution:draconium_ingot",
+            "draconicevolution:draconium_ingot",
+            "draconicevolution:draconium_ingot",
+            "draconicevolution:draconium_ingot"
+
+        ]
+ 	},
+
+ 	{
+        "mode": "ADD",
+        "result": "draconicevolution:crystal_binder",
+        "catalyst": "draconicevolution:draconic_core",
+        "energy": 32000,
+        "tier": 0,
+        "ingredients": [
+            "minecraft:blaze_rod",
+            "draconicevolution:draconium_ingot",
+            "draconicevolution:draconium_ingot",
+            "rftools:infused_diamond"
+            
+        ]
+ 	},
+
+ 	{
+        "mode": "ADD",
+        "result": "draconicevolution:tool_upgrade,1,10",
+        "catalyst": "minecraft:golden_boots",
+        "energy": 32000,
+        "tier": 0,
+        "ingredients": [
+            "actuallyadditions:item_crystal_empowered,1,1",
+            "actuallyadditions:item_crystal_empowered,1,1",
+            "actuallyadditions:item_crystal_empowered,1,1",
+            "actuallyadditions:item_crystal_empowered,1,1",
+            "actuallyadditions:block_crystal_empowered",
+            "draconicevolution:draconic_core",
+            "draconicevolution:draconium_ingot",
+            "draconicevolution:draconium_ingot"
+
+        ]
+ 	},
+
+ 	 	{
+        "mode": "ADD",
+        "result": "draconicevolution:tool_upgrade,1,9",
+        "catalyst": "minecraft:golden_chestplate",
+        "energy": 32000,
+        "tier": 0,
+        "ingredients": [
+            "draconicevolution:draconic_core",
+            "draconicevolution:draconic_core",
+            "actuallyadditions:item_crystal_empowered,1,1",
+            "actuallyadditions:item_crystal_empowered,1,1",
+            "actuallyadditions:item_crystal_empowered,1,1",
+            "actuallyadditions:item_crystal_empowered,1,1",
+            "draconicevolution:draconium_ingot",
+            "draconicevolution:draconium_ingot"
+
+        ]
+ 	},
+
+ 	{
+        "mode": "ADD",
+        "result": "draconicevolution:tool_upgrade,1,8",
+        "catalyst": "actuallyadditions:item_chest_crystal_light_blue",
+        "energy": 32000,
+        "tier": 0,
+        "ingredients": [
+            "actuallyadditions:item_crystal_empowered,1,1",
+            "actuallyadditions:item_crystal_empowered,1,1",
+            "actuallyadditions:item_crystal_empowered,1,1",
+            "actuallyadditions:item_crystal_empowered,1,1",
+            "actuallyadditions:block_crystal_empowered",
+            "draconicevolution:draconic_core",
+            "draconicevolution:draconium_ingot",
+            "draconicevolution:draconium_ingot"
+
+        ]
+ 	},
+
+ 	{
+        "mode": "ADD",
+        "result": "draconicevolution:tool_upgrade,1,7",
+        "catalyst": "minecraft:arrow",
+        "energy": 32000,
+        "tier": 0,
+        "ingredients": [
+            "minecraft:feather",
+            "actuallyadditions:item_crystal_empowered,1,1",
+            "actuallyadditions:item_crystal_empowered,1,1",
+            "actuallyadditions:item_crystal_empowered,1,1",
+            "actuallyadditions:block_crystal_empowered",
+            "draconicevolution:draconic_core",
+            "draconicevolution:draconium_ingot",
+            "draconicevolution:draconium_ingot"
+
+        ]
+ 	},
+
+ 	{
+        "mode": "ADD",
+        "result": "draconicevolution:tool_upgrade,1,11",
+        "catalyst": "minecraft:golden_boots",
+        "energy": 32000,
+        "tier": 0,
+        "ingredients": [
+            "actuallyadditions:item_crystal_empowered,1,1",
+            "actuallyadditions:item_crystal_empowered,1,1",
+            "actuallyadditions:item_crystal_empowered,1,1",
+            "actuallyadditions:item_crystal_empowered,1,1",
+            "minecraft:slime",
+            "draconicevolution:draconic_core",
+            "draconicevolution:draconium_ingot",
+            "draconicevolution:draconium_ingot"
+
+        ]
+ 	},
+
+ 	 	{
+        "mode": "ADD",
+        "result": "draconicevolution:tool_upgrade,1,6",
+        "catalyst": "minecraft:bow",
+        "energy": 32000,
+        "tier": 0,
+        "ingredients": [
+            "draconicevolution:draconic_core",
+            "draconicevolution:draconic_core",
+            "contenttweaker:light_chaos_gold_ingot",
+            "actuallyadditions:item_crystal_empowered,1,1",
+            "actuallyadditions:item_crystal_empowered,1,1",
+            "actuallyadditions:item_crystal_empowered,1,1",
+            "draconicevolution:draconium_ingot",
+            "draconicevolution:draconium_ingot"
+
+        ]
+ 	},
+
+ 	{
+        "mode": "ADD",
+        "result": "draconicevolution:tool_upgrade,1,3",
+        "catalyst": "minecraft:golden_sword",
+        "energy": 32000,
+        "tier": 0,
+        "ingredients": [
+            "actuallyadditions:item_crystal_empowered,1,1",
+            "actuallyadditions:item_crystal_empowered,1,1",
+            "actuallyadditions:item_crystal_empowered,1,1",
+            "actuallyadditions:item_crystal_empowered,1,1",
+            "draconicevolution:draconic_core",
+            "draconicevolution:draconic_core",
+            "draconicevolution:draconium_ingot",
+            "draconicevolution:draconium_ingot"
+
+        ]
+ 	},
+
+ 	{
+        "mode": "ADD",
+        "result": "draconicevolution:tool_upgrade,1,4",
+        "catalyst": "actuallyadditions:item_sword_crystal_light_blue",
+        "energy": 32000,
+        "tier": 0,
+        "ingredients": [
+            "actuallyadditions:item_crystal_empowered,1,1",
+            "actuallyadditions:item_crystal_empowered,1,1",
+            "actuallyadditions:item_crystal_empowered,1,1",
+            "actuallyadditions:item_crystal_empowered,1,1",
+            "draconicevolution:draconic_core",
+            "draconicevolution:draconic_core",
+            "draconicevolution:draconium_ingot",
+            "draconicevolution:draconium_ingot"
+
+        ]
+ 	},
+
+{
+        "mode": "ADD",
+        "result": "draconicevolution:tool_upgrade,1,5",
+        "catalyst": "minecraft:arrow",
+        "energy": 32000,
+        "tier": 0,
+        "ingredients": [
+            "contenttweaker:light_chaos_gold_ingot",
+            "actuallyadditions:item_crystal_empowered,1,1",
+            "actuallyadditions:item_crystal_empowered,1,1",
+            "actuallyadditions:item_crystal_empowered,1,1",
+            "draconicevolution:draconic_core",
+            "draconicevolution:draconic_core",
+            "draconicevolution:draconium_ingot",
+            "draconicevolution:draconium_ingot"
+
+        ]
+ 	},
+
+ 	{
+        "mode": "ADD",
+        "result": "draconicevolution:tool_upgrade,1,4",
+        "catalyst": "actuallyadditions:item_sword_crystal_light_blue",
+        "energy": 32000,
+        "tier": 0,
+        "ingredients": [
+            "actuallyadditions:item_crystal_empowered,1,1",
+            "actuallyadditions:item_crystal_empowered,1,1",
+            "actuallyadditions:item_crystal_empowered,1,1",
+            "actuallyadditions:item_crystal_empowered,1,1",
+            "draconicevolution:draconic_core",
+            "draconicevolution:draconic_core",
+            "draconicevolution:draconium_ingot",
+            "draconicevolution:draconium_ingot"
+
+        ]
+ 	},
+
+ 	{
+        "mode": "ADD",
+        "result": "draconicevolution:tool_upgrade,1,1",
+        "catalyst": "minecraft:golden_pickaxe",
+        "energy": 32000,
+        "tier": 0,
+        "ingredients": [
+            "actuallyadditions:item_crystal_empowered,1,1",
+            "actuallyadditions:item_crystal_empowered,1,1",
+            "actuallyadditions:item_crystal_empowered,1,1",
+            "actuallyadditions:item_crystal_empowered,1,1",
+            "draconicevolution:draconic_core",
+            "draconicevolution:draconic_core",
+            "draconicevolution:draconium_ingot",
+            "draconicevolution:draconium_ingot"
+
+        ]
+ 	},
+
+ 	{
+        "mode": "ADD",
+        "result": "draconicevolution:tool_upgrade,1,2",
+        "catalyst": "rftools:infused_enderpearl",
+        "energy": 32000,
+        "tier": 0,
+        "ingredients": [
+            "actuallyadditions:item_crystal_empowered,1,1",
+            "actuallyadditions:item_crystal_empowered,1,1",
+            "actuallyadditions:item_crystal_empowered,1,1",
+            "actuallyadditions:item_crystal_empowered,1,1",
+            "draconicevolution:draconic_core",
+            "draconicevolution:draconic_core",
+            "draconicevolution:draconium_ingot",
+            "draconicevolution:draconium_ingot"
+
+        ]
+ 	},
+
+ 	{
+        "mode": "ADD",
+        "result": "draconicevolution:draconium_capacitor",
+        "catalyst": "draconicevolution:wyvern_core",
+        "energy": 256000,
+        "tier": 1,
+        "ingredients": [
+            "draconicevolution:draconium_ingot",
+            "draconicevolution:draconium_ingot",
+            "draconicevolution:draconium_ingot",
+            "draconicevolution:draconium_ingot",
+            "draconicevolution:wyvern_energy_core",
+            "draconicevolution:wyvern_energy_core",
+            "draconicevolution:wyvern_energy_core",
+            "draconicevolution:wyvern_energy_core"
+
+        ]
+ 	},
+
+ 	{
+        "mode": "ADD",
+        "result": "draconicevolution:wyvern_energy_core",
+        "catalyst": "draconicevolution:draconic_core",
+        "energy": 256000,
+        "tier": 1,
+        "ingredients": [
+            "draconicevolution:draconium_ingot",
+            "draconicevolution:draconium_ingot",
+            "draconicevolution:draconium_ingot",
+            "draconicevolution:draconium_ingot",
+            "actuallyadditions:block_crystal_empowered",
+            "actuallyadditions:block_crystal_empowered",
+            "actuallyadditions:block_crystal_empowered",
+            "actuallyadditions:block_crystal_empowered"
+
+        ]
+ 	},
+
+ 	{
+        "mode": "ADD",
+        "result": "draconicevolution:tool_upgrade",
+        "catalyst": "draconicevolution:wyvern_energy_core",
+        "energy": 256000,
+        "tier": 1,
+        "ingredients": [
+            "draconicevolution:draconic_core",
+            "draconicevolution:draconic_core",
+            "draconicevolution:draconium_ingot",
+            "draconicevolution:draconium_ingot",
+            "actuallyadditions:item_crystal_empowered,1,1",
+            "actuallyadditions:item_crystal_empowered,1,1",
+            "actuallyadditions:item_crystal_empowered,1,1",
+            "actuallyadditions:item_crystal_empowered,1,1"
+
+        ]
+ 	},
+
+ 		{
+        "mode": "ADD",
+        "result": "draconicevolution:crafting_injector,1,2",
+        "catalyst": "draconicevolution:crafting_injector,1,1",
+        "energy": 256000,
+        "tier": 1,
+        "ingredients": [
+            "rftools:infused_diamond",
+            "rftools:infused_diamond",
+            "rftools:infused_diamond",
+            "rftools:infused_diamond",
+            "draconicevolution:draconic_block",
+            "draconicevolution:wyvern_core",
+            "draconicevolution:wyvern_core"
+
+        ]
+ 	},
+
+ 	{
+        "mode": "ADD",
+        "result": "draconicevolution:energy_crystal,4,0",
+        "catalyst": "draconicevolution:wyvern_energy_core",
+        "energy": 256000,
+        "tier": 1,
+        "ingredients": [
+            "rftools:infused_diamond",
+            "rftools:infused_diamond",
+            "rftools:infused_diamond",
+            "rftools:infused_diamond"
+
+        ]
+ 	},
+
+ 		{
+        "mode": "ADD",
+        "result": "draconicevolution:energy_crystal,4,1",
+        "catalyst": "draconicevolution:draconic_core",
+        "energy": 256000,
+        "tier": 1,
+        "ingredients": [
+            "draconicevolution:wyvern_energy_core",
+            "draconicevolution:wyvern_energy_core",
+            "draconicevolution:wyvern_energy_core",
+            "draconicevolution:wyvern_energy_core",
+            "draconicevolution:energy_crystal",
+            "draconicevolution:energy_crystal",
+            "draconicevolution:energy_crystal",
+            "draconicevolution:energy_crystal"
+
+        ]
+ 	},
+
+ 		{
+        "mode": "ADD",
+        "result": "draconicevolution:energy_crystal,1,7",
+        "catalyst": "draconicevolution:energy_crystal,1,1",
+        "energy": 256000,
+        "tier": 1,
+        "ingredients": [
+            "draconicevolution:particle_generator",
+            "draconicevolution:particle_generator",
+            "rftools:infused_enderpearl",
+            "rftools:infused_enderpearl",
+            "rftools:infused_enderpearl",
+            "rftools:infused_enderpearl",
+            "minecraft:ender_eye",
+            "minecraft:ender_eye"
+
+        ]
+ 	},
+
+ 	{
+        "mode": "ADD",
+        "result": "draconicevolution:energy_crystal,1,6",
+        "catalyst": "draconicevolution:energy_crystal",
+        "energy": 256000,
+        "tier": 1,
+        "ingredients": [
+            "draconicevolution:particle_generator",
+            "draconicevolution:particle_generator",
+            "rftools:infused_enderpearl",
+            "rftools:infused_enderpearl",
+            "rftools:infused_enderpearl",
+            "rftools:infused_enderpearl",
+            "minecraft:ender_eye",
+            "minecraft:ender_eye"
+
+        ]
+ 	},
+
+ 		{
+        "mode": "ADD",
+        "result": "draconicevolution:particle_generator",
+        "catalyst": "draconicevolution:draconic_core",
+        "energy": 256000,
+        "tier": 1,
+        "ingredients": [
+            "actuallyadditions:block_crystal_empowered",
+            "actuallyadditions:block_crystal_empowered",
+            "actuallyadditions:block_crystal_empowered",
+            "actuallyadditions:block_crystal_empowered",
+            "minecraft:blaze_rod",
+            "minecraft:blaze_rod",
+            "minecraft:blaze_rod",
+            "minecraft:blaze_rod"
+
+        ]
+ 	},
+
+ 		{
+        "mode": "ADD",
+        "result": "draconicevolution:particle_generator,1,2",
+        "catalyst": "draconicevolution:particle_generator",
+        "energy": 256000,
+        "tier": 1,
+        "ingredients": [
+            "rftools:infused_diamond",
+            "rftools:infused_diamond",
+            "rftools:infused_diamond",
+            "rftools:infused_diamond"
+
+
+
+        ]
+ 	},
+
+ 			{
+        "mode": "ADD",
+        "result": "draconicevolution:energy_pylon",
+        "catalyst": "draconicevolution:draconic_core",
+        "energy": 256000,
+        "tier": 1,
+        "ingredients": [
+            "draconicevolution:draconium_ingot",
+            "draconicevolution:draconium_ingot",
+            "draconicevolution:draconium_ingot",
+            "draconicevolution:draconium_ingot",
+            "actuallyadditions:item_crystal_empowered,1,4",
+            "actuallyadditions:item_crystal_empowered,1,4",
+            "rftools:infused_diamond",
+            "minecraft:ender_eye"
+
+        ]
+ 	},
+
+ 		{
+        "mode": "ADD",
+        "result": "draconicevolution:celestial_manipulator",
+        "catalyst": "minecraft:dragon_egg",
+        "energy": 256000,
+        "tier": 1,
+        "ingredients": [
+            "draconicevolution:wyvern_core",
+            "actuallyadditions:item_crystal_empowered,1,5",
+            "actuallyadditions:item_crystal_empowered,1,5",
+            "draconicevolution:draconium_ingot",
+            "draconicevolution:draconium_ingot",
+            "actuallyadditions:block_crystal_empowered",
+            "actuallyadditions:block_crystal_empowered",
+            "minecraft:clock"
+
+        ]
+ 	},
+
+ 	{
+        "mode": "ADD",
+        "result": "draconicevolution:entity_detector,1,1",
+        "catalyst": "draconicevolution:entity_detector",
+        "energy": 256000,
+        "tier": 1,
+        "ingredients": [
+            "draconicevolution:draconium_ingot",
+            "draconicevolution:draconium_ingot",
+            "actuallyadditions:block_crystal_empowered",
+            "actuallyadditions:block_crystal_empowered",
+            "actuallyadditions:block_crystal_empowered,1,1",
+            "actuallyadditions:block_crystal_empowered,1,1",
+            "rftools:infused_diamond",
+            "minecraft:skull,1,1"
+
+        ]
+ 	},
+
+
+		{
+        "mode": "ADD",
+        "result": "solarflux:solar_panel_wyvern,2,0",
+        "catalyst": "draconicevolution:wyvern_core",
+        "energy": 256000,
+        "tier": 1,
+        "ingredients": [
+            "solarflux:solar_panel_8",
+            "solarflux:solar_panel_8",
+            "solarflux:solar_panel_8",
+            "solarflux:solar_panel_8",
+            "draconicevolution:wyvern_energy_core",
+            "draconicevolution:wyvern_energy_core",
+            "draconicevolution:wyvern_energy_core",
+            "draconicevolution:wyvern_energy_core"
+
+        ]
+ 	},
+
+ 	{
+        "mode": "ADD",
+        "result": "draconicevolution:draconium_capacitor,1,1",
+        "catalyst": "draconicevolution:draconium_capacitor",
+        "energy": 2000000,
+        "tier": 2,
+        "ingredients": [
+            "draconicevolution:draconic_energy_core",
+            "draconicevolution:draconic_energy_core",
+            "draconicevolution:draconic_energy_core",
+            "draconicevolution:draconic_energy_core",
+            "draconicevolution:awakened_core",
+            "draconicevolution:draconic_ingot",
+            "draconicevolution:draconic_ingot",
+            "draconicevolution:draconic_ingot"
+
+        ]
+ 	},
+
+ 	{
+        "mode": "ADD",
+        "result": "solarflux:solar_panel_draconic,2,1",
+        "catalyst": "draconicevolution:awakened_core",
+        "energy": 2000000,
+        "tier": 2,
+        "ingredients": [
+            "draconicevolution:draconic_energy_core",
+            "draconicevolution:draconic_energy_core",
+            "draconicevolution:draconic_energy_core",
+            "draconicevolution:draconic_energy_core",
+            "solarflux:solar_panel_wyvern",
+            "solarflux:solar_panel_wyvern",
+            "solarflux:solar_panel_wyvern",
+            "solarflux:solar_panel_wyvern"
+
+        ]
+ 	},
+
+ 	{
+        "mode": "ADD",
+        "result": "draconicevolution:awakened_core",
+        "catalyst": "actuallyadditions:item_misc,1,19",
+        "energy": 2000000,
+        "tier": 2,
+        "ingredients": [
+            "draconicevolution:draconic_ingot",
+            "draconicevolution:draconic_ingot",
+            "draconicevolution:draconic_ingot",
+            "draconicevolution:draconic_ingot",
+            "draconicevolution:draconic_ingot",
+            "draconicevolution:wyvern_core",
+           "draconicevolution:wyvern_core",
+           "draconicevolution:wyvern_core",
+           "draconicevolution:wyvern_core"
+
+
+        ]
+ 	},
+
+ 	{
+        "mode": "ADD",
+        "result": "solarflux:solar_panel_draconic,2,1",
+        "catalyst": "draconicevolution:awakened_core",
+        "energy": 2000000,
+        "tier": 2,
+        "ingredients": [
+            "draconicevolution:draconic_energy_core",
+            "draconicevolution:draconic_energy_core",
+            "draconicevolution:draconic_energy_core",
+            "draconicevolution:draconic_energy_core",
+            "solarflux:solar_panel_wyvern",
+            "solarflux:solar_panel_wyvern",
+            "solarflux:solar_panel_wyvern",
+            "solarflux:solar_panel_wyvern"
+
+        ]
+ 	},
+
+ 	{
+        "mode": "ADD",
+        "result": "draconicevolution:energy_crystal,4,2",
+        "catalyst": "draconicevolution:energy_crystal,4,1",
+        "energy": 2000000,
+        "tier": 2,
+        "ingredients": [
+            "rftools:infused_diamond",
+            "rftools:infused_diamond",
+            "rftools:infused_diamond",
+            "rftools:infused_diamond",
+            "draconicevolution:wyvern_energy_core",
+            "draconicevolution:wyvern_energy_core",
+            "draconicevolution:wyvern_energy_core",
+            "draconicevolution:wyvern_energy_core",
+            "draconicevolution:wyvern_core"
+
+
+        ]
+ 	},
+
+ 		{
+        "mode": "ADD",
+        "result": "draconicevolution:energy_crystal,1,8",
+        "catalyst": "draconicevolution:energy_crystal,1,2",
+        "energy": 2000000,
+        "tier": 2,
+        "ingredients": [
+            "minecraft:ender_eye",
+            "minecraft:ender_eye",
+            "rftools:infused_enderpearl",
+            "rftools:infused_enderpearl",
+            "rftools:infused_enderpearl",
+            "rftools:infused_enderpearl",
+            "draconicevolution:particle_generator",
+            "draconicevolution:particle_generator"
+            
+        ]
+ 	},
+
+ 		{
+        "mode": "ADD",
+        "result": "draconicevolution:magnet,1,1",
+        "catalyst": "draconicevolution:magnet",
+        "energy": 2000000,
+        "tier": 2,
+        "ingredients": [
+            "actuallyadditions:item_crystal_empowered",
+            "actuallyadditions:item_crystal_empowered",
+            "draconicevolution:draconic_ingot",
+            "draconicevolution:draconic_ingot",
+            "draconicevolution:draconium_ingot",
+            "draconicevolution:draconium_ingot"
+            
+        ]
+ 	},
+
+ 		{
+        "mode": "ADD",
+        "result": "draconicevolution:flow_gate,1,8",
+        "catalyst": "draconicevolution:draconic_core",
+        "energy": 2000000,
+        "tier": 2,
+        "ingredients": [
+            "minecraft:bucket",
+            "minecraft:bucket",
+            "actuallyadditions:item_crystal_empowered,1,5",
+            "actuallyadditions:item_crystal_empowered,1,5",
+            "actuallyadditions:item_crystal_empowered,1,5",
+            "actuallyadditions:item_crystal_empowered,1,5",
+            "minecraft:comparator",
+            "draconicevolution:potentiometer"
+            
+        ]
+ 	},
+
+ 		{
+        "mode": "ADD",
+        "result": "draconicevolution:flow_gate",
+        "catalyst": "draconicevolution:draconic_core",
+        "energy": 2000000,
+        "tier": 2,
+        "ingredients": [
+            "actuallyadditions:block_crystal_empowered",
+            "actuallyadditions:block_crystal_empowered",
+            "actuallyadditions:item_crystal_empowered,1,5",
+            "actuallyadditions:item_crystal_empowered,1,5",
+            "actuallyadditions:item_crystal_empowered,1,5",
+            "actuallyadditions:item_crystal_empowered,1,5",
+            "minecraft:comparator",
+            "draconicevolution:potentiometer"
+            
+        ]
+ 	},
+
+ 			{
+        "mode": "ADD",
+        "result": "draconicevolution:grinder",
+        "catalyst": "draconicevolution:draconic_core",
+        "energy": 2000000,
+        "tier": 2,
+        "ingredients": [
+            "actuallyadditions:item_sword_crystal_light_blue",
+            "actuallyadditions:item_sword_crystal_light_blue",
+            "actuallyadditions:item_crystal_empowered,1,5",
+            "actuallyadditions:item_crystal_empowered,1,5",
+            "actuallyadditions:item_crystal_empowered,1,5",
+            "actuallyadditions:item_crystal_empowered,1,5",
+            "minecraft:furnace",
+            "draconicevolution:draconium_ingot"
+            
+        ]
+ 	},
+
+ 			{
+        "mode": "ADD",
+        "result": "draconicevolution:crafting_injector,1,3",
+        "catalyst": "draconicevolution:crafting_injector,1,2",
+        "energy": 8000000,
+        "tier": 2,
+        "ingredients": [
+            "draconicevolution:chaotic_core",
+            "minecraft:dragon_egg",
+            "rftools:infused_diamond",
+            "rftools:infused_diamond",
+            "rftools:infused_diamond",
+            "rftools:infused_diamond"
+            
+        ]
+ 	},
+
+
+ 	 			{
+        "mode": "ADD",
+        "result": "draconicevolution:reactor_part,1,1",
+        "catalyst": "draconicevolution:draconic_core",
+        "energy": 16000000,
+        "tier": 3,
+        "ingredients": [
+            "draconicevolution:draconic_ingot",
+            "draconicevolution:draconic_ingot",
+            "draconicevolution:draconic_ingot",
+            "draconicevolution:draconium_ingot",
+            "draconicevolution:draconium_ingot"
+            
+        ]
+ 	},
+
+ 		 			{
+        "mode": "ADD",
+        "result": "draconicevolution:reactor_part,1,2",
+        "catalyst": "draconicevolution:draconic_core",
+        "energy": 16000000,
+        "tier": 3,
+        "ingredients": [
+            "rftools:infused_diamond",
+            "rftools:infused_diamond",
+            "rftools:infused_diamond",
+            "draconicevolution:draconium_ingot",
+            "draconicevolution:draconium_ingot"
+            
+        ]
+ 	},
+
+
+ 		 			{
+        "mode": "ADD",
+        "result": "draconicevolution:reactor_part,1,3",
+        "catalyst": "draconicevolution:wyvern_core",
+        "energy": 16000000,
+        "tier": 3,
+        "ingredients": [
+            "draconicevolution:draconium_ingot",
+            "draconicevolution:draconium_ingot",
+            "draconicevolution:reactor_part,1,1",
+            "draconicevolution:reactor_part,1,1",
+            "draconicevolution:reactor_part,1,2",
+            "draconicevolution:reactor_part,1,2"
+        ]
+ 	},
+
+ 		 			{
+        "mode": "ADD",
+        "result": "draconicevolution:reactor_part,1,4",
+        "catalyst": "draconicevolution:wyvern_core",
+        "energy": 16000000,
+        "tier": 3,
+        "ingredients": [
+            "contenttweaker:light_chaos_gold_ingot",
+            "contenttweaker:light_chaos_gold_ingot",
+            "contenttweaker:light_chaos_gold_ingot",
+            "contenttweaker:light_chaos_gold_ingot",
+            "rftools:infused_diamond",
+            "rftools:infused_diamond",
+            "rftools:infused_diamond",
+            "rftools:infused_diamond"
+        ]
+ 	},
+
+ 	 		 			{
+        "mode": "ADD",
+        "result": "draconicevolution:reactor_part",
+        "catalyst": "draconicevolution:wyvern_core",
+        "energy": 16000000,
+        "tier": 3,
+        "ingredients": [
+            "actuallyadditions:item_crystal_empowered,1,5",
+            "actuallyadditions:item_crystal_empowered,1,5",
+            "actuallyadditions:item_crystal_empowered,1,5",
+            "actuallyadditions:item_crystal_empowered,1,5",
+            "actuallyadditions:item_crystal_empowered,1,5",
+            "actuallyadditions:item_crystal_empowered,1,5",
+            "draconicevolution:draconic_ingot"
+        ]
+ 	},
+
+{
+        "mode": "ADD",
+        "result": "draconicevolution:draconic_energy_core",
+        "catalyst": "draconicevolution:wyvern_core",
+        "energy": 32000,
+        "tier": 2,
+        "ingredients": [
+            "draconicevolution:draconic_ingot",
+            "draconicevolution:draconic_ingot",
+            "draconicevolution:draconic_ingot",
+            "draconicevolution:draconic_ingot",
+            "draconicevolution:wyvern_energy_core",
+            "draconicevolution:wyvern_energy_core",  
+            "draconicevolution:wyvern_energy_core",
+            "draconicevolution:wyvern_energy_core"      ]
+    },
+
+{
+        "mode": "ADD",
+        "result": "draconicevolution:energy_storage_core",
+        "catalyst": "draconicevolution:wyvern_core",
+        "energy": 32000,
+        "tier": 1,
+        "ingredients": [
+            "draconicevolution:draconium_ingot",
+            "draconicevolution:draconium_ingot",
+            "draconicevolution:draconium_ingot",
+            "draconicevolution:draconium_ingot",
+            "draconicevolution:draconium_ingot",
+            "draconicevolution:draconium_ingot",  
+            "draconicevolution:wyvern_energy_core",
+            "draconicevolution:wyvern_energy_core"      ]
+    },
+
+    {
+        "mode": "ADD",
+        "result": "draconicevolution:energy_infuser",
+        "catalyst": "minecraft:enchanting_table",
+        "energy": 32000,
+        "tier": 1,
+        "ingredients": [
+            "draconicevolution:draconium_ingot",
+            "draconicevolution:draconium_ingot",
+            "draconicevolution:draconium_ingot",
+            "draconicevolution:draconium_ingot",
+            "draconicevolution:particle_generator,1,2",
+            "draconicevolution:draconic_core",  
+            "draconicevolution:draconic_core",
+            "draconicevolution:draconic_core"      ]
+    },
+
+
+ 	 		 			{
+        "mode": "ADD",
+        "result": "draconicevolution:reactor_component,1,1",
+        "catalyst": "draconicevolution:wyvern_core",
+        "energy": 16000000,
+        "tier": 3,
+        "ingredients": [
+            "draconicevolution:draconium_ingot",
+            "draconicevolution:draconium_ingot",
+            "draconicevolution:draconium_ingot",
+            "draconicevolution:draconium_ingot",
+           "draconicevolution:reactor_part,1,1",
+           "draconicevolution:reactor_part,1,1",
+           "draconicevolution:reactor_part,1,1",
+           "draconicevolution:reactor_part,1,1",
+           "actuallyadditions:item_crystal_empowered,1,5",
+           "actuallyadditions:item_crystal_empowered,1,5"
+        ]
+ 	}
+    ]

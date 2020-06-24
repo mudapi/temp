@@ -1,0 +1,8 @@
+{
+  "inventory": {
+    "0:6": "projecte:item.pe_tome",
+    "0:5": "questbook:itemquestbook",
+    "0:8": "projecte:item.pe_time_watch,1,0,{}",
+    "0:7": "projecte:item.pe_philosophers_stone,1,0,{}"
+  }
+}

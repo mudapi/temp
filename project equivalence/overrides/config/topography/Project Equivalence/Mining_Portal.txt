@@ -1,0 +1,2 @@
+setSpawnStructure("mining_portal")
+setSingleBiome("minecraft:ocean")

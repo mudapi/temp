@@ -1,0 +1,90 @@
+import mods.thermalexpansion.Enchanter;
+
+//remove
+
+mods.thermalexpansion.Enchanter.removeRecipe(<minecraft:book>, <minecraft:nether_star>);
+mods.thermalexpansion.Enchanter.removeRecipe(<minecraft:book>,<minecraft:glowstone_dust>);
+mods.thermalexpansion.Enchanter.removeRecipe(<minecraft:book>,<minecraft:gunpowder>);
+mods.thermalexpansion.Enchanter.removeRecipe(<minecraft:book>,<minecraft:double_plant:4>);
+mods.thermalexpansion.Enchanter.removeRecipe(<minecraft:book>,<minecraft:soul_sand>);
+mods.thermalexpansion.Enchanter.removeRecipe(<minecraft:book>,<minecraft:ender_eye>);
+mods.thermalexpansion.Enchanter.removeRecipe(<minecraft:book>,<minecraft:feather>);
+mods.thermalexpansion.Enchanter.removeRecipe(<minecraft:book>,<minecraft:magma_cream>);
+mods.thermalexpansion.Enchanter.removeRecipe(<minecraft:book>,<minecraft:shield>);
+mods.thermalexpansion.Enchanter.removeRecipe(<minecraft:book>,<minecraft:iron_ingot>);
+mods.thermalexpansion.Enchanter.removeRecipe(<minecraft:book>,<minecraft:fish:3>);
+mods.thermalexpansion.Enchanter.removeRecipe(<minecraft:book>,<minecraft:redstone>);
+mods.thermalexpansion.Enchanter.removeRecipe(<minecraft:book>,<minecraft:quartz>);
+mods.thermalexpansion.Enchanter.removeRecipe(<minecraft:book>,<minecraft:blaze_powder>);
+mods.thermalexpansion.Enchanter.removeRecipe(<minecraft:book>,<minecraft:blaze_rod>);
+mods.thermalexpansion.Enchanter.removeRecipe(<minecraft:book>,<minecraft:emerald>);
+mods.thermalexpansion.Enchanter.removeRecipe(<minecraft:book>,<minecraft:fish:2>);
+mods.thermalexpansion.Enchanter.removeRecipe(<minecraft:book>,<minecraft:prismarine_shard>);
+mods.thermalexpansion.Enchanter.removeRecipe(<minecraft:book>,<minecraft:flint>);
+mods.thermalexpansion.Enchanter.removeRecipe(<minecraft:book>,<minecraft:ice>);
+mods.thermalexpansion.Enchanter.removeRecipe(<minecraft:book>,<minecraft:prismarine_crystals>);
+mods.thermalexpansion.Enchanter.removeRecipe(<minecraft:book>,<minecraft:chest>);
+mods.thermalexpansion.Enchanter.removeRecipe(<minecraft:book>,<minecraft:rotten_flesh>);
+mods.thermalexpansion.Enchanter.removeRecipe(<minecraft:book>,<minecraft:gold_ingot>);
+mods.thermalexpansion.Enchanter.removeRecipe(<minecraft:book>,<minecraft:spider_eye>);
+
+//add
+
+
+mods.thermalexpansion.Enchanter.addRecipe(<minecraft:enchanted_book>.withTag({StoredEnchantments: [{id: 33}]}), <minecraft:book>, <tconstruct:materials:16>, 12000, 1500, false);
+
+mods.thermalexpansion.Enchanter.addRecipe(<minecraft:enchanted_book>.withTag({StoredEnchantments: [{id: 70}]}), <minecraft:book>, <tconstruct:materials:19>, 12000, 1500, false);
+
+mods.thermalexpansion.Enchanter.addRecipe(<minecraft:enchanted_book>.withTag({StoredEnchantments: [{id: 3}]}), <minecraft:book>, <conarm:resist_mat_blast>, 12000, 1500, false);
+
+mods.thermalexpansion.Enchanter.addRecipe(<minecraft:enchanted_book>.withTag({StoredEnchantments: [{id: 7}]}), <minecraft:book>, <botania:specialflower>.withTag({type: "bellethorn"}), 12000, 1500, false);
+
+//tombstone soulbound
+mods.thermalexpansion.Enchanter.addRecipe(<minecraft:enchanted_book>.withTag({StoredEnchantments: [{id: 40}]}), <minecraft:book>, <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 27 as short}]}), 12000, 1500, false);
+
+//tombstone soulbound
+mods.thermalexpansion.Enchanter.addRecipe(<minecraft:enchanted_book>.withTag({StoredEnchantments: [{id: 40}]}), <minecraft:book>, <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 47 as short}]}), 12000, 1500, false);
+
+mods.thermalexpansion.Enchanter.addRecipe(<minecraft:enchanted_book>.withTag({StoredEnchantments: [{id: 51}]}), <minecraft:book>, <enderio:item_material:20>, 12000, 1500, false);
+
+mods.thermalexpansion.Enchanter.addRecipe(<minecraft:enchanted_book>.withTag({StoredEnchantments: [{id: 2}]}), <minecraft:book>, <botania:brewvial>.withTag({brewKey: "featherFeet"}), 12000, 1500, false);
+
+mods.thermalexpansion.Enchanter.addRecipe(<minecraft:enchanted_book>.withTag({StoredEnchantments: [{id: 1}]}), <minecraft:book>, <conarm:resist_mat_fire>, 12000, 1500, false);
+
+mods.thermalexpansion.Enchanter.addRecipe(<minecraft:enchanted_book>.withTag({StoredEnchantments: [{id: 4}]}), <minecraft:book>, <conarm:resist_mat_proj>, 12000, 1500, false);
+
+mods.thermalexpansion.Enchanter.addRecipe(<minecraft:enchanted_book>.withTag({StoredEnchantments: [{id: 0}]}), <minecraft:book>, <conarm:resist_mat>, 12000, 1500, false);
+
+mods.thermalexpansion.Enchanter.addRecipe(<minecraft:enchanted_book>.withTag({StoredEnchantments: [{id: 5}]}), <minecraft:book>, <botania:brewvial>.withTag({brewKey: "waterBreathing"}), 12000, 1500, false);
+
+mods.thermalexpansion.Enchanter.addRecipe(<minecraft:enchanted_book>.withTag({StoredEnchantments: [{id: 16}]}), <minecraft:book>, <tconstruct:sword_blade>.withTag({Material: "quartzenrichediron"}), 12000, 1500, false);
+
+mods.thermalexpansion.Enchanter.addRecipe(<minecraft:enchanted_book>.withTag({StoredEnchantments: [{id: 32}]}), <minecraft:book>, <botania:lens:4>, 12000, 1500, false);
+
+mods.thermalexpansion.Enchanter.addRecipe(<minecraft:enchanted_book>.withTag({StoredEnchantments: [{id: 50}]}), <minecraft:book>, <extrabotany:bottledflame>, 12000, 1500, false);
+
+mods.thermalexpansion.Enchanter.addRecipe(<minecraft:enchanted_book>.withTag({StoredEnchantments: [{id: 24}]}), <minecraft:book>, <extrautils2:ingredients:4>, 12000, 1500, false);
+
+mods.thermalexpansion.Enchanter.addRecipe(<minecraft:enchanted_book>.withTag({StoredEnchantments: [{id: 20}]}), <minecraft:book>, <tconstruct:firewood:1>, 12000, 1500, false);
+
+mods.thermalexpansion.Enchanter.addRecipe(<minecraft:enchanted_book>.withTag({StoredEnchantments: [{id: 35}]}), <minecraft:book>, <contenttweaker:elven_emerald>, 12000, 1500, false);
+
+mods.thermalexpansion.Enchanter.addRecipe(<minecraft:enchanted_book>.withTag({StoredEnchantments: [{id: 61}]}), <minecraft:book>, <minecraft:potion>.withTag({Potion: "minecraft:luck"}), 12000, 1500, false);
+
+mods.thermalexpansion.Enchanter.addRecipe(<minecraft:enchanted_book>.withTag({StoredEnchantments: [{id: 47}]}), <minecraft:book>, <incorporeal:soul_core_frame>, 12000, 1500, false);
+
+mods.thermalexpansion.Enchanter.addRecipe(<minecraft:enchanted_book>.withTag({StoredEnchantments: [{id: 8}]}), <minecraft:book>, <botania:cobblerod>, 12000, 1500, false);
+
+mods.thermalexpansion.Enchanter.addRecipe(<minecraft:enchanted_book>.withTag({StoredEnchantments: [{id: 48}]}), <minecraft:book>, <conarm:gauntlet_mat_attack>, 12000, 1500, false);
+
+mods.thermalexpansion.Enchanter.addRecipe(<minecraft:enchanted_book>.withTag({StoredEnchantments: [{id: 9}]}), <minecraft:book>, <conarm:frosty_soles>, 12000, 1500, false);
+
+mods.thermalexpansion.Enchanter.addRecipe(<minecraft:enchanted_book>.withTag({StoredEnchantments: [{id: 6}]}), <minecraft:book>, <tconstruct:large_plate>.withTag({Material: "prismarine"}), 12000, 1500, false);
+
+mods.thermalexpansion.Enchanter.addRecipe(<minecraft:enchanted_book>.withTag({StoredEnchantments: [{id: 41}]}), <minecraft:book>, <metalchests:metal_chest>, 12000, 1500, false);
+
+mods.thermalexpansion.Enchanter.addRecipe(<minecraft:enchanted_book>.withTag({StoredEnchantments: [{id: 17}]}), <minecraft:book>, <tconstruct:soil:4>, 12000, 1500, false);
+
+mods.thermalexpansion.Enchanter.addRecipe(<minecraft:enchanted_book>.withTag({StoredEnchantments: [{id: 18}]}), <minecraft:book>, <minecraft:fermented_spider_eye>, 12000, 1500, false);
+
+mods.thermalexpansion.Enchanter.addRecipe(<minecraft:enchanted_book>.withTag({StoredEnchantments: [{id: 21}]}), <minecraft:book>, <lootbags:itemlootbag:2>, 12000, 1500, false);
