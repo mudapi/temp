@@ -1,0 +1,19 @@
+{
+	x: -5.0d,
+	y: -6.0d,
+	description: "Opens whenever you open your inventory, doesn't need to take a hotbar slot. Also it can use tierable memory cards which give it way more storage capacity than other bags.",
+	dependencies: [
+		"09586bfe"
+	],
+	tasks: [{
+		uid: "994c6562",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "enderutilities:handybag"
+		}],
+		ignore_nbt: 1b
+	}]
+}

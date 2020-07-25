@@ -1,0 +1,15 @@
+{
+	title: "Void Speed Run Challenge - If you beat A$ide$ilence's time, submit your video and replace them as the victor in the questbook!",
+	icon: "randomthings:eclipsedclock",
+	x: 0.0d,
+	y: 1.0d,
+	shape: "gear",
+	description: "31 minutes, 4 seconds.",
+	text: [
+		""
+	],
+	custom_click: "https://www.youtube.com/watch?v=MnHIja3IgM8",
+	dependencies: [
+		"7a3fc83a"
+	]
+}

@@ -1,0 +1,24 @@
+{
+	title: "SFM it's SUPER!",
+	x: -18.0d,
+	y: -3.0d,
+	text: [
+		"Super Factory Manager (Previously Steve's Factory Manager) is an extremely robust logistics system capable of moving vast amounts of liquids and items in a very controlled manner, very quickly. It's also capable of basic autocrafting.",
+		"",
+		"It can place or mine blocks, interact with redstone signals, drop/pickup items from the world and keep inventory and fluids supplied. It is an invaluable tool for compact automations of many GT processes.",
+		"Be sure to checkout the old mod spotlight from Direwolf20, it still mostly applied as the port from the older version is mostly the same."
+	],
+	tasks: [{
+		uid: "09769133",
+		type: "item",
+		items: [{
+			item: "superfactorymanager:manager"
+		}]
+	}],
+	rewards: [{
+		uid: "82db6a9b",
+		type: "item",
+		item: "superfactorymanager:cable",
+		count: 8
+	}]
+}

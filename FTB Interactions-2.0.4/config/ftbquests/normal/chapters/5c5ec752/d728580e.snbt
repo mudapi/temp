@@ -1,0 +1,18 @@
+{
+	x: -1.0d,
+	y: -1.0d,
+	text: [
+		"Machines need to be inside something, this hull will do for most of them."
+	],
+	dependencies: [
+		"e48023fb",
+		"72a630e9"
+	],
+	tasks: [{
+		uid: "6c73972f",
+		type: "item",
+		items: [{
+			item: "gregtech:machine_casing 1 10"
+		}]
+	}]
+}

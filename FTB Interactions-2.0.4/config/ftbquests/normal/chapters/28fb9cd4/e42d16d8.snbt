@@ -1,0 +1,29 @@
+{
+	x: 0.0d,
+	y: 1.5d,
+	text: [
+		"Deep beneath the surface you'll find long ago fossilized crystals of starlight. These raw rock crystals have a unique property to focus and control starlight. To find them you'll want to put the resonating wand in your hand or offhand and look across",
+		"the surface at night. You will see faint sparkles indicating where you should dig down to find the ores. While at near bedrock there is a similar effect you can see from very low. Using fortune tools to mine these is highly recommended."
+	],
+	dependencies: [
+		"de2a21ac"
+	],
+	tasks: [{
+		uid: "267386ed",
+		type: "item",
+		items: [{
+			item: "astralsorcery:blockcustomore"
+		}]
+	}],
+	rewards: [{
+		uid: "16818b1a",
+		type: "item",
+		item: "minecraft:dye 1 4",
+		count: 8
+	},
+	{
+		uid: "e95a22e7",
+		type: "xp_levels",
+		xp_levels: 2
+	}]
+}

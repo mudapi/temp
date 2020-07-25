@@ -1,0 +1,29 @@
+{
+	title: "Fluorine",
+	icon: {
+		id: "gregtech:meta_item_1",
+		tag: {
+			Fluid: {
+				FluidName: "fluorine",
+				Amount: 1000
+			}
+		},
+		Damage: 32762s
+	},
+	x: -6.0d,
+	y: -4.0d,
+	description: "Can be obtained by electrolyzing many different salts, primarily lepidolite. Can be synthesized renewably from biotite dust. ",
+	text: [
+		"You can also create a fluorine chicken, chickens really do solve everything don't they. May not be suitable for brushing."
+	],
+	tasks: [{
+		uid: "15662f0d",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "b5c6f441",
+		type: "item",
+		item: "gregtech:meta_item_1 1 2250",
+		count: 22
+	}]
+}

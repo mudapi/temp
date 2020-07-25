@@ -1,0 +1,30 @@
+{
+	title: "30-Day Free Trial",
+	x: -1.0d,
+	y: 0.5d,
+	text: [
+		"Trials are the gateway into deep Botania magic, Glitch Hearts can be further processed into Glitch Ingots used to make a Runic Altar and Glitch Armor."
+	],
+	dependencies: [
+		"cbbc96a7"
+	],
+	tasks: [{
+		uid: "849803a5",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "deepmoblearning:trial_key"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "c7450198",
+		type: "item",
+		items: [{
+			item: "deepmoblearning:trial_keystone"
+		}]
+	}]
+}

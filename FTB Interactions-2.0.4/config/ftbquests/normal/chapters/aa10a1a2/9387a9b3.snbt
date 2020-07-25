@@ -1,0 +1,27 @@
+{
+	title: "now you see why they call it black (into) gold.",
+	x: -10.5d,
+	y: 1.0d,
+	text: [
+		"MV mix those 2 fuels in the correct ratio and you will have yourself true Diesel fuel."
+	],
+	dependencies: [
+		"9063ed56"
+	],
+	tasks: [{
+		uid: "3e102b97",
+		type: "item",
+		items: [{
+			id: "gregtech:meta_item_1",
+			tag: {
+				Fluid: {
+					FluidName: "fuel",
+					Amount: 1000
+				}
+			},
+			Damage: 32762s
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

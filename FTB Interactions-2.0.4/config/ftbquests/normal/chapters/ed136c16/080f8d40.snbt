@@ -1,0 +1,26 @@
+{
+	title: "Powering Up",
+	x: -1.5d,
+	y: 2.0d,
+	text: [
+		"Cyberware modifications require power, so you must have an internal power source. After installing the capacitor, stand on the charger and become energized.",
+		"Marrow batteries are also a good option for early energy."
+	],
+	dependencies: [
+		"4a664dce"
+	],
+	tasks: [{
+		uid: "7786fdd5",
+		type: "item",
+		items: [{
+			item: "cyberware:charger"
+		}]
+	},
+	{
+		uid: "900ddf51",
+		type: "item",
+		items: [{
+			item: "cyberware:dense_battery"
+		}]
+	}]
+}

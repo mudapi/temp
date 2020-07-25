@@ -1,0 +1,19 @@
+{
+	title: "Empowering, doesn't that sound promissing.",
+	x: -10.5d,
+	y: 3.5d,
+	text: [
+		"In a HV chemical reactor you can combine the best of both worlds from the stars to rock bottom into your canola."
+	],
+	dependencies: [
+		"81146e1b"
+	],
+	tasks: [{
+		uid: "f2ce40a0",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:item_misc 1 24"
+		}],
+		count: 64L
+	}]
+}

@@ -1,0 +1,24 @@
+{
+	title: "32x your ores",
+	x: -16.0d,
+	y: -0.5d,
+	text: [
+		"No, I wont ask you for a full bucket of UU-Matter to complete this quest.",
+		"The final step in the interactions custom processing chain is using UUmatter in an autoclave with your crystals to produce large amounts of ore clusters. "
+	],
+	dependencies: [
+		"57ca62b6"
+	],
+	tasks: [{
+		uid: "b75b427a",
+		type: "item",
+		items: [{
+			item: "contenttweaker:iron_ore_clump"
+		}]
+	}],
+	rewards: [{
+		uid: "4764f47e",
+		type: "item",
+		item: "projecte:condenser_mk2"
+	}]
+}

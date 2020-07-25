@@ -1,0 +1,20 @@
+{
+	title: "Starlight StarBright, wont you autocraft for me tonight...",
+	x: -6.5d,
+	y: 0.0d,
+	text: [
+		"To get started in AE Autocrafting you'll need skystone from the orbital miner, stellar alloy made from moon materials and finally nether star plates from killing withers."
+	],
+	tasks: [{
+		uid: "4b7671cb",
+		type: "item",
+		items: [{
+			item: "minecraft:nether_star"
+		}]
+	}],
+	rewards: [{
+		uid: "d116083e",
+		type: "item",
+		item: "gregtech:meta_item_1 1 12331"
+	}]
+}

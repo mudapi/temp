@@ -1,0 +1,35 @@
+{
+	title: "Sustainable steel without the \"su\"",
+	x: -9.0d,
+	y: 4.0d,
+	shape: "square",
+	description: "If you are new to GT, HV is when most players start to really build out their infrastructure, Chances are you will be using more stainless steel for your processing chains than any other metal.",
+	dependencies: [
+		"ace65682"
+	],
+	tasks: [{
+		uid: "7c5d7dcd",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 10183"
+		}]
+	},
+	{
+		uid: "eb944d1b",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 503"
+		}]
+	}],
+	rewards: [{
+		uid: "c9de3e24",
+		type: "item",
+		item: "gregtech:meta_item_1 1 2039",
+		count: 8
+	},
+	{
+		uid: "65dae228",
+		type: "item",
+		item: "harvestcraft:friedchickenitem"
+	}]
+}

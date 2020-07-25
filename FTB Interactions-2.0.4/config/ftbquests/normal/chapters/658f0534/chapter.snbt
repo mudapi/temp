@@ -1,0 +1,10 @@
+{
+	title: "Metallurgy",
+	icon: "avaritia:resource 1 6",
+	description: [
+		"This tab contains information on ore multiplication and how to navigate some of the metal processing in the pack."
+	],
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

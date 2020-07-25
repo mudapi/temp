@@ -1,0 +1,35 @@
+{
+	title: "Naphtha",
+	icon: {
+		id: "gregtech:meta_item_1",
+		tag: {
+			Fluid: {
+				FluidName: "steamcracked_naphtha",
+				Amount: 1000
+			}
+		},
+		Damage: 32762s
+	},
+	x: -8.5d,
+	y: -5.0d,
+	text: [
+		"Hydrogen and sulfuric naptha will get you purified naptha, this stuff is a fuel on its own but has a much better use..."
+	],
+	dependencies: [
+		"4be04c93"
+	],
+	tasks: [{
+		uid: "4c6326ee",
+		type: "checkmark",
+		icon: {
+			id: "gregtech:meta_item_1",
+			tag: {
+				Fluid: {
+					FluidName: "naphtha",
+					Amount: 1000
+				}
+			},
+			Damage: 32762s
+		}
+	}]
+}

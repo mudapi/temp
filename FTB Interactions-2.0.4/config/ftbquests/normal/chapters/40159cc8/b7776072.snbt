@@ -1,0 +1,101 @@
+{
+	title: "\"Live long and prosper!\"",
+	x: 1.0d,
+	y: -18.5d,
+	description: "In order to survive without an atmosphere you'll need protective space gear and oxygen. After crafting the basic suit you'll need to upgrade it with the work table, air tanks in the chest as the most important as well as any of the optional modules.",
+	text: [
+		"Be sure to fill your Oxygen tanks with Gregtech Oxygen",
+		"Instead of a space suit you can optionally use an airtight seal enchantment on your gear, this provides a small tank built in, you cannot add more or upgrade so you're trading air time for more protection but worth doing. "
+	],
+	dependencies: [
+		"425146df"
+	],
+	tasks: [{
+		uid: "8ac46537",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:suitworkstation"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "f8ea46d8",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "advancedrocketry:spacehelmet"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "43e79be0",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "advancedrocketry:spaceboots"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "7253d4ce",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "advancedrocketry:spacechestplate"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "62ca0375",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "advancedrocketry:pressuretank",
+			Damage: 2s
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "c357cb49",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "advancedrocketry:spaceleggings"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "48270b23",
+		type: "item",
+		item: {
+			id: "minecraft:enchanted_book",
+			tag: {
+				StoredEnchantments: [{
+					lvl: 1,
+					id: 27
+				}]
+			}
+		}
+	},
+	{
+		uid: "2727fc5e",
+		type: "item",
+		item: "harvestcraft:koreandinneritem"
+	}]
+}

@@ -1,0 +1,17 @@
+{
+	x: 0.0d,
+	y: 1.5d,
+	text: [
+		"Add a little gold, lapis, and water and you might have something here."
+	],
+	dependencies: [
+		"9c1e319b"
+	],
+	tasks: [{
+		uid: "b2124ac4",
+		type: "item",
+		items: [{
+			item: "deepmoblearning:glitch_fragment"
+		}]
+	}]
+}

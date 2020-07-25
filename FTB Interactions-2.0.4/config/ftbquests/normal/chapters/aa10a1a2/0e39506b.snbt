@@ -1,0 +1,25 @@
+{
+	title: "Time to start moving those items to where they need to go!",
+	icon: "industrialforegoing:conveyor",
+	x: -10.5d,
+	y: -4.0d,
+	text: [
+		"Conveyors are a very early game method of moving both items and fluids. You can prevent pickup by right clicking plastic onto them and speed them up with glowstone.",
+		"",
+		"It is suggested you migrate to better piping options when you can though, Mekanism pipes are probably your next best option, especially for liquid transport."
+	],
+	dependencies: [
+		"51878972"
+	],
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "9cb859bf",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "f23b6052",
+		type: "item",
+		item: "industrialforegoing:conveyor",
+		count: 8
+	}]
+}

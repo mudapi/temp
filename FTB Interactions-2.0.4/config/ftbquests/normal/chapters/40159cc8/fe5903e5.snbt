@@ -1,0 +1,17 @@
+{
+	x: 7.0d,
+	y: -10.0d,
+	text: [
+		"At the lowest depths of this world there seems to be strange sand with unusual properties... it may have... other uses..."
+	],
+	dependencies: [
+		"97e0a29a"
+	],
+	tasks: [{
+		uid: "877d03ef",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:vitrifiedsand"
+		}]
+	}]
+}

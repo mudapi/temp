@@ -1,0 +1,27 @@
+{
+	title: "Other Power Options",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "botania:cosmetic",
+		Damage: 31s
+	},
+	x: -2.5d,
+	y: 2.0d,
+	text: [
+		"Other options for inter power include:",
+		"- Cardiovascular Coupler",
+		"- Solarskin",
+		"- Metabolic Generator"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"4a664dce"
+	],
+	tasks: [{
+		uid: "d7f2e087",
+		type: "checkmark",
+		title: "Other power options"
+	}]
+}

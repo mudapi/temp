@@ -1,0 +1,54 @@
+{
+	title: "Garbed in Chaos",
+	x: 1.0d,
+	y: 6.0d,
+	text: [
+		"The top tier altar allows the creation of power armor from Astral Sorcery called the Mantle of the Stars. Different variants exist depending on how you attune them and will great the wearer strong effects.",
+		"",
+		"The other benefit is complete protection from chaos damage, which can be very useful in fighting a powerful enemy that relies on the power of chaos to destroy you."
+	],
+	dependencies: [
+		"645e1204"
+	],
+	tasks: [{
+		uid: "f90f5c4c",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "astralsorcery:itemcape",
+			tag: {
+				astralsorcery: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7ac3484f",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "astralsorcery:iteminfusedglass",
+			tag: {
+				astralsorcery: {}
+			}
+		}
+	},
+	{
+		uid: "872f376d",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "astralsorcery:iteminfusedglass",
+			tag: {
+				astralsorcery: {}
+			}
+		}
+	}]
+}

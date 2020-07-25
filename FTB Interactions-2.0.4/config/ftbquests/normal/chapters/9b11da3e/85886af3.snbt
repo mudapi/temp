@@ -1,0 +1,18 @@
+{
+	icon: "dmonsters:mobspawneritem_mutantsteve",
+	x: -3.0d,
+	y: -9.0d,
+	description: "After entering the Bronze Age, Mutant Steves will rarely spawn. These zombies hit more and have the ability to grief with the same hardness of cobblestone or below.",
+	text: [
+		"WARNING: Mutant steve is currently very aggressive with block breaking and can even break your grave. This should change in a future version but for now, be careful."
+	],
+	dependencies: [
+		"2e6c74d5"
+	],
+	tasks: [{
+		uid: "1f8caf94",
+		type: "kill",
+		entity: "dmonsters:mutantsteve",
+		value: 1L
+	}]
+}

@@ -1,0 +1,20 @@
+{
+	x: -5.0d,
+	y: 4.0d,
+	shape: "gear",
+	text: [
+		"The chance a 'special' type of will crystal will spawn is pretty low, if you want guaranteed succes check the quest to the right."
+	],
+	tasks: [{
+		uid: "3e30dd8f",
+		type: "checkmark",
+		title: "RNG or work for 100% success.",
+		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "botania:cosmetic",
+			Damage: 31s
+		}
+	}]
+}

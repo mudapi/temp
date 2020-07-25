@@ -1,0 +1,19 @@
+{
+	title: "Alien Tungsten Ores",
+	x: -2.0d,
+	y: 0.5d,
+	text: [
+		"Besides electrolyzing end stone, once you've actually made it to the end you can mine tungsten ore directly to more easily process large amounts for all your EV+ Tier Needs."
+	],
+	tasks: [{
+		uid: "8aaa310c",
+		type: "item",
+		title: "Tungsten Ore",
+		items: [{
+			item: "gregtech:ore_tungstate_0 1 7"
+		},
+		{
+			item: "gregtech:ore_scheelite_0"
+		}]
+	}]
+}

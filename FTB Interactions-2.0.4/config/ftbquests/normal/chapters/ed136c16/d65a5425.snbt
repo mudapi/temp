@@ -1,0 +1,52 @@
+{
+	title: "The Dire Gadgets",
+	x: -14.5d,
+	y: -1.0d,
+	text: [
+		"Building gadgets offers a variety of utility items to aid in building, importing/exporting structures and removing structures.",
+		"Make sure to checkout the linked mod spotlight by the man himself DW20.",
+		"HINT: You may be able to find some of the multiblocks in this pack as schematics to save you some building time!",
+		"",
+		"The chargepad reward will charge any rf items in your hotbar when provided RF power."
+	],
+	dependencies: [
+		"6672ed55"
+	],
+	tasks: [{
+		uid: "c496eaed",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "buildinggadgets:buildingtool",
+			tag: {
+				blockstate: {
+					Name: "minecraft:air"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "274fa174",
+		type: "item",
+		item: "buildinggadgets:constructionblockpowder",
+		count: 16
+	},
+	{
+		uid: "ecbe9b35",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "mekanism:machineblock",
+			tag: {
+				mekData: {}
+			},
+			Damage: 14s
+		}
+	}]
+}

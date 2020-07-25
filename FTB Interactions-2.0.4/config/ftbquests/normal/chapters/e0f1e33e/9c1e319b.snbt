@@ -1,0 +1,17 @@
+{
+	x: 1.0d,
+	y: 0.5d,
+	text: [
+		"Try smacking it on obsidian."
+	],
+	dependencies: [
+		"6d257ec8"
+	],
+	tasks: [{
+		uid: "bb136d37",
+		type: "item",
+		items: [{
+			item: "deepmoblearning:glitch_heart"
+		}]
+	}]
+}

@@ -1,0 +1,25 @@
+{
+	title: "The Purest of them all",
+	x: -0.5d,
+	y: -1.0d,
+	description: "With this pure Daisy, Princess Peach will be jealous she hasnt been named after a flower",
+	dependencies: [
+		"8daf4c09"
+	],
+	tasks: [{
+		uid: "6d7b9db1",
+		type: "item",
+		items: [{
+			id: "botania:specialflower",
+			tag: {
+				type: "puredaisy"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "f0a94ce1",
+		type: "item",
+		item: "botania:petal",
+		count: 2
+	}]
+}

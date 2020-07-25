@@ -1,0 +1,56 @@
+{
+	title: "Skywalker",
+	x: -4.0d,
+	y: 7.0d,
+	description: "With the power of the attunement altar you will be able to infuse yourself with the very power of the stars. Create the altar and set out the pattern of a constellation of your choice to attune when the stars are in the sky.",
+	dependencies: [
+		"1d37b267"
+	],
+	tasks: [{
+		uid: "6ce489cd",
+		type: "item",
+		items: [{
+			item: "astralsorcery:blockattunementaltar"
+		}]
+	}],
+	rewards: [{
+		uid: "d4773612",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "astralsorcery:itemconstellationpaper",
+			tag: {
+				astralsorcery: {
+					constellationName: "astralsorcery.constellation.evorsio"
+				}
+			}
+		}
+	},
+	{
+		uid: "0127b69f",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "astralsorcery:itemconstellationpaper",
+			tag: {
+				astralsorcery: {
+					constellationName: "astralsorcery.constellation.discidia"
+				}
+			}
+		}
+	},
+	{
+		uid: "86cbce51",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "extrautils2:luxsaber"
+		}
+	}]
+}

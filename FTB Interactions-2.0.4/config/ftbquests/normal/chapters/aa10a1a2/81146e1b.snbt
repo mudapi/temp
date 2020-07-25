@@ -1,0 +1,16 @@
+{
+	x: -13.0d,
+	y: 3.5d,
+	shape: "square",
+	text: [
+		"You have reached HV and are now capable of some improvents of your Diesel, both production and improved end-produce"
+	],
+	dependencies: [
+		"d94602f8"
+	],
+	tasks: [{
+		uid: "5a8f80e5",
+		type: "checkmark",
+		title: "Improving your Diesel"
+	}]
+}

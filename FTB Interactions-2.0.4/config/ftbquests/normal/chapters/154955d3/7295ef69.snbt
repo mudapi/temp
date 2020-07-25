@@ -1,0 +1,25 @@
+{
+	title: "Twerk to the left, sprint to the right, criss-cross!",
+	icon: "minecraft:sapling",
+	x: 0.0d,
+	y: -2.0d,
+	description: "Everybody clap your hands.",
+	text: [
+		"Grow trees faster by twerking and sprinting around them. Roleplay as a druid and whisper sweet nothings into its ear."
+	],
+	dependencies: [
+		"e7d70489"
+	],
+	tasks: [{
+		uid: "ea3a82c7",
+		type: "item",
+		items: [{
+			item: "minecraft:sapling"
+		}]
+	}],
+	rewards: [{
+		uid: "4c13d830",
+		type: "item",
+		item: "harvestcraft:breadedporkchopitem"
+	}]
+}

@@ -1,0 +1,25 @@
+{
+	title: "Not Quite Diamonds",
+	x: -3.0d,
+	y: 0.5d,
+	shape: "rsquare",
+	description: "Aquamarines are a key ingredient in several magical processes. You may not have the technology to refine them from sapphire yet, but you possibly find some in ancient temples scattered across the world.",
+	tasks: [{
+		uid: "e76ca271",
+		type: "item",
+		items: [{
+			item: "astralsorcery:itemcraftingcomponent"
+		}]
+	}],
+	rewards: [{
+		uid: "463e04f9",
+		type: "item",
+		item: "astralsorcery:itemcraftingcomponent",
+		count: 2
+	},
+	{
+		uid: "85f87fbc",
+		type: "item",
+		item: "harvestcraft:blueberrysmoothieitem"
+	}]
+}

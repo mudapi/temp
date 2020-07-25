@@ -1,0 +1,54 @@
+{
+	title: "Spacey (Not Kevin)",
+	x: -1.0d,
+	y: -18.0d,
+	description: "To create a space station you'll need a space station builder on your launch pad, you then construct the station you want, allow it scan with a satellite builder in the upper left UI and an unprogrammed station chip in the right",
+	text: [
+		"Place the builder on top of the Power input for this small little Multiblock to function",
+		"You can build a small station and build it out when your in space, But you can also build it fully stocked with say a celestial gateway."
+	],
+	dependencies: [
+		"f8f90da4",
+		"05f17487"
+	],
+	tasks: [{
+		uid: "c38c3f07",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:stationbuilder"
+		}]
+	},
+	{
+		uid: "196a8b32",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:loader 1 1"
+		}]
+	},
+	{
+		uid: "a8992f95",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:spacestationchip"
+		}]
+	},
+	{
+		uid: "36d307cf",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:satellitebuilder"
+		}]
+	},
+	{
+		uid: "12a8c319",
+		type: "item",
+		items: [{
+			item: "libvulpes:forgepowerinput"
+		}]
+	}],
+	rewards: [{
+		uid: "8574d4a3",
+		type: "item",
+		item: "advancedrocketry:spacestationchip"
+	}]
+}

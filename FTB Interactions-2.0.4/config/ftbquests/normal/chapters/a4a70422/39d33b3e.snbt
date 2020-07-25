@@ -1,0 +1,21 @@
+{
+	x: -9.0d,
+	y: 0.0d,
+	text: [
+		"A cable used to transmit data and energy between devices in an ME Network, it is capable of transmitting 8 channels simultaneously. There are also 16 coloured Glass Cables available to craft with the appropriate dye. ",
+		"There are also 16 coloured Glass Cables available to craft with the appropriate dye. The coloured Cables allows contact with other cables without sharing the signal or connecting, except with the same colour. "
+	],
+	tasks: [{
+		uid: "afb28886",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:part 1 16"
+		}]
+	}],
+	rewards: [{
+		uid: "2c026b42",
+		type: "item",
+		item: "appliedenergistics2:part 1 56",
+		count: 16
+	}]
+}

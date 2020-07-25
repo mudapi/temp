@@ -1,0 +1,21 @@
+{
+	title: "Where is the precioussssSes?",
+	x: -13.0d,
+	y: -11.0d,
+	description: "Scanner for specific blocks can help pinpoin the ores you're really after once you've obtained at least 1 block. Additionally the block scanner can help locate dungeons by searching for chests!",
+	dependencies: [
+		"70a2cc40"
+	],
+	tasks: [{
+		uid: "0f26e660",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "scannable:module_block"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

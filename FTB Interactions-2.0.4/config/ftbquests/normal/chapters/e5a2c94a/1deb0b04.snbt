@@ -1,0 +1,20 @@
+{
+	title: "It's Dark and Hell is Hot",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "botania:cosmetic",
+		Damage: 31s
+	},
+	x: -3.0d,
+	y: -1.0d,
+	description: "You'd think that with all the fire and lava the Nether would have great lighting, and thematically it does! Functionally though, make sure to bring some Night Vision.",
+	dependencies: [
+		"f92a387e"
+	],
+	tasks: [{
+		uid: "3bb11a6b",
+		type: "checkmark"
+	}]
+}

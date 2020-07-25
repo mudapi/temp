@@ -1,0 +1,14 @@
+{
+	title: "Space Raced!",
+	icon: "advancedrocketry:stationbuilder",
+	x: 5.0d,
+	y: -15.0d,
+	description: "Now that you've made it to space you unlock the final tiering of mob staging. Work towards an orbital miner to obtain skystone as well as a Warp drive to explore other worlds. ",
+	dependencies: [
+		"237309c2"
+	],
+	tasks: [{
+		uid: "a3eeac18",
+		type: "checkmark"
+	}]
+}

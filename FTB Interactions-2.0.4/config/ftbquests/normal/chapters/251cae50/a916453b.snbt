@@ -1,0 +1,14 @@
+{
+	title: "LV Age",
+	icon: "gregtech:machine 1 501",
+	x: -9.0d,
+	y: -4.0d,
+	description: "Items in this row are used in most LV recipes.",
+	dependencies: [
+		"6672ed55"
+	],
+	tasks: [{
+		uid: "99523cf2",
+		type: "checkmark"
+	}]
+}

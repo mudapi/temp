@@ -1,0 +1,10 @@
+{
+	title: "La Fin",
+	icon: "minecraft:end_stone",
+	description: [
+		"If you don't know what this tab is for your pattern recognition could use some work."
+	],
+	always_invisible: false,
+	group: 1865916608,
+	default_quest_shape: ""
+}

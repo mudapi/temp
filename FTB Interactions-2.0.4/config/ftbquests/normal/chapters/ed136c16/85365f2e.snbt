@@ -1,0 +1,33 @@
+{
+	title: "Enchantment Minimum Level Requirements",
+	x: -1.5d,
+	y: -6.0d,
+	description: "Details minimum level adjustments specific to this pack",
+	text: [
+		"Level 10: Life Mending, Sweeping Edge, Airtight Seal",
+		"Level 12: Venom",
+		"Level 20: Vorpal, Quickdraw, Repellent, Wither",
+		"Level 30: Soul Bound",
+		"Level 32: Scavenger, Reaper",
+		"Level 40: Multishot, True Infinity",
+		"Level 120: Astral Sorcery Smelting",
+		"Level 127: Splitting"
+	],
+	dependencies: [
+		"bcc51b66"
+	],
+	tasks: [{
+		uid: "a083b575",
+		type: "checkmark",
+		title: "Min Level Adjustments:",
+		icon: {
+			id: "minecraft:enchanted_book",
+			tag: {
+				StoredEnchantments: [{
+					lvl: 1,
+					id: 0
+				}]
+			}
+		}
+	}]
+}

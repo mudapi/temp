@@ -1,0 +1,20 @@
+{
+	title: "Resistance is Rutile",
+	x: 2.0d,
+	y: 2.0d,
+	shape: "pentagon",
+	text: [
+		"Once you have electrolyzed enough bauxite you'll need chlorine, carbon dioxide and magnesium. You turn this into titanium tetrachloride which can then be run through a blast furnace to produce actual titanium.",
+		"This final step will take you into the HV Metallurgy progression tab."
+	],
+	dependencies: [
+		"2b4c7bc4"
+	],
+	tasks: [{
+		uid: "728a51da",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 2122"
+		}]
+	}]
+}

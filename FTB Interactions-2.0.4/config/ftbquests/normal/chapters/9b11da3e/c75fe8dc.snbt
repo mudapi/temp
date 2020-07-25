@@ -1,0 +1,39 @@
+{
+	title: "Stibnite for Life",
+	x: -7.0d,
+	y: -2.0d,
+	description: "Spawns in all biomes, including jungles but very rare. Most commonly found in the nether.",
+	text: [
+		"This ore is fairly rare in overworld and tends to spawn at high elevations. It is suggested you look in the nether."
+	],
+	dependencies: [
+		"78d3f804"
+	],
+	tasks: [{
+		uid: "0cab4d57",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_tetrahedrite_0"
+		}]
+	},
+	{
+		uid: "aaab410b",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_stibnite_0"
+		}]
+	},
+	{
+		uid: "743cc096",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_copper_0"
+		}]
+	}],
+	rewards: [{
+		uid: "992cf143",
+		type: "item",
+		item: "gregtech:meta_item_1 1 2185",
+		count: 4
+	}]
+}

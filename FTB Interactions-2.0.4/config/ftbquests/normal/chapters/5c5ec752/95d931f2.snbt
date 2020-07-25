@@ -1,0 +1,31 @@
+{
+	title: "Getting Started with copper",
+	x: -3.0d,
+	y: -5.0d,
+	text: [
+		"The first step into proper ore processing is obtaining from copper. It is suggested you use a GT hammer or a tinker's pickaxe for this. Once you have some variant of copper ore, melt it in the porcelain melter and cast it to ingot form.",
+		"From here you'll be able to gather the needed materials to make a tinker's seared furnace and produce some iron to make a squeezer."
+	],
+	dependencies: [
+		"d6801307"
+	],
+	tasks: [{
+		uid: "deec492b",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 12018"
+		}],
+		count: 2L
+	}],
+	rewards: [{
+		uid: "795fa5bb",
+		type: "item",
+		item: "minecraft:slime",
+		count: 2
+	},
+	{
+		uid: "21ce5830",
+		type: "item",
+		item: "harvestcraft:chimichangaitem"
+	}]
+}

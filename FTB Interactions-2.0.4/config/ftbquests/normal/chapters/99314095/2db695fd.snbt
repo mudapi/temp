@@ -1,0 +1,35 @@
+{
+	title: "Check the chemicals quest-tab, \"All the good titles Argon\".",
+	x: -1.0d,
+	y: 0.0d,
+	description: "Although electric blast furnaces are your main boo, this is your side-rig. There will be many chemicals or items combined in this machine, but at LV you can get away with one.",
+	text: [
+		"You're gonna need a bunch of these for each tier in chemistry."
+	],
+	dependencies: [
+		"6672ed55"
+	],
+	tasks: [{
+		uid: "d9587647",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 190"
+		}]
+	}],
+	rewards: [{
+		uid: "9b37b245",
+		type: "item",
+		item: "minecraft:ender_eye"
+	},
+	{
+		uid: "e2125f6d",
+		type: "item",
+		item: "gregtech:meta_item_1 1 32766"
+	},
+	{
+		uid: "0120d1ec",
+		type: "item",
+		item: "gregtech:machine 1 190",
+		count: 2
+	}]
+}

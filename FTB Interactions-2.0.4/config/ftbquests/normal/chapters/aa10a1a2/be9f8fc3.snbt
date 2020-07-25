@@ -1,0 +1,45 @@
+{
+	x: -4.0d,
+	y: -0.5d,
+	shape: "rsquare",
+	description: "Diesel may not be as early as steam, but it is a recommended option after going past MV.",
+	text: [
+		"Make sure to check uses in JEI to see what options there are for fuels for each generator type you use. You may find some unique fuels you hadnt considered as well.",
+		"Now that you have diesel you can run it in your boilers to make steam or in diesel generators for on demand power that only consume when they are in use."
+	],
+	dependencies: [
+		"b9e859bd"
+	],
+	tasks: [{
+		uid: "990af63f",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 480"
+		},
+		{
+			item: "gregtech:machine 1 481"
+		},
+		{
+			item: "gregtech:machine 1 482"
+		}]
+	}],
+	rewards: [{
+		uid: "23e88db5",
+		type: "item",
+		item: "harvestcraft:delightedmealitem"
+	},
+	{
+		uid: "d12231eb",
+		type: "item",
+		item: {
+			id: "gregtech:meta_item_1",
+			tag: {
+				Fluid: {
+					FluidName: "oil",
+					Amount: 64000
+				}
+			},
+			Damage: 32405s
+		}
+	}]
+}

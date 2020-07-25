@@ -1,0 +1,46 @@
+{
+	x: 5.5d,
+	y: 0.5d,
+	shape: "gear",
+	text: [
+		"The ritual diviner will let you select a ritual by shift+mouse scroll and then preview the shape of the ritual and shift right click on the master ritual stone with ritual stones in your inventory to automatically build rituals.",
+		"",
+		"Higher tier rituals that require dusk runes will require the dusk ritual diviner and awakened activation crystal."
+	],
+	dependencies: [
+		"a1389ac0",
+		"fda10774",
+		"1de75dbc"
+	],
+	tasks: [{
+		uid: "ad93edf9",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "bloodmagic:ritual_diviner"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "dede47be",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "bloodmagic:ritual_dismantler"
+		}
+	},
+	{
+		uid: "ceb4185c",
+		type: "item",
+		item: "animus:altardiviner"
+	},
+	{
+		uid: "33028c04",
+		type: "xp_levels",
+		xp_levels: 5
+	}]
+}

@@ -1,0 +1,19 @@
+{
+	title: "Moon Rocks",
+	x: -0.5d,
+	y: 1.5d,
+	description: "To start the tungsten process, you'll first need to get some moon turf and transmute it to End Stone via Starlight.",
+	dependencies: [
+		"fe50d67e"
+	],
+	tasks: [{
+		uid: "621819a0",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:moonturf"
+		},
+		{
+			item: "advancedrocketry:moonturf_dark"
+		}]
+	}]
+}

@@ -1,0 +1,22 @@
+{
+	title: "Time to upgrade your EBF to HV power",
+	x: -10.5d,
+	y: 4.5d,
+	text: [
+		"HV power you EBF to make the materials you need to progress into HV"
+	],
+	dependencies: [
+		"81146e1b"
+	],
+	tasks: [{
+		uid: "3720501b",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 724"
+		},
+		{
+			item: "gregtech:machine 1 734"
+		}],
+		count: 2L
+	}]
+}

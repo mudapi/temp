@@ -1,0 +1,15 @@
+{
+	x: 4.5d,
+	y: 3.0d,
+	description: "You will need to sift for flawless diamonds or loot a Gem Refiner schematic. ",
+	dependencies: [
+		"1b10cc2d"
+	],
+	tasks: [{
+		uid: "cd8cc18d",
+		type: "item",
+		items: [{
+			item: "botania:manaresource 1 2"
+		}]
+	}]
+}

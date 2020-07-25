@@ -1,0 +1,52 @@
+{
+	title: "Rage against the Machine",
+	x: -8.0d,
+	y: -2.0d,
+	text: [
+		"These compact machines are neat but they can be so confining, there MUST be some way to escape! Find a magical means of breaching the barrier preventing your exit and set your creativity free."
+	],
+	dependencies: [
+		"c4d06ee3"
+	],
+	tasks: [{
+		uid: "18944509",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "cyclicmagic:tool_elevate"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "95b609c5",
+		type: "item",
+		item: "enderio:block_travel_anchor",
+		count: 2
+	},
+	{
+		uid: "a873890e",
+		type: "item",
+		item: {
+			id: "astralsorcery:blocklens",
+			tag: {
+				astralsorcery: {
+					crystalProperties: {
+						collectiveCapability: 100,
+						size: 900,
+						fract: 0,
+						purity: 100,
+						sizeOverride: -1
+					}
+				}
+			}
+		}
+	},
+	{
+		uid: "d1b28865",
+		type: "item",
+		item: "astralsorcery:itemcoloredlens 1 6"
+	}]
+}

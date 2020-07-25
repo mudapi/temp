@@ -1,0 +1,53 @@
+{
+	title: "This was una Void able.",
+	icon: {
+		id: "simple_trophies:trophy",
+		tag: {
+			TrophyColorGreen: 49,
+			TrophyVariant: "classic",
+			TrophyItem: {
+				id: "sonarcore:stablestoneblackrimmed_lightblue",
+				Count: 1,
+				Damage: 0
+			},
+			TrophyColorBlue: 146,
+			TrophyName: "Terra Nova",
+			TrophyColorRed: 37,
+			TrophyEarnedAt: 1553222290
+		}
+	},
+	x: -1.0d,
+	y: 2.0d,
+	shape: "square",
+	description: "Is it day yet?",
+	text: [
+		"Creating a portal into the overworld will grant you access to an entire new world of progress, ores, rare materials, magic and of course... new threats."
+	],
+	tasks: [{
+		uid: "049d4774",
+		type: "item",
+		items: [{
+			item: "sonarcore:stablestoneblackrimmed_lightblue"
+		}]
+	}],
+	rewards: [{
+		uid: "ffb5c294",
+		type: "item",
+		team_reward: true,
+		item: {
+			id: "simple_trophies:trophy",
+			tag: {
+				TrophyColorGreen: 49,
+				TrophyVariant: "classic",
+				TrophyItem: {
+					id: "sonarcore:stablestoneblackrimmed_lightblue",
+					Count: 1,
+					Damage: 0
+				},
+				TrophyColorBlue: 146,
+				TrophyName: "Terra Nova",
+				TrophyColorRed: 37
+			}
+		}
+	}]
+}

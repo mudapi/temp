@@ -1,0 +1,15 @@
+{
+	title: "Environmental and Server friendly, Chickens FTW!",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "roost:catcher"
+	},
+	description: [
+		"The combination of magic and GregTech has sprouted a new breed of chicken for all your automation needs!"
+	],
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

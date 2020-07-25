@@ -1,0 +1,21 @@
+{
+	title: "store those logs and charcoal",
+	icon: "enderutilities:barrel",
+	x: -10.5d,
+	y: -5.0d,
+	text: [
+		"You will need to store those logs somewhere.",
+		"also make sure you have overflow protection ( remember those rewarded void upgrades? )"
+	],
+	dependencies: [
+		"187aa945"
+	],
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "9677e39d",
+		type: "item",
+		items: [{
+			item: "enderutilities:barrel"
+		}]
+	}]
+}

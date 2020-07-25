@@ -1,0 +1,24 @@
+{
+	title: "3x3 Crafting in Inventory?",
+	x: -0.5d,
+	y: 4.0d,
+	shape: "circle",
+	text: [
+		"As the title suggests this upgrade allows you to craft anywhere. Although it seems pointless the benifits are notable."
+	],
+	dependencies: [
+		"5633991b"
+	],
+	tasks: [{
+		uid: "23a9ce01",
+		type: "item",
+		items: [{
+			item: "cyberware:hand_upgrades"
+		}]
+	}],
+	rewards: [{
+		uid: "e85f7a1d",
+		type: "item",
+		item: "cyberware:bone_upgrades 1 2"
+	}]
+}

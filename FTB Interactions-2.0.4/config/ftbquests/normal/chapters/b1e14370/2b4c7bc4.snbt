@@ -1,0 +1,15 @@
+{
+	x: 2.0d,
+	y: 0.0d,
+	description: "Your main Rutile source early on will be as a product of Bauxite processing. Later on, you'll gain access to Ilmenite.",
+	tasks: [{
+		uid: "07149139",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 2123"
+		},
+		{
+			item: "gregtech:meta_item_1 1 2121"
+		}]
+	}]
+}

@@ -1,0 +1,15 @@
+{
+	title: "Primary Quest Chains",
+	icon: "minecraft:crafting_table",
+	disable_toast: true,
+	x: 6.0d,
+	y: -5.0d,
+	shape: "square",
+	text: [
+		"Any quest with a square icon denotes the start of a questline"
+	],
+	tasks: [{
+		uid: "00469ede",
+		type: "checkmark"
+	}]
+}

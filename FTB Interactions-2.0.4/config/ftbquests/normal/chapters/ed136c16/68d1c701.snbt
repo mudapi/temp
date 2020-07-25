@@ -1,0 +1,36 @@
+{
+	title: "I believe I can fly",
+	x: -7.0d,
+	y: 2.0d,
+	text: [
+		"The Mekanism jetpack is the earliest form of creative style fly. It will allow perfect levitation to aid in building, mining or fighting. It has slow thrust but combined with other mobility tools, can be quite versitile."
+	],
+	dependencies: [
+		"635d5fcc"
+	],
+	tasks: [{
+		uid: "75fa0277",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "mekanism:jetpack"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "ede1e4d8",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "mekanism:gastank",
+			tag: {
+				tier: 1
+			}
+		}
+	}]
+}

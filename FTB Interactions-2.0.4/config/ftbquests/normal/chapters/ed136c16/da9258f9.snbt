@@ -1,0 +1,18 @@
+{
+	title: "OUT OF AWPSI",
+	x: -13.5d,
+	y: 4.0d,
+	text: [
+		"Well one guess where this one goes.."
+	],
+	dependencies: [
+		"be691558"
+	],
+	tasks: [{
+		uid: "a0853a8d",
+		type: "item",
+		items: [{
+			item: "fluxnetworks:fluxpoint"
+		}]
+	}]
+}

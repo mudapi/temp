@@ -1,0 +1,25 @@
+{
+	x: -0.5d,
+	y: -7.0d,
+	text: [
+		"Hydrogen is a core element for chemistry. You'll need a constant supply of this and some buffered. You'll also need to distribute it to several locations so plan accordinling with an LP, Pipe or wireless system."
+	],
+	dependencies: [
+		"7f0e32a6"
+	],
+	tasks: [{
+		uid: "441bf08c",
+		type: "checkmark",
+		title: "Hydrogen: GET!",
+		icon: {
+			id: "gregtech:meta_item_1",
+			tag: {
+				Fluid: {
+					FluidName: "hydrogen",
+					Amount: 1000
+				}
+			},
+			Damage: 32762s
+		}
+	}]
+}

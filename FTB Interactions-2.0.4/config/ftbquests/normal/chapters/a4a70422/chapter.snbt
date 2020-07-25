@@ -1,0 +1,10 @@
+{
+	title: "Supply Chain Management",
+	icon: "minecraft:chest",
+	description: [
+		"For all of your logistics needs"
+	],
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

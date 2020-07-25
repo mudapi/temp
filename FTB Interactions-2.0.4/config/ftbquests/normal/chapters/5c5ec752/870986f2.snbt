@@ -1,0 +1,24 @@
+{
+	title: "Pick a machine, any machine.",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "botania:cosmetic",
+		Damage: 31s
+	},
+	x: -7.0d,
+	y: -1.0d,
+	shape: "gear",
+	description: "You can now pickaxe any machine safely. Seriously. Try it out. Go ahead. We dare you. Also machines work just fine in the rain. Go ahead, try it out, we dare you. However Thermal Expansion Drills' AoE will destroy machines,",
+	text: [
+		"This is merely a convenience feature to keep people from accidentally destroying their machines however. You will still mine up your GT machines much faster with a wrench."
+	],
+	dependencies: [
+		"499c8c07"
+	],
+	tasks: [{
+		uid: "37046739",
+		type: "checkmark"
+	}]
+}

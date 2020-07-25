@@ -1,0 +1,19 @@
+{
+	title: "Another one?",
+	x: -10.5d,
+	y: -2.0d,
+	text: [
+		"yes another one, or not your choice. You can add a menril tree to your current tree beacon, it will reduce drop of your current tree of choice tho ( will it still keep up with your coke ovens with a menril tree added ?",
+		"besides that, have you considered or already setup a second one with other tree's providing usefull drops maybe."
+	],
+	dependencies: [
+		"9063ed56"
+	],
+	tasks: [{
+		uid: "5d76fb41",
+		type: "item",
+		items: [{
+			item: "contenttweaker:menril_ore_crystal"
+		}]
+	}]
+}

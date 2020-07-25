@@ -1,0 +1,14 @@
+{
+	title: "UV Age",
+	icon: "gregtech:machine 1 508",
+	x: -9.0d,
+	y: 3.0d,
+	description: "Items in this row are used in most UV recipes.",
+	dependencies: [
+		"1207a7cd"
+	],
+	tasks: [{
+		uid: "af79277e",
+		type: "checkmark"
+	}]
+}

@@ -1,0 +1,24 @@
+{
+	title: "Community is Crucial.",
+	x: -3.0d,
+	y: -5.0d,
+	shape: "diamond",
+	text: [
+		"We work to keep this pack maintained, fixed and improved upon but we can't do it without the support of our community, that means you and others like you!",
+		"",
+		"Please make sure to submit any bug reports or ideas for improving the pack to our tracker. We also have a very active discord community in the official FTB discord #ftb-interactions channel.",
+		"",
+		"Above you'll find the link to our Tracker and to the right the Inivite link to our discord, stop by and say hello!"
+	],
+	tasks: [{
+		uid: "309a9c50",
+		type: "checkmark",
+		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "botania:cosmetic",
+			Damage: 31s
+		}
+	}]
+}

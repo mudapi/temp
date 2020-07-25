@@ -1,0 +1,25 @@
+{
+	title: "Tiny Progressions",
+	x: -2.5d,
+	y: -2.5d,
+	shape: "pentagon",
+	description: "You can smelt sapphire and green sapphire dust in the EBF to produce aluminium nuggets to get you started in the MV Age.",
+	text: [
+		"The best way to get this dust is by properly processing sapphire ores by macerating and then centrifuging the ores. If you dont mind the loss of materials however, a squeezer can get it done fast and lossy for now.",
+		"After building a blast furnace progress to the MV Tier of Metallurgy."
+	],
+	dependencies: [
+		"5c340434",
+		"3fbc06c2"
+	],
+	tasks: [{
+		uid: "053e099b",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 2117"
+		},
+		{
+			item: "gregtech:meta_item_1 1 2157"
+		}]
+	}]
+}

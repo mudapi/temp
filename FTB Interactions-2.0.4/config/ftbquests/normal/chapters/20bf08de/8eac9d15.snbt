@@ -1,0 +1,52 @@
+{
+	x: -8.0d,
+	y: -10.0d,
+	text: [
+		"The crucible is your first step into alchemy. It requires salis mundis be used on a cauldron, you then must fill it with water and put fire beneath it.",
+		"IMPORTANT: A Note about JEI - ",
+		"We have it set so you are allowed to see all recipes in jei to prepare for the changes the pack has made to recipes, you still are REQUIRED to have the appropriate research available before you will be able to craft said item however.",
+		"",
+		"For example, if you want to craft an everful urn, you can see the recipe in JEI at anytime, but you still will require the pre-requisite hedge alchemy research as shown by the thaumonomicon."
+	],
+	dependencies: [
+		"43e61bff"
+	],
+	tasks: [{
+		uid: "38e0a97d",
+		type: "item",
+		items: [{
+			item: "thaumcraft:crucible"
+		}]
+	}],
+	rewards: [{
+		uid: "2090b4ca",
+		type: "item",
+		item: "harvestcraft:meatystewitem"
+	},
+	{
+		uid: "db28591a",
+		type: "item",
+		item: "thaumcraft:nugget 1 9",
+		count: 16
+	},
+	{
+		uid: "82ed66a2",
+		type: "item",
+		item: {
+			id: "thaumcraft:phial",
+			tag: {
+				Aspects: [{
+					amount: 10,
+					key: "mortuus"
+				}]
+			},
+			Damage: 1s
+		},
+		count: 2
+	},
+	{
+		uid: "cf2d0e1d",
+		type: "command",
+		command: "/tc research @p EVERFULLURN"
+	}]
+}

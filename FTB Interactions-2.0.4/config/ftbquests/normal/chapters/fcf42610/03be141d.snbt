@@ -1,0 +1,8 @@
+{
+	title: "Tiny Piles, Big Problems. - ToAsgaard's Tiny dust automation - one of many options to deal with tiny and small dust production.",
+	icon: "gregtech:meta_item_1 1 1",
+	x: -2.5d,
+	y: -1.5d,
+	shape: "gear",
+	custom_click: "https://youtu.be/8WjiZB9rTrU?t=1973"
+}

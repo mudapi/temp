@@ -1,0 +1,21 @@
+{
+	x: -19.0d,
+	y: 4.0d,
+	description: "Diamonds not included.",
+	text: [
+		"Like the vanilla enderchest only with channels, lock it with a diamond on the latch.",
+		"(You can also pipe in/out of this one)"
+	],
+	tasks: [{
+		uid: "a89f0396",
+		type: "item",
+		items: [{
+			item: "enderstorage:ender_storage"
+		}]
+	}],
+	rewards: [{
+		uid: "50384ecf",
+		type: "item",
+		item: "enderstorage:ender_storage"
+	}]
+}

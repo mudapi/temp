@@ -1,0 +1,23 @@
+{
+	title: "ZPM Diesel Generator",
+	x: 0.0d,
+	y: 2.5d,
+	shape: "rsquare",
+	text: [
+		"the ZPM Diesel generator is an upgrade (you can literally upgrade the LUV multiblock) capable of burning diesel to produce an amp of ZPM power. Requires oxygen and diesel input of either infused nitro diesel or naquadriatic fuel."
+	],
+	dependencies: [
+		"50f6ce33",
+		"97e0a29a"
+	],
+	tasks: [{
+		uid: "dfb7cb0f",
+		type: "item",
+		items: [{
+			id: "modularmachinery:itemblueprint",
+			tag: {
+				dynamicmachine: "modularmachinery:dieselgenerator_zpm"
+			}
+		}]
+	}]
+}

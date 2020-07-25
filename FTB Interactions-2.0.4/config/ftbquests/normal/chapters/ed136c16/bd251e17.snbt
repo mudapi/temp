@@ -1,0 +1,27 @@
+{
+	x: 0.0d,
+	y: -4.5d,
+	text: [
+		"The botania mana pylon counts for 8 levels and gaia pylons count for 15, neither can exceed a level 30 bonus however. Additionally the manapylon is your core gate for the mana enchanter"
+	],
+	dependencies: [
+		"bcc51b66"
+	],
+	tasks: [{
+		uid: "912720d6",
+		type: "item",
+		items: [{
+			item: "botania:pylon"
+		}]
+	}],
+	rewards: [{
+		uid: "9e42ad32",
+		type: "item",
+		item: "botania:blacklotus 1 1"
+	},
+	{
+		uid: "e8dd03cd",
+		type: "item",
+		item: "harvestcraft:fishandchipsitem"
+	}]
+}

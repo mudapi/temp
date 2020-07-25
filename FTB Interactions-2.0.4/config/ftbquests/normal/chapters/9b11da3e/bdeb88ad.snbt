@@ -1,0 +1,36 @@
+{
+	title: "Double, double toil and trouble",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "xreliquary:witch_hat"
+	},
+	x: -4.0d,
+	y: -3.0d,
+	text: [
+		"Witches are more unfair than ever:",
+		"- apply random buffs to enemy mobs around them",
+		"- can throw lingering potions instead of splash potions",
+		"- poof in bats upon death"
+	],
+	dependencies: [
+		"2e6c74d5"
+	],
+	tasks: [{
+		uid: "eb326ed4",
+		type: "kill",
+		entity: "minecraft:witch",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "0974abae",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "xreliquary:witch_hat"
+		}
+	}]
+}

@@ -1,0 +1,26 @@
+{
+	title: "Nuggets of Progression",
+	x: 0.0d,
+	y: -1.5d,
+	shape: "diamond",
+	text: [
+		"By smelting your first aluminium nuggets you've started into the MV age. You're going to want a fair amount of aluminum to get going so never give that EBF a moments rest!",
+		"Use these rods to glide into the new age... or whatever else you might want to use them for. "
+	],
+	dependencies: [
+		"c295d1ae"
+	],
+	tasks: [{
+		uid: "972fa97a",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 9001"
+		}]
+	}],
+	rewards: [{
+		uid: "51072f1c",
+		type: "item",
+		item: "gregtech:meta_item_1 1 14001",
+		count: 5
+	}]
+}

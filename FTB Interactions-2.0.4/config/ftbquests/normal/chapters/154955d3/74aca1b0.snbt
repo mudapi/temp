@@ -1,0 +1,18 @@
+{
+	title: "Always double-tap",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "botania:cosmetic",
+		Damage: 31s
+	},
+	x: -3.0d,
+	y: -2.0d,
+	shape: "gear",
+	description: "Press shift twice while in Quest GUI to open a searchable list of quests. It can help you track quest dependencies on another tab easier.",
+	tasks: [{
+		uid: "07551b23",
+		type: "checkmark"
+	}]
+}

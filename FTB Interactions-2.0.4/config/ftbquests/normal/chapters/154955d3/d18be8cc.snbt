@@ -1,0 +1,29 @@
+{
+	x: -4.0d,
+	y: 2.0d,
+	text: [
+		"String can be obtained several ways. Many recipes can use twine which is a form of starter string made from plant fibers. For those requiring actual string you can make it from cotton seeds from your strainer. Remember to plantball them for more!",
+		"",
+		"If you're having no luck with the whole cotton string thing you could also craft a spider tree sapling which will grow string over time... not the fastest method but it works!"
+	],
+	dependencies: [
+		"1d6fe213"
+	],
+	tasks: [{
+		uid: "a89635c0",
+		type: "item",
+		title: "In Dire need of String",
+		items: [{
+			item: "harvestcraft:cottonseeditem"
+		},
+		{
+			item: "harvestcraft:spiderweb_sapling"
+		}]
+	}],
+	rewards: [{
+		uid: "b92b049c",
+		type: "item",
+		item: "minecraft:string",
+		count: 16
+	}]
+}

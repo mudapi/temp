@@ -1,0 +1,40 @@
+{
+	x: -8.0d,
+	y: -12.0d,
+	shape: "square",
+	text: [
+		"Create the Thaumonomicon to begin your journey into the eldritch depths of the arcane. Be warned, this magic comes with a price. The deeper you go into madness, the more impacts it will have on your reality. ",
+		"Thaumcraft can create lasting impacts on your world in the form of flux rifts which can spawn taintacles and corrupt the land. The madness also infects your mind, warping your reality and making you a beacon for all sorts of strangeness. ",
+		"This questbook will not teach you how to deal with warp and flux, that's up to you, but you have been warned."
+	],
+	dependencies: [
+		"4cd5380d"
+	],
+	tasks: [{
+		uid: "e41fb155",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thaumcraft:thaumonomicon"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "af3e9dd3",
+		type: "item",
+		item: "harvestcraft:meatloafsandwichitem"
+	},
+	{
+		uid: "8e2ea4e2",
+		type: "item",
+		item: "minecraft:paper",
+		count: 32
+	},
+	{
+		uid: "1c9e4c98",
+		type: "item",
+		item: "actuallyadditions:block_black_lotus"
+	}]
+}

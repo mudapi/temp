@@ -1,0 +1,20 @@
+{
+	x: -18.0d,
+	y: 4.0d,
+	text: [
+		"finally interdimensional fluid transfer, the quick way.",
+		"They're not much good without more than one."
+	],
+	tasks: [{
+		uid: "88538c68",
+		type: "item",
+		items: [{
+			item: "enderstorage:ender_storage 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "c77664e4",
+		type: "item",
+		item: "enderstorage:ender_storage 1 1"
+	}]
+}

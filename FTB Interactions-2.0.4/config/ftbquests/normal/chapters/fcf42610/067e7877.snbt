@@ -1,0 +1,20 @@
+{
+	title: "What is Annealed anyway?",
+	x: -5.5d,
+	y: -1.5d,
+	shape: "circle",
+	text: [
+		"Annealing is a heat treatment process that alters the properties of a material. In this case annealing copper can increase its conductivity and enable more uses for it. ",
+		"Create some annealed copper using your new plasma arc furnace, much easier than the blast furnace."
+	],
+	dependencies: [
+		"72dc249f"
+	],
+	tasks: [{
+		uid: "94b6dad3",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 10087"
+		}]
+	}]
+}

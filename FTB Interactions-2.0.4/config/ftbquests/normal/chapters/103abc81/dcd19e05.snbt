@@ -1,0 +1,72 @@
+{
+	x: 3.0d,
+	y: 4.5d,
+	description: "Hey diesel looks pretty good.",
+	text: [
+		"Once you're into MV your next materials goal will be producing stainless at HV power. See the Metallurgy and AYO Technology tabs for related tier information.",
+		"You're also going to need MOAR POWER. A good option is diesel which you can enrich with canola to double or more your oil input as well as enrich further in HV to cetane boosted and eventually infused. ",
+		"The idea of a non renewable resource may not sit well with you, but we've got the tools in this pack for you to stretch it VERY far. A single well will last you days before you need to move your pump and eventually the neromatic prime will",
+		"last a week or more before you simply move it a single chunk over. The fuel stays applicable even at endgame with the most powerful fuel in the game, naquadriatic fuel."
+	],
+	dependencies: [
+		"6672ed55",
+		"0dcfd09c"
+	],
+	tasks: [{
+		uid: "a0f93e2e",
+		type: "item",
+		icon: {
+			id: "simple_trophies:trophy",
+			tag: {
+				TrophyColorGreen: 49,
+				TrophyVariant: "classic",
+				TrophyItem: {
+					id: "gregtech:machine",
+					Count: 1,
+					Damage: 502
+				},
+				TrophyColorBlue: 146,
+				TrophyName: "Medium Voltage",
+				TrophyColorRed: 37,
+				TrophyEarnedAt: 1553222293
+			}
+		},
+		items: [{
+			item: "gregtech:machine 1 502"
+		}]
+	}],
+	rewards: [{
+		uid: "3e8bdc10",
+		type: "item",
+		team_reward: true,
+		item: {
+			id: "simple_trophies:trophy",
+			tag: {
+				TrophyColorGreen: 49,
+				TrophyVariant: "classic",
+				TrophyItem: {
+					id: "gregtech:machine",
+					Count: 1,
+					Damage: 502
+				},
+				TrophyColorBlue: 146,
+				TrophyName: "Medium Voltage",
+				TrophyColorRed: 37
+			}
+		}
+	},
+	{
+		uid: "1c6b2a5e",
+		type: "item",
+		team_reward: true,
+		item: "gregtech:meta_item_2 1 32488",
+		count: 4
+	},
+	{
+		uid: "9ed635ec",
+		type: "item",
+		team_reward: true,
+		item: "gregtech:machine 1 502",
+		count: 4
+	}]
+}

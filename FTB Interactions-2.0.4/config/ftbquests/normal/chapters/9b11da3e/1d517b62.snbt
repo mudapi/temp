@@ -1,0 +1,15 @@
+{
+	title: "Vines, Vines Baby",
+	icon: "minecraft:vine",
+	x: 1.0d,
+	y: -7.0d,
+	description: "Wetter biomes are can be found by traveling east.",
+	dependencies: [
+		"c5321cae",
+		"2e6c74d5"
+	],
+	tasks: [{
+		uid: "dce5c3fd",
+		type: "checkmark"
+	}]
+}

@@ -1,0 +1,25 @@
+{
+	title: "Welcome to Interactions. Wear sunscreen and don't forget to set your keybinds!",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "botania:cosmetic",
+		Damage: 31s
+	},
+	x: -4.0d,
+	y: -4.0d,
+	shape: "gear",
+	description: "There was once a lost little minecraft player who forgot to set his keybinds. That player stayed lost. Then there was another smart little minecraft player who remembered to set her keybinds. She beat Interactions in record time.",
+	text: [
+		"Recommended Keybinds:",
+		"- Open questbook: NUMPAD 1",
+		"- Bookmark JEI Ingredients: Middle Click",
+		"- The poor R gets shared by too many mods"
+	],
+	tasks: [{
+		uid: "e6bf129b",
+		type: "checkmark",
+		title: "Accept"
+	}]
+}

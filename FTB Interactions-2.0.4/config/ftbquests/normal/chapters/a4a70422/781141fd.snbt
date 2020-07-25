@@ -1,0 +1,25 @@
+{
+	x: -22.0d,
+	y: 3.0d,
+	description: "For when pipes cannot move liquids fast enough.",
+	text: [
+		"And it's more then 1 block transfer.",
+		"Fluid lasers can move an ifinite amount of fluid per tick making them ideal for mid to end game steam turbines."
+	],
+	dependencies: [
+		"c193d3a6"
+	],
+	tasks: [{
+		uid: "1eb69eef",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:block_laser_relay_fluids"
+		}]
+	}],
+	rewards: [{
+		uid: "346afc55",
+		type: "item",
+		item: "fluxnetworks:flux",
+		count: 8
+	}]
+}

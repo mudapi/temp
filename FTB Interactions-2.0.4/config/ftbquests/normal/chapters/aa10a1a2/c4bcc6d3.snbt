@@ -1,0 +1,25 @@
+{
+	title: "Just one more step!",
+	x: -9.5d,
+	y: 0.5d,
+	text: [
+		"That crystalized oil can be turned into several things by distillation, you need to work out and balance how much you make for the last step."
+	],
+	dependencies: [
+		"9063ed56"
+	],
+	tasks: [{
+		uid: "477a26a5",
+		type: "checkmark",
+		icon: {
+			id: "gregtech:meta_item_1",
+			tag: {
+				Fluid: {
+					FluidName: "heavy_fuel",
+					Amount: 1000
+				}
+			},
+			Damage: 32762s
+		}
+	}]
+}

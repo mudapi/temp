@@ -1,0 +1,30 @@
+{
+	title: "logs not in short supply",
+	x: -9.5d,
+	y: -5.5d,
+	text: [
+		"The cornerstone of ANY starter power option, you want logs and lots of them. Make sure they are close",
+		"",
+		"IMPORTANT: Needs access to the sky. Make sure your trees do not grow over top of the beacon as they will obscure the starlight and cause it to run much slower."
+	],
+	dependencies: [
+		"51878972"
+	],
+	tasks: [{
+		uid: "499ef677",
+		type: "item",
+		items: [{
+			item: "astralsorcery:blocktreebeacon"
+		}]
+	}],
+	rewards: [{
+		uid: "a08f6afe",
+		type: "item",
+		item: "randomthings:advanceditemcollector"
+	},
+	{
+		uid: "f342aac1",
+		type: "item",
+		item: "randomthings:itemfilter"
+	}]
+}

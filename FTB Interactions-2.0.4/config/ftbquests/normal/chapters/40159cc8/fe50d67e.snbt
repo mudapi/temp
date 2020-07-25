@@ -1,0 +1,41 @@
+{
+	title: "\"That's one small step for man, one giant leap for mankind\"",
+	icon: "extrautils2:ingredients 1 5",
+	x: -1.0d,
+	y: -13.0d,
+	shape: "diamond",
+	description: "Setting your first steps on the Moon definitely shows you, the Moonlanding in 1969 was staged!",
+	text: [
+		"Add the Planet Id Chip to your Guidance computer to travel to other planets.",
+		"IMPORTANT: Luna is the moon of the void world, NOT the overworld. To see Luna as a valid destination you must launch from the void world."
+	],
+	dependencies: [
+		"78546de8",
+		"237309c2"
+	],
+	tasks: [{
+		uid: "aab679ba",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:moonturf"
+		}]
+	},
+	{
+		uid: "272f636e",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:planetidchip"
+		}]
+	}],
+	rewards: [{
+		uid: "b2077841",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thaumcraft:primordial_pearl",
+			Damage: 4s
+		}
+	}]
+}

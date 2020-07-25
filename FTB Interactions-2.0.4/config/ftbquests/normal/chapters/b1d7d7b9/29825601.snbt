@@ -1,0 +1,46 @@
+{
+	title: "Salty Water",
+	icon: {
+		id: "gregtech:meta_item_1",
+		tag: {
+			Fluid: {
+				FluidName: "brine",
+				Amount: 1000
+			}
+		},
+		Damage: 32762s
+	},
+	x: -10.5d,
+	y: -7.0d,
+	description: "By centrifuging the brine you get both salt water and liquid lithium. The salt water is good for making chlorine for many chemistry recipes. Lithium can be turned into lithium dust for batteries and other applications.",
+	text: [
+		"Alternatively, you can use a mold and directly turn brine to salt. This is a faster way to make salt, but you lose the biproducts. "
+	],
+	dependencies: [
+		"820b1cf6"
+	],
+	tasks: [{
+		uid: "00be7ca9",
+		type: "checkmark",
+		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "brine",
+				Amount: 1000
+			}
+		}
+	}],
+	rewards: [{
+		uid: "ed8bbe97",
+		type: "item",
+		item: "gregtech:meta_item_1 1 32313"
+	},
+	{
+		uid: "8f0cbb48",
+		type: "item",
+		item: "harvestcraft:saltedcaramelitem"
+	}]
+}

@@ -1,0 +1,18 @@
+{
+	x: 0.0d,
+	y: -13.5d,
+	text: [
+		"Place two chickens in the breeder and the result will be a new chicken with stronger stats. Repeat this process until you obtain your maxed out 10/10/10 chickens for fastest production.",
+		"If you made one 'special' chicken, you can get a second by breeding it with a smart chicken ( or get more smart chicken, love RNG )"
+	],
+	dependencies: [
+		"0b123dfe"
+	],
+	tasks: [{
+		uid: "859fdfb4",
+		type: "item",
+		items: [{
+			item: "roost:breeder"
+		}]
+	}]
+}

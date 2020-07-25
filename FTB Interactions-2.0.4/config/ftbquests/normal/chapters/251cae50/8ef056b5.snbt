@@ -1,0 +1,14 @@
+{
+	title: "MAX Age",
+	icon: "gregtech:machine 1 509",
+	x: -9.0d,
+	y: 4.0d,
+	description: "Items in this row are used in most MAX recipes.",
+	dependencies: [
+		"d1a98f7f"
+	],
+	tasks: [{
+		uid: "0c44005b",
+		type: "checkmark"
+	}]
+}

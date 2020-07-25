@@ -1,0 +1,19 @@
+{
+	x: -13.0d,
+	y: 7.0d,
+	shape: "square",
+	text: [
+		"Time to get rid of all those inefficient single block generators and turbines!",
+		"A system using a generator to input power into spectre energy injectors with CEU's, then wireless convert it back to EU with CEF's at the various machine area's.",
+		"Spectre coils on CEF's make for a setup that is clean and prevents you a Direwire situation in your base.",
+		"Once you can make flux networks you can move even greater amounts of power and distribute it with entire teams intead of it being a singular network."
+	],
+	dependencies: [
+		"b06b5e7b"
+	],
+	tasks: [{
+		uid: "aa5ea3f0",
+		type: "checkmark",
+		title: "EV power multiblocks"
+	}]
+}

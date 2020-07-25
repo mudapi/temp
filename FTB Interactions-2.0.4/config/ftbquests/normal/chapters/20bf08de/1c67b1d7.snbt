@@ -1,0 +1,19 @@
+{
+	x: -9.0d,
+	y: -9.0d,
+	text: [
+		"Essentia is the \"liquid\" form of Vis energy, to harness essentia you'll need a smelter.",
+		"Put an Arcane Alembic on top and itll start pulling essential out of the smeltery.",
+		"Can be speed up temendously with Arcane Bellows on the sides of it too."
+	],
+	dependencies: [
+		"8eac9d15"
+	],
+	tasks: [{
+		uid: "8f49dd45",
+		type: "item",
+		items: [{
+			item: "thaumcraft:smelter_basic"
+		}]
+	}]
+}

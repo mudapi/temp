@@ -1,0 +1,23 @@
+{
+	title: "JEI Protips",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "botania:cosmetic",
+		Damage: 31s
+	},
+	x: -4.0d,
+	y: -2.0d,
+	shape: "gear",
+	text: [
+		"- FTBQ has JEI integration, just use the check recipes keybind (default: R) on the quest icon or on the left if there are multiple items.",
+		"- If you have mouse with a back button, it's recommended you bind that key to JEI's \"Show previously viewed recipe\" instead of backspace. It makes life easier.",
+		"- Holding shift while mousing over an item reveals it ore dictionary tags, many recipes can take multiple similar inputs.",
+		"- If you find yourself repeatedly looking up items, try bookmarking it in JEI. You'll probaly be using this for Circuits, Robot Arms, and Motors."
+	],
+	tasks: [{
+		uid: "6def5b0b",
+		type: "checkmark"
+	}]
+}

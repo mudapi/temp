@@ -1,0 +1,49 @@
+{
+	title: "collecting the drops",
+	x: -10.5d,
+	y: -6.0d,
+	shape: "rsquare",
+	text: [
+		"Any of these 3 will work for you to collect the drops from the tree beacon, Think about using vanilla mechanics if you build your tree farm away from your base.",
+		"Early game modded item moving might be a bit expensive at this point, So you maybe build you tree farm above your coke/ boiler setup"
+	],
+	dependencies: [
+		"b6d28c29"
+	],
+	tasks: [{
+		uid: "7668238c",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:device",
+			tag: {
+				RSControl: 0b,
+				Facing: 3b,
+				Energy: 0,
+				SideCache: [B;
+					0b,
+					1b,
+					0b,
+					0b,
+					0b,
+					0b
+				]
+			},
+			Damage: 12s
+		},
+		{
+			id: "botania:specialflower",
+			tag: {
+				type: "hopperhock"
+			}
+		},
+		{
+			item: "randomthings:itemcollector"
+		}]
+	}],
+	rewards: [{
+		uid: "6d2d8de8",
+		type: "item",
+		item: "enderio:item_extract_speed_upgrade",
+		count: 64
+	}]
+}

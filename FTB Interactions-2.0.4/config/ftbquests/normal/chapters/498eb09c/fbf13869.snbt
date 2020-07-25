@@ -1,0 +1,14 @@
+{
+	title: "Environmentally Friendly Beer. And Energy.",
+	x: -4.0d,
+	y: -2.0d,
+	shape: "square",
+	description: "If you're going for a large ethanol setup, you might want to make a couple dozen of these.",
+	tasks: [{
+		uid: "8ebb4861",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 131"
+		}]
+	}]
+}

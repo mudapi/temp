@@ -1,0 +1,28 @@
+{
+	title: "I Heart You",
+	icon: "cyberware:body_part 1 2",
+	x: -1.0d,
+	y: 7.0d,
+	description: "Since mobs do not naturally spawn in the Safe Space/Void World, to progress, you got to use Zen-Summoning to Summon a Zombie Villager and convert him into a Villager. However to make the Philo Stone, you're either going to need a heart or an emerald.",
+	text: [
+		"Villager trading is disabled. Due to this, they generally have an excessive amount of emeralds which they may occasionally drop..."
+	],
+	dependencies: [
+		"d7b06269"
+	],
+	tasks: [{
+		uid: "530cd49f",
+		type: "item",
+		items: [{
+			item: "cyberware:body_part 1 2"
+		},
+		{
+			item: "minecraft:emerald"
+		}]
+	}],
+	rewards: [{
+		uid: "73a5b452",
+		type: "item",
+		item: "wizardry:fairy_dust"
+	}]
+}

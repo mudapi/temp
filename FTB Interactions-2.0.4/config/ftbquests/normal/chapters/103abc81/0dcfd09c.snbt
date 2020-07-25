@@ -1,0 +1,18 @@
+{
+	title: "More powerful smelting to go beyond LV",
+	x: 4.0d,
+	y: 3.5d,
+	text: [
+		"The biggest hurdle to getting fully into MV tier is aluminium which must be created in the blast furnace. The EBF should be your main goal in this phase. Check the Ayo technology and metallurgy LV tabs for more information."
+	],
+	dependencies: [
+		"6672ed55"
+	],
+	tasks: [{
+		uid: "84e6382e",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 511"
+		}]
+	}]
+}

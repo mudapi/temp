@@ -1,0 +1,21 @@
+{
+	title: "Vanilla or shock-a-lot?",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "botania:cosmetic",
+		Damage: 31s
+	},
+	x: -11.0d,
+	y: -2.0d,
+	shape: "gear",
+	description: "For example, look at the recipe for a Tinker's Copper Hammer Head in an Extruder. Since it requires at minimum 120 EU/t, an LV Extruder cannot handle that much power at one amp, so that recipe is effectively gated behind MV level Extruder.",
+	dependencies: [
+		"9f80387d"
+	],
+	tasks: [{
+		uid: "ce559ab7",
+		type: "checkmark"
+	}]
+}

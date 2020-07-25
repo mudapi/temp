@@ -1,0 +1,26 @@
+{
+	title: "Advanced Wireless Power Systems Inc.",
+	x: -12.5d,
+	y: 3.0d,
+	shape: "square",
+	text: [
+		"With ender coils it can be hard to keep your IV+ machines going.. you want higher transfer rates!",
+		"No AWPSI doesnt do storage, your not blind. Use GT battery buffers to pull your power into AWPSI."
+	],
+	dependencies: [
+		"3308d327"
+	],
+	tasks: [{
+		uid: "79c65080",
+		type: "item",
+		items: [{
+			item: "fluxnetworks:fluxcontroller"
+		}]
+	}],
+	rewards: [{
+		uid: "e04a0fa3",
+		type: "item",
+		item: "fluxnetworks:fluxcore",
+		count: 8
+	}]
+}

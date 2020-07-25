@@ -1,0 +1,15 @@
+{
+	title: "ZPM Age",
+	icon: "gregtech:machine 1 507",
+	x: -1.0d,
+	y: -5.0d,
+	description: "Items in this column can be crafted in ZPM Age.",
+	dependencies: [
+		"2c0398f7",
+		"165a3388"
+	],
+	tasks: [{
+		uid: "4a842b14",
+		type: "checkmark"
+	}]
+}

@@ -1,0 +1,17 @@
+{
+	disable_toast: true,
+	x: 6.0d,
+	y: -3.5d,
+	text: [
+		"Standard circle denotes quest is part of a chain. "
+	],
+	dependencies: [
+		"07930191"
+	],
+	tasks: [{
+		uid: "75e794f7",
+		type: "checkmark",
+		title: "Standard interconnecting quest",
+		icon: "opencomputers:upgrade 1 11"
+	}]
+}

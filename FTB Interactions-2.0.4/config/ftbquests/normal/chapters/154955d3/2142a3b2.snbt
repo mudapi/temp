@@ -1,0 +1,18 @@
+{
+	title: "No Nattys Allowed",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "botania:cosmetic",
+		Damage: 31s
+	},
+	x: -3.0d,
+	y: -4.0d,
+	shape: "gear",
+	description: "Natural spawns are disallowed in the void, that includes hostiles in dark rooms and passives on grass. You can still force spawns though if you had the ability.",
+	tasks: [{
+		uid: "52a5b475",
+		type: "checkmark"
+	}]
+}

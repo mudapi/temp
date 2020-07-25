@@ -1,0 +1,10 @@
+{
+	title: "Definitely Not Safe Space",
+	icon: "minecraft:netherrack",
+	description: [
+		"This tab contains information regarding changes in the Nether such as oregen, mob behavior, or dungeons."
+	],
+	always_invisible: false,
+	group: 1865916608,
+	default_quest_shape: ""
+}

@@ -1,0 +1,15 @@
+{
+	title: "Sandstorm",
+	icon: "minecraft:sand",
+	x: -1.0d,
+	y: -7.0d,
+	description: "Dryer biomes can be found by traversing west.",
+	dependencies: [
+		"c5321cae",
+		"2e6c74d5"
+	],
+	tasks: [{
+		uid: "52499e20",
+		type: "checkmark"
+	}]
+}

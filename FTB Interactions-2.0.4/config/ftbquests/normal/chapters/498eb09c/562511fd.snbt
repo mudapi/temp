@@ -1,0 +1,25 @@
+{
+	title: "Too Cold To Hold",
+	icon: {
+		id: "gregtech:meta_item_1",
+		tag: {
+			Fluid: {
+				FluidName: "liquid_air",
+				Amount: 1000
+			}
+		},
+		Damage: 32762s
+	},
+	x: -10.0d,
+	y: -6.0d,
+	shape: "square",
+	description: "By running Air through a vacuum freezer the low temperatures and compression allow it to take on a liquid form which can be centrifuged to obtain vast amounts of useful gases. ",
+	text: [
+		"This will produce gas that you can centrifuge to get all kinds of byproducts. There is also a gassy chicken which can assist in a similar manner, whichever way you chose is up to you but you'll need a lot of this!"
+	],
+	tasks: [{
+		uid: "212aefea",
+		type: "checkmark",
+		title: "Too Cold To Hold"
+	}]
+}

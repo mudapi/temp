@@ -1,0 +1,20 @@
+{
+	title: "Home Chemistry Kit",
+	x: -2.5d,
+	y: -1.0d,
+	text: [
+		"The basic checmical reactor will be your lv workhorse for long to come, you'll need many reactors of all tiers eventually so plan accordingly."
+	],
+	tasks: [{
+		uid: "d3dfbe28",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 190"
+		}]
+	}],
+	rewards: [{
+		uid: "b617dbee",
+		type: "item",
+		item: "gregtech:meta_item_1 1 32766"
+	}]
+}

@@ -1,0 +1,21 @@
+{
+	x: -16.0d,
+	y: 5.0d,
+	text: [
+		"Item conduits stack with all other enderio conduits and can be covered with a facade. They transport items and can be upgraded with speed upgrades as well as operate on predefined color channels and can be filtered. All around excellent pipes."
+	],
+	dependencies: [
+		"dcabc080"
+	],
+	tasks: [{
+		uid: "a00268be",
+		type: "checkmark",
+		icon: "enderio:item_item_conduit"
+	}],
+	rewards: [{
+		uid: "1a362e45",
+		type: "item",
+		item: "enderio:item_extract_speed_upgrade",
+		count: 15
+	}]
+}

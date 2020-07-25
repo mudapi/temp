@@ -1,0 +1,31 @@
+{
+	x: -10.0d,
+	y: 7.5d,
+	text: [
+		"The amount of Steam/Gas/Plasma used depends on the Turbine built in. It slowly speeds up, so it should be used for constant Energy supply. ",
+		"The Large Turbine requires a turbine rotor. Turbine rotors vary greatly in size and material and contribute efficiency, durability and optimal flow modifiers to the running of the turbine. ",
+		"You can use a Gregtech Pump as a cover and use a screwdriver to enter it's GUI and set optimal exact flowrate to optimize power production to match your fuel/steam production!"
+	],
+	dependencies: [
+		"c48fa03d"
+	],
+	tasks: [{
+		uid: "6e44a824",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 518"
+		}]
+	}],
+	rewards: [{
+		uid: "013cb542",
+		type: "item",
+		item: "gregtech:meta_item_2 1 32489",
+		count: 2
+	},
+	{
+		uid: "5b41cdf2",
+		type: "item",
+		item: "gregtech:meta_item_1 1 12184",
+		count: 16
+	}]
+}

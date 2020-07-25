@@ -1,0 +1,24 @@
+{
+	title: "Learning your multiplication tables",
+	x: -16.0d,
+	y: -6.0d,
+	shape: "diamond",
+	text: [
+		"This Questline is meant to show you the path to processing your ores into usage ingots. The path to the right is for early game processing and produces standard yields. As you progress you will be able to tackle the processes below.",
+		"The path below can increase your yield by 4, 8, 16, 32 and up to 64x products from a single ore depending on your technology and magical progression."
+	],
+	tasks: [{
+		uid: "077cf9f1",
+		type: "item",
+		title: "Any oreIron",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "oreIron",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter"
+		}]
+	}]
+}

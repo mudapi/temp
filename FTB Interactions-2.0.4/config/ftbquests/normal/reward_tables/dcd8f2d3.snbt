@@ -1,0 +1,25 @@
+{
+	title: "HippoEggs",
+	loot_size: 1,
+	rewards: [{
+		item: "iceandfire:hippogryph_egg"
+	},
+	{
+		item: "iceandfire:hippogryph_egg 1 1"
+	},
+	{
+		item: "iceandfire:hippogryph_egg 1 2"
+	},
+	{
+		item: "iceandfire:hippogryph_egg 1 4"
+	},
+	{
+		item: "iceandfire:hippogryph_egg 1 5"
+	},
+	{
+		item: "iceandfire:hippogryph_egg 1 6"
+	},
+	{
+		item: "iceandfire:hippogryph_egg 1 3"
+	}]
+}

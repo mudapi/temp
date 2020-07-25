@@ -1,0 +1,22 @@
+{
+	x: 4.0d,
+	y: 5.5d,
+	text: [
+		"From the void world (<=IMPORTANT) Launch your rocket into space. Here you will be able to build a space station and setup an orbital miner to collect skystone and get into Applied Energistics fully. A celestial gateway is recommended here."
+	],
+	dependencies: [
+		"3308d327"
+	],
+	tasks: [{
+		uid: "73643b51",
+		type: "dimension",
+		title: "The infinite expanse",
+		dim: -2
+	}],
+	rewards: [{
+		uid: "93a5009e",
+		type: "item",
+		item: "enderstorage:ender_storage",
+		count: 2
+	}]
+}

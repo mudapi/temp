@@ -1,0 +1,39 @@
+{
+	title: "Mark of the falling Tower",
+	x: -4.5d,
+	y: -2.0d,
+	description: "Space Rocks Ahoy!",
+	text: [
+		"The mark of the falling tower ritual from bloodmagic requires 500k LP to activate and accept 2 unique catalsyts which will each provide you with the resources shown.",
+		"To hold 500k LP in your network you need a master blood orb ( holds 1M LP )."
+	],
+	dependencies: [
+		"631b3bd9"
+	],
+	tasks: [{
+		uid: "d7341077",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "bloodmagic:activation_crystal",
+			Damage: 1s
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "61ea669e",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "bloodmagic:blood_orb",
+			tag: {
+				orb: "bloodmagic:master"
+			}
+		}],
+		ignore_nbt: 1b
+	}]
+}

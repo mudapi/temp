@@ -1,0 +1,33 @@
+{
+	title: "pumping up the black gold.",
+	x: -9.5d,
+	y: -1.5d,
+	text: [
+		"Yes gregtech also has pumps you can use. Anything goes, some better then others tho.."
+	],
+	dependencies: [
+		"9063ed56"
+	],
+	tasks: [{
+		uid: "d37f6eea",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:fluid_pump"
+		}]
+	},
+	{
+		uid: "82508132",
+		type: "item",
+		items: [{
+			id: "gregtech:meta_item_1",
+			tag: {
+				Fluid: {
+					FluidName: "oil",
+					Amount: 1000
+				}
+			},
+			Damage: 32762s
+		}],
+		ignore_damage: true
+	}]
+}

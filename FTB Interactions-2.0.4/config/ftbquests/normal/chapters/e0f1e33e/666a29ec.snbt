@@ -1,0 +1,25 @@
+{
+	title: "Data Storage",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "deepmoblearning:deep_learner"
+	},
+	x: 0.0d,
+	y: -1.5d,
+	shape: "gear",
+	text: [
+		"To add the initial data needed to a model that is faulty you need a Deep Learner.",
+		"You need to Shift + Right Click with this to socket your Data Model, once you've socketed it every kill of that mob type adds 1 data.",
+		"Once a Model reaches Basic Tier it can gain data by using it in a Simulation Chamber with Polymer Clay."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"cbbc96a7"
+	],
+	tasks: [{
+		uid: "0c8eb7ff",
+		type: "checkmark"
+	}]
+}

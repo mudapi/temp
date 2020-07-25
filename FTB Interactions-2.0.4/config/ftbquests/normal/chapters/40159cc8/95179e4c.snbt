@@ -1,0 +1,16 @@
+{
+	title: "Exxon Wifi",
+	x: 2.0d,
+	y: -18.5d,
+	description: "did you really think we would have you take a hose to the rocket with this dangerous stuff?",
+	dependencies: [
+		"3d592508"
+	],
+	tasks: [{
+		uid: "07a65bd5",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:fuelingstation"
+		}]
+	}]
+}

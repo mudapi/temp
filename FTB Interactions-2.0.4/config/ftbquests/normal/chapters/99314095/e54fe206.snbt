@@ -1,0 +1,37 @@
+{
+	title: "Electric Best Friend",
+	x: -9.0d,
+	y: 0.5d,
+	description: "I'm not being punny. This is the machine you will learn to rely on the most. Expect to make 20-32 of these multiblock furnaces as you near endgame if you don't tile accelerate or overclock.",
+	text: [
+		"In order power your first EBF to smelt Aluminum it will need MV tier power (120 EU) delivered. However right now you only have the ability to create LV Energy Input Hatches, which will explode if given MV power.",
+		"To compensate for this GTCE Multiblocks can handle more than one energy input hatch.",
+		"In addition an Energy hatch can accept up to 2 separate AMPs of power. This means you only need 2 LV Energy Input hatches to deliver MV power to an EBF, which can provide a total of 4A of LV power.",
+		"You can use this same concept with higher tier recipes. Later you can of course replace the multiple energy input hatches with a single MV energy input hatch. ",
+		"Be sure to account for cable loss, the best way to avoid this at the start is to place the energy inptus on the back corners and place the 4 generators directly against them. "
+	],
+	dependencies: [
+		"c13fb853"
+	],
+	tasks: [{
+		uid: "459041ba",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 511"
+		}]
+	},
+	{
+		uid: "97c53ee7",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 714"
+		}],
+		count: 2L
+	}],
+	rewards: [{
+		uid: "7bb51378",
+		type: "item",
+		item: "gregtech:meta_item_1 1 10109",
+		count: 16
+	}]
+}

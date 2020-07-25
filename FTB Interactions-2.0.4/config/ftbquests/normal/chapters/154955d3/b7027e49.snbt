@@ -1,0 +1,21 @@
+{
+	title: "Hot or Not?",
+	x: -3.0d,
+	y: 8.0d,
+	description: "If you hold a tank or container of lava in your inventory, it's going to burn you. Hold these mitts to negate the effects from hot fluids (and potentially unwanted side effects from holding other fluids).",
+	dependencies: [
+		"ca362eca"
+	],
+	tasks: [{
+		uid: "f654b502",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "hotornot:mitts"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

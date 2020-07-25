@@ -1,0 +1,28 @@
+{
+	title: "Sticky Business",
+	x: -12.5d,
+	y: -3.0d,
+	shape: "rsquare",
+	description: "By using an Arboreal extractor near the base of a tree you can extract resin which can be further processed into rubber. This is one of the main 3 ways of making rubber.",
+	tasks: [{
+		uid: "e1e6035a",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:device",
+			tag: {
+				RSControl: 0,
+				Facing: 3,
+				Energy: 0,
+				SideCache: [B;
+					1b,
+					1b,
+					2b,
+					2b,
+					2b,
+					2b
+				]
+			},
+			Damage: 3s
+		}]
+	}]
+}

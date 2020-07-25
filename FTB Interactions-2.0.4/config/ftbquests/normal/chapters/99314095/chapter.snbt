@@ -1,0 +1,10 @@
+{
+	title: "Ayo Technology",
+	icon: "gregtech:machine 1 2506",
+	description: [
+		"This is the main technology progression tab. Just because it is separate from the magic tab does not mean the progression is separate, you will have to progress through mulitple tabs simultaneously."
+	],
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

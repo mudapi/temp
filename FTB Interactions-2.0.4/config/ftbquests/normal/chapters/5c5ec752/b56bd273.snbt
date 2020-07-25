@@ -1,0 +1,20 @@
+{
+	title: "Get ready to enter the age of electricity.",
+	x: -1.5d,
+	y: 4.0d,
+	shape: "diamond",
+	text: [
+		"You can jump into LV now, you might be wise to go and visit the power solutions tab and make sure you have a steam setup that doesnt make you wait forever and ever."
+	],
+	dependencies: [
+		"2e003362"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "ee1beaf3",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 501"
+		}]
+	}]
+}

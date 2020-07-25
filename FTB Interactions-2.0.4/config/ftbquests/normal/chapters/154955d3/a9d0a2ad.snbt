@@ -1,0 +1,20 @@
+{
+	x: 4.0d,
+	y: 5.0d,
+	description: "Further transmute the tallow into candleberry seeds and finally you can press candleberries into wax for hardened leather and candles for light.",
+	dependencies: [
+		"7e2eeed5"
+	],
+	tasks: [{
+		uid: "95ef326d",
+		type: "item",
+		items: [{
+			item: "harvestcraft:candleberryseeditem"
+		}]
+	}],
+	rewards: [{
+		uid: "cac3927c",
+		type: "item",
+		item: "rustic:bee"
+	}]
+}

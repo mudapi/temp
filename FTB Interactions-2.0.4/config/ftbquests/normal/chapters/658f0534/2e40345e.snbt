@@ -1,0 +1,28 @@
+{
+	title: "Octuple your ores with magic and electricity",
+	x: -16.0d,
+	y: -2.5d,
+	text: [
+		"At MV+ Tier you can combine ore with mana and life essence from blood magic to create a purified blood shard which further multiplies your ore yield."
+	],
+	dependencies: [
+		"254a6531"
+	],
+	tasks: [{
+		uid: "bdc3bc55",
+		type: "item",
+		items: [{
+			item: "contenttweaker:iron_ore_shard"
+		}]
+	}],
+	rewards: [{
+		uid: "c4fa9133",
+		type: "item",
+		item: {
+			id: "botania:floatingspecialflower",
+			tag: {
+				type: "bellethorn"
+			}
+		}
+	}]
+}

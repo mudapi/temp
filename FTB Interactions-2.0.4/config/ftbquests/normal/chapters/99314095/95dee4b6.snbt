@@ -1,0 +1,28 @@
+{
+	title: "The Multi-Smelter",
+	x: -10.0d,
+	y: 2.0d,
+	shape: "rsquare",
+	description: "A.K.A The Parallelized Heat Application As a Form of Chemical Reduction, Maillard Reaction, Non-Enzymatic Browning via Radiant Heat Sources to Improve Heat Transfer and Processing Speeds from Initial Cold Start Machine",
+	text: [
+		"Lowest tier starts with Cupronickel coils, however those can be changed to upgrade the multiblock.",
+		"",
+		"This thing is fast, as in OP levels of fast. Fully upgraded, it is one of the fastest smelters in all of modded, maybe only the maxed overclocked IC2 furnace beats the Multi-Smelter.",
+		""
+	],
+	dependencies: [
+		"ace65682"
+	],
+	tasks: [{
+		uid: "7453d34a",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 516"
+		}]
+	}],
+	rewards: [{
+		uid: "e22d668c",
+		type: "item",
+		item: "actuallyadditions:item_food 1 14"
+	}]
+}

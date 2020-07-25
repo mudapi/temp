@@ -1,0 +1,15 @@
+{
+	title: "IV Age",
+	icon: "gregtech:machine 1 505",
+	x: -3.0d,
+	y: -5.0d,
+	description: "Items in this column can be CRAFTED in IV Age.",
+	dependencies: [
+		"94cc51d4",
+		"31d4520f"
+	],
+	tasks: [{
+		uid: "880103bd",
+		type: "checkmark"
+	}]
+}

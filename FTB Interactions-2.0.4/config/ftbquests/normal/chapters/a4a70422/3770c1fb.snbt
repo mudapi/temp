@@ -1,0 +1,30 @@
+{
+	title: "Logistical Butler",
+	x: -9.5d,
+	y: -3.0d,
+	description: "By adding provide seals to your storage, including modular storage, golems can bring you items on demand by using the golem bell. It's like early game wireless AE!",
+	tasks: [{
+		uid: "94ba3456",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thaumcraft:golem_bell"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "bded733e",
+		type: "item",
+		items: [{
+			item: "thaumcraft:seal 1 14"
+		}]
+	}],
+	rewards: [{
+		uid: "c334fc5b",
+		type: "item",
+		item: "thaumcraft:seal 1 14"
+	}]
+}

@@ -1,0 +1,27 @@
+{
+	title: "So much for nothing",
+	x: -5.0d,
+	y: -4.5d,
+	description: "\"But it doesn't contain anything!\". \"No, it contains nothing.\"",
+	text: [
+		"The void satchel can be set to automatically void items you wouldn't want cluttering your inventory, make sure to set the whitelist and turn it on."
+	],
+	dependencies: [
+		"09586bfe"
+	],
+	tasks: [{
+		uid: "26902743",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thermalexpansion:satchel",
+			tag: {
+				Accessible: 1
+			},
+			Damage: 100s
+		}],
+		ignore_nbt: 1b
+	}]
+}

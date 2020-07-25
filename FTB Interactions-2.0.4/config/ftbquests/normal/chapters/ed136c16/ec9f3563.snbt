@@ -1,0 +1,41 @@
+{
+	title: "GT Files",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "gregtech:meta_tool",
+		tag: {
+			GT.ToolStats: {
+				PrimaryMaterial: "darmstadtium",
+				HandleMaterial: "darmstadtium"
+			}
+		},
+		Damage: 9s
+	},
+	x: -12.0d,
+	y: -6.0d,
+	description: "Some metals are too soft to make files like copper. Recommended to stick to the main materials like Bronze, Iron, Wrought Iron, Steel, etc.",
+	tasks: [{
+		uid: "82868ab5",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "gregtech:meta_tool",
+			tag: {
+				GT.ToolStats: {
+					Material: "iron"
+				}
+			},
+			Damage: 9s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "4beb53ba",
+		type: "item",
+		item: "gregtech:meta_item_2 1 6113"
+	}]
+}

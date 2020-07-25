@@ -1,0 +1,10 @@
+{
+	title: "Dimensionality",
+	icon: "contenttweaker:portalblockt",
+	description: [
+		"This quest group focuses on dimension specific information you may need or may find useful."
+	],
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

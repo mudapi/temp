@@ -1,0 +1,21 @@
+{
+	title: "The back of this bag is ridiculous.",
+	x: -3.5d,
+	y: -6.0d,
+	description: "With 50% more excess than its predecessor. If you're still filling up your inventory, you're either doing something wrong or something incredibly right.",
+	dependencies: [
+		"e9a328ca"
+	],
+	tasks: [{
+		uid: "ced66d4f",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "enderutilities:handybag",
+			Damage: 1s
+		}],
+		ignore_nbt: 1b
+	}]
+}

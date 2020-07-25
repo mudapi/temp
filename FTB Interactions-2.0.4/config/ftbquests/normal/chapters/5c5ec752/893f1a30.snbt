@@ -1,0 +1,29 @@
+{
+	title: "Boxes without Borders",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "botania:cosmetic",
+		Damage: 31s
+	},
+	x: 3.0d,
+	y: -1.0d,
+	shape: "gear",
+	description: "\"Many gregtech and Modular Machinery multiblocks can utilize the same blocks for ceilings, floors, walls and even coils. Use this to save TONS of resources.\" ",
+	text: [
+		"Also, a warning about chunk borders. Pressing f9 by default will highlight chunk boarders. It is highly suggested you build each multiblock within the same chunk to to avoid any potential errors in loading causing... unfortunate industrial accidents."
+	],
+	dependencies: [
+		"eafc12e8"
+	],
+	tasks: [{
+		uid: "1f4e9ee9",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "cb8de2bf",
+		type: "item",
+		item: "harvestcraft:kungpaochickenitem"
+	}]
+}

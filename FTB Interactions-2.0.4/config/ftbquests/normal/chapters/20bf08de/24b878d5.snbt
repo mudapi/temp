@@ -1,0 +1,33 @@
+{
+	title: "An Essential Transmission",
+	x: -7.0d,
+	y: -6.0d,
+	text: [
+		"Essential transfuers can fill and empty all valid essential sources and destinations such as constructs, alembics and void jars similar to how the infusion altar draws in essentia. These greatly streamline your experience and allow you to bypass",
+		"the use of essentia piping entirely. When used in conjunction with essentia mirrors you can create a wireless essentia production facility and transport the essentia anywhere you may need it."
+	],
+	dependencies: [
+		"1d2f9478",
+		"85a2b7d1"
+	],
+	tasks: [{
+		uid: "662cc4db",
+		type: "item",
+		items: [{
+			item: "thaumcraft:essentia_input"
+		}]
+	},
+	{
+		uid: "fb5dedba",
+		type: "item",
+		items: [{
+			item: "thaumcraft:essentia_output"
+		}]
+	}],
+	rewards: [{
+		uid: "edd79c35",
+		type: "item",
+		item: "thaumcraft:mirror_essentia",
+		count: 2
+	}]
+}

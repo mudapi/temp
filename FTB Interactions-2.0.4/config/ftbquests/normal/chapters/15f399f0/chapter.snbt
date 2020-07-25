@@ -1,0 +1,20 @@
+{
+	title: "All good titles Argon",
+	icon: {
+		id: "gregtech:meta_item_1",
+		tag: {
+			Fluid: {
+				FluidName: "polytetrafluoroethylene",
+				Amount: 1000
+			}
+		},
+		Damage: 32762s
+	},
+	description: [
+		"For all of your legal, and less legal chemical needs.",
+		"This tab is meant to guide you through all the various chemical processing systems in GTCE."
+	],
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

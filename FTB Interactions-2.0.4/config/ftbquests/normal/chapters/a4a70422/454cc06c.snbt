@@ -1,0 +1,31 @@
+{
+	title: "A Simple Request",
+	x: -13.309523809523817d,
+	y: -1.5238095238095326d,
+	text: [
+		"To start tying it all together craft a request table to allow you to access and craft with all of your aggregated inventories."
+	],
+	dependencies: [
+		"518a088a",
+		"074fc3f0"
+	],
+	tasks: [{
+		uid: "b445785f",
+		type: "item",
+		items: [{
+			item: "logisticspipes:pipe_request_table"
+		}]
+	}],
+	rewards: [{
+		uid: "d2ad7e18",
+		type: "item",
+		item: "logisticspipes:upgrade_action_speed",
+		count: 16
+	},
+	{
+		uid: "c8bf6f18",
+		type: "item",
+		item: "logisticspipes:upgrade_speed",
+		count: 16
+	}]
+}

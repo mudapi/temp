@@ -1,0 +1,10 @@
+{
+	title: "Against oil odds",
+	x: -6.5d,
+	y: -5.0d,
+	description: "Oil spawns in large geysers in the overworld in Mesa and Deep Ocean biomes.",
+	tasks: [{
+		uid: "e143e9de",
+		type: "checkmark"
+	}]
+}

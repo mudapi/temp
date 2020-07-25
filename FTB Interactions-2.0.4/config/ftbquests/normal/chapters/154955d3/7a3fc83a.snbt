@@ -1,0 +1,27 @@
+{
+	title: "Hit with Axe",
+	icon: "minecraft:planks",
+	x: 0.0d,
+	y: 0.0d,
+	description: "Early on, most of your interactions will be in-world. Right click with any axe in hand on a log twice to get planks. Until you get a better method, it'll cost you hunger.",
+	text: [
+		"You can move on to using the saw and then automated saw very quickly. There is no need to make a bunch of planks by hand using hunger.",
+		"You should need no more than 8 planks made in this manner."
+	],
+	dependencies: [
+		"98f4c3c6"
+	],
+	tasks: [{
+		uid: "594dc11f",
+		type: "item",
+		items: [{
+			item: "minecraft:planks"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "5a98a38b",
+		type: "item",
+		item: "harvestcraft:sweetpotatosouffleitem"
+	}]
+}

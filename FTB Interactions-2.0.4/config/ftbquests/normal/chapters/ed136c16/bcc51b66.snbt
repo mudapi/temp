@@ -1,0 +1,27 @@
+{
+	x: -1.5d,
+	y: -4.5d,
+	shape: "square",
+	description: "Vanilla enchanting, combined with animus' ritual of unmaking to duplicate enchants and botania's mana enchanter as well as uncapped anvil thanks to apotheosis take the vanilla enchantment to a whole new level.",
+	text: [
+		"With this new power comes some new restrictions as well. Certain enchantments require minimum levels before they will begin showing up, and those requiring more than level 30 will require your enchanter to have hell infused bookshelves.",
+		"",
+		"HINT: This accepts any enchanted book. You can make a flim flam enchantment with a book and an emerald in a crafting table."
+	],
+	dependencies: [
+		"c5e6d160"
+	],
+	tasks: [{
+		uid: "3c3ae52b",
+		type: "item",
+		items: [{
+			item: "minecraft:enchanting_table"
+		}]
+	}],
+	rewards: [{
+		uid: "8098ec96",
+		type: "item",
+		item: "minecraft:obsidian",
+		count: 4
+	}]
+}

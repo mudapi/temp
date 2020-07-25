@@ -1,0 +1,44 @@
+{
+	icon: "gregtech:machine 1 2197",
+	x: -4.0d,
+	y: -5.0d,
+	shape: "rsquare",
+	text: [
+		"You'll want to store some creosote for both crafting, fuel and mana generation. A steel drum is a good early option as are thermal dynamic tanks or Mekanism dynamic tanks.",
+		"",
+		"Thermal Dynamic Portable tanks are especially useful once you enchant them with holding, the upgraded variants can hold HUGE amounts when enchanted.",
+		"",
+		"Another great option is the Mekanism Dynamic Tank, it can hold very large amounts cheaply and is a nice looking multiblock."
+	],
+	tasks: [{
+		uid: "d8567236",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 2197"
+		},
+		{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thermalexpansion:tank",
+			tag: {
+				RSControl: 0,
+				Level: 0
+			}
+		},
+		{
+			item: "extrautils2:drum"
+		}]
+	}],
+	rewards: [{
+		uid: "544d51cc",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thermalexpansion:reservoir",
+			tag: {}
+		}
+	}]
+}

@@ -1,0 +1,44 @@
+{
+	title: "I -REALLY- Hate Research. ",
+	x: -14.0d,
+	y: -10.0d,
+	description: "Please dear god just give me all the research, I will accept the warp that goes along with it gladly as my payment. ",
+	text: [
+		"If you really despise research, craft yourself a cheater's thauminomicon and have all research granted to you.",
+		"",
+		"Warning: You will recieve all associated warp for ALL the research granted. If you do not know the implications of this consequence, please read up on Thaumcraft a bit more first."
+	],
+	dependencies: [
+		"2e58c215"
+	],
+	optional: true,
+	tasks: [{
+		uid: "961da085",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thaumcraft:thaumonomicon",
+			Damage: 1s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "afbdf25a",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "botania:brewflask",
+			tag: {
+				RepairCost: 0,
+				display: {
+					Name: "Fear is the mind killer"
+				},
+				brewKey: "warpWard"
+			}
+		}
+	}]
+}

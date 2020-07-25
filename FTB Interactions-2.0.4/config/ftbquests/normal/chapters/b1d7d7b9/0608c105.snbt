@@ -1,0 +1,48 @@
+{
+	title: "Hydrogen",
+	icon: {
+		id: "gregtech:meta_item_1",
+		tag: {
+			Fluid: {
+				FluidName: "air",
+				Amount: 1000
+			}
+		},
+		Damage: 32762s
+	},
+	x: -8.5d,
+	y: 1.0d,
+	description: "Highly Flamable!",
+	text: [
+		"Hydrogen is used in many organic chemistry recipes as well as an essential component to nearly all fuel production recipes. Some blast furnace recipes will also require it."
+	],
+	dependencies: [
+		"eebe34c9"
+	],
+	tasks: [{
+		uid: "49dfeec2",
+		type: "checkmark",
+		title: "Nitrogen Cell",
+		icon: {
+			id: "gregtech:meta_item_1",
+			tag: {
+				Fluid: {
+					FluidName: "air",
+					Amount: 1000
+				}
+			},
+			Damage: 32762s
+		}
+	}],
+	rewards: [{
+		uid: "94975c52",
+		type: "item",
+		item: "contenttweaker:gassy_enriched_egg",
+		count: 16
+	},
+	{
+		uid: "24ffeed4",
+		type: "item",
+		item: "harvestcraft:fairybreaditem"
+	}]
+}

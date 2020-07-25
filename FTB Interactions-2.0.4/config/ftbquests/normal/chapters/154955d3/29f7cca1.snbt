@@ -1,0 +1,60 @@
+{
+	title: "Water Colander",
+	icon: "waterstrainer:strainer_base",
+	x: -2.0d,
+	y: 3.0d,
+	description: "Before you get cotton to make string you can use twine. Grass from the tablet is a good source of plant material to do this.",
+	text: [
+		"We recommend you build 4-6 of these to alleviate too much waiting.",
+		"",
+		"There are several variants, survivalist, dense survivalist and fishermans. All 3 provide different resources and you will need them all."
+	],
+	dependencies: [
+		"1d6fe213"
+	],
+	tasks: [{
+		uid: "94caa5d7",
+		type: "item",
+		items: [{
+			item: "waterstrainer:strainer_base"
+		}],
+		count: 3L
+	},
+	{
+		uid: "359bcf83",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "waterstrainer:strainer_survivalist"
+		}]
+	},
+	{
+		uid: "4485a6a3",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "waterstrainer:strainer_survivalist_dense"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "fb06ff0c",
+		type: "item",
+		item: "harvestcraft:leafyfishsandwichitem"
+	},
+	{
+		uid: "3c60416e",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "waterstrainer:efficiency_meter"
+		}
+	}]
+}

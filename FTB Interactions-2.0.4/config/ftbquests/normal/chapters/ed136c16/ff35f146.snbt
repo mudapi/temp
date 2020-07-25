@@ -1,0 +1,25 @@
+{
+	title: "The Terminator!",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "botania:cosmetic",
+		Damage: 31s
+	},
+	x: -0.5d,
+	y: 2.0d,
+	text: [
+		"There are many more augments you can perform to become the ultimate Android.",
+		"Have fun, and stay safe."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"5633991b"
+	],
+	tasks: [{
+		uid: "9defd4ba",
+		type: "checkmark",
+		title: "Futher Augmenting"
+	}]
+}

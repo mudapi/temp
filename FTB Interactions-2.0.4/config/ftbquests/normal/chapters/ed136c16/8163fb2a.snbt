@@ -1,0 +1,24 @@
+{
+	x: -10.0d,
+	y: 0.5d,
+	description: "By using ectoplasm on an oak sapling you can transform it into a spectre sapling. These trees will grow over time to provide a renewable source of ectoplasm for you. You may want several of these to obtain ectoplasm at a reasonable rate.",
+	text: [
+		"Tip: Works with tree beacons!"
+	],
+	dependencies: [
+		"caf422c5"
+	],
+	tasks: [{
+		uid: "a2c27221",
+		type: "item",
+		items: [{
+			item: "randomthings:spectresapling"
+		}]
+	}],
+	rewards: [{
+		uid: "3b57105f",
+		type: "item",
+		item: "randomthings:ingredient 1 2",
+		count: 4
+	}]
+}

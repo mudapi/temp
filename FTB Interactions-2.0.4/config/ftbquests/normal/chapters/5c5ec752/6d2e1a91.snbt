@@ -1,0 +1,28 @@
+{
+	title: "How do I build this damn thing?!",
+	x: 1.5d,
+	y: -2.0d,
+	shape: "gear",
+	text: [
+		"All GT's multiblocks can provide an in world preview of the blocks needed thanks to the MultiblockTweaker mod. Once you place down the key block (electric blast furnace for example) you can shift right click on the block to cycle between inworld view",
+		"Missing or incorrect blocks will be highlighted in red for you.",
+		"Also important to note, machine control covers can be used to toggle machines on and off with redstone instead of having to rely on a soft mallet, useful for some automations."
+	],
+	dependencies: [
+		"eafc12e8"
+	],
+	tasks: [{
+		uid: "a439841f",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "616e10fd",
+		type: "xp_levels",
+		xp_levels: 2
+	},
+	{
+		uid: "7cc81a7e",
+		type: "item",
+		item: "gregtech:meta_item_1 1 32730"
+	}]
+}

@@ -1,0 +1,29 @@
+{
+	x: 5.0d,
+	y: 5.0d,
+	text: [
+		"Candles are much easier to make than torches early and provide similar functionality. Make sure to have a bunch ready when you venture into the darkness. "
+	],
+	dependencies: [
+		"a9d0a2ad"
+	],
+	tasks: [{
+		uid: "971bfcaa",
+		type: "item",
+		items: [{
+			item: "harvestcraft:candledeco1"
+		}]
+	}],
+	rewards: [{
+		uid: "b90c8147",
+		type: "item",
+		item: {
+			id: "chickens:spawn_egg",
+			tag: {
+				ChickenType: {
+					id: "chickens:smartchicken"
+				}
+			}
+		}
+	}]
+}

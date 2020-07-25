@@ -1,0 +1,42 @@
+{
+	title: "Crafting Party Equipment",
+	x: -14.0d,
+	y: -4.0d,
+	text: [
+		"You'll want to get a tool station and some basic tinkers blocks like the pattern chest, stencil maker and part builder. We wont make you craft all those for this quest but you will need the tool station. ",
+		"",
+		"To get started you can cast iron parts as normal or make cobble parts in the part builder. More advanced materials will require machines to form the metal. Cobble can be a useful material for easy repair early on when speed up with redstone. "
+	],
+	tasks: [{
+		uid: "61bc8931",
+		type: "item",
+		items: [{
+			item: "tconstruct:tooltables 1 3"
+		}]
+	}],
+	rewards: [{
+		uid: "c8ca603d",
+		type: "item",
+		item: {
+			id: "tconstruct:tool_rod",
+			tag: {
+				Material: "xu_magical_wood"
+			}
+		}
+	},
+	{
+		uid: "54d92390",
+		type: "item",
+		item: {
+			id: "tconstruct:sharpening_kit",
+			tag: {
+				Material: "obsidian"
+			}
+		}
+	},
+	{
+		uid: "2258f7b5",
+		type: "item",
+		item: "minecraft:flint"
+	}]
+}

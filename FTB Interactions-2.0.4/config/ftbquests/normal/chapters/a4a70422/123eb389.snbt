@@ -1,0 +1,19 @@
+{
+	x: -12.0d,
+	y: -8.0d,
+	text: [
+		"Holds 64 stacks and can accept upgrades, ideal for tree beacons and what not that keep giving. The void upgrade prevent disasters."
+	],
+	tasks: [{
+		uid: "aabd9471",
+		type: "item",
+		items: [{
+			item: "enderutilities:barrel"
+		}]
+	}],
+	rewards: [{
+		uid: "11875def",
+		type: "item",
+		item: "enderutilities:enderpart 1 73"
+	}]
+}

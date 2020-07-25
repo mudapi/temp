@@ -1,0 +1,54 @@
+{
+	title: "Bloody Hell",
+	x: 1.0d,
+	y: -13.0d,
+	description: "By performing the mark of the falling tower bloodmagic ritual with a block of black quartz as the catalyst item you can summon a meteor with highly radioactive materials.",
+	text: [
+		"Use this ritual to get thorium ore which you can transmute into uranium and further process into plutonium for radon."
+	],
+	dependencies: [
+		"fe50d67e"
+	],
+	tasks: [{
+		uid: "b317ea30",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_thorium_0"
+		}]
+	},
+	{
+		uid: "513cf24f",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "bloodmagic:activation_crystal",
+			Damage: 1s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "f78c31aa",
+		type: "item",
+		item: "astralsorcery:itemcoloredlens 1 6"
+	},
+	{
+		uid: "079a3e5f",
+		type: "item",
+		item: {
+			id: "astralsorcery:blocklens",
+			tag: {
+				astralsorcery: {
+					crystalProperties: {
+						collectiveCapability: 100,
+						size: 900,
+						fract: 0,
+						purity: 100,
+						sizeOverride: -1
+					}
+				}
+			}
+		}
+	}]
+}

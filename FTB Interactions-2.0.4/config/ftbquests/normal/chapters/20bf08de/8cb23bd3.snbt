@@ -1,0 +1,25 @@
+{
+	x: -11.0d,
+	y: -11.0d,
+	shape: "circle",
+	text: [
+		"A nice, cheap fuel source for early game, though not very worth your time right now.",
+		"Looks like it has some interesting properties when it comes to boosting fuel."
+	],
+	dependencies: [
+		"8eac9d15"
+	],
+	tasks: [{
+		uid: "6ad81ba5",
+		type: "item",
+		items: [{
+			item: "thaumcraft:alumentum"
+		}]
+	}],
+	rewards: [{
+		uid: "6e290ce5",
+		type: "item",
+		item: "projecte:item.pe_fuel 1 1",
+		count: 4
+	}]
+}

@@ -1,0 +1,32 @@
+{
+	title: "Alien Stone",
+	x: -0.5d,
+	y: 3.0d,
+	shape: "pentagon",
+	text: [
+		"Now that you have end stone you can process it into tungstenate dust for further processing. The most efficient way to do this is with ther infernal deconclomerator.",
+		"It's schematic is found exclusively in nether dungeons. If you've been unfortunate and not found one, you can also pulverize it and centrifuge which is slightly less efficient but still gets you where you need to be. ",
+		"This is the final step in HV metallurgy, Proceed to the EV+ Metallurgy Teir."
+	],
+	dependencies: [
+		"2904b19b"
+	],
+	tasks: [{
+		uid: "e4022a0b",
+		type: "item",
+		items: [{
+			item: "minecraft:end_stone"
+		}]
+	}],
+	rewards: [{
+		uid: "a9f04160",
+		type: "item",
+		item: "minecraft:end_stone",
+		count: 64
+	},
+	{
+		uid: "986d0884",
+		type: "item",
+		item: "harvestcraft:grilledcheeseitem"
+	}]
+}

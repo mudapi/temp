@@ -1,0 +1,37 @@
+{
+	title: "High Powered Hootch",
+	x: -8.0d,
+	y: -4.0d,
+	text: [
+		"Ethanol can be produced from biomass, which can be in turn produced by plant matter and honey for best results. Honey from rustic apiaries is plentiful and botania flowers can be automed via a jaded amaranthus or by duplicating white metals with mana"
+	],
+	dependencies: [
+		"f8f095e1"
+	],
+	tasks: [{
+		uid: "ddc7b4a5",
+		type: "item",
+		items: [{
+			id: "gregtech:meta_item_1",
+			tag: {
+				Fluid: {
+					FluidName: "ethanol",
+					Amount: 1000
+				}
+			},
+			Damage: 32762s
+		}],
+		ignore_damage: true
+	}],
+	rewards: [{
+		uid: "d6b138f1",
+		type: "item",
+		item: "plants2:desert_0 1 3"
+	},
+	{
+		uid: "5e2653bf",
+		type: "item",
+		item: "botania:petal",
+		count: 2
+	}]
+}

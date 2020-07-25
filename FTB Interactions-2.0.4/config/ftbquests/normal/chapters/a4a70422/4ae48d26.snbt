@@ -1,0 +1,16 @@
+{
+	title: "Automating Nether Stars - Ritual of Culling OR something more innovative....",
+	icon: "minecraft:nether_star",
+	x: -6.5d,
+	y: -1.0d,
+	shape: "gear",
+	text: [
+		"You're going to need a lot of nehter stars for some of the recipes in this pack. There are many ways you can go about automating that process, the simplest being the culling ritual from bloodmagic. Once there is 100 destructive will in the chunk",
+		"(created by the ritual killing normal mobs) it will become empowered and able to kill the wither at a cost of 25k LP per kill. This wither killing is instant and happens before the wither even fully forms. Alternatively there are some more innovative",
+		"methods you can employ, one of which is shown in this video by Tazz."
+	],
+	custom_click: "https://www.youtube.com/watch?v=ndmDkuMZbbo",
+	dependencies: [
+		"3047c09c"
+	]
+}

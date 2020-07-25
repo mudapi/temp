@@ -1,0 +1,30 @@
+{
+	title: "Gettin' Salty",
+	x: -10.5d,
+	y: -9.0d,
+	shape: "diamond",
+	description: "Aquaman needs your help to restore the world's salt levels.",
+	text: [
+		"The start of a processing chains that leads to producing fire and frost salts from Thermal Expansion as well as Lithium.",
+		""
+	],
+	tasks: [{
+		uid: "934bfcd7",
+		type: "item",
+		items: [{
+			item: "mekanism:basicblock 1 14"
+		}]
+	},
+	{
+		uid: "cd6a072c",
+		type: "item",
+		items: [{
+			item: "mekanism:basicblock 1 15"
+		}]
+	}],
+	rewards: [{
+		uid: "29f89fd2",
+		type: "item",
+		item: "cyclicmagic:cable_wireless_fluid"
+	}]
+}

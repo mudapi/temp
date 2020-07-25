@@ -1,0 +1,37 @@
+{
+	x: 4.0d,
+	y: 1.0d,
+	shape: "rsquare",
+	description: "Check the tooltip and JEI. You'll want these balls.",
+	text: [
+		"Seriously. USE THESE. They will save you SO much time early game. Almost grow a plant to full like wheat, around 85% growth is good. Next, plantball it to duplicate it many times instantly. BetterThanBoneMeal(TM)!",
+		""
+	],
+	dependencies: [
+		"8ffc4093"
+	],
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "0dd741ea",
+		type: "item",
+		items: [{
+			item: "plants2:plantball"
+		}]
+	}],
+	rewards: [{
+		uid: "078604f9",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "plants2:dark_crystal_hoe"
+		}
+	},
+	{
+		uid: "8dfd6a1e",
+		type: "item",
+		item: "actuallyadditions:item_worm",
+		count: 3
+	}]
+}

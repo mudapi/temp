@@ -1,0 +1,45 @@
+{
+	title: "The Early Game Building Aid",
+	x: 2.0d,
+	y: 7.0d,
+	shape: "rsquare",
+	description: "Animus Liquid Dirt can be poured and will flow like water. Once it cant flow anymore it will solidify to lots of dirt.",
+	text: [
+		"If you are quick you can pickup the source block before it solidifies and get many uses from a single bucket."
+	],
+	dependencies: [
+		"b030b92e"
+	],
+	tasks: [{
+		uid: "b8d63607",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "blockfluiddirt",
+				Amount: 1000
+			}
+		},
+		{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "ceramics:clay_bucket",
+			tag: {
+				fluids: {
+					FluidName: "blockfluiddirt",
+					Amount: 1000
+				}
+			}
+		}],
+		ignore_damage: true
+	}],
+	rewards: [{
+		uid: "9bb47f07",
+		type: "xp_levels",
+		xp_levels: 2
+	}]
+}

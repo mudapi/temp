@@ -1,0 +1,10 @@
+{
+	title: "Steam Power and the first multiblocks",
+	icon: "gregtech:machine 1 1",
+	description: [
+		"You know every industrialization starts with steam, some debate it to be with horses but are they machines?"
+	],
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

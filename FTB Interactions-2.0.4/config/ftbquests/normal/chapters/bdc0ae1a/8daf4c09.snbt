@@ -1,0 +1,52 @@
+{
+	title: "Beware of Watery Tarts lobbing scimitars.",
+	x: -0.5d,
+	y: -2.0d,
+	shape: "square",
+	text: [
+		"Mana is a primal driving force behind all magic in this pack. It is a liquid that populates the world in small pools and can be turns into an energetic form of mana used by spreaders in the Mana Extrapolator. ",
+		"The extrapolator can also turn energetic mana back into a fluid, although at a slight loss of around 10% total capacity. "
+	],
+	tasks: [{
+		uid: "9823de90",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "mana_fluid",
+				Amount: 1000
+			}
+		},
+		{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "ceramics:clay_bucket",
+			tag: {
+				fluids: {
+					FluidName: "mana_fluid",
+					Amount: 1000
+				}
+			}
+		}],
+		ignore_damage: true
+	}],
+	rewards: [{
+		uid: "fb657c8b",
+		type: "item",
+		item: "gregtech:machine 1 2200"
+	},
+	{
+		uid: "e3279da9",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "botania:monocle"
+		}
+	}]
+}

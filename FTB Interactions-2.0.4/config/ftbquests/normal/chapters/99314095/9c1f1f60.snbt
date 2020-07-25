@@ -1,0 +1,22 @@
+{
+	title: "Battery Charger",
+	x: -1.0d,
+	y: -1.0d,
+	text: [
+		"Did you know you can make electric tools for gregtech and charge them in a battery charger? Also useful for charging your on the go batteries for remote use."
+	],
+	dependencies: [
+		"a916453b"
+	],
+	tasks: [{
+		uid: "7bf2cd81",
+		type: "checkmark",
+		icon: "gregtech:machine 1 681"
+	}],
+	rewards: [{
+		uid: "505e9263",
+		type: "item",
+		item: "gregtech:cable 1 8071",
+		count: 8
+	}]
+}

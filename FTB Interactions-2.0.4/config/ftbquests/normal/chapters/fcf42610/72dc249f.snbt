@@ -1,0 +1,36 @@
+{
+	title: "The Arc to Power",
+	x: -4.5d,
+	y: -2.5d,
+	text: [
+		"Certain materials like wrought iron and annealed copper can be very easily automated and produced quickly by utilizing an arc furnace with some oxygen. You'll find it has many uses and is well worth investing in early.",
+		"Once you're quickly producing wrought iron you can further automate your steel production in a fluxless method by blast furnacing wrought iron quickly. "
+	],
+	tasks: [{
+		uid: "ff9f1068",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 90"
+		},
+		{
+			item: "gregtech:machine 1 91"
+		},
+		{
+			item: "gregtech:machine 1 92"
+		}]
+	}],
+	rewards: [{
+		uid: "062c32ee",
+		type: "item",
+		item: {
+			id: "gregtech:meta_item_1",
+			tag: {
+				Fluid: {
+					FluidName: "oxygen",
+					Amount: 64000
+				}
+			},
+			Damage: 32405s
+		}
+	}]
+}

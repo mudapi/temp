@@ -1,0 +1,26 @@
+{
+	icon: "enderio:item_material 1 20",
+	x: 0.5d,
+	y: -1.0d,
+	shape: "gear",
+	text: [
+		"Automating grains of infinity can be done in a couple ways. The most straight forward is setting up to spawn mobs with infinity dust. When you (or a user.. hint hint) right click the ground with the dust it will create a fog that spawns mobs. ",
+		"The mobs that are spawned with this fog will drop grains of infinity which can then be processed into liquid nightmare in the lightwell and then back into more grains in a self perpetuating loop. Finding a way to automatically kill and spawn mobs",
+		"will complete the challenge. Do note there is a small chance for primed TNT to spawn during this fog. The culling ritual from animus will instantly destroy these tnts."
+	],
+	tasks: [{
+		uid: "0f578b82",
+		type: "checkmark",
+		title: "Automating Infinity?"
+	}],
+	rewards: [{
+		uid: "08bfd844",
+		type: "item",
+		item: "enderio:item_material 1 20"
+	},
+	{
+		uid: "ce05bb3c",
+		type: "xp_levels",
+		xp_levels: 3
+	}]
+}

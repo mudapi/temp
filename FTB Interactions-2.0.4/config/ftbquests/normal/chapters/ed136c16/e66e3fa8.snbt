@@ -1,0 +1,18 @@
+{
+	title: "INTO AWPSI",
+	x: -11.5d,
+	y: 4.0d,
+	text: [
+		"Put this on your power production output buffer."
+	],
+	dependencies: [
+		"be691558"
+	],
+	tasks: [{
+		uid: "fe5fa361",
+		type: "item",
+		items: [{
+			item: "fluxnetworks:fluxplug"
+		}]
+	}]
+}

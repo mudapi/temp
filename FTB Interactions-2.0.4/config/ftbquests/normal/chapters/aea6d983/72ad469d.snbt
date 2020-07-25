@@ -1,0 +1,36 @@
+{
+	x: -4.0d,
+	y: -9.0d,
+	text: [
+		"Porcelain is needed in small amounts early for the porcelain melter but beyond that its primary use is decorative. This chicken can help to produce large amounts of it for decorative purposes and is created cheaply early game."
+	],
+	dependencies: [
+		"bad8af80"
+	],
+	tasks: [{
+		uid: "d8e69e3b",
+		type: "item",
+		items: [{
+			id: "roost:chicken",
+			tag: {
+				Growth: 1,
+				Chicken: "contenttweaker:porcelainchicken",
+				Gain: 1,
+				Strength: 1
+			}
+		}]
+	},
+	{
+		uid: "2458a456",
+		type: "item",
+		items: [{
+			item: "ceramics:unfired_clay 1 4"
+		}]
+	}],
+	rewards: [{
+		uid: "bdefbcf1",
+		type: "item",
+		item: "ceramics:unfired_clay 1 4",
+		count: 8
+	}]
+}

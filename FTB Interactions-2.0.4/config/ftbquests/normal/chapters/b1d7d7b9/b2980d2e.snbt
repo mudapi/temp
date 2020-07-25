@@ -1,0 +1,23 @@
+{
+	title: "Elemental Dusts",
+	x: -12.5d,
+	y: -7.0d,
+	description: "Infusing elemental properties into brine seems to result in elemental dusts which may have many varied uses.",
+	dependencies: [
+		"29825601"
+	],
+	tasks: [{
+		uid: "1050b222",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:material 1 1024"
+		}]
+	},
+	{
+		uid: "13f17b12",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:material 1 1025"
+		}]
+	}]
+}

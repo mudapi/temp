@@ -1,0 +1,25 @@
+{
+	title: "Log log it's better than bad it's wood",
+	x: -4.5d,
+	y: -7.0d,
+	shape: "diamond",
+	description: "By extracting menril logs you can obtain menril crystals. Centrifuging these crystals yields many useful byproducts such as liquid menril, methane, carbon and more!",
+	tasks: [{
+		uid: "f4ec32fb",
+		type: "item",
+		items: [{
+			item: "contenttweaker:menril_ore_crystal"
+		}]
+	}],
+	rewards: [{
+		uid: "8f4a526f",
+		type: "item",
+		item: "integrateddynamics:menril_torch",
+		count: 32
+	},
+	{
+		uid: "9d223b93",
+		type: "item",
+		item: "harvestcraft:berrymeringuenestitem"
+	}]
+}

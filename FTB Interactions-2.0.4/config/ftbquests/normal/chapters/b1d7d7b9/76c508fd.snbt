@@ -1,0 +1,32 @@
+{
+	title: "Crystallized Oil",
+	x: -4.5d,
+	y: -3.0d,
+	shape: "rsquare",
+	description: "By mixing crude oil with the crystallized canola seeds a byproduct of refined light and heavy fuels can be creating, ultimately leading to a cheaper production of diesel fuel.",
+	text: [
+		"This step is optional to increase yield, you can still directly refine your oil for lower yield. "
+	],
+	dependencies: [
+		"f99434e4",
+		"64abbac6"
+	],
+	tasks: [{
+		uid: "0aab2196",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:item_misc 1 23"
+		}]
+	}],
+	rewards: [{
+		uid: "f3650f4f",
+		type: "item",
+		item: "enderio:item_liquid_conduit 1 2",
+		count: 8
+	},
+	{
+		uid: "7bdb49fd",
+		type: "item",
+		item: "harvestcraft:chaiteaitem"
+	}]
+}

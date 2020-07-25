@@ -1,0 +1,30 @@
+{
+	title: "Alchemical Annoyance.",
+	x: -5.0d,
+	y: -3.0d,
+	text: [
+		"A central theme to this pack is side by side progression of both technology and magic. Some magical materials may be used reasonably in tech and vice versa. To get started in the bronze age you'll need brass which WOULD be plentiful in the nether.",
+		"Without nether access currently however you'll have to resort to magic to create your first pieces of brass. You'll need to invest a bit of time and resources into early Thaumcraft to make the brass, see the\"What is this Sorcery\" Questline for more assistance."
+	],
+	dependencies: [
+		"d6801307"
+	],
+	tasks: [{
+		uid: "3344ce5a",
+		type: "item",
+		items: [{
+			item: "thaumcraft:ingot 1 2"
+		}]
+	}],
+	rewards: [{
+		uid: "09cf8c99",
+		type: "item",
+		item: "thaumcraft:nitor_purple"
+	},
+	{
+		uid: "03b869ed",
+		type: "item",
+		item: "thaumcraft:ingot 1 2",
+		count: 4
+	}]
+}

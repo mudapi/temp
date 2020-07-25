@@ -1,0 +1,34 @@
+{
+	x: -6.0d,
+	y: -7.0d,
+	shape: "diamond",
+	text: [
+		"Stability is key, if your altar begins to become instable add some tallow candles and mob heads.",
+		"Remember symmetry is key, anything you place remember to place a symmetrical counterpart.",
+		"Instability can lead to:",
+		"- loss of item",
+		"- taint poison",
+		"- being struck by lightning"
+	],
+	dependencies: [
+		"86372210"
+	],
+	tasks: [{
+		uid: "cf0ac783",
+		type: "item",
+		items: [{
+			item: "thaumcraft:infusion_matrix"
+		}]
+	}],
+	rewards: [{
+		uid: "c211a68f",
+		type: "item",
+		item: "xreliquary:interdiction_torch"
+	},
+	{
+		uid: "a17e3c5e",
+		type: "item",
+		item: "thaumcraft:triple_meat_treat",
+		count: 8
+	}]
+}

@@ -1,0 +1,24 @@
+{
+	title: "Never Give You Up",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "botania:cosmetic",
+		Damage: 31s
+	},
+	x: -4.0d,
+	y: -5.0d,
+	shape: "gear",
+	description: "If you're playing on a team, make sure to sync your gamestages togethger with Together Forever commands.",
+	text: [
+		"/tofe invite <player_name>",
+		"/tofe accept <player_name>",
+		"/tofe kick <player_name>",
+		"/tofe info"
+	],
+	tasks: [{
+		uid: "b479aa54",
+		type: "checkmark"
+	}]
+}

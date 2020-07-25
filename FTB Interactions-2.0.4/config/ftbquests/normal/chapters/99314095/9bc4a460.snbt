@@ -1,0 +1,32 @@
+{
+	title: "Ba-Ba-Black Sheep",
+	x: -2.0d,
+	y: -2.0d,
+	description: "Sketchy low tier cabling requires equally sketchy low tier covering. Also how hilarious is the idea of breaking into your neighbor's house and ripping up their carpet for your electrical insulation?",
+	tasks: [{
+		uid: "24c4baeb",
+		type: "item",
+		items: [{
+			item: "minecraft:carpet 1 15"
+		}],
+		count: 128L
+	}],
+	rewards: [{
+		uid: "e37e2ae4",
+		type: "item",
+		item: {
+			id: "thermalexpansion:morb",
+			tag: {
+				Generic: 1,
+				id: "minecraft:sheep"
+			}
+		},
+		count: 4
+	},
+	{
+		uid: "370bbae9",
+		type: "item",
+		item: "minecraft:dye",
+		count: 4
+	}]
+}

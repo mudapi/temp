@@ -1,0 +1,28 @@
+{
+	title: "Anchored in Spirit",
+	x: -10.0d,
+	y: -1.0d,
+	text: [
+		"Spectre Anchors are a cheap way to bind equipment to you so that it stays with you beyond death. Craft a spectre anchor and attach it to any important items to safeguard them."
+	],
+	dependencies: [
+		"caf422c5"
+	],
+	tasks: [{
+		uid: "cab93052",
+		type: "item",
+		items: [{
+			item: "randomthings:spectreanchor"
+		}]
+	}],
+	rewards: [{
+		uid: "6505dbdb",
+		type: "xp_levels",
+		xp_levels: 4
+	},
+	{
+		uid: "ba426c4f",
+		type: "item",
+		item: "randomthings:spectreilluminator"
+	}]
+}

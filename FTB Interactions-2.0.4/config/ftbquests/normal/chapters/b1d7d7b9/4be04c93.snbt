@@ -1,0 +1,33 @@
+{
+	title: "Sulfuric Naphtha",
+	icon: {
+		id: "gregtech:meta_item_1",
+		tag: {
+			Fluid: {
+				FluidName: "sulfuric_naphtha",
+				Amount: 1000
+			}
+		},
+		Damage: 32762s
+	},
+	x: -8.5d,
+	y: -7.0d,
+	description: "Look, we're not going to require you to bucket out this useless chemical because that's SUCH. AN. ANNOYING. QUESTBOOK. PRACTICE.",
+	text: [
+		"Sulfuric naptha can be obtained by directly distilling oil or by using a distillery, advanced empowered oils also provide this byproduct. "
+	],
+	tasks: [{
+		uid: "4aa48766",
+		type: "checkmark",
+		icon: {
+			id: "gregtech:meta_item_1",
+			tag: {
+				Fluid: {
+					FluidName: "sulfuric_naphtha",
+					Amount: 1000
+				}
+			},
+			Damage: 32762s
+		}
+	}]
+}

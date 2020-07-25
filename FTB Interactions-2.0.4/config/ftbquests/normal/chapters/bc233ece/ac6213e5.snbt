@@ -1,0 +1,23 @@
+{
+	title: "Spinny Go Fast",
+	x: -3.5d,
+	y: -2.0d,
+	shape: "square",
+	text: [
+		"As you use higher tier machines to produce a better chance at byproducts, so do some materials NEED the higher energy cycles to even produce any byproducts.",
+		"One such matertial is plutonium. By Centrifuging uranium dust in an HV+ centrifuge you have a chance at plutonium dust which will be critical for the production of radon. "
+	],
+	dependencies: [
+		"829ccb26"
+	],
+	tasks: [{
+		uid: "078be84b",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 152"
+		},
+		{
+			item: "gregtech:machine 1 153"
+		}]
+	}]
+}

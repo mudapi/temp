@@ -1,0 +1,39 @@
+{
+	x: -6.5d,
+	y: -2.0d,
+	description: "Mined on the Moon (Luna)",
+	text: [
+		"By creating a mark of the falling tower ritual and using a block of black quartz as the catalyst you can summon forth radio active ores from space. Additionally starmetal works as a block to get more starmetal, rock crystals and many other magic ore."
+	],
+	dependencies: [
+		"7c314036"
+	],
+	tasks: [{
+		uid: "968914f5",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:block_misc 1 2"
+		}]
+	}],
+	rewards: [{
+		uid: "f6577283",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "actuallyadditions:quartz_paxel",
+			tag: {
+				ench: [{
+					lvl: 1,
+					id: 29
+				},
+				{
+					lvl: 3,
+					id: 73
+				}],
+				RepairCost: 3
+			}
+		}
+	}]
+}

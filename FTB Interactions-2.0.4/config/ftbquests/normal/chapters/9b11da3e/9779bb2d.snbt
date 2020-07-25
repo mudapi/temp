@@ -1,0 +1,15 @@
+{
+	title: "Ice, Ice Baby",
+	icon: "minecraft:packed_ice",
+	x: 0.0d,
+	y: -8.0d,
+	description: "Colder biomes can be found by going north.",
+	dependencies: [
+		"c5321cae",
+		"2e6c74d5"
+	],
+	tasks: [{
+		uid: "08a4938e",
+		type: "checkmark"
+	}]
+}

@@ -1,0 +1,39 @@
+{
+	title: "Aggressive Oinking",
+	icon: {
+		id: "openblocks:trophy",
+		tag: {
+			entity_id: "minecraft:zombie_pigman"
+		},
+		Damage: 5s
+	},
+	x: 1.0d,
+	y: 1.0d,
+	text: [
+		"- Zombie Pigmen are more aggressive than ever! They will get hostile if you touch them",
+		"- Zombie Pigmen also have a chance of getting mad if you break blocks near them",
+		"= They also get all the standard bonuses that normal zombies get"
+	],
+	dependencies: [
+		"f92a387e"
+	],
+	tasks: [{
+		uid: "9b7ec47c",
+		type: "kill",
+		entity: "minecraft:zombie_pigman",
+		value: 100L
+	}],
+	rewards: [{
+		uid: "9f7bb18e",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "xreliquary:mob_charm",
+			tag: {
+				type: 5
+			}
+		}
+	}]
+}

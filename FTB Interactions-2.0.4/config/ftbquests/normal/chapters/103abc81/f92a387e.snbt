@@ -1,0 +1,17 @@
+{
+	title: "Highway to Hell",
+	x: 4.0d,
+	y: 2.0d,
+	description: "To get to the Nether, you'll have to craft these 10 Portal Blocks. Once you set foot in the Nether, mobs will also get progressively harder. Note that it requires liquid death in the Worktable recipe.",
+	dependencies: [
+		"cfcc58ad"
+	],
+	tasks: [{
+		uid: "04261b03",
+		type: "item",
+		items: [{
+			item: "sonarcore:stablestonerimmed_black"
+		}],
+		count: 10L
+	}]
+}

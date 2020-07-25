@@ -1,0 +1,29 @@
+{
+	icon: "thaumcraft:curio 1 6",
+	x: -14.0d,
+	y: -11.0d,
+	text: [
+		"This quest will unlock the eldritch tab research for you. WARNING: You are still subject to warp effects, use at your own risk!"
+	],
+	can_repeat: true,
+	dependencies: [
+		"961eb3ac"
+	],
+	tasks: [{
+		uid: "435de7e0",
+		type: "checkmark",
+		title: "These eldritch delights have eldritch ends."
+	}],
+	rewards: [{
+		uid: "fa21e694",
+		type: "command",
+		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thaumcraft:thaumonomicon",
+			Damage: 1s
+		},
+		command: "/thaumcraft research @p BASEELDRITCH"
+	}]
+}

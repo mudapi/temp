@@ -1,0 +1,23 @@
+{
+	x: 4.5d,
+	y: -4.0d,
+	text: [
+		"Exclamation marked circle quests contain important information about the pack that is relevant to each section. You should review all of these as soon as they are available to you."
+	],
+	dependencies: [
+		"3b4bd52b"
+	],
+	tasks: [{
+		uid: "9448a483",
+		type: "checkmark",
+		title: "Important Information",
+		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "botania:cosmetic",
+			Damage: 31s
+		},
+		disable_toast: true
+	}]
+}

@@ -1,0 +1,23 @@
+{
+	title: "Poisonous Will",
+	x: -1.5d,
+	y: 3.0d,
+	shape: "gear",
+	text: [
+		"The Animus Ritual \"Eldritch Will\" can clean a 3x3 area of flux by converting it to demon will aura which you can then safely collect. Utilizing these two together can produce unlimited will and keep danger noodles from infringing on your multiblocks."
+	],
+	dependencies: [
+		"832823a9"
+	],
+	tasks: [{
+		uid: "1e2b3b7f",
+		type: "checkmark",
+		title: "Poisonous Will",
+		icon: "thaumcraft:crystal_vitium"
+	}],
+	rewards: [{
+		uid: "7c3e13d1",
+		type: "item",
+		item: "thaumcraft:crystal_vitium"
+	}]
+}

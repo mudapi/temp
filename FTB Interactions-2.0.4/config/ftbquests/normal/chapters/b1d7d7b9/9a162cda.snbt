@@ -1,0 +1,33 @@
+{
+	title: "A lot of Lithium",
+	x: -10.5d,
+	y: -5.0d,
+	description: "Finally you can toss some real batteries into the fire again.",
+	dependencies: [
+		"29825601"
+	],
+	tasks: [{
+		uid: "da6311b9",
+		type: "item",
+		title: "Lithium Dust",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "dustLithium",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter"
+		}]
+	}],
+	rewards: [{
+		uid: "8a2bbd3d",
+		type: "item",
+		item: "harvestcraft:pistachioicecreamitem"
+	},
+	{
+		uid: "09231ab3",
+		type: "item",
+		item: "gregtech:meta_item_1 1 32528"
+	}]
+}

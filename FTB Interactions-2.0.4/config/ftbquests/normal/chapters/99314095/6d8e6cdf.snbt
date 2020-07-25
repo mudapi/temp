@@ -1,0 +1,55 @@
+{
+	title: "Switch, Upgrad It.",
+	x: -10.5d,
+	y: 0.0d,
+	shape: "diamond",
+	description: "Upgrade your Infernal Furnace into a Hellfire Kiln",
+	text: [
+		"The infernal furnace is nice, but it seems to attract unwanted eldritch pollutants and cause.... other problems.",
+		"We have the technology to improve upon this crude design. By using some custom venting we can direct its power into a completely clean and free source of basic smelting. "
+	],
+	dependencies: [
+		"243978e1",
+		"c13fb853"
+	],
+	tasks: [{
+		uid: "c2d3f544",
+		type: "item",
+		items: [{
+			id: "modularmachinery:itemblueprint",
+			tag: {
+				dynamicmachine: "modularmachinery:hellfire_kiln"
+			}
+		}]
+	},
+	{
+		uid: "7bc0eb9c",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockcasing 1 1"
+		}]
+	},
+	{
+		uid: "13ca3e5b",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockcontroller"
+		}]
+	}],
+	rewards: [{
+		uid: "ec5d620c",
+		type: "item",
+		item: "gregtech:meta_item_2 1 32487",
+		count: 4
+	},
+	{
+		uid: "884d4b54",
+		type: "item",
+		item: "logisticspipes:module_active_supplier"
+	},
+	{
+		uid: "47794786",
+		type: "item",
+		item: "logisticspipes:module_provider"
+	}]
+}

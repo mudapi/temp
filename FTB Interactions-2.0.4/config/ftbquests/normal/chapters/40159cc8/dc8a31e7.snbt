@@ -1,0 +1,17 @@
+{
+	title: "Unmanned Rockets to Spaaaceee!",
+	x: 3.0d,
+	y: -17.0d,
+	shape: "rsquare",
+	description: "To send an unmanned rocket to space, you're going to need a Rocket Monitor Station. Be sure to link it to your unmanned Rocket",
+	dependencies: [
+		"323ae2d3"
+	],
+	tasks: [{
+		uid: "b18fdab0",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:monitoringstation"
+		}]
+	}]
+}

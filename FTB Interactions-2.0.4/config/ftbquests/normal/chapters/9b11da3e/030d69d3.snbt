@@ -1,0 +1,21 @@
+{
+	icon: {
+		id: "openblocks:trophy",
+		tag: {
+			entity_id: "minecraft:evocation_illager"
+		},
+		Damage: 41s
+	},
+	x: -3.0d,
+	y: -6.0d,
+	description: "Nothings changed about Evokers, but they're pretty common in some dungeons. You might even find a wand that lets you replicate Evoker's spike attacks as loot.",
+	dependencies: [
+		"2e6c74d5"
+	],
+	tasks: [{
+		uid: "527224fc",
+		type: "kill",
+		entity: "minecraft:evocation_illager",
+		value: 1L
+	}]
+}

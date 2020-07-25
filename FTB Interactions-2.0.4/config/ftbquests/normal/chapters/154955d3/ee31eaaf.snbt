@@ -1,0 +1,26 @@
+{
+	title: "Infinity Dust",
+	x: 0.0d,
+	y: 5.0d,
+	description: "Obtained by left clicking on bedrock with flint. This will consume 4 levels or more of exp and most of the time destroys the flint. When placed on the floor in a dark, covered room the dust has a chance of summoning forth enemies from the void.",
+	text: [
+		"Creatures summoned by the infinity dust have a high chance of dropping infinity grains which can be used to create a self sustaining cycle of grains and dust.",
+		"WARNING: Keep cobblestone away, it makes the Endermites angry and near impossible to kill.",
+		"Final Note: You do NOT create this by burning bedrock in this pack as you typically would."
+	],
+	dependencies: [
+		"1bb9079a"
+	],
+	tasks: [{
+		uid: "a20d7c32",
+		type: "item",
+		items: [{
+			item: "enderio:block_infinity_fog"
+		}]
+	}],
+	rewards: [{
+		uid: "32c46e7b",
+		type: "xp_levels",
+		xp_levels: 2
+	}]
+}

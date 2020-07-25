@@ -1,0 +1,23 @@
+{
+	x: -10.0d,
+	y: -7.0d,
+	shape: "gear",
+	description: "Key magical materials will provide the an extremely strong variant of mundane tools such as wrenches, hammers, screwdrivers etc. You are highly encouraged to seek out these materials so greatly simplify the amount of normal tools you will need.",
+	tasks: [{
+		uid: "b2cd5254",
+		type: "checkmark",
+		title: "Tool Superiority",
+		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "gregtech:meta_tool",
+			tag: {
+				GT.ToolStats: {
+					PrimaryMaterial: "darmstadtium"
+				}
+			},
+			Damage: 8s
+		}
+	}]
+}

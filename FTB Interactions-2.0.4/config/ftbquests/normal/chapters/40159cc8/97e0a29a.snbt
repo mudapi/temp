@@ -1,0 +1,18 @@
+{
+	title: "The Dark Star Aurellia",
+	x: 7.0d,
+	y: -11.0d,
+	shape: "diamond",
+	description: "This planet is orbiting a black hole. Although the atmosphere is earthlike you will find the gravity is greatly increased so near to the blackhole. ",
+	dependencies: [
+		"1e07ae16",
+		"da0cc52f"
+	],
+	tasks: [{
+		uid: "ccb13932",
+		type: "item",
+		items: [{
+			item: "contenttweaker:overworldessencel"
+		}]
+	}]
+}

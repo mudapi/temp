@@ -1,0 +1,18 @@
+{
+	x: 7.0d,
+	y: -2.0d,
+	description: "You will need netherite blocks for your tier 3 altar caps. This metal was founded by the ancient inhabitants of the nether and they have hidden the resources deep in there.",
+	text: [
+		"Found randomly in the nether at depths of Y <= 17."
+	],
+	dependencies: [
+		"4fa0097b"
+	],
+	tasks: [{
+		uid: "a7425586",
+		type: "item",
+		items: [{
+			item: "netherbackport:netheriteblock"
+		}]
+	}]
+}

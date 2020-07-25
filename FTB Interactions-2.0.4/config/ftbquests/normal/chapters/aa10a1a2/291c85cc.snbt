@@ -1,0 +1,32 @@
+{
+	title: "Upgrade !",
+	x: -4.0d,
+	y: 3.5d,
+	shape: "rsquare",
+	text: [
+		"When you have a lot of machines running your one boiler cant keep up anymore? why not upgrade your current boiler instead of building more boilers?",
+		"Your whole infrastructure stays the same, the only thing you might need to consider is are your pipes keeping up with production?"
+	],
+	dependencies: [
+		"e06f2bd0"
+	],
+	tasks: [{
+		uid: "f6742041",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 522"
+		}]
+	}],
+	rewards: [{
+		uid: "e0e12104",
+		type: "item",
+		item: {
+			id: "mekanism:transmitter",
+			tag: {
+				tier: 1
+			},
+			Damage: 1s
+		},
+		count: 8
+	}]
+}

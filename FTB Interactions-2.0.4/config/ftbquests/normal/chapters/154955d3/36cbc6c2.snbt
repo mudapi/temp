@@ -1,0 +1,26 @@
+{
+	title: "What's all the buzz about?",
+	x: 4.0d,
+	y: 6.0d,
+	text: [
+		"Crops growing too slow? Tired of being on deaths door? Don't worry, Bee happy, because now you can solve both of your problems. The rustic apiaries, when worked by bees, accelerate crops nearby. This effect stacks.",
+		"",
+		"In addition, they produce honey which when combined with cohosh can brew potions of regeneration. "
+	],
+	dependencies: [
+		"a9d0a2ad"
+	],
+	tasks: [{
+		uid: "ee194474",
+		type: "item",
+		items: [{
+			item: "rustic:apiary"
+		}]
+	}],
+	rewards: [{
+		uid: "ddfdb55e",
+		type: "item",
+		item: "rustic:cohosh",
+		count: 4
+	}]
+}

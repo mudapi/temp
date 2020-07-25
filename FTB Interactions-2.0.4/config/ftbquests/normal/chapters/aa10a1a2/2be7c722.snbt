@@ -1,0 +1,53 @@
+{
+	title: "You've urned this",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "mekanism:machineblock",
+		Damage: 12s
+	},
+	x: -13.0d,
+	y: -3.5d,
+	description: "As you progress into the LV age you can create a better water source, aqueous accumulator creates water for free, while the Mekanism pump will produce it far faster but takes energy. The choice is yours.",
+	text: [
+		""
+	],
+	dependencies: [
+		"c13fb853",
+		"51878972"
+	],
+	tasks: [{
+		uid: "77a980c2",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:device",
+			tag: {
+				RSControl: 0,
+				Facing: 3,
+				Energy: 0,
+				SideCache: [B;
+					0b,
+					1b,
+					0b,
+					0b,
+					0b,
+					0b
+				]
+			}
+		},
+		{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "mekanism:machineblock",
+			Damage: 12s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "421ed431",
+		type: "item",
+		item: "gregtech:machine 1 2197"
+	}]
+}

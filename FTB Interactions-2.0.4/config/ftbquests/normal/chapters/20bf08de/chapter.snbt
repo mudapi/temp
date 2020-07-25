@@ -1,0 +1,10 @@
+{
+	title: "What is this sorcery",
+	icon: "thaumcraft:salis_mundus",
+	description: [
+		"The not so comprehensive guide to Magic"
+	],
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

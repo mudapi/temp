@@ -1,0 +1,25 @@
+{
+	title: "What's in your head, in your head, Zombieeeee",
+	icon: "minecraft:skull 1 2",
+	x: -4.0d,
+	y: -9.0d,
+	text: [
+		"Zombies are more balanced than ever:",
+		"- can spawn with random enchanted armor (including helmets)",
+		"- have a chance to be riding a cute zombie pony",
+		"- can now do jump attacks, and apply hunger to you. They've been hitting the gym.",
+		"- have 30 hp instead of 20, and knockback resistance",
+		"- They can break certain blocks that emit light including candles, jackolanterns, cave illuminators and even peace candles. ",
+		"",
+		"In exchange for all this, baby zombies now burn in sunlight, what an amazing deal."
+	],
+	dependencies: [
+		"2e6c74d5"
+	],
+	tasks: [{
+		uid: "da30708c",
+		type: "kill",
+		entity: "minecraft:zombie",
+		value: 1L
+	}]
+}

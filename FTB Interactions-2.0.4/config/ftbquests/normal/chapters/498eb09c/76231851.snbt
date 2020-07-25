@@ -1,0 +1,29 @@
+{
+	title: "Resistance is Rutile",
+	x: -6.0d,
+	y: 0.0d,
+	description: "Electrolyze 39 bauxite dust to get just 2 rutile dust or Centrifuge 3 purified bauxite to get 1 rutile. Luckily Bauxite Veins have been spotted in the Nether and richer Rutile veins have been detected on the distant world of Euclydes.",
+	dependencies: [
+		"f92a387e"
+	],
+	tasks: [{
+		uid: "c8150421",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 2122"
+		}]
+	},
+	{
+		uid: "d8f97bdd",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 2123"
+		}],
+		count: 39L
+	}],
+	rewards: [{
+		uid: "c88e0810",
+		type: "item",
+		item: "gregtech:ore_rutile_0"
+	}]
+}

@@ -1,0 +1,30 @@
+{
+	x: 0.0d,
+	y: -4.0d,
+	shape: "diamond",
+	description: "The squeezer is a very early and inefficient method of processing ores. It's advantage is that when automated, it can process ores very quickly and keep you progressing towards the LV age. It is recommended as your first ore processor.",
+	text: [
+		"To create the squeezer you'll need to mine and melt iron and cast the iron into a basin for the block. The squeezer can be automated with some redstone and a slime block."
+	],
+	dependencies: [
+		"5170565f"
+	],
+	tasks: [{
+		uid: "37ae8f5e",
+		type: "item",
+		items: [{
+			item: "integrateddynamics:squeezer"
+		}]
+	}],
+	rewards: [{
+		uid: "b0fceb8b",
+		type: "item",
+		item: "minecraft:redstone",
+		count: 16
+	},
+	{
+		uid: "13cbb769",
+		type: "item",
+		item: "harvestcraft:minerstewitem"
+	}]
+}

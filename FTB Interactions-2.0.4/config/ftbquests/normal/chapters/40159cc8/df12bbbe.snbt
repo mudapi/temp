@@ -1,0 +1,23 @@
+{
+	title: "Dont get Lost in Space.",
+	icon: "advancedrocketry:guidancecomputer",
+	x: -1.5d,
+	y: -17.0d,
+	description: "The guidance computer is essential for every rocket, it is where you will insert your destination ID telling the rocket where it should fly.",
+	dependencies: [
+		"05f17487"
+	],
+	tasks: [{
+		uid: "4fa304e8",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:guidancecomputer"
+		}]
+	}],
+	rewards: [{
+		uid: "fab47195",
+		type: "item",
+		item: "enderutilities:ender_elevator",
+		count: 2
+	}]
+}

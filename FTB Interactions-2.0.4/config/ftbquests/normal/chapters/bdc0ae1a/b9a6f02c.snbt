@@ -1,0 +1,20 @@
+{
+	title: "Mana Creation",
+	x: 3.5d,
+	y: 3.0d,
+	shape: "square",
+	description: "Time to make some mana. Your starting flower options are the Petropetunia or the Dandelifeon. No other producers are yet available to you.",
+	text: [
+		"The petropetunia can burn any burnable fuels like creosote or diesel and can even pull directly from a tank."
+	],
+	dependencies: [
+		"1b10cc2d"
+	],
+	tasks: [{
+		uid: "82793346",
+		type: "item",
+		items: [{
+			item: "botania:manaresource 1 23"
+		}]
+	}]
+}

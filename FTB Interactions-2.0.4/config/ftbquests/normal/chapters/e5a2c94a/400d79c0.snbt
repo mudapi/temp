@@ -1,0 +1,19 @@
+{
+	title: "Infernal Deconglomerator",
+	x: -3.0d,
+	y: 1.0d,
+	description: "A hellish contraption that uses mana and energy to break down mundane blocks into rarer materials.",
+	dependencies: [
+		"f92a387e"
+	],
+	tasks: [{
+		uid: "66274b8b",
+		type: "item",
+		items: [{
+			id: "modularmachinery:itemblueprint",
+			tag: {
+				dynamicmachine: "modularmachinery:infernal_deconglomerator"
+			}
+		}]
+	}]
+}

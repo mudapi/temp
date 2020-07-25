@@ -1,0 +1,10 @@
+{
+	title: "God's Plan",
+	icon: "thermalfoundation:upgrade 1 256",
+	description: [
+		"I'm sorry but I only love my creative battery."
+	],
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

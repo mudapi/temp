@@ -1,0 +1,33 @@
+{
+	title: "Ain't nobody got time for that",
+	x: -9.0d,
+	y: -4.5d,
+	text: [
+		"The time in a bottle lets you store time as you play as long as the bottle is in your inventory. Once you have some stored simply right click on a block to make it work faster. ",
+		"WARNING: If you use this on energy producers you can overvoltage your cables and burn them. ",
+		"Accelerating steam boilers and producers should work fine, among many other things."
+	],
+	dependencies: [
+		"a916453b"
+	],
+	tasks: [{
+		uid: "835266a7",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "randomthings:timeinabottle",
+			tag: {
+				timeData: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "f5104c13",
+		type: "item",
+		item: "randomthings:beans 1 2"
+	}]
+}

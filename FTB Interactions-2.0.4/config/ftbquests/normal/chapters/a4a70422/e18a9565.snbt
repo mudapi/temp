@@ -1,0 +1,20 @@
+{
+	x: -6.0d,
+	y: -7.0d,
+	description: "A bigger bucket.",
+	text: [
+		"Like the thermal tanks and cache they can be enchanted with holder. Very BIG Bucket!"
+	],
+	tasks: [{
+		uid: "10657249",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thermalexpansion:reservoir",
+			tag: {}
+		}],
+		ignore_nbt: 1b
+	}]
+}

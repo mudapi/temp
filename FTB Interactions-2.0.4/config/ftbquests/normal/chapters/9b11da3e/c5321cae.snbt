@@ -1,0 +1,22 @@
+{
+	title: "Around and around we go",
+	x: 0.0d,
+	y: -7.0d,
+	description: "The world uses a biome map that loops every couple thousand blocks.",
+	text: [
+		"The worldgen follows a pattern for cold/hot regions as well as dry and wet regions as indicated here. If you're in a cold biome you can travel north or south and you'll eventually get to a hot biome etc etc"
+	],
+	tasks: [{
+		uid: "0d608800",
+		type: "checkmark",
+		icon: "minecraft:compass"
+	}],
+	rewards: [{
+		uid: "240abb13",
+		type: "item",
+		item: {
+			id: "naturescompass:naturescompass",
+			tag: {}
+		}
+	}]
+}

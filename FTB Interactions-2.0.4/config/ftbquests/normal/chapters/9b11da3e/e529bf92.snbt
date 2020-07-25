@@ -1,0 +1,21 @@
+{
+	title: "You're as sharp as a marble.",
+	x: -3.0d,
+	y: -12.0d,
+	description: "Marble can be found in ancient temples but be careful, they are old and the marble may crumble without a lighter touch. Fortunately there may be other ways of restoring the crumbled marble.",
+	dependencies: [
+		"2e6c74d5"
+	],
+	tasks: [{
+		uid: "7d678a4c",
+		type: "item",
+		items: [{
+			item: "astralsorcery:blockmarble 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "00f39ddf",
+		type: "item",
+		item: "tconstruct:materials 1 16"
+	}]
+}

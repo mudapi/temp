@@ -1,0 +1,24 @@
+{
+	title: "More coke ovens!",
+	x: -9.5d,
+	y: -4.5d,
+	description: "Sometimes they call it a powertower (HINT: sharing blocks)",
+	text: [
+		"Stacking 3 industrial coke ovens should power a large bronze boiler at max capacity just fine and even build you a buffer of creosote and coal coke",
+		"Each additional improved coke oven connected to your original one will need 9 bronze bricked hulls, item in and out, fluid out and 4 coke oven bricks,",
+		"",
+		"This is a perfect opportunity to repurpose your old coke ovens.",
+		"The optimal setup is 1 ICO producing charcoal and 2 producing coked coal, all of the coke coal and creosote are then piped into a large bronze boiler to fully power it."
+	],
+	dependencies: [
+		"51878972"
+	],
+	tasks: [{
+		uid: "3caff7ff",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockcontroller"
+		}],
+		count: 3L
+	}]
+}

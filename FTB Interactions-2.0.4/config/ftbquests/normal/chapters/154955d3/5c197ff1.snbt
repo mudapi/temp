@@ -1,0 +1,29 @@
+{
+	title: "This shouldn't even be neccessary...",
+	x: 2.0d,
+	y: -3.0d,
+	description: "But if you somehow joined the exclusive club of losing your Tome without putting it into the table, here's a backup. Can't help you beyond that.",
+	dependencies: [
+		"e7d70489"
+	],
+	tasks: [{
+		uid: "08646f4d",
+		type: "checkmark",
+		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "projecte:item.pe_tome"
+		}
+	}],
+	rewards: [{
+		uid: "d6c9b41e",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "projecte:item.pe_tome"
+		}
+	}]
+}

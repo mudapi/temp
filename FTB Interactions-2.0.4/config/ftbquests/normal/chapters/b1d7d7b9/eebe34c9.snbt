@@ -1,0 +1,19 @@
+{
+	x: -10.5d,
+	y: 1.0d,
+	description: "What? Did you think we were going to make you collect air by compressing air cells in a Compressor?",
+	text: [
+		"Many of these products can be produced directly from the Gassy Chicken.",
+		""
+	],
+	tasks: [{
+		uid: "26102a6b",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 950"
+		},
+		{
+			item: "contenttweaker:gassy_enriched_egg"
+		}]
+	}]
+}
