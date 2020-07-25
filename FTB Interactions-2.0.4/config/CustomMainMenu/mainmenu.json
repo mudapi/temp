@@ -2,8 +2,8 @@
   "images": {},
   "buttons": {
     "singleplayer": {
-      "text": "Singleplayer",
-      "hoverText": "Is it daytime yet?",
+      "text": "menu.singleplayer",
+      "hoverText": "interactions.menu.singleplayer.hovertext",
       "posX": 20,
       "posY": -140,
       "width": 250,
@@ -19,7 +19,7 @@
     },
     "multiplayer": {
       "text": "menu.multiplayer",
-      "hoverText": "No, YOU go first.",
+      "hoverText": "interactions.menu.multiplayer.hovertext",
       "posX": 20,
       "posY": -100,
       "width": 250,
@@ -35,7 +35,7 @@
     },
     "mods": {
       "text": "fml.menu.mods",
-      "hoverText": "Featuring GT and Spice of Life",
+      "hoverText": "interactions.menu.mods.hovertext",
       "posX": 20,
       "posY": -60,
       "width": 250,
@@ -50,8 +50,8 @@
       }
     },
     "options": {
-      "text": "Options",
-      "hoverText": "Remember to set keybinds",
+      "text": "menu.options",
+      "hoverText": "interactions.menu.options.hovertext",
       "posX": 20,
       "posY": -20,
       "width": 250,
@@ -66,8 +66,8 @@
       }
     },
     "tracker": {
-      "text": "Report Bugs",
-      "hoverText": "Bonus points if in haiku",
+      "text": "interactions.menu.tracker.text",
+      "hoverText": "interactions.menu.tracker.hovertext",
       "posX": 20,
       "posY": 20,
       "width": 250,
@@ -82,8 +82,8 @@
       }
     },
     "discord": {
-      "text": "Discord",
-      "hoverText": "Come hang out",
+      "text": "interactions.menu.discord.text",
+      "hoverText": "interactions.menu.discord.hovertext",
       "posX": 20,
       "posY": 60,
       "width": 250,
@@ -99,7 +99,7 @@
     },
     "quit": {
       "text": "menu.quit",
-      "hoverText": "This pack has ReAuth",
+      "hoverText": "interactions.menu.quit.hovertext",
       "posX": 20,
       "posY": 100,
       "width": 250,
@@ -118,7 +118,7 @@
       "posY": 1,
       "width": 20,
       "height": 20,
-      "tooltip": "Language",
+      "tooltip": "interactions.menu.language.tooltip",
       "alignment": "top_right",
       "imageWidth": "40",
       "imageHeight": "40",
@@ -135,7 +135,7 @@
       "width": 20,
       "height": 20,
       "alignment": "top_right",
-      "tooltip": "FTB Site",
+      "tooltip": "interactions.menu.website.tooltip",
       "texture": "mainmenu:web.png",
       "imageWidth": "40",
       "imageHeight": "40",
@@ -151,7 +151,7 @@
       "width": 20,
       "height": 20,
       "alignment": "top_right",
-      "tooltip": "Get a Server Today!",
+      "tooltip": "interactions.menu.creeperhost.tooltip",
       "texture": "mainmenu:creeperhost.png",
       "imageWidth": "40",
       "imageHeight": "40",
@@ -173,7 +173,7 @@
   "labels": {
     "mojang": {
       "text": "Copyright Mojang AB.",
-      "hoverText": "§nCopyright Mojang AB.",
+      "hoverText": "§îCopyright Mojang AB.",
       "posX": -110,
       "posY": -10,
       "color": -1,
