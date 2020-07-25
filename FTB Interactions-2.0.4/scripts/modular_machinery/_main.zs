@@ -23,7 +23,7 @@ var blueprintTags as string[] = [
 ];
 
 for i in blueprintTags {
-	<modularmachinery:itemblueprint>.withTag({dynamicmachine: i}).addTooltip(format.darkRed("Blueprint found in dungeons."));
+	<modularmachinery:itemblueprint>.withTag({dynamicmachine: i}).addTooltip(format.darkRed("可以在地牢中找到的蓝图。"));
 	recipes.addShapeless(<modularmachinery:itemblueprint>.withTag({dynamicmachine: i}) * 2,
 		[<modularmachinery:itemblueprint>.withTag({dynamicmachine: i}), <cyclicmagic:carbon_paper>]);
 }

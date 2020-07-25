@@ -321,8 +321,8 @@ recipes.addShaped(<extrautils2:decorativesolid:8> * 8, [
 
 
 	#evil metal
-	<extrautils2:ingredients:17>.displayName = "Corrupted Elven Metal Ingot";
-	<extrautils2:simpledecorative:2>.displayName = "Block of Corrupted Elven Metal";
+	<extrautils2:ingredients:17>.displayName = "堕落精灵锭";
+	<extrautils2:simpledecorative:2>.displayName = "堕落精灵金属块";
 
 	game.setLocalization("fluid.xu_evil_metal", "Corrupted Elven Metal");
 

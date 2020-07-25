@@ -49,7 +49,7 @@ val sootyMarble = <astralsorcery:blockblackmarble>;
 	mods.astralsorcery.Lightwell.addLiquefaction(<thaumcraft:primordial_pearl>, <liquid:astralsorcery.liquidstarlight>, 2.5, 2147480, 0);
 
 	#infused wood tooltip
-	<astralsorcery:blockinfusedwood>.addTooltip(format.darkRed("Crafted in-world by dropping any log into liquid starlight."));
+	<astralsorcery:blockinfusedwood>.addTooltip(format.darkRed("将原木投入星能液中来制作。"));
 
 	#Mana diamond
 	mods.astralsorcery.Lightwell.addLiquefaction(<botania:manaresource:2>, <liquid:astralsorcery.liquidstarlight>, 0.8, 100, 0);
@@ -342,14 +342,14 @@ mods.astralsorcery.Altar.addTraitAltarRecipe("interactions:vorux", <astralsorcer
 	<ore:paper>]);
 
 	#perk crystal tooltips
-	<astralsorcery:itemperkgem>.addTooltip(format.darkRed("Crafted in-world with glowstone and a rockcrystal in liquid starlight."));
-	<astralsorcery:itemperkgem:1>.addTooltip(format.darkRed("Crafted in-world with glowstone and a rockcrystal in liquid starlight."));
-	<astralsorcery:itemperkgem:2>.addTooltip(format.darkRed("Crafted in-world with glowstone and a rockcrystal in liquid starlight."));
+	<astralsorcery:itemperkgem>.addTooltip(format.darkRed("将萤石和水晶石投入星能液中来制作。"));
+	<astralsorcery:itemperkgem:1>.addTooltip(format.darkRed("将萤石和水晶石投入星能液中来制作。"));
+	<astralsorcery:itemperkgem:2>.addTooltip(format.darkRed("将萤石和水晶石投入星能液中来制作。"));
 
 #custom collector crystal for Astral sorcery
 	val customCrystal = <astralsorcery:blockcollectorcrystal>.withTag({astralsorcery: {constellationName: "astralsorcery.constellation.aevitas", crystalProperties: {collectiveCapability: 80, size: 350, fract: 0, purity: 80, sizeOverride: -1}, collectorType: 0}});
 	mods.jei.JEI.addItem(customCrystal);
-	customCrystal.addTooltip(format.darkRed("A crude, man made collector crystal"));
+	customCrystal.addTooltip(format.darkRed("一个粗制的人造天体水晶"));
 
 mods.thaumcraft.Infusion.registerRecipe("asCrystal", "INFUSION", customCrystal, 5, 
 	[<aspect:lux> * 64, <aspect:potentia> * 32, <aspect:sensus> * 16], 
@@ -377,7 +377,7 @@ mods.thaumcraft.Infusion.registerRecipe("asCrystal", "INFUSION", customCrystal, 
 		<ore:plateSterlingSilver>,<ore:plateSterlingSilver>,<astralsorcery:blockmarble:4>,<astralsorcery:blockmarble:4>]);
 
 	#starmetal tooltip
-	<astralsorcery:blockcustomore:1>.addTooltip(format.darkRed("can be used as a mark of the falling tower catalyst."));
+	<astralsorcery:blockcustomore:1>.addTooltip(format.darkRed("可用作坠星标位的催化剂。"));
 
 	#Iredescent Altar
 mods.astralsorcery.Altar.removeAltarRecipe("astralsorcery:shaped/internal/altar/upgrade_tier4");

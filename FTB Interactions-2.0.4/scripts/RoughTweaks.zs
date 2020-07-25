@@ -3,7 +3,7 @@ import crafttweaker.item.IIngredient;
 
 print("---------------RoughTweaks Start------------------");
 
-<roughtweaks:plaster>.displayName = "Bandaid";
+<roughtweaks:plaster>.displayName = "创可贴";
 
 	#bandage loot drop only
 	mods.jei.JEI.removeAndHide(<roughtweaks:bandage>);

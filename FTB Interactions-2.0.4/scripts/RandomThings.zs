@@ -18,7 +18,7 @@ val richPhyto = <thermalfoundation:fertilizer:1>;
 val fluxedPhyto = <thermalfoundation:fertilizer:2>;
 val assembler = mods.gregtech.recipe.RecipeMap.getByName("assembler");
 
-<randomthings:itemcollector>.addTooltip(format.darkRed("Can also be found as loot in most dungeons."));
+<randomthings:itemcollector>.addTooltip(format.darkRed("也可以在大多数地牢中作为战利品找到。"));
 recipes.remove(<randomthings:itemcollector>); //item collector loot only until HV tier infusion becomes avaialble
 mods.thaumcraft.Infusion.registerRecipe("itemcollector", "INFUSION", <randomthings:itemcollector>, 4,
 	[<aspect:motus> * 5, <aspect:vacuos> * 8, <aspect:permutatio> * 8, <aspect:alienis> * 10 ],

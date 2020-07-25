@@ -345,7 +345,7 @@ var arDisabled as IItemStack[] = [
 
 for i in arDisabled {
 	mods.jei.JEI.removeAndHide(i);
-	i.addTooltip(format.darkRed("Disabled in Interactions."));
+	i.addTooltip(format.darkRed("在这个包中禁用。"));
 }
 
 
@@ -443,7 +443,7 @@ recipes.remove(<advancedrocketry:loader:1>);
 
 	#concrete
 	recipes.remove(<advancedrocketry:concrete>);
-	<advancedrocketry:concrete>.displayName = "Geopolymer Thermalcrete";
+	<advancedrocketry:concrete>.displayName = "地质聚合物热凝土";
 
 mixer.recipeBuilder()
     .inputs(<ore:dustSodiumHydroxide>, <ore:gravel> * 4, <ore:dustGlass>, <ore:dustAluminium>)

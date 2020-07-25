@@ -293,7 +293,7 @@ recipes.addShaped(<rftools:environmental_controller>,
 	[<ore:plateDiamond>, <libvulpes:coil0:2>, <ore:plateDiamond>]]);	
 	
 	#Storage Module - Tier 1
-<rftools:storage_module>.addTooltip("Does not preserve inventory when upgrading.");
+<rftools:storage_module>.addTooltip("升级时不保留库存。");
 recipes.remove(<rftools:storage_module>);
 assembler.recipeBuilder()
     .inputs(<ironchest:iron_gold_chest_upgrade>, <ore:circuitLow>)
@@ -303,7 +303,7 @@ assembler.recipeBuilder()
     .buildAndRegister();
 	
 	#Storage Module - Tier 2
-<rftools:storage_module:1>.addTooltip("Does not preserve inventory when upgrading.");
+<rftools:storage_module:1>.addTooltip("升级时不保留库存。");
 recipes.remove(<rftools:storage_module:1>);
 assembler.recipeBuilder()
     .inputs(<rftools:storage_module>, <ore:alloyAdvanced>)

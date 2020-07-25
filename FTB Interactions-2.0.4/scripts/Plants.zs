@@ -50,7 +50,7 @@ RecipeBuilder.get("basic")
 	#dark crystals
 	mods.bloodmagic.AlchemyArray.addRecipe(<plants2:generic:8>, <astralsorcery:itemusabledust:1>, <plants2:generic:6>);
 
-	<plants2:desert_0:3>.addTooltip(format.darkRed("Desert flower, can be Obtained by using plantballs on sand."));
+	<plants2:desert_0:3>.addTooltip(format.darkRed("沙漠之花，可以通过在沙子上使用植物球来获得。"));
 	
 	mods.thermalexpansion.Insolator.addRecipe(<plants2:crystal_log:1>*16, <plants2:generic:8>, <thermalfoundation:fertilizer>, 1000, <plants2:generic:8>*2, 100);
 	mods.thermalexpansion.Insolator.addRecipe(<plants2:crystal_log>*16, <plants2:generic:6>, <thermalfoundation:fertilizer>, 1000, <plants2:generic:6>*2, 100);

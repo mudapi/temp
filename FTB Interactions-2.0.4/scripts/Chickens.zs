@@ -51,7 +51,7 @@ val smartChicken = <roost:chicken>.withTag({Growth: 10, Chicken: "chickens:smart
 recipes.remove(<roost:collector>);
 recipes.addShaped(<roost:collector>, [[<ore:plankWood>, null, <ore:plankWood>],[<ore:plankWood>, <minecraft:hopper>, <ore:plankWood>], [<ore:plankWood>, <ore:chestWood>, <ore:plankWood>]]);
 
-<roost:chicken>.withTag({Growth: 1, Chicken: "chickens:smartchicken", Gain: 1, Strength: 1}).addTooltip(format.darkRed("Created by right clicking a book onto a chicken."));
+<roost:chicken>.withTag({Growth: 1, Chicken: "chickens:smartchicken", Gain: 1, Strength: 1}).addTooltip(format.darkRed("用一本书右键一只鸡来创造它。"));
 
 
 	#poreclain chicken
@@ -136,7 +136,7 @@ fluidExtractor.recipeBuilder()
 	.buildAndRegister();
 
 #spicey chicken
-<roost:chicken>.withTag({Growth: 1, Chicken: "contenttweaker:spicechicken", Gain: 1, Strength: 1}).addTooltip(format.darkRed("Loot Only: Found in overworld dungeons."));
+<roost:chicken>.withTag({Growth: 1, Chicken: "contenttweaker:spicechicken", Gain: 1, Strength: 1}).addTooltip(format.darkRed("只能通过战利品获得：在主世界的地牢中找到。"));
 spinnyGoFast.recipeBuilder()
     .inputs(<ore:enrichedEggSpice>)
 	.chancedOutput(<harvestcraft:gingeritem>, 5500, 1000)
@@ -218,7 +218,7 @@ spinnyGoFast.recipeBuilder()
 	.buildAndRegister();
 	
 
-<forge:bucketfilled>.withTag({FluidName: "ender_distillation", Amount: 1000}).addTooltip(format.darkRed("Can be found in moon dungeons."));
+<forge:bucketfilled>.withTag({FluidName: "ender_distillation", Amount: 1000}).addTooltip(format.darkRed("可以在月球地牢中找到。"));
 #Resonating chicken - 
 	mixer.recipeBuilder()
 	.inputs(smartChicken, <ore:itemInfinityGoop>, <rftools:infused_enderpearl>, <astralsorcery:itemcraftingcomponent:4>*2)
@@ -551,10 +551,10 @@ fluidExtractor.recipeBuilder()
 	.EUt(48)
 	.buildAndRegister();
 
-	<roost:chicken>.withTag({Growth: 1, Chicken: "contenttweaker:vitriolicchicken", Gain: 1, Strength: 1}).addTooltip(format.darkRed("Loot Only: Found in dungeons in the vitriolic expanses of Euclydes."));
+	<roost:chicken>.withTag({Growth: 1, Chicken: "contenttweaker:vitriolicchicken", Gain: 1, Strength: 1}).addTooltip(format.darkRed("只能通过战利品获得：在Euclydes星的广袤无垠的酸液海洋中找到。"));
 
 #Nether wart chicken
-<roost:chicken>.withTag({Growth: 1, Chicken: "chickens:netherwartchicken", Gain: 1, Strength: 1}).addTooltip(format.darkRed("Loot Only: Found in nether dungeons."));
+<roost:chicken>.withTag({Growth: 1, Chicken: "chickens:netherwartchicken", Gain: 1, Strength: 1}).addTooltip(format.darkRed("只能通过战利品获得：在地狱的地牢中找到。"));
 
 #water
 recipes.addShapeless(<harvestcraft:freshwateritem>*2,[<chickens:liquid_egg>]);

@@ -11,7 +11,7 @@ val blast_furnace = mods.gregtech.recipe.RecipeMap.getByName("blast_furnace");
 val chemReactor = mods.gregtech.recipe.RecipeMap.getByName("chemical_reactor");
 
     #Tooltips
-<mekanism:basicblock:14>.addTooltip("Solar Panels cannot be obtained; external heat must be provided to the structure");
+<mekanism:basicblock:14>.addTooltip("太阳能板无法被获取。你必须在外部为结构提供热力。");
 
 	#mekanism hydrogen and oxygen
 chemReactor.recipeBuilder()

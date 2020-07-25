@@ -20,8 +20,8 @@ recipes.addShaped(<cyclicmagic:beacon_potion>,
 	[<ore:plateVinteum>, <botania:storage:1>, <ore:plateVinteum>]]);
 
 	#Magic apple
-<cyclicmagic:apple_emerald>.displayName = "Apple of Restoration";
-<cyclicmagic:apple_emerald>.addTooltip(format.darkRed("Use to Cure Zombie Villagers. (See Zen Summoning Mod!)"));
+<cyclicmagic:apple_emerald>.displayName = "恢复之果";
+<cyclicmagic:apple_emerald>.addTooltip(format.darkRed("用于治愈僵尸村民。(见Zen Summoning模组!)"));
 
 recipes.remove(<cyclicmagic:apple_emerald>);
 recipes.addShaped(<cyclicmagic:apple_emerald>,
@@ -79,7 +79,7 @@ recipes.addShaped(<cyclicmagic:soulstone>,
 
 	#air charm
 recipes.remove(<cyclicmagic:charm_air>);
-<cyclicmagic:charm_air>.addTooltip(format.darkRed("Loot only."));
+<cyclicmagic:charm_air>.addTooltip(format.darkRed("只能通过战利品获得。"));
 
 	#Dark Flame Wand
 recipes.remove(<cyclicmagic:ender_blaze>);

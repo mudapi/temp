@@ -185,8 +185,8 @@ recipes.addShaped(<projecte:item.pe_klein_star>,
 	
 	#Alchemical bags
 	recipes.removeByRecipeName("projecte:item.pe_alchemical_bag_0");
-	<projecte:item.pe_alchemical_bag>.addTooltip(format.darkRed("Uncraftable, dungeon loot only"));
-	<projecte:item.pe_fuel:1>.addTooltip(format.darkRed("Uncraftable, dungeon loot and reward only"));
+	<projecte:item.pe_alchemical_bag>.addTooltip(format.darkRed("无法制作，只能通过地牢战利品获得。"));
+	<projecte:item.pe_fuel:1>.addTooltip(format.darkRed("无法制作，只能通过地牢战利品或奖励获得。"));
 
 	#stealing redmatter block for our portal
 	recipes.remove(<projecte:matter_block:1>);

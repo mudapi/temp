@@ -680,19 +680,19 @@ furnace.addRecipe(<gregtech:mineral>, <gregtech:mineral:4>);
 
 	#ore transmutations
 	
-<gregtech:machine:2183>.addTooltip(format.darkRed("Use cells, not buckets for replicating liquids."));
-<gregtech:machine:2184>.addTooltip(format.darkRed("Use cells, not buckets for replicating liquids."));
-<gregtech:machine:2185>.addTooltip(format.darkRed("Use cells, not buckets for replicating liquids."));
-<gregtech:machine:2187>.addTooltip(format.darkRed("Use cells, not buckets for replicating liquids."));
-<gregtech:machine:2186>.addTooltip(format.darkRed("Use cells, not buckets for replicating liquids."));
-<gregtech:machine:2188>.addTooltip(format.darkRed("Use cells, not buckets for replicating liquids."));
-<gregtech:machine:2189>.addTooltip(format.darkRed("Use cells, not buckets for replicating liquids."));
-<gregtech:machine:2190>.addTooltip(format.darkRed("Use cells, not buckets for replicating liquids."));
+<gregtech:machine:2183>.addTooltip(format.darkRed("使用液体单元来复制液体，不要用桶。"));
+<gregtech:machine:2184>.addTooltip(format.darkRed("使用液体单元来复制液体，不要用桶。"));
+<gregtech:machine:2185>.addTooltip(format.darkRed("使用液体单元来复制液体，不要用桶。"));
+<gregtech:machine:2187>.addTooltip(format.darkRed("使用液体单元来复制液体，不要用桶。"));
+<gregtech:machine:2186>.addTooltip(format.darkRed("使用液体单元来复制液体，不要用桶。"));
+<gregtech:machine:2188>.addTooltip(format.darkRed("使用液体单元来复制液体，不要用桶。"));
+<gregtech:machine:2189>.addTooltip(format.darkRed("使用液体单元来复制液体，不要用桶。"));
+<gregtech:machine:2190>.addTooltip(format.darkRed("使用液体单元来复制液体，不要用桶。"));
 
 	
-<gregtech:ore_thorium_0>.addTooltip(format.darkRed("Can be obtained with mark of the falling tower ritual, with black quartz block catalyst."));
-<actuallyadditions:block_misc:2>.addTooltip(format.darkRed("Can be used as a catalyst in the mark of the falling tower ritual."));
-<gregtech:ore_uranium_0>.addTooltip(format.darkRed("Can be transmuted from thorium with starlight."));
+<gregtech:ore_thorium_0>.addTooltip(format.darkRed("通过将焦黑石英块作为催化剂的坠星标位仪式获得。"));
+<actuallyadditions:block_misc:2>.addTooltip(format.darkRed("可用作坠星标位的催化剂。"));
+<gregtech:ore_uranium_0>.addTooltip(format.darkRed("通过星辉转化钍矿获得。"));
 
 	#Blue steel alloy
 	alloyer.recipeBuilder()
@@ -1034,7 +1034,7 @@ val ironHammer = <gregtech:meta_tool:6>.withTag({
 	"GT.ToolStats": {PrimaryMaterial: "iron", HandleMaterial: "wood"}});
 
 mods.jei.JEI.addItem(ironHammer);
-ironHammer.addTooltip(format.darkRed("Starter Iron hammer, crafted in an artisan workbench"));
+ironHammer.addTooltip(format.darkRed("最初的铁锻造锤，可以在基础工作台中合成。"));
 RecipeBuilder.get("basic")
 	.setShaped([
 		[<ore:ingotIron>, <ore:ingotIron>, null],
@@ -1078,7 +1078,7 @@ val ironFile = <gregtech:meta_tool:9>.withTag({
 	"GT.ToolStats": {PrimaryMaterial: "iron", HandleMaterial: "wood"}});
 
 	mods.jei.JEI.addItem(ironFile);
-	ironFile.addTooltip(format.darkRed("Starter Iron File, crafted in an artisan workbench"));
+	ironFile.addTooltip(format.darkRed("最初的铁锉，可以在基础工作台中合成。"));
 
 	#iron file in artisan
 RecipeBuilder.get("basic")
@@ -1458,7 +1458,7 @@ var cokeOvenInterface = <gregtech:machine:527> as IBlock;
 cokeOvenInterface.definition.setHarvestLevel("pickaxe", 1);	
 	
     #Steel Ingot
-<ore:ingotSteel>.firstItem.addTooltip(format.darkRed("Can be made in the infernal furnace or Hellfire Kiln from crude steel ingots"));
+<ore:ingotSteel>.firstItem.addTooltip(format.darkRed("可以通过在炼狱熔炉或炼狱窑炉里熔炼粗钢锭获得。"));
 // findRecipe(long voltage, IItemHandlerModifiable inputs, IMultipleTankHandler/List<FluidStack> fluidInputs)
 RecipeMap.getByName("blast_furnace").findRecipe(120, [<ore:ingotIron>.firstItem], [<liquid:oxygen> * 1000]).remove();
 RecipeMap.getByName("blast_furnace").recipeBuilder()

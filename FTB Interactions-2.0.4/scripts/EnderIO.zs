@@ -45,8 +45,8 @@ val solidifier = mods.gregtech.recipe.RecipeMap.getByName("fluid_solidifier");
 	mods.jei.JEI.addItem(<enderio:item_broken_spawner>.withTag({entityId: "astralsorcery:entityflare"}));
 	
 	
-	<enderio:item_material:20>.addTooltip(format.darkRed("Obtained from mobs that were spawned with Infinity Dust."));
-	<enderio:block_farm_station>.addTooltip(format.darkRed("***Do not use with GT Axes***."));
+	<enderio:item_material:20>.addTooltip(format.darkRed("基岩尘生成的怪物死亡时有概率掉落。"));
+	<enderio:block_farm_station>.addTooltip(format.darkRed("***不要使用格雷科技斧子***。"));
 	
 	#high tier RF cabling
 	mods.jei.JEI.removeAndHide(<enderio:item_endergy_conduit:11>);
@@ -78,7 +78,7 @@ val solidifier = mods.gregtech.recipe.RecipeMap.getByName("fluid_solidifier");
 	mods.jei.JEI.removeAndHide(<enderio:block_slice_and_splice>);
 
 	#add message about overworld creation
-	<enderio:block_infinity_fog>.addTooltip(format.darkRed("Created by chance when left clicking bedrock with flint. Consumes 4xp and often destroys the flint used."));
+	<enderio:block_infinity_fog>.addTooltip(format.darkRed("使用燧石左键单击基岩时有一定概率获得。消耗4xp，并大概率消耗使用的燧石。"));
 
 	#recipe for infninity grains
 	mods.astralsorcery.Lightwell.addLiquefaction(<enderio:item_material:20>, <liquid:liquidnightmares>, 0.8, 12, 0);
@@ -235,7 +235,7 @@ for i in SagMillStuff {
 	#Flour
 mods.jei.JEI.removeAndHide(<enderio:item_material:21>);
 recipes.addShapeless(<ore:dustWheat>.firstItem, [<enderio:item_material:21>]);
-<enderio:item_material:21>.addTooltip(format.darkRed("Deprecated, craft into GTCE variant."));
+<enderio:item_material:21>.addTooltip(format.darkRed("此物品已停用，将其合成为来自GTCE的替代品。"));
 
 	#Spawner removal
 	mods.jei.JEI.removeAndHide(<enderio:block_powered_spawner>);
@@ -413,7 +413,7 @@ alloyer.recipeBuilder()
 
 	
 	#crude steel cooks into slag
-	<enderio:item_alloy_endergy_ingot>.addTooltip(format.darkRed("Smelts to steel in an infernal furnace only."));
+	<enderio:item_alloy_endergy_ingot>.addTooltip(format.darkRed("通过在炼狱熔炉烧制得到钢。"));
 	furnace.remove(<thermalfoundation:rockwool:7>);
 	furnace.addRecipe(<thermalfoundation:material:864>, <enderio:item_alloy_endergy_ingot>);
 

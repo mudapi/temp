@@ -214,7 +214,7 @@ mods.thaumcraft.Infusion.registerRecipe("enUReusablePearl", "INFUSION", <enderut
 	[<ore:enderpearl>, <ore:enderpearl>, <ore:enderpearl>, <ore:enderpearl>]);
 
 	#Ender Pearl - Elite (Reusable)
-<enderutilities:enderpearlreusable:1>.addTooltip("Don't hold us responsible if you get stuck in the ground.");
+<enderutilities:enderpearlreusable:1>.addTooltip("要是你用它之后卡在地上的话，这不关我们事啊。");
 recipes.remove(<enderutilities:enderpearlreusable:1>);
 mods.thaumcraft.Infusion.registerRecipe("enUReusablePearl", "INFUSION", <enderutilities:enderpearlreusable:1>, 10,
 	[<aspect:alienis>*40, <aspect:praecantatio> * 20], <enderutilities:enderpearlreusable>,

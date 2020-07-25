@@ -20,9 +20,9 @@ val lathe = mods.gregtech.recipe.RecipeMap.getByName("lathe");
 val implosion = mods.gregtech.recipe.RecipeMap.getByName("implosion_compressor");
 
 #reuse crystals
-	<appliedenergistics2:material>.displayName = "Diploid Polylattice Crystal";
-	<appliedenergistics2:material:1>.displayName = "Energized Polylattice Isometric Crystal";
-	<appliedenergistics2:material:1>.addTooltip(format.darkRed("Created by charging a diploid polylattice crystal in an energetic infuser."));
+	<appliedenergistics2:material>.displayName = "二倍体多晶格晶体";
+	<appliedenergistics2:material:1>.displayName = "充能等距多晶格晶体";
+	<appliedenergistics2:material:1>.addTooltip(format.darkRed("在能量灌注机里充能二倍体多晶格晶体来制作"));
 
 #remove recipes for crystals	
 		recipes.remove(<appliedenergistics2:material>);
@@ -48,7 +48,7 @@ val implosion = mods.gregtech.recipe.RecipeMap.getByName("implosion_compressor")
 		.buildAndRegister();	
 
 recipes.remove(<appliedenergistics2:charger>);
-<appliedenergistics2:charger>.addTooltip(format.darkRed("Use an energetic infuser."));
+<appliedenergistics2:charger>.addTooltip(format.darkRed("使用能量灌注机。"));
 	
 	#skystone from GT Skystone
 furnace.addRecipe(<appliedenergistics2:sky_stone_block>, <ore:skystone>);
@@ -605,7 +605,7 @@ laser.recipeBuilder()
 mods.jei.JEI.removeAndHide(<appliedenergistics2:grindstone>);
 mods.jei.JEI.removeAndHide(<appliedenergistics2:crank>);
 	
-	<appliedenergistics2:sky_compass>.addTooltip(format.darkRed("Meteors are disabled, presses are not used. Find skystone via orbital miner."));
+	<appliedenergistics2:sky_compass>.addTooltip(format.darkRed("陨石生成已被禁用，也用不上模板。陨石的话你能通过轨道激光钻获得。"));
 	
 	#remove ender pearl dust
 	mods.jei.JEI.removeAndHide(<appliedenergistics2:material:46>);

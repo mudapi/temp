@@ -27,7 +27,7 @@ val implosion = mods.gregtech.recipe.RecipeMap.getByName("implosion_compressor")
 
 	#boots
 	recipes.remove(<opencomputers:hoverboots>);
-	<opencomputers:hoverboots>.addTooltip(format.darkRed("Moon or later Loot only."));
+	<opencomputers:hoverboots>.addTooltip(format.darkRed("到达月球或之后有机会通过战利品获得，"));
 	
 	#nanomachines
 	recipes.remove(<opencomputers:tool:5>);
@@ -43,8 +43,8 @@ val implosion = mods.gregtech.recipe.RecipeMap.getByName("implosion_compressor")
 	#Drones
 	recipes.remove(<opencomputers:material:24>);
 	recipes.remove(<opencomputers:material:23>);
-	<opencomputers:material:23>.addTooltip(format.darkRed("Loot only, Advanced technology such as this can't be found on our world..."));
-	<opencomputers:material:24>.addTooltip(format.darkRed("Loot only, Advanced technology such as this can't be found on our world..."));
+	<opencomputers:material:23>.addTooltip(format.darkRed("只能通过战利品获得，在我们的世界上找不到这样先进的技术..."));
+	<opencomputers:material:24>.addTooltip(format.darkRed("只能通过战利品获得，在我们的世界上找不到这样先进的技术..."));
 
 
 print("---------------Open Computers End------------------");

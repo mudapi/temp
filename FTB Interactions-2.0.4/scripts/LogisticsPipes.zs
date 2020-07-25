@@ -138,7 +138,7 @@ var modules as IItemStack[] = [
 mods.chisel.Carving.addGroup("LPModules"); //Add LP Modules to Chisel
 for i in modules {
 	recipes.remove(i);
-	i.addTooltip(format.darkRed("Chisel Item Sink Module."));
+	i.addTooltip(format.darkRed("用凿子雕凿物品收纳模块。"));
 mods.chisel.Carving.addVariation("LPModules", i);
 }
 mods.chisel.Carving.addVariation("LPModules", <logisticspipes:module_item_sink>);
@@ -187,7 +187,7 @@ recipes.removeByRecipeName("logisticsbridge:recipes/buffer_upgrade");
 mods.chisel.Carving.addGroup("LPUpgrades"); //Add LP Modules to Chisel
 for i in upgrades {
 	recipes.remove(i);
-	i.addTooltip(format.darkRed("Chisel Upgrade Module."));
+	i.addTooltip(format.darkRed("用凿子雕凿升级模块升级。"));
 mods.chisel.Carving.addVariation("LPUpgrades", i);
 }
 mods.chisel.Carving.addVariation("LPUpgrades", <logisticspipes:upgrade_module_upgrade>);

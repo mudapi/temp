@@ -49,7 +49,7 @@ LootTables.getTable("minecraft:entities/villager").getPool("heart").addItemEntry
 	#fishing
 LootTables.getTable("minecraft:gameplay/fishing/treasure").getPool("main").removeEntry("minecraft:book");
 
-<cyberware:body_part:2>.addTooltip(format.darkRed("Can be obtained from a slain villager."));
+<cyberware:body_part:2>.addTooltip(format.darkRed("可以通过杀死村民获得。"));
 
 var vanillaChests = [
 	"minecraft:chests/abandoned_mineshaft",

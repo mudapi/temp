@@ -119,7 +119,7 @@ recipes.removeByRecipeName("dmonsters:rebar");
 mods.jei.JEI.removeAndHide(<pickletweaks:mortar_and_pestle>);
 
 recipes.remove(<sonarcore:reinforcedstoneblock>); //removed, used as surface block on exoplanet
-<sonarcore:reinforcedstoneblock>.displayName = "Enriched Stone";
+<sonarcore:reinforcedstoneblock>.displayName = "强化石头";
 	
 	#ArchitectureCraft Sawbench
 recipes.remove(<architecturecraft:sawbench>);
@@ -132,17 +132,17 @@ recipes.addShaped(<architecturecraft:sawbench>, [
 
 
 	#artifacts
-<contenttweaker:overworldessencer>.displayName = "Euclydes Prime Artifact";
-<contenttweaker:overworldessencer>.addTooltip(format.darkRed("Used to Discover and Warp to the planet Euclydes Prime."));	
-<contenttweaker:overworldessencel>.displayName = "Aurellia Artifact";
-<contenttweaker:overworldessencel>.addTooltip(format.darkRed("Used to Discover and Warp to the planet Aurellia."));
+<contenttweaker:overworldessencer>.displayName = "Euclydes Prime工件";
+<contenttweaker:overworldessencer>.addTooltip(format.darkRed("用于发现和跃迁到Euclydes Prime星球。"));	
+<contenttweaker:overworldessencel>.displayName = "Aurellia工件";
+<contenttweaker:overworldessencel>.addTooltip(format.darkRed("用于发现和跃迁到Aurellia星球。"));
 	
 	
 	#portal block from sonarcore
 recipes.remove(<sonarcore:stablestoneblackrimmed_lightblue>);
 <sonarcore:stablestoneblackrimmed_lightblue>.hardness = 50;
-<sonarcore:stablestoneblackrimmed_lightblue>.displayName = "Overworld Portal Block";
-<sonarcore:stablestoneblackrimmed_lightblue>.addTooltip(format.darkRed("Used to build a Portal to Overworld. Can be chiseled into an animated version."));
+<sonarcore:stablestoneblackrimmed_lightblue>.displayName = "主世界传送门方块";
+<sonarcore:stablestoneblackrimmed_lightblue>.addTooltip(format.darkRed("用于搭建传送到主世界的传送门。可以用凿子成动画版方块。"));
 
 mods.chisel.Carving.addGroup("overworldPortals");
 mods.chisel.Carving.addVariation("overworldPortals", <sonarcore:stablestoneblackrimmed_lightblue>);
@@ -156,8 +156,8 @@ mods.chisel.Carving.addVariation("overworldPortals", <contenttweaker:portalblock
 	
 	#Nether portal
 recipes.remove(<sonarcore:stablestonerimmed_black>);
-<sonarcore:stablestonerimmed_black>.displayName = "Nether Portal Block";
-<sonarcore:stablestonerimmed_black>.addTooltip(format.darkRed("Used to build a Portal to the Nether. Can be chiseled into an animated version."));
+<sonarcore:stablestonerimmed_black>.displayName = "下界传送门方块";
+<sonarcore:stablestonerimmed_black>.addTooltip(format.darkRed("用于搭建传送到下界的传送门。可以用凿子成动画版方块。"));
 recipes.removeByRecipeName("sonarcore:tile.stablestoneblackrimmed_black22");
 
 RecipeBuilder.get("basic")

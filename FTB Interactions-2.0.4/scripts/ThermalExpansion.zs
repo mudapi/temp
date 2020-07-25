@@ -156,8 +156,8 @@ mods.jei.JEI.hide(<thermalfoundation:glass_alloy:4>);
 	[<ore:plateCopper>, <ore:plateCopper>, <ore:plateCopper>]]);
 
 	#Arboreal extractor tooltips
-	<forge:bucketfilled>.withTag({FluidName: "resin", Amount: 1000}).addTooltip(format.darkRed("Can be extracted from trees with an Arboreal Extractor."));
-	<forge:bucketfilled>.withTag({FluidName: "sap", Amount: 1000}).addTooltip(format.darkRed("Can be extracted from trees with an Arboreal Extractor."));
+	<forge:bucketfilled>.withTag({FluidName: "resin", Amount: 1000}).addTooltip(format.darkRed("使用树汁提取器提取树获得。"));
+	<forge:bucketfilled>.withTag({FluidName: "sap", Amount: 1000}).addTooltip(format.darkRed("使用树汁提取器提取树获得。"));
 
 	#servo
 recipes.remove(servo);
@@ -294,7 +294,7 @@ recipes.addShaped(<thermalexpansion:machine:9>,
 #coins
 mods.jei.JEI.removeAndHide(<thermalfoundation:coin:*>);
 
-<thermalfoundation:fertilizer:2>.addTooltip(format.darkRed("Created by charging rich phytogrow in an energetic infuser."));
+<thermalfoundation:fertilizer:2>.addTooltip(format.darkRed("通过将富集光合堆肥放进能量灌注机获得。"));
 
 	#PhytoGrow
 recipes.addShapeless(<thermalfoundation:fertilizer>*4,

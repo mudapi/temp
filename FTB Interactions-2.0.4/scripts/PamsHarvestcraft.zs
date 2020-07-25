@@ -32,7 +32,7 @@ recipes.addShapeless(fruitBait * 4,
 
 	#Bait - Grain
 recipes.remove(grainBait);
-grainBait.addTooltip("Will provide beef.");
+grainBait.addTooltip("能制造牛肉");
 recipes.addShapeless(grainBait * 4, 
 	[<ore:stringTwine>, <ore:stringTwine>, <ore:stringTwine>, <ore:listAllgrain>]);
 recipes.addShapeless(grainBait * 4, 
@@ -40,7 +40,7 @@ recipes.addShapeless(grainBait * 4,
 
 	#Bait - Veggie
 recipes.remove(veggieBait);
-veggieBait.addTooltip("Will not provide beef.");
+veggieBait.addTooltip("不能制造牛肉。");
 recipes.addShapeless(veggieBait * 4, 
 	[<ore:stringTwine>, <ore:stringTwine>, <ore:stringTwine>, <ore:listAllveggie>]);
 
@@ -294,7 +294,7 @@ mods.jei.JEI.removeAndHide(<harvestcraft:hardenedleatherleggingsitem>);
 mods.jei.JEI.removeAndHide(<harvestcraft:hardenedleatherbootsitem>);
 
 	#Salt
-<harvestcraft:saltitem>.addTooltip(format.darkRed("Deprecated, use GTCE/Mekanism variant."));
+<harvestcraft:saltitem>.addTooltip(format.darkRed("此物品已停用，请使用GTCE/Mekanism的替代品。"));
 recipes.remove(<harvestcraft:saltitem>);
 recipes.addShapeless(<ore:dustSalt>.firstItem, [<harvestcraft:saltitem>]);
 RecipeBuilder.get("basic")
@@ -333,7 +333,7 @@ RecipeBuilder.get("basic")
 	.create();
 	
 	#Trap - Ground
-<harvestcraft:groundtrap>.addTooltip(format.darkRed("Requires vanilla grass or dirt on all sides."));
+<harvestcraft:groundtrap>.addTooltip(format.darkRed("需要在其侧边都放上原版的草方块或泥土。"));
 recipes.remove(<harvestcraft:groundtrap>);	
 recipes.addShaped(<harvestcraft:groundtrap>, 
 	[[<ore:stickWood>, <ore:trapdoorWood>, <ore:stickWood>],

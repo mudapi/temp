@@ -21,7 +21,7 @@ val chemReactor = mods.gregtech.recipe.RecipeMap.getByName("chemical_reactor");
 val fluidExtractor = mods.gregtech.recipe.RecipeMap.getByName("fluid_extractor");
 
 	#bloodapple
-	<animus:bloodapple>.addTooltip(format.darkRed("Consume to add LP to your network, consume near an altar to add LP to the altar."));
+	<animus:bloodapple>.addTooltip(format.darkRed("食用它可以添加LP到你的网络。在祭坛附近食用它可以添加LP到祭坛。"));
 	
 #blood from chicken
 fluidExtractor.recipeBuilder()
@@ -36,7 +36,7 @@ fluidExtractor.recipeBuilder()
 
 	#inspectus book
 	mods.bloodmagic.BloodAltar.removeRecipe(<minecraft:book>);
-	<bloodmagic:sanguine_book>.addTooltip(format.darkRed("Use the altar diviner from animus, caps are modified search 'Altar Cap' in JEI for more info."));
+	<bloodmagic:sanguine_book>.addTooltip(format.darkRed("使用Animus的祭坛推测器，祭坛四柱的顶端方块被修改了，在JEI中搜索tooltip“祭坛柱顶”以获取更多信息。"));
 
 	#flight potion
 mods.rustic.Condenser.addRecipe(flightPotion, featherPotion, <wizardry:sky_dust>);
@@ -66,7 +66,7 @@ mixer.recipeBuilder()
 	
 	#sacrificial dagger
 	recipes.remove(<bloodmagic:sacrificial_dagger>);
-	<bloodmagic:sacrificial_dagger>.addTooltip(format.darkRed("Disabled? There must be another way.... (Checkout the Agonizer from DML)"));
+	<bloodmagic:sacrificial_dagger>.addTooltip(format.darkRed("被禁用了？肯定会有其他的方法......（看看DML的数字化苦难之井吧）"));
 
 	//mods.bloodmagic.BloodAltar.addRecipe(IItemStack output, IItemStack input, int minimumTier, int syphon, int consumeRate, int drainRate);
 	#bloodOrbs
@@ -108,10 +108,10 @@ mixer.recipeBuilder()
 	<bloodmagic:slate>,<bloodmagic:slate>,null,null]);
 
 	#altar block tooltips
-	<netherbackport:netheriteblock>.addTooltip(format.darkRed("Used as Tier 3 Blood Altar Caps"));
-	<appliedenergistics2:smooth_sky_stone_block>.addTooltip(format.darkRed("Used as Tier 4 Blood Altar Caps"));
-	<cyclicmagic:beacon_potion>.addTooltip(format.darkRed("Used as Tier 5 Blood Altar Caps"));
-	<bloodmagic:decorative_brick:2>.addTooltip(format.darkRed("Used as Tier 6 Blood Altar Caps"));
+	<netherbackport:netheriteblock>.addTooltip(format.darkRed("用作三级血魔法祭坛柱顶。"));
+	<appliedenergistics2:smooth_sky_stone_block>.addTooltip(format.darkRed("用作四级血魔法祭坛柱顶。"));
+	<cyclicmagic:beacon_potion>.addTooltip(format.darkRed("用作五级血魔法祭坛柱顶。"));
+	<bloodmagic:decorative_brick:2>.addTooltip(format.darkRed("用作六级血魔法祭坛柱顶。"));
 
 	#hellfireForge
 recipes.remove(<bloodmagic:soul_forge>);
@@ -317,7 +317,7 @@ mods.bloodmagic.AlchemyArray.addRecipe(<ore:dustTinyGlowstone>.firstItem * 5, <p
 
 	#Crying Obsidian
 	mods.bloodmagic.AlchemyArray.addRecipe(<cryingobsidian:crying_obsidian_block>, <minecraft:obsidian>, <ceramics:clay_bucket>.withTag({fluids: {FluidName: "water", Amount: 1000}}) );
-	<cryingobsidian:crying_obsidian_block>.addTooltip(format.darkRed("Use in place of a Bed"));
+	<cryingobsidian:crying_obsidian_block>.addTooltip(format.darkRed("用于替代床"));
 
 	#AltarCaps
 	//print("-------------------------modify altar ----------------------------");

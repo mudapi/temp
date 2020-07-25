@@ -57,7 +57,7 @@ var celestialNotesTip as IItemStack[] = [
 	<thaumcraft:celestial_notes:12>
 	];
 for i in celestialNotesTip {
-	i.addTooltip("Craft it in a Starlight Crafting Altar. Scanning the sky won't work!");
+	i.addTooltip("只能在星辉祭坛里制作。找遍天空也没有用！");
 }
 
 	#Fortress armor
@@ -90,7 +90,7 @@ recipes.addShapeless(plateGTThaumium,[<thaumcraft:plate:2>]);
 recipes.addShapeless(<thaumcraft:plate:2>, [plateGTThaumium]);
 
 	#Thaumium Ingot from Dust
-dustGTThaumium.addTooltip("Can be smelted in PBF or EBF.");
+dustGTThaumium.addTooltip("可以在土高炉或工业高炉中烧制。");
 mods.gregtech.recipe.PBFRecipeBuilder.start()
     .input(dustGTThaumium)
     .output(<ore:ingotThaumium>.firstItem)
@@ -294,7 +294,7 @@ autoclave.recipeBuilder()
     .buildAndRegister();
 
 	#greatwood tooltip
-<thaumcraft:sapling_greatwood>.addTooltip(format.darkRed("Plant in 2x2 to grow a greatwood tree."));
+<thaumcraft:sapling_greatwood>.addTooltip(format.darkRed("种2x2的树苗才能长出宏伟木"));
 
 	#enchanted fabric
 mods.thaumcraft.ArcaneWorkbench.removeRecipe(<thaumcraft:fabric>);
@@ -573,7 +573,7 @@ blast_furnace.recipeBuilder()
 
 	#causality collapser
 	mods.thaumcraft.Infusion.removeRecipe(<thaumcraft:causality_collapser>);
-	<thaumcraft:causality_collapser>.addTooltip(format.darkRed("The flux sponge is craftable for rift removal."));
+	<thaumcraft:causality_collapser>.addTooltip(format.darkRed("可合成咒波清理海绵来移除裂隙。"));
 
 	#Block breaker golem seal
 	mods.thaumcraft.Infusion.removeRecipe(<thaumcraft:seal:12>);
@@ -615,7 +615,7 @@ var aluminiumInfernal as IItemStack[]= [
 for i in aluminiumInfernal {
 	furnace.addRecipe(<thermalfoundation:material:864>, i);
 	mods.thaumcraft.SmeltingBonus.addSmeltingBonus(i, aluminiumStack % 100);
-	i.addTooltip("Can be smelted in the infernal furnace or Hellfire Kiln for aluminum directly.");
+	i.addTooltip("可以直接在炼狱熔炉或炼狱窑炉里熔炼成铝。");
 }	
 	
 

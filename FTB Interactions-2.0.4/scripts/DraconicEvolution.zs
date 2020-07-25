@@ -47,7 +47,7 @@ mods.jei.JEI.hide(<draconicevolution:crafting_injector:2>);
 mods.jei.JEI.removeAndHide(<draconicevolution:crafting_injector>);
 	
 	#relocalize draconic dust
-<draconicevolution:draconium_dust>.displayName = "Impure Draconium Dust";	
+<draconicevolution:draconium_dust>.displayName = "含杂龙尘";	
 mixer.recipeBuilder()
     .inputs(<ore:dustStarmetal>*2, <ore:dustSmallTungsten>, <enderio:block_infinity_fog>)
     .fluidInputs([<liquid:lifeessence> * 1000])
@@ -73,7 +73,7 @@ recipes.addShaped(<draconicevolution:draconic_core>, [
 	[<ore:plateTungstenCarbide>, <ore:circuitExtreme>, <ore:plateTungstenCarbide>]]);
 
 	#Draconium Ingot
-<draconicevolution:draconium_ingot>.addTooltip(format.darkRed("Deprecated, craft into GTCE variant."));
+<draconicevolution:draconium_ingot>.addTooltip(format.darkRed("此物品已停用，将其合成为来自GTCE的替代品。"));
 recipes.addShapeless(<ore:ingotDraconium>.firstItem, [<draconicevolution:draconium_ingot>]);
 
 	#Dislocator

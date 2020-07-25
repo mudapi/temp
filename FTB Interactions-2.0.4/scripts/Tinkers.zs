@@ -23,7 +23,7 @@ val blast_furnace = mods.gregtech.recipe.RecipeMap.getByName("blast_furnace");
 val macerator = mods.gregtech.recipe.RecipeMap.getByName("macerator");
 val solidifier = mods.gregtech.recipe.RecipeMap.getByName("fluid_solidifier");
 
-<tconstruct:ingots:1>.addTooltip(format.darkRed("Can be made in an infernal furnace"));
+<tconstruct:ingots:1>.addTooltip(format.darkRed("可以在炼狱熔炉中制造。"));
 
 	#creative modifier
 mods.thaumcraft.ArcaneWorkbench.registerShapedRecipe("tinkers:creative", "", 100, [<aspect:aer> * 25, <aspect:terra> *25, <aspect:ignis> *25, <aspect:aqua> *25, <aspect:ordo> *25, <aspect:perditio> *25], <tconstruct:materials:50>,
@@ -53,7 +53,7 @@ mods.tconstruct.Melting.removeRecipe(<liquid:ardite>, <tconstruct:ore:1>);
 	val arditeStack = <tconstruct:nuggets:1> *2;
 
 	#ardite cooks into slag
-	<tconstruct:ore:1>.addTooltip(format.darkRed("Smelts to ardite in an infernal furnace  or Hellfire Kiln only."));
+	<tconstruct:ore:1>.addTooltip(format.darkRed("只能在炼狱熔炉或炼狱窑炉里熔炼成阿迪特。"));
 	furnace.remove(<tconstruct:ore:1>);
 	furnace.addRecipe(<thermalfoundation:material:864>, <tconstruct:ore:1>);
 	mods.thaumcraft.SmeltingBonus.addSmeltingBonus(<tconstruct:ore:1>, arditeStack % 100);
@@ -178,7 +178,7 @@ var castsToChisel as IItemStack[] = [
 
 for i in castsToChisel {
 mods.tconstruct.Casting.removeTableRecipe(i);
-i.addTooltip(format.darkRed("Start with a blank cast chisel."));
+i.addTooltip(format.darkRed("通过凿空白铸模获得。"));
 mods.chisel.Carving.addVariation("TinkersCasts", i);
 }
 
@@ -247,7 +247,7 @@ var clayCastsToChisel as IItemStack[] = [
 
 mods.chisel.Carving.addGroup("TinkersClayCasts");
 for i in clayCastsToChisel {
-i.addTooltip(format.darkRed("Start with clay sign and chisel."));
+i.addTooltip(format.darkRed("通过凿牌板粘土铸模获得。"));
 mods.tconstruct.Casting.removeTableRecipe(i);
 mods.chisel.Carving.addVariation("TinkersClayCasts", i);
 }
@@ -533,7 +533,7 @@ mods.jei.JEI.hide(<tconstruct:pattern>.withTag({PartType: "tconstruct:sharpening
 
 	#Smeltery Controller
 recipes.remove(<tconstruct:smeltery_controller>);
-<tconstruct:smeltery_controller>.addTooltip(format.darkRed("Disabled, this is still left in JEI because hiding it also removes the Smelting tab that the Porcelain Melter inherits."));
+<tconstruct:smeltery_controller>.addTooltip(format.darkRed("已被禁用，它出现在JEI的原因只因为如果隐藏了它的话，微缩陶瓷冶炼炉的配方也会被隐藏。"));
 
 	#Slime Saplings
 mods.astralsorcery.Altar.addDiscoveryAltarRecipe("interactions:blueslimesapling", <tconstruct:slime_sapling>, 120, 200,

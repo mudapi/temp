@@ -39,7 +39,7 @@ recipes.remove(<ore:dustTinySignalum>.firstItem);
 
 	#Niter Deprecatiion Recipe
 recipes.addShapeless(<ore:dustNiter>.firstItem, [<thermalfoundation:material:772>]);
-<thermalfoundation:material:772>.addTooltip(format.darkRed("Deprecated, craft into GTCE variant."));
+<thermalfoundation:material:772>.addTooltip(format.darkRed("此物品已停用，将其合成为来自GTCE的替代品。"));
 
 	
 	#Destabilized Redstone Bucket recipes
@@ -60,12 +60,12 @@ blast_furnace.recipeBuilder()
     .EUt(480)
     .buildAndRegister();
 mods.jei.JEI.removeAndHide(<thermalfoundation:material:167>);
-<thermalfoundation:material:167>.addTooltip(format.darkRed("Deprecated, craft into GTCE variant."));
+<thermalfoundation:material:167>.addTooltip(format.darkRed("此物品已停用，将其合成为来自GTCE的替代品。"));
 recipes.addShapeless(ingotGTEnderium, [<thermalfoundation:material:167>]);
 
 	#Enderium Blend
 mods.jei.JEI.removeAndHide(<thermalfoundation:material:103>);
-<thermalfoundation:material:103>.addTooltip(format.darkRed("Deprecated, craft into GTCE variant."));
+<thermalfoundation:material:103>.addTooltip(format.darkRed("此物品已停用，将其合成为来自GTCE的替代品。"));
 recipes.addShapeless(dustGTEnderium, [<thermalfoundation:material:103>]);
 mixer.recipeBuilder()
 	.inputs([<ore:dustLead> * 3, <ore:dustPlatinum>])
@@ -85,12 +85,12 @@ blast_furnace.recipeBuilder()
     .EUt(120)
     .buildAndRegister();
 mods.jei.JEI.removeAndHide(<thermalfoundation:material:166>);
-<thermalfoundation:material:166>.addTooltip(format.darkRed("Deprecated, craft into GTCE variant."));
+<thermalfoundation:material:166>.addTooltip(format.darkRed("此物品已停用，将其合成为来自GTCE的替代品。"));
 recipes.addShapeless(ingotGTLumium, [<thermalfoundation:material:166>]);
 
 	#Lumium Blend
 mods.jei.JEI.removeAndHide(<thermalfoundation:material:102>);
-<thermalfoundation:material:102>.addTooltip(format.darkRed("Deprecated, craft into GTCE variant."));
+<thermalfoundation:material:102>.addTooltip(format.darkRed("此物品已停用，将其合成为来自GTCE的替代品。"));
 mixer.recipeBuilder()
 	.inputs([<ore:dustTin> * 3, <ore:dustSilver>])
 	.fluidInputs(<liquid:glowstone> * 1008)
@@ -101,7 +101,7 @@ mixer.recipeBuilder()
 
 	#Signalum Ingot
 mods.jei.JEI.removeAndHide(<thermalfoundation:material:165>);
-<thermalfoundation:material:165>.addTooltip(format.darkRed("Deprecated, craft into GTCE variant."));
+<thermalfoundation:material:165>.addTooltip(format.darkRed("此物品已停用，将其合成为来自GTCE的替代品。"));
 recipes.addShapeless(ingotGTSignalum, [<thermalfoundation:material:165>]);
 blast_furnace.recipeBuilder()
     .inputs(<ore:dustSignalum>)
@@ -114,7 +114,7 @@ blast_furnace.recipeBuilder()
 
     #Signalum Blend
 mods.jei.JEI.removeAndHide(<thermalfoundation:material:101>);
-<thermalfoundation:material:101>.addTooltip(format.darkRed("Deprecated, craft into GTCE variant."));
+<thermalfoundation:material:101>.addTooltip(format.darkRed("此物品已停用，将其合成为来自GTCE的替代品。"));
 recipes.addShapeless(dustGTSignalum, [<thermalfoundation:material:101>]);
 mixer.recipeBuilder()
 	.inputs([<ore:dustCopper> * 3, <ore:dustRedstone>])

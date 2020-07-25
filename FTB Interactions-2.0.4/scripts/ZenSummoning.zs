@@ -9,8 +9,8 @@ import mods.zensummoning.MobInfo;
 
 print("---------------ZenSummoning Start------------------");
 
-<zensummoning:altar>.addTooltip(format.darkRed("The catalyst to start each ritual is the item shown directly above the altar in jei. Not the top item."));
-<zensummoning:altar>.addTooltip(format.darkRed("Shift right click with the catalyst to activate"));
+<zensummoning:altar>.addTooltip(format.darkRed("开始仪式的诱变剂是在紧挨着祭坛上方显示的物品。不是最上面的物品。"));
+<zensummoning:altar>.addTooltip(format.darkRed("拿着诱变剂Shift右击来激活"));
 #altar
 mods.bloodmagic.AlchemyArray.addRecipe(<zensummoning:altar>, <projecte:item.pe_covalence_dust>, <minecraft:bookshelf>);
 

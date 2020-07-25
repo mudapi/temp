@@ -120,8 +120,8 @@ var minecraftDisabled as IItemStack[] = [
 	<minecraft:wooden_hoe>
 	];
 		
-<minecraft:spawn_egg>.withTag({EntityTag: {id: "minecraft:zombie_villager"}}).addTooltip(format.darkRed("Can be summoned via Zen Summoning"));
-<minecraft:red_flower:8>.addTooltip(format.darkRed("Spawns in plains biomes."));
+<minecraft:spawn_egg>.withTag({EntityTag: {id: "minecraft:zombie_villager"}}).addTooltip(format.darkRed("可以使用Zen Summoning召唤"));
+<minecraft:red_flower:8>.addTooltip(format.darkRed("生成在平原生态群系。"));
 
 	#golden apples
 recipes.remove(<minecraft:golden_apple:1>);
@@ -397,9 +397,9 @@ recipes.remove(<minecraft:ender_pearl>);
 
 	#Furnace
 recipes.removeByRegex("minecraft:furnace");
-<minecraft:furnace>.addTooltip(format.darkRed("Can be looted in villages."));
-<minecraft:furnace>.addTooltip(format.darkRed("If you simply must have one... "));
-<minecraft:furnace>.addTooltip(format.darkRed("Sprinkling some Salis mundis on firebricks will do the trick."));
+<minecraft:furnace>.addTooltip(format.darkRed("可以在村庄里找到。"));
+<minecraft:furnace>.addTooltip(format.darkRed("如果你真的想要一个的话..."));
+<minecraft:furnace>.addTooltip(format.darkRed("在耐火砖上撒些世界盐会发生这件神奇的事情..."));
 
 SalisMundus.addSingleConversion(<blockstate:gregtech:metal_casing:variant=primitive_bricks>.block, <minecraft:furnace>);
 
