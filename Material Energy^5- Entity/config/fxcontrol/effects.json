@@ -1,0 +1,31 @@
+[  
+  {
+    "timeout": 20,
+    "dimension": 1,
+    "difficulty": "hard",
+    "block": "minecraft:netherrack",
+    "message": "The floor is lava!",
+    "fire": 1
+
+  },
+  {
+    "timeout": 20,
+    "dimension": 1,
+    "difficulty": "hard",
+    "block": "minecraft:stone",
+    "message": "You've been turned into stone!",
+    "potion": "minecraft:slowness,21,5"
+
+  },
+  {
+    "timeout": 10,
+    "blockoffset": {
+      "look": true
+    },
+    "block": "chisel:voidstone",
+    "difficulty": "hard",
+    "message": "The Void looks back at you!",
+    "wither": 10,
+    "damage": "wither=3"
+  }
+]

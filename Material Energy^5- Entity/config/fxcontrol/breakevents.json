@@ -1,0 +1,166 @@
+[
+  {
+     "playerhelditem": "minecraft:wooden_pickaxe",
+     "block": "openblocks:trophy",
+     "result" : "allow"
+  },
+
+  {
+     "playerhelditem": "minecraft:stone_pickaxe",
+     "block": "openblocks:trophy",
+     "result" : "allow"
+  },   
+
+  {
+     "playerhelditem": "minecraft:iron_pickaxe",
+     "block": "openblocks:trophy",
+     "result" : "allow"
+  },   
+
+  {
+     "playerhelditem": "minecraft:golden_pickaxe",
+     "block": "openblocks:trophy",
+     "result" : "allow"
+  },   
+
+  {
+     "playerhelditem": "minecraft:diamond_pickaxe",
+     "block": "openblocks:trophy",
+     "result" : "allow"
+  },
+
+  {
+     
+     "block": "openblocks:trophy",
+     "message" : "You need a vanilla pickaxe to break this (from wooden to diamond)!",
+     "result" : "deny"
+  },         	
+  {
+    "playerhelditem": {
+      "item": "projecte:item.pe_rm_pick"
+    },
+    "block": "chisel:laboratory",
+    "result": "allow"
+  },   
+
+  {
+    "playerhelditem": {
+      "item": "metallurgy:oureclase_pickaxe"
+    },
+    "block": "chisel:energizedvoidstone",
+    "result": "allow"
+  },
+
+  {
+  	"block": "chisel:factory1",
+  	"message": "You cannot mine this!",
+    "result": "deny"
+  },
+
+  {
+    "block": "chisel:technical",
+    "message": "You cannot mine this!",
+    "result": "deny"
+  },
+
+  {
+    "block": "chisel:technical1",
+    "message": "You cannot mine this!",
+    "result": "deny"
+  },
+
+  {
+    "block": "chisel:factory",
+    "message": "You cannot mine this!",
+    "result": "deny"
+  },
+
+  {
+    "block": "chisel:technicalnew",
+    "message": "You cannot mine this!",
+    "result": "deny"
+  },
+  {
+    "block": "chisel:laboratory",
+    "message": "You cannot mine this!",
+    "result": "deny"
+  },
+   {
+    "block": "chisel:energizedvoidstone",
+    "message": "You cannot mine this!",
+    "result": "deny"
+  },
+   {"block": {
+    "block": "extrautils2:ineffableglass",
+	"properties": [{
+		"name": "decorstates",
+		"value": "clear"
+		}]
+	},
+    "message": "You cannot mine this!",
+    "result": "deny"
+  },
+  {
+    "block": {
+	"block": "extrautils2:decorativeglass",
+	"properties": [{
+		"name": "decorstates",
+		"value": "glass_glowstone"
+		}]
+	},
+    "message": "You cannot mine this!",
+    "result": "deny"
+  },
+   {
+    "block": "tconstruct:clear_glass",
+    "message": "You cannot mine this!",
+    "result": "deny"
+  },
+  {
+    "block": {
+	"block": "chisel:concrete_green1",
+	"properties": [{
+		"name": "variation",
+		"value": "0"
+		}]
+	},
+    "message": "You need a specific access card to open this!",
+    "result": "deny"
+  },
+{
+    "block": {
+	"block": "chisel:concrete_orange1",
+	"properties": [{
+		"name": "variation",
+		"value": "0"
+		}]
+	},
+    "message": "You need a specific access card to open this!",
+    "result": "deny"
+  },
+{
+    "block": {
+	"block": "chisel:concrete_lightblue1",
+	"properties": [{
+		"name": "variation",
+		"value": "0"
+		}]
+	},
+    "message": "You need a specific access card to open this!",
+    "result": "deny"
+  },
+{
+    "block": {
+	"block": "chisel:concrete_cyan1",
+	"properties": [{
+		"name": "variation",
+		"value": "0"
+		}]
+	},
+    "message": "You need a specific access card to open this!",
+    "result": "deny"
+  }
+  
+
+
+]

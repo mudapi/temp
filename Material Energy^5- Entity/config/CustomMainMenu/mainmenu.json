@@ -1,0 +1,221 @@
+{
+    "images":
+    {
+        "title":
+        {
+            "image" : "me5:textures/title.png",
+            "posX" : -276,
+            "posY" : 0,
+            "width" : 552,
+            "height" : 120,
+            "alignment" : "top_center"
+        }
+    },
+    
+    "buttons":
+    {
+        "singleplayer":
+        {
+            "text" : "",
+			"hoverText" : "",
+			"texture" : "me5:textures/textsingleplayer.png",
+            "posX" : -234,
+            "posY" : 50,
+            "width" : 253,
+            "height" : 32,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "singleplayer"
+            }
+        },
+        
+        "multiplayer":
+        {
+            "text" : "",
+			"hoverText" : "",
+			"texture" : "me5:textures/textmultiplayer.png",
+            "posX" : -234,
+            "posY" : 90,
+            "width" : 253,
+            "height" : 32,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "multiplayer"
+            }
+        },
+        
+        "mods":
+        {
+            "text" : "",
+			"hoverText" : "",
+			"texture" : "me5:textures/textmods.png",
+            "posX" : -234,
+            "posY" : 170,
+            "width" : 253,
+            "height" : 32,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "mods"
+            }
+        },
+            
+        "options":
+        {
+            "text" : "",
+            "hoverText" : "",
+			"texture" : "me5:textures/textoptions.png",
+            "posX" : -234,
+            "posY" : 130,
+            "width" : 253,
+            "height" : 32,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "options"
+            }
+        },
+		
+		"quit":
+        {
+            "text" : "",
+			"hoverText" : "",
+            "posX" : -234,
+            "posY" : 210,
+            "width" : 253,
+            "height" : 32,
+            "texture" : "me5:textures/textquit.png",
+            "action" : 
+            {
+                "type" : "quit"
+            }
+        },
+		
+		"Twitter":
+        {
+            "text" : "",
+            "hoverText" : "ME Twitter",
+			"texture" : "me5:textures/MESmall.png",
+            "posX" : 202,
+            "posY" : 50,
+            "width" : 32,
+            "height" : 32,
+            "action" : 
+            {
+                "type" : "openLink",
+                "link" : "https://twitter.com/materialenergy_"
+            }
+        },
+		
+		"Greninja":
+        {
+            "text" : "",
+            "hoverText" : "Greninja_San Twitter",
+			"texture" : "me5:textures/GreninjaSmall.png",
+            "posX" : 202,
+            "posY" : 90,
+            "width" : 32,
+            "height" : 32,
+            "action" : 
+            {
+                "type" : "openLink",
+                "link" : "https://www.twitter.com/GreninjaSan"
+            }
+        },
+		
+		"Prax":
+        {
+			"text" : "",
+            "hoverText" : "PraxVenter Amazon",
+			"texture" : "me5:textures/PraxSmall.jpg",
+            "posX" : 202,
+            "posY" : 170,
+            "width" : 32,
+            "height" : 32,
+            "action" : 
+            {
+                "type" : "openLink",
+                "link" : "https://www.amazon.com/Prax-Venter/e/B078L4SZ2V"
+            }
+        },
+
+        "parcel":
+        {
+            "text" : " ",
+            "hoverText" : "Parcel31u Twitter",
+			"texture" : "me5:textures/ParcelSmall.png",
+            "posX" : 202,
+            "posY" : 130,
+            "width" : 32,
+            "height" : 32,
+            "action" : 
+            {
+                "type" : "openLink",
+				"link" : "https://twitter.com/parcel31u"
+            }
+        },
+		
+		"stelle":
+        {
+            "text" : "",
+            "hoverText" : "Stelle Twitter",
+			"texture" : "me5:textures/StelleSmall.png",
+            "posX" : 202,
+            "posY" : 210,
+            "width" : 32,
+            "height" : 32,
+            "action" : 
+            {
+                "type" : "openLink",
+				"link" : "https://twitter.com/Stelle_Parallax"
+            }
+		
+        }
+    },
+    
+    "texts":
+    {
+        "mojang":
+        {
+            "text" : "",
+            "posX" : -197,
+            "posY" : -10,
+            "color" : -1,
+            "alignment" : "bottom_right"
+        },
+        
+        "fml":
+        {
+            "text" : "",
+            "posX" : 2,
+            "posY" : 0,
+            "color" : 2871113,
+            "alignment" : "top_left"
+        }
+    },
+    
+    "other":
+    {
+        "splash-text":
+        {
+            "posX" : 2000,
+            "posY" : 70,
+            "color" : 2871113,
+            "alignment" : "top_center"
+        },
+        
+        "background":
+        {
+            "image" : "",
+            "slideshow":
+            {
+                "images" : ["me5:textures/BackgroundDEF.png"],
+                "displayDuration" : 100,
+                "fadeDuration" : 40
+            }
+        }
+		
+    }
+}

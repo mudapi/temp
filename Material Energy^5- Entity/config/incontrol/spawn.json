@@ -1,0 +1,11 @@
+[
+  {
+    "onjoin" : "true",
+    "mob": ["minecraft:bat", "minecraft:enderman"],
+    "result": "deny"
+  },
+  {
+    "spawner" : "true",
+    "result" : "default"
+  }
+]

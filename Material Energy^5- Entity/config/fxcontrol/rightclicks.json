@@ -1,0 +1,50 @@
+[
+  {
+   "playerhelditem": "contenttweaker:card_1",
+   "block": "chisel:concrete_lightblue1",
+   "setblock":  { "block": "minecraft:air" },
+   "result": "allow"
+  },
+  {
+ 
+   "block": "chisel:concrete_lightblue1",
+   "message": "Access Denied!",
+   "result": "allow"
+  },
+  {
+   "playerhelditem": "contenttweaker:card_2",
+   "block": "chisel:concrete_orange1",
+   "setblock":  { "block": "minecraft:air" },
+   "result": "allow"
+  },
+  {
+ 
+   "block": "chisel:concrete_orange1",
+   "message": "Access Denied!",
+   "result": "allow"
+  },
+  {
+   "playerhelditem": "contenttweaker:card_3",
+   "block": "chisel:concrete_green1",
+   "setblock":  { "block": "minecraft:air" },
+   "result": "allow"
+  },
+  {
+ 
+   "block": "chisel:concrete_green1",
+   "message": "Access Denied!",
+   "result": "allow"
+  },
+  {
+   "playerhelditem": "contenttweaker:card_4",
+   "block": "chisel:concrete_cyan1",
+   "setblock":  { "block": "minecraft:air" },
+   "result": "allow"
+  },
+  {
+ 
+   "block": "chisel:concrete_cyan1",
+   "message": "Access Denied!",
+   "result": "allow"
+  }
+]
