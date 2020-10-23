@@ -1,0 +1,112 @@
+{
+	"frame": {
+		"type": "VERTICAL",
+		"size": {
+			"lateral": {
+				"minWidth": 3,
+				"maxWidth": 30,
+				"minHeight": 3,
+				"maxHeight": 30
+			},
+			"verticalX": {
+				"minWidth": 4,
+				"maxWidth": 30,
+				"minHeight": 5,
+				"maxHeight": 30
+			},
+			"verticalZ": {
+				"minWidth": 4,
+				"maxWidth": 30,
+				"minHeight": 5,
+				"maxHeight": 30
+			}
+		},
+		"blocks": [
+			{
+				"registryName": "minecraft:glowstone",
+				"meta": 32767,
+				"minimumAmount": 0
+			},
+			{
+				"registryName": "chisel:glowstone",
+				"meta": 32767,
+				"minimumAmount": 0
+			},
+			{
+				"registryName": "chisel:glowstone1",
+				"meta": 32767,
+				"minimumAmount": 0
+			},
+			{
+				"registryName": "chisel:glowstone2",
+				"meta": 32767,
+				"minimumAmount": 0
+			}
+		],
+		"requiredCorner": "ANY",
+		"cornerBlocksContributeToMinimumAmount": true,
+		"doGeneratedFramesDrop": true
+	},
+	"activation": {
+		"canBeActivatedByFire": false,
+		"activators": [
+			{
+				"registryName": "contenttweaker:otherworlds_core",
+				"meta": 32767
+			}
+		],
+		"activatorConsumeBehavior": "CONSUME",
+		"spawnFireBeforeActivating": false,
+		"activationSounds": [
+			"aether_legacy:aemob.aerwhale.call"
+		]
+	},
+	"color": {
+		"colors": [
+			"LIGHT_BLUE"
+		],
+		"dyeBehavior": "DISABLE"
+	},
+	"destination": {
+		"dimensionID": 3,
+		"locationDetectionBehavior": "IGNORE_INITIAL",
+		"initialLocation": {
+			"x": 0,
+			"y": 0,
+			"z": 0
+		},
+		"coordinateMultiplier": 1.0,
+		"teleportToPortal": true,
+		"oneWay": false,
+		"ensureReturnToSameDimension": false,
+		"generatePortalIfNotFound": true,
+		"portalGenerationBehavior": "CLONE",
+		"generatedFrameType": "VERTICAL",
+		"generatedFrameSize": {
+			"lateral": {
+				"minWidth": 3,
+				"maxWidth": 30,
+				"minHeight": 3,
+				"maxHeight": 30
+			},
+			"verticalX": {
+				"minWidth": 4,
+				"maxWidth": 4,
+				"minHeight": 5,
+				"maxHeight": 5
+			},
+			"verticalZ": {
+				"minWidth": 4,
+				"maxWidth": 4,
+				"minHeight": 5,
+				"maxHeight": 5
+			}
+		}
+	},
+	"teleportationDelay": {
+		"lateral": 0,
+		"verticalX": 5,
+		"verticalZ": 5
+	},
+	"decorative": false
+}

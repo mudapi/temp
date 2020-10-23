@@ -1,0 +1,24 @@
+{
+  "catalystStack": {
+    "registryName": {
+      "domain": "minecraft",
+      "path": "diamond_block"
+    },
+    "meta": 0
+  },
+  "components": [
+    {
+      "weight": 55,
+      "oreName": "oreMetallia"
+    },
+    {
+      "weight": 45,
+      "oreName": "orePrecia"
+    }
+  ],
+  "explosionStrength": 10.0,
+  "radius": 7,
+  "maxWeight": 100,
+  "version": 4,
+  "cost": 5000000
+}

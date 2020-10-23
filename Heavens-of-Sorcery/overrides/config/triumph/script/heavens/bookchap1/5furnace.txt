@@ -1,0 +1,18 @@
+setIcon(<minecraft:furnace>)
+
+setTitle("Heating Up")
+
+setDescription("Craft a Furnace")
+
+addParent("heavens:bookchap1/2wandwork")
+
+setRequiresParents()
+
+setPos(-35,95)
+drawDirectLines()
+
+criteria1 = addCriteria("hasItemsFurnace", "triumph:player_crafted_item")
+criteria1.setItem(<minecraft:furnace, count:1~>)
+
+addRewardItem(<minecraft:furnace, count:2>)
+addRewardItem(<minecraft:coal, meta:1, count:3>)

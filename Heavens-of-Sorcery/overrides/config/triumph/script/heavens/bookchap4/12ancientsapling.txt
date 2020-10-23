@@ -1,0 +1,17 @@
+setIcon(<dynamictreesnaturesaura:ancientseed>)
+
+setTitle("As Old as the Trees")
+
+setDescription("Create an Ancient Acorn, to help replenish damage you've done to the Aura")
+
+addParent("heavens:bookchap4/11pyre")
+
+setRequiresParents()
+
+setPos(200,-40)
+
+criteria1 = addCriteria("hasItemsFurnace", "minecraft:inventory_changed")
+criteria1.addItem(<dynamictreesnaturesaura:ancientseed, count:1~>)
+
+addRewardItem(<dynamictreesnaturesaura:ancientseed, count:3>)
+addRewardItem(<roots:wildroot, count:10>)

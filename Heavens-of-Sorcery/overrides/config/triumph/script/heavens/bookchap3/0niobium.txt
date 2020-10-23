@@ -1,0 +1,18 @@
+setIcon(<mist:niobium_ore>)
+
+setTitle("Metallic Transition")
+
+setDescription("Obtain Niobium Ore when the mist recedes at night")
+
+addParent("heavens:bookchap3/root")
+
+setRequiresParents()
+
+setPos(-8,-13)
+
+criteria = addCriteria("completedChap1", "triumph:completed_advancement")
+criteria.setString("heavens:bookchap2/15misty")
+criteria1 = addCriteria("hasItemsFurnace", "minecraft:inventory_changed")
+criteria1.addItem(<mist:niobium_ore, count:1~>)
+
+addRewardItem(<mist:niobium_ore, count:10>)

@@ -1,0 +1,16 @@
+setIcon(<astralsorcery:blockaltar, meta:1>)
+
+setTitle("Altar-ation")
+
+setDescription("Upgrade your Luminous Crafting Table into a Starlight Crafting Altar")
+
+addParent("heavens:bookchap3/12lightwell")
+
+setRequiresParents()
+
+setPos(192,27)
+
+criteria1 = addCriteria("altarT2", "astralsorcery:altar_craft")
+criteria1.addCondition(""recipes": ["astralsorcery:shaped/internal/altar/upgrade_tier2"]")
+
+addRewardItem(<astralsorcery:itemcraftingcomponent, meta:3, count:8>)

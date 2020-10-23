@@ -1,0 +1,88 @@
+//Yeah, it's a doozy.
+[
+  {
+    "Name": "overworld",
+    "Suffix": "",
+    "ID": 0
+  },
+  {
+    "Name": "the_nether",
+    "Suffix": "_nether",
+    "ID": -1
+  },
+  {
+    "Name": "the_end",
+    "Suffix": "_end",
+    "ID": 1
+  },
+  {
+    "Name": "KATHAIRIS",
+    "Suffix": "_kathairis",
+    "ID": 2
+  },
+  {
+    "Name": "limbo",
+    "Suffix": "_limbo",
+    "ID": 684
+  },
+  {
+    "Name": "private_pockets",
+    "Suffix": "_private",
+    "ID": 685
+  },
+  {
+    "Name": "public_pockets",
+    "Suffix": "_public",
+    "ID": 686
+  },
+  {
+    "Name": "dungeon_pockets",
+    "Suffix": "_dungeon",
+    "ID": 687
+  },
+  {
+    "Name": "betweenlands",
+    "Suffix": "_betweenlands",
+    "ID": 20
+  },
+  {
+    "Name": "emptiness",
+    "Suffix": "_emptiness",
+    "ID": 14676
+  },
+  {
+    "Name": "underworld",
+    "Suffix": "_dim",
+    "ID": 33
+  },
+  {
+    "Name": "dungeon",
+    "Suffix": "dungeon",
+    "ID": -3
+  },
+  {
+    "Name": "AetherI",
+    "Suffix": "_aetherI",
+    "ID": 3
+  },
+  {
+    "Name": "everbright",
+    "Suffix": "_everBright",
+    "ID": 76
+  },
+  {
+    "Name": "everdawn",
+    "Suffix": "_everDawn",
+    "ID": 77
+  },
+  {
+    "Name": "misty_world",
+    "Suffix": "_mist",
+    "ID": 5
+  },
+  {
+    "Name": "Ratlantis",
+    "Suffix": "_ratlantis",
+    "ID": -8
+  }
+]

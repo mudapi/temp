@@ -1,0 +1,17 @@
+setIcon(<astralsorcery:blockaltar, meta:2>)
+
+setTitle("From the Heavens")
+
+setDescription("Upgrade your Starlight Crafting Altar into a Celestial Crafting Altar")
+
+addParent("heavens:bookchap3/21mixercentrifuge")
+addParent("heavens:bookchap3/22attunementaltar")
+
+setRequiresParents()
+
+setPos(272,-13)
+
+criteria1 = addCriteria("altarT3", "astralsorcery:altar_craft")
+criteria1.addCondition(""recipes": ["astralsorcery:shaped/internal/altar/upgrade_tier3"]")
+
+addRewardItem(<astralsorcery:itemcraftingcomponent, meta:2, count:10>)

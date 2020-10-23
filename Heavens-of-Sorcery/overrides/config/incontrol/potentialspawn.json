@@ -1,0 +1,225 @@
+[
+	{
+		"dimension": 5,
+		"mobs": [
+			{
+				"mob": "enderman",
+				"weight": 1,
+				"groupcountmin": 1,
+				"groupcountmax": 2
+			},
+			{
+				"mob": "creeper",
+				"weight": 2,
+				"groupcountmin": 1,
+				"groupcountmax": 4
+			},
+			{
+				"mob": "zombie",
+				"weight": 2,
+				"groupcountmin": 1,
+				"groupcountmax": 5
+			},
+			{
+				"mob": "cave_spider",
+				"weight": 1,
+				"groupcountmin": 1,
+				"groupcountmax": 4
+			},
+			{
+				"mob": "spider",
+				"weight": 3,
+				"groupcountmin": 2,
+				"groupcountmax": 3
+			},
+			{
+				"mob": "skeleton",
+				"weight": 2,
+				"groupcountmin": 1,
+				"groupcountmax": 3
+			},
+			{
+				"mob": "bewitchment:ghost",
+				"weight": 4,
+				"groupcountmin": 1,
+				"groupcountmax": 1
+			},
+			{
+				"mob": "thaumcraft:wisp",
+				"weight": 1,
+				"groupcountmin": 1,
+				"groupcountmax": 1
+			}
+		]
+	},
+	{
+		"dimension": 5,
+		"mobs": [
+			{
+				"mob": "mysticalworld:entity_deer",
+				"weight": 50,
+				"groupcountmin": 2,
+				"groupcountmax": 5
+			},
+			{
+				"mob": "mysticalworld:entity_fox",
+				"weight": 50,
+				"groupcountmin": 1,
+				"groupcountmax": 3
+			},
+			{
+				"mob": "minecraft:rabbit",
+				"weight": 30,
+				"groupcountmin": 1,
+				"groupcountmax": 5
+			}
+		]
+	},
+	{
+		"dimension": 76,
+		"mobs": [
+			{
+				"mob": "minecraft:evocation_illager",
+				"weight": 3,
+				"groupcountmin": 1,
+				"groupcountmax": 2
+			},
+			{
+				"mob": "minecraft:illusion_illager",
+				"weight": 1,
+				"groupcountmin": 1,
+				"groupcountmax": 2
+			},
+			{
+				"mob": "minecraft:vindication_illager",
+				"weight": 3,
+				"groupcountmin": 1,
+				"groupcountmax": 2
+			},
+			{
+				"mob": "minecraft:witch",
+				"weight": 3,
+				"groupcountmin": 1,
+				"groupcountmax": 2
+			},
+			{
+				"mob": "rats:illager_piper",
+				"weight": 5,
+				"groupcountmin": 1,
+				"groupcountmax": 2
+			},
+			{
+				"mob": "rats:rat",
+				"weight": 15,
+				"groupcountmin": 1,
+				"groupcountmax": 2
+			},
+			{
+				"mob": "bewitchment:raven",
+				"weight": 20,
+				"groupcountmin": 1,
+				"groupcountmax": 2
+			}
+		]
+	},
+	{
+		"dimension": 76,
+		"biometype": "SWAMP",
+		"mobs": [
+			{
+				"mob": "bewitchment:toad",
+				"weight": 5,
+				"groupcountmin": 1,
+				"groupcountmax": 2
+			}
+		]
+	},
+	{
+		"dimension": 76,
+		"biometype": "PLAINS",
+		"mobs": [
+			{
+				"mob": "blue_skies:azulfo",
+				"weight": 20,
+				"groupcountmin": 1,
+				"groupcountmax": 3
+			},
+			{
+				"mob": "blue_skies:stardust_ram",
+				"weight": 15,
+				"groupcountmin": 1,
+				"groupcountmax": 3
+			},
+			{
+				"mob": "blue_skies:reindeer_bs",
+				"weight": 15,
+				"groupcountmin": 1,
+				"groupcountmax": 3
+			}
+		]
+	},
+	{
+		"dimension": 77,
+		"biometype": "SPOOKY",
+		"mobs": [
+			{
+				"mob": "bewitchment:black_dog",
+				"weight": 10,
+				"groupcountmin": 1,
+				"groupcountmax": 2
+			}
+		]
+	},
+	{
+		"dimension": 77,
+		"biometype": "FOREST",
+		"mobs": [
+			{
+				"mob": "bewitchment:owl",
+				"weight": 15,
+				"groupcountmin": 1,
+				"groupcountmax": 2
+			},
+			{
+				"mob": "mysticalworld:entity_beetle",
+				"weight": 15,
+				"groupcountmin": 1,
+				"groupcountmax": 2
+			},
+			{
+				"mob": "bewitchment:raven",
+				"weight": 15,
+				"groupcountmin": 1,
+				"groupcountmax": 2
+			}
+		]
+	},
+	{
+		"dimension": 77,
+		"mobs": [
+			{
+				"mob": "minecraft:vindication_illager",
+				"weight": 5,
+				"groupcountmin": 1,
+				"groupcountmax": 2
+			}
+		]
+	},
+    {
+        "dimension": 3,
+        "mobs": [
+            {
+                "mob": "aether_legacy:swet",
+                "weight": 20,
+                "groupcountmin": 1,
+                "groupcountmax": 1
+            },
+            {
+                "mob": "aether_legacy:aechor_plant",
+                "weight": 50,
+                "groupcountmin": 1,
+                "groupcountmax": 1
+            }
+        ]
+    }
+]

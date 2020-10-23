@@ -1,0 +1,17 @@
+setIcon(<astralsorcery:blockstarlightinfuser>)
+
+setTitle("Infused with Light")
+
+setDescription("Build a Starlight Infuser")
+
+addParent("heavens:bookchap3/24celestialaltar")
+
+setRequiresParents()
+
+setPos(272,27)
+
+criteria1 = addCriteria("hasItems", "minecraft:inventory_changed")
+criteria1.addItem(<astralsorcery:blockstarlightinfuser, meta:0, count:1~>)
+
+addRewardItem(<astralsorcery:itemcraftingcomponent, meta:4, count:2>)
+addRewardItem(<astralsorcery:itemcraftingcomponent, meta:0, count:20>)

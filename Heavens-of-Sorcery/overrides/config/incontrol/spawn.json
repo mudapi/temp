@@ -1,0 +1,170 @@
+[
+	{
+		"dimension": 0,
+		"result": "deny"	
+	},
+	{
+		"dimension": -1,
+		"mob": [
+			"thaumcraft:wisp"
+		],
+		"result": "deny"
+	},
+	{
+		"dimension": 5,
+		"mob": [
+			"spider",
+			"cave_spider",
+			"enderman",
+			"creeper",
+			"zombie",
+			"skeleton"
+		],
+		"minheight": 110,
+		"maxcount": 10,
+		"result": "default"
+	},
+	{
+		"dimension": 5,
+		"mob": [
+			"bewitchment:ghost",
+			"thaumcraft:wisp"
+		],
+		"maxheight": 100,
+		"maxcount": 5,
+		"result": "default"
+	},
+	{
+		"dimension": 5,
+		"mob": [
+			"mysticalworld:entity_deer",
+			"mysticalworld:entity_fox",
+			"minecraft:rabbit"
+		],
+		"minheight": 120,
+		"maxcount": 10,
+		"result": "allow"
+	},
+	{
+		"dimension": 5,
+		"mob": [
+			"mist:mossling",
+			"mist:forest_runner",
+			"mist:momo",
+			"mist:barvog",
+			"mist:prickler",
+			"mist:caravan",
+			"mist:wulder",
+			"mist:horb",
+			"mist:sniff",
+			"mist:sloth",
+			"mist:monk",
+			"mist:galaga",
+			"mist:hulter",
+			"mist:brachiodon",
+			"mist:grave_bug",
+			"mist:forest_spider",
+			"mist:swamp_crab",
+			"mist:snow_flea",
+			"mist:woodlouse",
+			"mist:cyclops",
+			"mist:desert_fish"
+		],
+		"result": "default"
+	},
+	{
+		"dimension": 5,
+		"result": "deny"
+	},
+	{
+		"dimension": 76,
+		"mob": [
+			"blue_skies:armored_frost_spirit",
+			"ebwizardry:evil_wizard",
+			"ebwizardry:lightning_wraith",
+			"ebwizardry:ice_wraith",
+			"minecraft:bat",
+			"minecraft:evocation_illager",
+			"minecraft:illusion_illager",
+			"minecraft:vindication_illager",
+			"minecraft:witch",
+			"rats:illager_piper",
+			"rats:rat"
+		],
+		"maxlight": 10,
+		"maxcount": 10,
+		"result": "allow"
+	},
+	{
+		"dimension": 76,
+		"mob": [
+			"blue_skies:azulfo",
+			"blue_skies:stardust_ram",
+			"blue_skies:cryno",
+			"blue_skies:reindeer_bs",
+			"minecraft:squid",
+			"minecraft:wolf",
+			"bewitchment:toad"
+		],
+		"maxcount": 15,
+		"minheight": 60,
+		"result": "allow"
+	},
+	{
+		"dimension": 76,
+		"result": "deny"
+	},
+	{
+		"dimension": 77,
+		"mob": [
+			"ebwizardry:evil_wizard",
+			"ebwizardry:lightning_wraith",
+			"ebwizardry:ice_wraith",
+			"blue_skies:venom_spider",
+			"minecraft:witch",
+			"blue_skies:nycto_bug",
+			"bewitchment:black_dog"
+		],
+		"maxcount": 10,
+		"result": "default"
+	},
+	{
+		"dimension": 77,
+		"mob": [
+			"blue_skies:cosmic_fox",
+			"blue_skies:nightshade_bear",
+			"blue_skies:firefly_bs",
+			"blue_skies:crystal_camel",
+			"bewitchment:owl",
+			"mysticalworld:entity_beetle",
+			"bewitchment:raven"
+		],
+		"maxcount": 10,
+		"minheight": 60,
+		"result": "allow"
+	},
+	{
+		"dimension": 77,
+		"result": "deny"
+	},
+    {
+        "dimension": 3,
+        "mob": "aether_legacy:swet",
+        "mincount": {
+            "mob": "aether_legacy:swet",
+            "amount": 5,
+            "perplayer": true
+        },
+        "result": "deny"
+    },
+    {
+        "dimension": 3,
+        "mob": "aether_legacy:aechor_plant",
+        "mincount": {
+            "mob": "aether_legacy:aechor_plant",
+            "amount": 5,
+            "perplayer": true
+        },
+        "result": "deny"
+    }
+]

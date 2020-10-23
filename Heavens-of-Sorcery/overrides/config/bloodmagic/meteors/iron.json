@@ -1,0 +1,24 @@
+{
+  "catalystStack": {
+    "registryName": {
+      "domain": "minecraft",
+      "path": "iron_block"
+    },
+    "meta": 0
+  },
+  "components": [
+    {
+      "weight": 65,
+      "oreName": "oreMetallia"
+    },
+    {
+      "weight": 35,
+      "oreName": "orePrecia"
+    }
+  ],
+  "explosionStrength": 15.0,
+  "radius": 5,
+  "maxWeight": 100,
+  "version": 3,
+  "cost": 1000000
+}

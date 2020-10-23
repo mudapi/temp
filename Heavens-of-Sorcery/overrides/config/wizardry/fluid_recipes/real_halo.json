@@ -1,0 +1,30 @@
+{
+	"output": {
+		"item": "wizardry:halo_real"
+	},
+	"input": {
+		"item": "wizardry:halo_fake"
+	},
+	"extraInputs": [
+		{
+			"item": "contenttweaker:angel_heart"
+		},
+		{
+			"item": "aether_legacy:aercloud",
+			"data": 2
+		},
+		{
+			"item": "wizardry:fairy_dust"
+		},
+		{
+			"item": "wizardry:devil_dust"
+		},
+		{
+			"item": "wizardry:unicorn_horn"
+		}
+	],
+	"required": 25,
+	"duration": 600,
+	"consume": true,
+	"explode": true
+}

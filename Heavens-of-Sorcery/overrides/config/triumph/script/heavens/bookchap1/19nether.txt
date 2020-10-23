@@ -1,0 +1,17 @@
+setIcon(<minecraft:netherrack>)
+
+setTitle("Hellbound")
+
+setDescription("Enter the Nether")
+
+addParent("heavens:bookchap1/18stone")
+
+setRequiresParents()
+
+setPos(210,60)
+drawDirectLines()
+
+criteria = addCriteria("entered_nether", "minecraft:changed_dimension")
+criteria.setDimensionDestination("the_nether")
+
+addRewardItem(<minecraft:obsidian, count:20>)

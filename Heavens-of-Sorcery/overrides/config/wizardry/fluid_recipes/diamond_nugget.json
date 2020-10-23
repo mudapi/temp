@@ -1,0 +1,13 @@
+{
+  "output": {
+    "item": "extrabitmanipulation:diamond_nugget",
+    "count": 3
+  },
+  "input": {
+    "type": "forge:ore_dict",
+    "ore": "blockCharcoal"
+  },
+  "required": 4,
+  "duration": 40,
+  "harp": false
+}

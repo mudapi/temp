@@ -1,0 +1,19 @@
+setIcon(<minecraft:lava_bucket>)
+
+setTitle("The Floor is Lava")
+
+setDescription("Obtain a Bucket of Lava")
+
+addParent("heavens:bookchap1/15flintsteel")
+addParent("heavens:bookchap1/14mill")
+
+setRequiresParents()
+
+setPos(175,25)
+drawDirectLines()
+
+criteria = addCriteria("hasItemLava", "minecraft:inventory_changed")
+criteria.addItem(<minecraft:lava_bucket, count:1~>)
+
+addRewardItem(<minecraft:lava_bucket, count:1>)
+addRewardItem(<arcaneworld:molten_pickaxe, count:1>)

@@ -1,0 +1,21 @@
+{
+  "output": {
+    "item": "embers:nugget_tin",
+    "count": 3
+  },
+  "input": {
+    "item": "aether_legacy:icestone"
+  },
+  "extraInputs": [
+    {
+      "item": "mysticalworld:iron_dust"
+    },
+    {
+      "item": "botania:manaresource",
+      "data": 23
+    }
+  ],
+  "required": 6,
+  "duration": 20,
+  "harp": false
+}

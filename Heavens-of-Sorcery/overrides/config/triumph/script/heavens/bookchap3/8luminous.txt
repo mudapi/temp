@@ -1,0 +1,20 @@
+setIcon(<astralsorcery:blockaltar>)
+
+setTitle("Lighten Up")
+
+setDescription("Use Rituals to create a Luminous Crafting Table and a Resonating Wand")
+
+addParent("heavens:bookchap3/7aquamarine")
+addParent("heavens:bookchap3/5managen")
+
+setRequiresParents()
+
+setPos(112,27)
+
+criteria1 = addCriteria("hasItemsFurnace", "minecraft:inventory_changed")
+criteria1.addItem(<astralsorcery:blockaltar, count:1~>)
+criteria2 = addCriteria("hasItemsFurnace2", "minecraft:inventory_changed")
+criteria2.addItem(<astralsorcery:itemwand, count:1~>)
+
+addRewardItem(<astralsorcery:blockblackmarble, count:100>)
+setRewardFunction("heavens:astral_basic_unlock")

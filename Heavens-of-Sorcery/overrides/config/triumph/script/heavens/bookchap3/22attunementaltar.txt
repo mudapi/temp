@@ -1,0 +1,17 @@
+setIcon(<astralsorcery:blockattunementaltar>)
+
+setTitle("In Tune")
+
+setDescription("Build an Attunement Altar")
+
+addParent("heavens:bookchap3/18linkingtool")
+addParent("heavens:bookchap3/23telescope")
+
+setRequiresParents()
+
+setPos(232,-13)
+
+criteria1 = addCriteria("hasItems", "minecraft:inventory_changed")
+criteria1.addItem(<astralsorcery:blockattunementaltar, count:1~>)
+
+addRewardItem(<astralsorcery:blockblackmarble, meta:0, count:200>)

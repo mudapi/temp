@@ -1,0 +1,24 @@
+{
+  "catalystStack": {
+    "registryName": {
+      "domain": "minecraft",
+      "path": "gold_block"
+    },
+    "meta": 0
+  },
+  "components": [
+    {
+      "weight": 60,
+      "oreName": "oreMetallia"
+    },
+    {
+      "weight": 40,
+      "oreName": "orePrecia"
+    }
+  ],
+  "explosionStrength": 18.0,
+  "radius": 6,
+  "maxWeight": 100,
+  "version": 4,
+  "cost": 2500000
+}

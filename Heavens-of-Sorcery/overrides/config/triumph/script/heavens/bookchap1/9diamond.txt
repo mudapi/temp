@@ -1,0 +1,17 @@
+setIcon(<extrabitmanipulation:diamond_nugget>)
+
+setTitle("Shine Bright")
+
+setDescription("Collect 9 Diamond Nuggets")
+
+addParent("heavens:bookchap1/8mana")
+
+setRequiresParents()
+
+setPos(105,95)
+drawDirectLines()
+
+criteria1 = addCriteria("hasItemsDiamond", "minecraft:inventory_changed")
+criteria1.addItem(<extrabitmanipulation:diamond_nugget, count:9~>)
+
+addRewardItem(<minecraft:coal, meta:1, count:100>)
