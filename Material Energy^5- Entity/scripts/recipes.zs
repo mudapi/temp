@@ -1,6 +1,14 @@
 //This file was created via CT-GUI! Editing it is not advised!
 //Don't touch me!
 //#Remove
+recipes.remove(<projecte:item.pe_fuel>);
+recipes.remove(<projecte:item.pe_covalence_dust:2>);
+recipes.remove(<projecte:item.pe_covalence_dust:1>);
+recipes.remove(<projecte:item.pe_covalence_dust>);
+recipes.remove(<projecte:item.pe_philosophers_stone>);
+recipes.remove(<extrautils2:chickenring:1>);
+recipes.remove(<extrautils2:angelring>);
+recipes.remove(<enderio:block_transceiver>);
 recipes.remove(<tconstruct:throwball:1>);
 recipes.remove(<chisel:chisel_hitech>);
 recipes.remove(<chisel:chisel_diamond>);
@@ -24,6 +32,8 @@ recipes.remove(<projectex:alchemy_table>);
 recipes.remove(<projectex:stone_table>);
 //Don't touch me!
 //#Add
+recipes.addShaped(<tconstruct:materials:14>, [[<minecraft:obsidian>, <minecraft:obsidian>, <minecraft:obsidian>],[<minecraft:obsidian>, <minecraft:gold_block>, <minecraft:obsidian>], [<minecraft:obsidian>, <minecraft:obsidian>, <minecraft:obsidian>]]);
+recipes.addShaped(<enderio:block_transceiver>, [[<enderio:item_alloy_ingot>, <enderio:item_alloy_ingot:6>, <enderio:item_alloy_ingot>],[<enderio:item_alloy_ingot:6>, <enderio:block_alloy:2>, <enderio:item_alloy_ingot:6>], [<enderio:item_alloy_ingot>, <enderio:item_alloy_ingot:6>, <enderio:item_alloy_ingot>]]);
 recipes.addShaped(<minecraft:rotten_flesh> * 5, [[null, null, null],[null, <minecraft:skull:2>, null], [null, null, null]]);
 recipes.addShaped(<minecraft:bone> * 5, [[null, null, null],[null, <minecraft:skull>, null], [null, null, null]]);
 recipes.addShaped(<minecraft:skull:1>, [[<minecraft:bone>, <minecraft:bone>, <minecraft:bone>],[<minecraft:bone>, <enderio:block_infinity>, <minecraft:bone>], [<minecraft:bone>, <minecraft:bone>, <minecraft:bone>]]);

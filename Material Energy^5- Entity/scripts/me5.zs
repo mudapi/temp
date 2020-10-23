@@ -29,6 +29,7 @@ mods.alchemistry.Combiner.addRecipe(<minecraft:netherrack>,
 mods.alchemistry.Dissolver.addRecipe(<minecraft:cookie>, false, 1, [[80, <alchemistry:element:29> * 2],[100, <alchemistry:compound:11>]]);
 mods.alchemistry.Dissolver.addRecipe(<minecraft:cookie>, false, 1, [[80, <alchemistry:element:29> * 2],[100, <alchemistry:compound:11>]]);
 mods.alchemistry.Dissolver.addRecipe(<minecraft:beetroot_seeds>, false, 1, [[20, <alchemistry:compound:17> * 2],[40, <alchemistry:compound:10>]]);
+mods.alchemistry.Dissolver.removeRecipe(<thermalfoundation:material:0>);
 mods.alchemistry.Dissolver.addRecipe(<thermalfoundation:material:0>, false, 1, [[25, <alchemistry:element:79> * 4],[25, <alchemistry:element:50> * 4],[25, <alchemistry:element:28> * 4],[25, <alchemistry:element:47> * 4]]);
 
 //mods.alchemistry.Combiner.addRecipe(IItemStack output, IItemstack[] input);

@@ -115,7 +115,7 @@ key_key.jei.showUses:22
 key_key.jei.recipeBack:14
 key_key.jei.previousPage:201
 key_key.jei.nextPage:209
-key_key.jei.bookmark:30
+key_key.jei.bookmark:49
 key_key.jei.toggleBookmarkOverlay:0
 key_key.cofh.multimode:47
 key_key.craftingtweaks.rotate:0
@@ -138,7 +138,7 @@ key_waila.keybind.wailadisplay:79
 key_waila.keybind.liquid:80
 key_waila.keybind.recipe:81
 key_waila.keybind.usage:75
-key_invtweaks.key.sort:19
+key_invtweaks.key.sort:24
 key_key.llor.hotkey:62
 key_key.projectex.focusSearchBar:15
 key_key.taiga.alt_action:29

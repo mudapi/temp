@@ -1,7 +1,7 @@
 [
   {
     "onjoin" : "true",
-    "mob": ["minecraft:bat", "minecraft:enderman"],
+    "mob": ["minecraft:bat"],
     "result": "deny"
   },
   {
