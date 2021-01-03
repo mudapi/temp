@@ -51,7 +51,8 @@ val artifactsArray = [
 	<artifacts:drinking_hat>,
 	<artifacts:star_cloak>,
 	<artifacts:pocket_piston>,
-	<artifacts:night_vision_goggles>
+	<artifacts:night_vision_goggles>,
+	<artifacts:tiny_shirt>
 ] as IItemStack[];
 val oreArtifact = <ore:artifact>;
 val kathairisLog = [
@@ -202,6 +203,17 @@ val garlicBread = <bewitchment:garlic_bread>;
 val bread = <minecraft:bread>;
 val salt = <ore:dustSalt>;
 val goldenAmber = <aether_legacy:golden_amber>;
+val chests = [
+	<blue_skies:maple_chest>,
+	<blue_skies:cherry_chest>,
+	<blue_skies:bluebright_chest>,
+	<blue_skies:lunar_chest>,
+	<blue_skies:starlit_chest>,
+	<blue_skies:frostbright_chest>,
+	<blue_skies:dusk_chest>
+] as IItemStack[];
+val dictChest = <ore:chest>;
+val dictChestWood = <ore:chestWood>;
 
 val basicBlocks = {
 	<minecraft:end_stone> : 6,
@@ -353,6 +365,15 @@ val doNotAddRepairRecipe = [
 	<astralsorcery:itemchargedcrystalpickaxe>,
 	<astralsorcery:itemchargedcrystalshovel>
 ] as IItemStack[];
+val kathDoors = {
+	<kathairis:mysticplanks> : <kathairis:mystic_wood_door_item>,
+	<kathairis:soulplanks> : <kathairis:soul_wood_door_item>,
+	<kathairis:shinyplanks> : <kathairis:shiny_wood_door_item>
+} as IItemStack[IItemStack];
+val seedOak = <dynamictrees:oakseed>;
+val seedSpruce = <dynamictrees:spruceseed>;
+val seedSwamp = <dynamictreesquark:swampoakseed>;
+val seedBlossom = <dynamictreesquark:blossomingseed>;
 
 //tweak clay tile related recipes
 recipes.remove(terracottaShingle);
@@ -549,3 +570,21 @@ recipes.addShapeless(garlicBread * 2, [bread, garlic, garlic, salt]);
 
 //golden amber tooltip
 goldenAmber.addTooltip(format.gold("Harvested from Golden Oaks with a Zanite Axe, Gravitite Axe or Valkyrie Axe"));
+
+//wood chest oredicts for Blue SKies
+for chest in chests {
+	dictChest.add(chest);
+	dictChestWood.add(chest);
+}
+
+//kathairis doors
+recipes.removeByRecipeName("kathairis:soul wood door");
+recipes.removeByRecipeName("kathairis:shiny wood door");
+recipes.removeByRecipeName("kathairis:mystic wood door");
+for planks, door in kathDoors {
+	recipes.addShaped(door * 3, [[planks, planks], [planks, planks], [planks, planks]]);
+}
+
+//quark trees
+ManaInfusion.addInfusion(seedBlossom, seedSpruce, 1000);
+ManaInfusion.addInfusion(seedSwamp, seedOak, 1000);

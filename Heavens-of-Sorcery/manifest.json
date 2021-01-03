@@ -11,7 +11,7 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "Heavens-of-Sorcery",
-  "version": "0.10.0-beta",
+  "version": "0.10.1.3-beta",
   "author": "thephoenixlodge",
   "files": [
     {
@@ -41,7 +41,7 @@
     },
     {
       "projectID": 281528,
-      "fileID": 3017201,
+      "fileID": 3056967,
       "required": true
     },
     {
@@ -66,7 +66,7 @@
     },
     {
       "projectID": 292752,
-      "fileID": 2650353,
+      "fileID": 3053187,
       "required": true
     },
     {
@@ -101,7 +101,7 @@
     },
     {
       "projectID": 225781,
-      "fileID": 2722870,
+      "fileID": 3060563,
       "required": true
     },
     {
@@ -251,7 +251,7 @@
     },
     {
       "projectID": 282940,
-      "fileID": 3040612,
+      "fileID": 3054945,
       "required": true
     },
     {
@@ -261,7 +261,7 @@
     },
     {
       "projectID": 256141,
-      "fileID": 2966295,
+      "fileID": 3053139,
       "required": true
     },
     {
@@ -285,8 +285,13 @@
       "required": true
     },
     {
+      "projectID": 300842,
+      "fileID": 2952946,
+      "required": true
+    },
+    {
       "projectID": 252818,
-      "fileID": 3050465,
+      "fileID": 3062957,
       "required": true
     },
     {
@@ -311,7 +316,7 @@
     },
     {
       "projectID": 246183,
-      "fileID": 3040593,
+      "fileID": 3056896,
       "required": true
     },
     {
@@ -421,7 +426,7 @@
     },
     {
       "projectID": 285439,
-      "fileID": 3044569,
+      "fileID": 3080809,
       "required": true
     },
     {
@@ -436,12 +441,12 @@
     },
     {
       "projectID": 284350,
-      "fileID": 3000665,
+      "fileID": 3063275,
       "required": true
     },
     {
       "projectID": 255308,
-      "fileID": 3041237,
+      "fileID": 3055728,
       "required": true
     },
     {
@@ -586,7 +591,7 @@
     },
     {
       "projectID": 285612,
-      "fileID": 3050255,
+      "fileID": 3070895,
       "required": true
     },
     {
@@ -621,7 +626,7 @@
     },
     {
       "projectID": 311357,
-      "fileID": 3048638,
+      "fileID": 3057332,
       "required": true
     },
     {
@@ -681,7 +686,7 @@
     },
     {
       "projectID": 257814,
-      "fileID": 3047189,
+      "fileID": 3073920,
       "required": true
     },
     {
@@ -691,7 +696,7 @@
     },
     {
       "projectID": 257818,
-      "fileID": 3047190,
+      "fileID": 3075613,
       "required": true
     },
     {
@@ -731,12 +736,12 @@
     },
     {
       "projectID": 387443,
-      "fileID": 3047691,
+      "fileID": 3059077,
       "required": true
     },
     {
       "projectID": 308137,
-      "fileID": 3014911,
+      "fileID": 3063633,
       "required": true
     },
     {
@@ -840,11 +845,6 @@
       "required": true
     },
     {
-      "projectID": 224472,
-      "fileID": 2969118,
-      "required": true
-    },
-    {
       "projectID": 272515,
       "fileID": 2685984,
       "required": true
@@ -861,7 +861,7 @@
     },
     {
       "projectID": 319441,
-      "fileID": 2962468,
+      "fileID": 3061434,
       "required": true
     },
     {

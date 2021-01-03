@@ -21,8 +21,8 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "OCEAN",
-      "WATER"
+      "WATER",
+      "OCEAN"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [],
@@ -338,9 +338,9 @@
     "Enable Rain": false,
     "Enable Snow": false,
     "Dictionary Types": [
-      "HOT",
       "SANDY",
-      "DRY"
+      "DRY",
+      "HOT"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -863,8 +863,8 @@
     "Enable Snow": false,
     "Dictionary Types": [
       "CONIFEROUS",
-      "FOREST",
-      "COLD"
+      "COLD",
+      "FOREST"
     ],
     "BiomeManager Entries": {
       "COOL Weights": [
@@ -1089,8 +1089,8 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "SWAMP",
-      "WET"
+      "WET",
+      "SWAMP"
     ],
     "BiomeManager Entries": {
       "WARM Weights": [
@@ -1399,9 +1399,9 @@
     "Enable Rain": false,
     "Enable Snow": false,
     "Dictionary Types": [
-      "HOT",
       "NETHER",
-      "DRY"
+      "DRY",
+      "HOT"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [],
@@ -1523,8 +1523,8 @@
     "Enable Rain": false,
     "Enable Snow": false,
     "Dictionary Types": [
-      "END",
       "COLD",
+      "END",
       "DRY"
     ],
     "BiomeManager Entries": {},
@@ -1576,10 +1576,10 @@
     "Enable Rain": true,
     "Enable Snow": true,
     "Dictionary Types": [
-      "OCEAN",
-      "SNOWY",
       "COLD",
-      "WATER"
+      "WATER",
+      "OCEAN",
+      "SNOWY"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -1723,9 +1723,9 @@
     "Enable Snow": true,
     "Dictionary Types": [
       "RIVER",
-      "SNOWY",
       "COLD",
-      "WATER"
+      "WATER",
+      "SNOWY"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -1874,9 +1874,9 @@
     "Enable Rain": true,
     "Enable Snow": true,
     "Dictionary Types": [
+      "COLD",
       "WASTELAND",
-      "SNOWY",
-      "COLD"
+      "SNOWY"
     ],
     "BiomeManager Entries": {
       "ICY Weights": [
@@ -2059,9 +2059,9 @@
     "Enable Rain": true,
     "Enable Snow": true,
     "Dictionary Types": [
+      "COLD",
       "MOUNTAIN",
-      "SNOWY",
-      "COLD"
+      "SNOWY"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -2216,8 +2216,8 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "MUSHROOM",
-      "RARE"
+      "RARE",
+      "MUSHROOM"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -2262,8 +2262,8 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "MUSHROOM",
       "RARE",
+      "MUSHROOM",
       "BEACH"
     ],
     "BiomeManager Entries": {},
@@ -2452,10 +2452,10 @@
     "Enable Rain": false,
     "Enable Snow": false,
     "Dictionary Types": [
-      "HOT",
-      "HILLS",
       "SANDY",
-      "DRY"
+      "HILLS",
+      "DRY",
+      "HOT"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -2586,8 +2586,8 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "FOREST",
-      "HILLS"
+      "HILLS",
+      "FOREST"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -2803,9 +2803,9 @@
     "Enable Snow": false,
     "Dictionary Types": [
       "CONIFEROUS",
-      "FOREST",
+      "COLD",
       "HILLS",
-      "COLD"
+      "FOREST"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -3175,10 +3175,10 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "HOT",
-      "JUNGLE",
+      "DENSE",
       "WET",
-      "DENSE"
+      "JUNGLE",
+      "HOT"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -3375,11 +3375,11 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "HOT",
+      "DENSE",
+      "WET",
       "HILLS",
       "JUNGLE",
-      "WET",
-      "DENSE"
+      "HOT"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -3582,11 +3582,11 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "HOT",
+      "WET",
+      "RARE",
       "FOREST",
       "JUNGLE",
-      "RARE",
-      "WET"
+      "HOT"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -3813,8 +3813,8 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "OCEAN",
-      "WATER"
+      "WATER",
+      "OCEAN"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [],
@@ -4057,9 +4057,9 @@
     "Enable Rain": true,
     "Enable Snow": true,
     "Dictionary Types": [
-      "SNOWY",
       "COLD",
-      "BEACH"
+      "BEACH",
+      "SNOWY"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -4421,8 +4421,8 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "FOREST",
-      "HILLS"
+      "HILLS",
+      "FOREST"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -4631,9 +4631,9 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
+      "DENSE",
       "FOREST",
-      "SPOOKY",
-      "DENSE"
+      "SPOOKY"
     ],
     "BiomeManager Entries": {
       "WARM Weights": [
@@ -4853,9 +4853,9 @@
     "Enable Snow": true,
     "Dictionary Types": [
       "CONIFEROUS",
+      "COLD",
       "FOREST",
-      "SNOWY",
-      "COLD"
+      "SNOWY"
     ],
     "BiomeManager Entries": {
       "ICY Weights": [
@@ -5081,10 +5081,10 @@
     "Enable Snow": true,
     "Dictionary Types": [
       "CONIFEROUS",
-      "FOREST",
+      "COLD",
       "HILLS",
-      "SNOWY",
-      "COLD"
+      "FOREST",
+      "SNOWY"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -5306,8 +5306,8 @@
     "Enable Snow": false,
     "Dictionary Types": [
       "CONIFEROUS",
-      "FOREST",
-      "COLD"
+      "COLD",
+      "FOREST"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -5523,9 +5523,9 @@
     "Enable Snow": false,
     "Dictionary Types": [
       "CONIFEROUS",
-      "FOREST",
+      "COLD",
       "HILLS",
-      "COLD"
+      "FOREST"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -5746,8 +5746,8 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "FOREST",
       "SPARSE",
+      "FOREST",
       "MOUNTAIN"
     ],
     "BiomeManager Entries": {},
@@ -5957,10 +5957,10 @@
     "Enable Rain": false,
     "Enable Snow": false,
     "Dictionary Types": [
-      "HOT",
-      "SPARSE",
       "PLAINS",
-      "SAVANNA"
+      "SAVANNA",
+      "SPARSE",
+      "HOT"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -6145,11 +6145,11 @@
     "Enable Rain": false,
     "Enable Snow": false,
     "Dictionary Types": [
-      "HOT",
-      "SPARSE",
-      "RARE",
       "PLAINS",
-      "SAVANNA"
+      "RARE",
+      "SAVANNA",
+      "SPARSE",
+      "HOT"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -6340,8 +6340,8 @@
     "Enable Rain": false,
     "Enable Snow": false,
     "Dictionary Types": [
-      "MESA",
       "SANDY",
+      "MESA",
       "DRY"
     ],
     "BiomeManager Entries": {},
@@ -6461,9 +6461,9 @@
     "Enable Rain": false,
     "Enable Snow": false,
     "Dictionary Types": [
-      "SPARSE",
-      "MESA",
       "SANDY",
+      "MESA",
+      "SPARSE",
       "DRY"
     ],
     "BiomeManager Entries": {},
@@ -6583,8 +6583,8 @@
     "Enable Rain": false,
     "Enable Snow": false,
     "Dictionary Types": [
-      "MESA",
       "SANDY",
+      "MESA",
       "DRY"
     ],
     "BiomeManager Entries": {},
@@ -6904,9 +6904,9 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "FOREST",
       "DENSE",
-      "WET"
+      "WET",
+      "FOREST"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -6999,9 +6999,9 @@
     "Enable Rain": false,
     "Enable Snow": false,
     "Dictionary Types": [
-      "HOT",
       "SAVANNA",
-      "DRY"
+      "DRY",
+      "HOT"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -7058,9 +7058,9 @@
     "Enable Rain": false,
     "Enable Snow": false,
     "Dictionary Types": [
-      "HOT",
       "SANDY",
-      "DRY"
+      "DRY",
+      "HOT"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -7111,10 +7111,10 @@
     "Enable Rain": false,
     "Enable Snow": false,
     "Dictionary Types": [
-      "HOT",
-      "HILLS",
       "SANDY",
-      "DRY"
+      "HILLS",
+      "DRY",
+      "HOT"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -7172,9 +7172,9 @@
     "Enable Snow": true,
     "Dictionary Types": [
       "CONIFEROUS",
+      "COLD",
       "PLAINS",
-      "SNOWY",
-      "COLD"
+      "SNOWY"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -7250,9 +7250,9 @@
     "Enable Snow": true,
     "Dictionary Types": [
       "CONIFEROUS",
+      "COLD",
       "FOREST",
-      "SNOWY",
-      "COLD"
+      "SNOWY"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -7340,10 +7340,10 @@
     "Enable Snow": true,
     "Dictionary Types": [
       "CONIFEROUS",
-      "FOREST",
+      "COLD",
       "HILLS",
-      "SNOWY",
-      "COLD"
+      "FOREST",
+      "SNOWY"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -7430,8 +7430,8 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "SWAMP",
-      "WET"
+      "WET",
+      "SWAMP"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -7500,9 +7500,9 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "SWAMP",
+      "WET",
       "PLAINS",
-      "WET"
+      "SWAMP"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -7577,9 +7577,9 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
+      "WET",
       "FOREST",
-      "SWAMP",
-      "WET"
+      "SWAMP"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -7678,10 +7678,10 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
+      "WET",
       "FOREST",
-      "JUNGLE",
       "LUSH",
-      "WET"
+      "JUNGLE"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -7780,8 +7780,8 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "JUNGLE",
-      "WET"
+      "WET",
+      "JUNGLE"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -7856,10 +7856,10 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "FOREST",
       "HILLS",
-      "JUNGLE",
-      "LUSH"
+      "FOREST",
+      "LUSH",
+      "JUNGLE"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -8023,8 +8023,8 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "JUNGLE",
-      "WET"
+      "WET",
+      "JUNGLE"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -8101,9 +8101,9 @@
     "Dictionary Types": [
       "RIVER",
       "WET",
-      "SNOWY",
       "COLD",
-      "WATER"
+      "WATER",
+      "SNOWY"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -8255,8 +8255,8 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "WASTELAND",
-      "PLAINS"
+      "PLAINS",
+      "WASTELAND"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -8307,10 +8307,10 @@
     "Enable Rain": false,
     "Enable Snow": false,
     "Dictionary Types": [
-      "HOT",
-      "WASTELAND",
       "SANDY",
-      "DRY"
+      "WASTELAND",
+      "DRY",
+      "HOT"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [],
@@ -8348,9 +8348,9 @@
     "Enable Rain": true,
     "Enable Snow": true,
     "Dictionary Types": [
+      "COLD",
       "WASTELAND",
-      "SNOWY",
-      "COLD"
+      "SNOWY"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -8407,8 +8407,8 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "WASTELAND",
-      "WET"
+      "WET",
+      "WASTELAND"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [],
@@ -8446,9 +8446,9 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "JUNGLE",
+      "WET",
       "WASTELAND",
-      "WET"
+      "JUNGLE"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -8505,8 +8505,8 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "SPOOKY",
-      "DEAD"
+      "DEAD",
+      "SPOOKY"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -8544,8 +8544,8 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "SPOOKY",
-      "DEAD"
+      "DEAD",
+      "SPOOKY"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -8583,8 +8583,8 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "SPOOKY",
-      "DEAD"
+      "DEAD",
+      "SPOOKY"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -8622,8 +8622,8 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "SPOOKY",
-      "DEAD"
+      "DEAD",
+      "SPOOKY"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -8661,8 +8661,8 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "SPOOKY",
-      "DEAD"
+      "DEAD",
+      "SPOOKY"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -8700,8 +8700,8 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "SPOOKY",
-      "DEAD"
+      "DEAD",
+      "SPOOKY"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -8739,8 +8739,8 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "FOREST",
-      "MAGICAL"
+      "MAGICAL",
+      "FOREST"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -9085,8 +9085,8 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "FOREST",
-      "DENSE"
+      "DENSE",
+      "FOREST"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -9174,8 +9174,8 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "PLAINS",
-      "DENSE"
+      "DENSE",
+      "PLAINS"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -9257,9 +9257,9 @@
     "Enable Rain": false,
     "Enable Snow": false,
     "Dictionary Types": [
-      "HOT",
+      "PLAINS",
       "DEAD",
-      "PLAINS"
+      "HOT"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -9394,8 +9394,8 @@
     "Enable Snow": false,
     "Dictionary Types": [
       "MAGICAL",
-      "OCEAN",
-      "WATER"
+      "WATER",
+      "OCEAN"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -9448,12 +9448,6 @@
         "Weight": 2,
         "Min Group Count": 1,
         "Max Group Count": 1
-      },
-      {
-        "Entity Class": "electroblob.wizardry.entity.living.EntityEvilWizard",
-        "Weight": 3,
-        "Min Group Count": 1,
-        "Max Group Count": 1
       }
     ],
     "Spawnable Water Creatures": [],
@@ -9490,8 +9484,8 @@
     "Enable Snow": false,
     "Dictionary Types": [
       "MAGICAL",
-      "OCEAN",
-      "WATER"
+      "WATER",
+      "OCEAN"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -9529,10 +9523,10 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "HOT",
-      "JUNGLE",
+      "DENSE",
       "WET",
-      "DENSE"
+      "JUNGLE",
+      "HOT"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -9651,10 +9645,10 @@
     "Enable Rain": false,
     "Enable Snow": false,
     "Dictionary Types": [
-      "SPARSE",
+      "COLD",
       "VOID",
-      "SPOOKY",
-      "COLD"
+      "SPARSE",
+      "SPOOKY"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [],
@@ -9685,9 +9679,9 @@
     "Enable Rain": false,
     "Enable Snow": false,
     "Dictionary Types": [
+      "COLD",
       "VOID",
-      "SPOOKY",
-      "COLD"
+      "SPOOKY"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [],
@@ -9709,6 +9703,12 @@
         "Weight": 50,
         "Min Group Count": 1,
         "Max Group Count": 1
+      },
+      {
+        "Entity Class": "net.minecraft.entity.monster.EntityEnderman",
+        "Weight": 1,
+        "Min Group Count": 2,
+        "Max Group Count": 2
       }
     ],
     "Spawnable Water Creatures": [],
@@ -9737,12 +9737,12 @@
     "Enable Rain": false,
     "Enable Snow": false,
     "Dictionary Types": [
+      "COLD",
+      "VOID",
       "SPARSE",
       "HILLS",
-      "VOID",
-      "SPOOKY",
       "MOUNTAIN",
-      "COLD"
+      "SPOOKY"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [],
@@ -9773,11 +9773,11 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "VOID",
-      "SPOOKY",
-      "MAGICAL",
       "COLD",
-      "DRY"
+      "VOID",
+      "MAGICAL",
+      "DRY",
+      "SPOOKY"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [],
@@ -9928,10 +9928,10 @@
     "Enable Rain": false,
     "Enable Snow": false,
     "Dictionary Types": [
+      "COLD",
+      "PLAINS",
       "VOID",
       "MAGICAL",
-      "PLAINS",
-      "COLD",
       "DRY"
     ],
     "BiomeManager Entries": {},
@@ -9941,6 +9941,12 @@
         "Weight": 30,
         "Min Group Count": 3,
         "Max Group Count": 4
+      },
+      {
+        "Entity Class": "com.gildedgames.the_aether.entities.hostile.EntityAechorPlant",
+        "Weight": 29,
+        "Min Group Count": 1,
+        "Max Group Count": 1
       },
       {
         "Entity Class": "com.gildedgames.the_aether.entities.passive.mountable.EntityPhyg",
@@ -9994,7 +10000,7 @@
       },
       {
         "Entity Class": "com.gildedgames.the_aether.entities.hostile.EntityZephyr",
-        "Weight": 4,
+        "Weight": 2,
         "Min Group Count": 1,
         "Max Group Count": 1
       },
@@ -10003,12 +10009,6 @@
         "Weight": 2,
         "Min Group Count": 1,
         "Max Group Count": 1
-      },
-      {
-        "Entity Class": "com.gildedgames.the_aether.entities.hostile.EntityAechorPlant",
-        "Weight": 1,
-        "Min Group Count": 3,
-        "Max Group Count": 3
       },
       {
         "Entity Class": "thaumcraft.common.entities.monster.EntityPech",
@@ -10043,9 +10043,9 @@
     "Enable Rain": false,
     "Enable Snow": false,
     "Dictionary Types": [
-      "MAGICAL",
-      "PLAINS",
       "COLD",
+      "PLAINS",
+      "MAGICAL",
       "DRY"
     ],
     "BiomeManager Entries": {},
@@ -10115,11 +10115,11 @@
     "Enable Rain": true,
     "Enable Snow": true,
     "Dictionary Types": [
-      "HILLS",
+      "COLD",
       "MAGICAL",
+      "HILLS",
       "MOUNTAIN",
-      "SNOWY",
-      "COLD"
+      "SNOWY"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -10220,12 +10220,12 @@
     "Enable Rain": false,
     "Enable Snow": false,
     "Dictionary Types": [
-      "MAGICAL",
-      "OCEAN",
-      "PLAINS",
       "COLD",
+      "PLAINS",
+      "MAGICAL",
+      "WATER",
       "DRY",
-      "WATER"
+      "OCEAN"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [],
@@ -10275,9 +10275,9 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "SWAMP",
-      "MAGICAL",
       "PLAINS",
+      "MAGICAL",
+      "SWAMP",
       "SNOWY"
     ],
     "BiomeManager Entries": {},
@@ -10361,13 +10361,13 @@
     "Enable Rain": true,
     "Enable Snow": true,
     "Dictionary Types": [
+      "DENSE",
+      "COLD",
+      "PLAINS",
+      "MAGICAL",
       "FOREST",
       "LUSH",
-      "MAGICAL",
-      "PLAINS",
-      "SNOWY",
-      "DENSE",
-      "COLD"
+      "SNOWY"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -10436,8 +10436,8 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "HILLS",
       "MAGICAL",
+      "HILLS",
       "MOUNTAIN"
     ],
     "BiomeManager Entries": {},
@@ -10513,11 +10513,11 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
+      "DENSE",
+      "PLAINS",
       "FOREST",
       "LUSH",
-      "SPOOKY",
-      "PLAINS",
-      "DENSE"
+      "SPOOKY"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -10593,8 +10593,8 @@
     "Enable Snow": false,
     "Dictionary Types": [
       "SANDY",
-      "DEAD",
       "PLAINS",
+      "DEAD",
       "DRY"
     ],
     "BiomeManager Entries": {},
@@ -10833,9 +10833,9 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "SWAMP",
       "WET",
-      "WATER"
+      "WATER",
+      "SWAMP"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [],
@@ -10866,11 +10866,11 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "FOREST",
-      "SWAMP",
       "DENSE",
       "WET",
-      "WATER"
+      "WATER",
+      "FOREST",
+      "SWAMP"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [],
@@ -10901,8 +10901,8 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "SWAMP",
-      "WATER"
+      "WATER",
+      "SWAMP"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [],
@@ -10933,9 +10933,9 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "SWAMP",
       "WET",
-      "WATER"
+      "WATER",
+      "SWAMP"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [],
@@ -10966,9 +10966,9 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "SWAMP",
       "WET",
-      "WATER"
+      "WATER",
+      "SWAMP"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [],
@@ -10999,10 +10999,10 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "WASTELAND",
-      "SWAMP",
+      "WET",
       "DEAD",
-      "WET"
+      "WASTELAND",
+      "SWAMP"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [],
@@ -11033,9 +11033,9 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "SWAMP",
       "WET",
-      "WATER"
+      "WATER",
+      "SWAMP"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [],
@@ -11066,9 +11066,9 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "SWAMP",
       "WET",
-      "WATER"
+      "WATER",
+      "SWAMP"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [],
@@ -11099,11 +11099,11 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "FOREST",
-      "SWAMP",
       "DENSE",
       "WET",
-      "WATER"
+      "WATER",
+      "FOREST",
+      "SWAMP"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [],
@@ -11134,10 +11134,10 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "WASTELAND",
-      "SWAMP",
+      "WET",
       "DEAD",
-      "WET"
+      "WASTELAND",
+      "SWAMP"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [],
@@ -11199,8 +11199,8 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "RARE",
-      "PLAINS"
+      "PLAINS",
+      "RARE"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -11385,10 +11385,10 @@
     "Enable Rain": false,
     "Enable Snow": false,
     "Dictionary Types": [
-      "HOT",
       "SANDY",
       "RARE",
-      "DRY"
+      "DRY",
+      "HOT"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -11519,9 +11519,9 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
+      "RARE",
       "SPARSE",
-      "MOUNTAIN",
-      "RARE"
+      "MOUNTAIN"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -11670,9 +11670,9 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "FOREST",
+      "RARE",
       "HILLS",
-      "RARE"
+      "FOREST"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -11888,10 +11888,10 @@
     "Enable Snow": false,
     "Dictionary Types": [
       "CONIFEROUS",
-      "FOREST",
-      "MOUNTAIN",
+      "COLD",
       "RARE",
-      "COLD"
+      "FOREST",
+      "MOUNTAIN"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -12118,10 +12118,10 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "HILLS",
-      "SWAMP",
+      "WET",
       "RARE",
-      "WET"
+      "HILLS",
+      "SWAMP"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -12306,10 +12306,10 @@
     "Enable Rain": true,
     "Enable Snow": true,
     "Dictionary Types": [
-      "HILLS",
+      "COLD",
       "RARE",
-      "SNOWY",
-      "COLD"
+      "HILLS",
+      "SNOWY"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -12488,12 +12488,12 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "HOT",
+      "DENSE",
+      "WET",
+      "RARE",
       "JUNGLE",
       "MOUNTAIN",
-      "RARE",
-      "WET",
-      "DENSE"
+      "HOT"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -12708,11 +12708,11 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "HOT",
+      "RARE",
       "SPARSE",
       "HILLS",
       "JUNGLE",
-      "RARE"
+      "HOT"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -12909,10 +12909,10 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "FOREST",
-      "HILLS",
+      "DENSE",
       "RARE",
-      "DENSE"
+      "HILLS",
+      "FOREST"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -13133,10 +13133,10 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "FOREST",
-      "MOUNTAIN",
+      "DENSE",
       "RARE",
-      "DENSE"
+      "FOREST",
+      "MOUNTAIN"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -13351,11 +13351,11 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "FOREST",
-      "SPOOKY",
-      "MOUNTAIN",
+      "DENSE",
       "RARE",
-      "DENSE"
+      "FOREST",
+      "MOUNTAIN",
+      "SPOOKY"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -13577,11 +13577,11 @@
     "Enable Snow": true,
     "Dictionary Types": [
       "CONIFEROUS",
+      "COLD",
+      "RARE",
       "FOREST",
       "MOUNTAIN",
-      "RARE",
-      "SNOWY",
-      "COLD"
+      "SNOWY"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -13808,9 +13808,9 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "FOREST",
+      "DENSE",
       "RARE",
-      "DENSE"
+      "FOREST"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -14037,10 +14037,10 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "FOREST",
-      "HILLS",
+      "DENSE",
       "RARE",
-      "DENSE"
+      "HILLS",
+      "FOREST"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -14273,9 +14273,9 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
+      "RARE",
       "SPARSE",
-      "MOUNTAIN",
-      "RARE"
+      "MOUNTAIN"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -14436,12 +14436,12 @@
     "Enable Rain": false,
     "Enable Snow": false,
     "Dictionary Types": [
-      "HOT",
-      "SPARSE",
-      "MOUNTAIN",
       "RARE",
+      "SPARSE",
       "SAVANNA",
-      "DRY"
+      "MOUNTAIN",
+      "DRY",
+      "HOT"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -14608,12 +14608,12 @@
     "Enable Rain": false,
     "Enable Snow": false,
     "Dictionary Types": [
-      "HOT",
-      "SPARSE",
-      "HILLS",
       "RARE",
+      "SPARSE",
       "SAVANNA",
-      "DRY"
+      "HILLS",
+      "DRY",
+      "HOT"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -14780,11 +14780,11 @@
     "Enable Rain": false,
     "Enable Snow": false,
     "Dictionary Types": [
-      "HOT",
+      "RARE",
       "SPARSE",
       "MOUNTAIN",
-      "RARE",
-      "DRY"
+      "DRY",
+      "HOT"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -14915,11 +14915,11 @@
     "Enable Rain": false,
     "Enable Snow": false,
     "Dictionary Types": [
-      "HOT",
+      "RARE",
       "SPARSE",
       "HILLS",
-      "RARE",
-      "DRY"
+      "DRY",
+      "HOT"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -15050,11 +15050,11 @@
     "Enable Rain": false,
     "Enable Snow": false,
     "Dictionary Types": [
-      "HOT",
+      "RARE",
       "SPARSE",
       "MOUNTAIN",
-      "RARE",
-      "DRY"
+      "DRY",
+      "HOT"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [

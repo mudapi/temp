@@ -89,6 +89,12 @@ val poolBSSummoner = tableBSSummoner.addPool("hos_extra", 1, 3, 0, 0);
 val poolBSVillageBright = tableBSVillageBright.addPool("hos_extra", 1, 3, 1, 1);
 val poolBSVillageDawn = tableBSVillageDawn.addPool("hos_extra", 1, 3, 1, 1);
 
+val tableAetherMimic = LootTweaker.getTable("aether_legacy:entities/chest_mimic");
+val poolAetherMimic = tableAetherMimic.getPool("chest");
+
+val tableArtifactMimic = LootTweaker.getTable("artifacts:mimic_underground");
+val poolArtifactMimic = tableArtifactMimic.getPool("main");
+
 //items
 val extrasSimpleMap = {
 	<dynamictrees:oakseed> : 10,
@@ -237,6 +243,23 @@ val book = <minecraft:book>;
 val lapis = <minecraft:dye:4>;
 //val bendingScroll = <avatarmod:scroll>;
 val tokenReforge = <contenttweaker:token_reforge>;
+val chests = {
+	<metalchests:metal_chest:0> : 4,
+	<metalchests:metal_chest:1> : 3,
+	<metalchests:metal_chest:2> : 2,
+	<metalchests:metal_chest:3> : 2,
+	<metalchests:metal_chest:4> : 1,
+	<metalchests:metal_chest:5> : 1,
+	<minecraft:ender_chest> : 3,
+	<minecraft:chest> : 5,
+	<quark:custom_chest:0> : 5,
+	<quark:custom_chest:1> : 5,
+	<quark:custom_chest:2> : 5,
+	<quark:custom_chest:3> : 5,
+	<quark:custom_chest:4> : 5
+} as int[IItemStack];
+val snorkel = <artifacts:snorkel>;
+val drinkingHat = <artifacts:drinking_hat>;
 
 //Add angel hearts to the pool
 poolRaid.addItemEntry(angelHeart, 6);
@@ -250,7 +273,7 @@ poolRaid.addItemEntry(elytra, 6);
 //reforge tokens
 poolRaid.addItemEntryHelper(tokenReforge, 10, 1, [Functions.setCount(3, 8)], []);
 poolExtra.addItemEntryHelper(tokenReforge, 20, 2, [Functions.setCount(2, 7)], []);
-poolDimDoorsNew.addItemEntryHelper(tokenReforge, 6, 1, [Functions.setCount(3, 8)], []);
+poolDimDoorsNew.addItemEntryHelper(tokenReforge, 5, 1, [Functions.setCount(3, 8)], []);
 tokenReforge.addTooltip(format.gold("Use in Reforging Station to reroll equipment Traits"));
 
 //remove Potion Orbs
@@ -286,7 +309,7 @@ poolRare.addItemEntryHelper(moltenCore, 5, 1, [Functions.setCount(0, 1)], []);
 poolRare.addItemEntryHelper(elytra, 3, 1, [Functions.setCount(0, 1)], []);
 
 //Dim doors
-poolDimDoorsNew.addItemEntry(tornPage, 1);
+poolDimDoorsNew.addItemEntry(tornPage, 2);
 poolDimDoorsNew.addItemEntry(sentientSword, 2);
 
 //foxhound
@@ -380,3 +403,14 @@ poolBSAlchemist.addLootTableEntry("ebwizardry:chests/shrine", 10);
 poolBSSummoner.addLootTableEntry("ebwizardry:chests/shrine", 10);
 //poolBSAlchemist.addItemEntryHelper(bendingScroll, 2, 1, [Functions.setMetadata(5, 6), Functions.setCount(0, 1)], []);
 //poolBSSummoner.addItemEntryHelper(bendingScroll, 2, 1, [Functions.setMetadata(7, 8), Functions.setCount(0, 1)], []);
+
+
+//aether mimic upgrading
+poolAetherMimic.clearEntries();
+for chest, weight in chests {
+	poolAetherMimic.addItemEntryHelper(chest, weight, 0, [Functions.lootingEnchantBonus(0, 1, 4)], []);
+}
+
+//add snorkel and drinking hat to mimic drops
+poolArtifactMimic.addItemEntryHelper(snorkel, 2, 0, [], []);
+poolArtifactMimic.addItemEntryHelper(drinkingHat, 2, 0, [], []);
